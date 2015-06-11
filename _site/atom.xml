@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>HarishV's Blog</title>
+ <link href="harishv7.github.io/blog/atom.xml" rel="self"/>
+ <link href="harishv7.github.io/blog/"/>
+ <updated>2015-06-11T13:46:16+08:00</updated>
+ <id>harishv7.github.io</id>
+ <author>
+   <name>Harish V</name>
+   <email>harish207@live.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Greensleeves</title>
+   <link href="harishv7.github.io/music/2015/06/05/Greensleeves/"/>
+   <updated>2015-06-05T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/music/2015/06/05/Greensleeves</id>
+   <content type="html">&lt;p&gt;This is a small attempt to play the popular English folk song Greensleeves on my keyboard! :)&lt;/p&gt;
+
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/Greensleeves.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+
+&lt;p&gt;If the above player does not work, see below for the SoundCloud embed.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208950439&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>NUS First Year, Second Semester in Review</title>
+   <link href="harishv7.github.io/nus/education/2015/06/04/NUS%20First%20Year,%20Semester%202%20in%20Review/"/>
+   <updated>2015-06-04T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/nus/education/2015/06/04/NUS First Year, Semester 2 in Review</id>
+   <content type="html">&lt;p&gt;The following post is also available at: &lt;a href=&quot;https://harishv7.wordpress.com/2015/06/04/nus-first-year-semester-2-in-review/&quot;&gt;https://harishv7.wordpress.com/2015/06/04/nus-first-year-semester-2-in-review/&lt;/a&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It has been a long freshman year and I am surprised I am already writing a review for my 2nd semester at NUS. Semester 2 was much tougher than Semester 1, but ironically my grades were slightly better (yes, I can’t believe it too!).Thanks to the bell curve I suppose. Anyway, here is the module review:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;CG1108: Electrical Engineering&lt;/h2&gt;
+
+&lt;p&gt;A good module that introduces the basic concepts of electrical engineering. I found the pace of the lectures very manageable compared to other modules. The total number of chapters covered is actually not a lot, and hence it allows you enough time to fully comprehend and grasp the basic concepts before moving onto the next chapter.&lt;/p&gt;
+
+&lt;p&gt;My lecturer for this module was Dr Sahoo. He is a very approachable lecturer and teaches very well. I find it important to attend his lectures (never missed any) since most of the working and examples are done in the lecture itself. Though the slides with the digitally written solutions are uploaded, it is much easier to follow through the lecture and examples in real time rather than at home where you have to figure them out all by yourself.&lt;/p&gt;
+
+&lt;p&gt;The assessment of the module is shared equally between the hands-on segment and the theory section. Hands-on segment includes the labs (10% attendance and 10% lab test) and the exciting Arduino car project (25%). Labs are manageable and you will be guided by your group’s assigned mentor. The lab test is very similar to whatever content you have learnt during the practical labs and make sure to watch the equipment briefing video uploaded by the ECE department to have a complete knowledge of the equipment and how to use them.&lt;/p&gt;
+
+&lt;p&gt;The car project was what many of us were looking forward to. There was a lot of time given for us to work on the car project. It is of high importance that you select your groupmates carefully. They must appreciate your suggestions and be willing to help each other out and put in a good amount of effort to work together and achieve the target.&lt;/p&gt;
+
+&lt;p&gt;What I did not like about the car project was the lack of constant results. The car basically takes input from the light-dependent resistors (LDR) and these resistors are very sensitive to the ambient light which makes it difficult to get consistent results. Nevertheless, I think the car project was one of the most exciting parts of the module. I still remember my friends’ and my reaction when our car worked for the first time!&lt;/p&gt;
+
+&lt;p&gt;The theory section includes the mid-term test (10%) and final exam (40%). Both exams were manageable and as long as the basic concepts and application has been mastered it should not be a problem to score well. For the final exam, practising past year papers is crucial in understanding the type of questions to expect.&lt;/p&gt;
+
+&lt;p&gt;Grade obtained: &lt;strong&gt;A&lt;/strong&gt; &lt;br /&gt;
+Difficulty: Average&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;GEK1549: Critical Thinking and Writing&lt;/h2&gt;
+
+&lt;p&gt;GEK1549 was quite enjoyable. Like many, I did not like this module initially, but as time went, I began appreciating what was being taught. It is very systematic and really probes your thinking. The theme for our batch was on “Sustainable Cities”.&lt;/p&gt;
+
+&lt;p&gt;There are no lectures, only tutorials. My tutor was Dr Sadorra. She is really nice and approachable and gave me and my teammates very constructive comments and suggestions during the course of the module. She also prepares her own slides and provides good external references to clarify concepts.&lt;/p&gt;
+
+&lt;p&gt;Assessment is divided into 3 parts. Assignment 1 (30%) requires the submission of a graphic organiser, summary and evaluation of a given article. Assignment 2 (30%) is a position paper that is done in groups. And Assignment 3 (10%) is essentially class participation. The other 30% comes from the final exam.&lt;/p&gt;
+
+&lt;p&gt;I was able to do particularly well in both Assignments 1 &amp;amp; 2 and made effort to participate in class as much as possible. I felt the final exam was doable, but I was restricted due to the lack of time. Make sure you have good teammates for Assignment 2. Always have a clear foundation and roadmap as to what you will be doing for the position paper. In my case, for the problem-solution paper, I made sure that the problem and solutions are clearly linked. And to make our paper stand out, my teammates and I ensured that the proposed solutions were specific to the city and are feasible in the implmentation. Not an easy task, but you’ll get there after some considerable time into research and analysis. Be sure to utilise NUS Libraries website. The resources there will surely aid in obtaining reliable sources for the paper.&lt;/p&gt;
+
+&lt;p&gt;All in all a very manageable module, provided you put in good effort in understanding the tutorials.&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: &lt;strong&gt;A&lt;/strong&gt; &lt;br /&gt;
+Difficulty: Average&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;CS1020: Data Structures and Algorithms I&lt;/h2&gt;
+
+&lt;p&gt;This was my favourite module of this semester due to my personal interest in computer programming. But, this was definitely not a easy module. The content covered were heavy and it requires a lot of practise and understanding to get used to the concepts taught. And before you are familar with one concept another concept will be taught. It requires discipline and effort to do some programming and to study for the module daily.&lt;/p&gt;
+
+&lt;p&gt;Lecturers for this module are Mr Aaron Tan and Dr Low. Both lecturers are very good in terms of teaching new concepts. They give plenty of examples to ensure our understanding is complete. It is important to attend and understand tutorials. Even when I couldn’t do or finish a particular tutorial, I made it a point to attend classes to ensure I do not neglect the tutorial. It kept me on track.&lt;/p&gt;
+
+&lt;p&gt;Assessment for the module was divided into many parts:&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Tutorial Attendance/Participation&lt;/td&gt;
+&lt;td&gt;7%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lab Attendance&lt;/td&gt;
+&lt;td&gt;3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Take-Home Labs&lt;/td&gt;
+&lt;td&gt;11%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sit-in Labs&lt;/td&gt;
+&lt;td&gt;24%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mid-term Test&lt;/td&gt;
+&lt;td&gt;15%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Final Exam&lt;/td&gt;
+&lt;td&gt;40%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The least you can do is to secure the marks from tutorial/lab attendance and take-home labs. This is greatly help in achieving a good grade. Take-home labs are often challenging, but you will given at least a week before the submission. Hence, ensure that you are able to solve these labs. Else, seek help during the lab sessions. The tutors are really helpful when you ask questions.&lt;/p&gt;
+
+&lt;p&gt;It’s a fast paced module. On any given week, you will most probably either have a sit-in lab or a take-home lab due. Consistent work and practice is of vital importance.&lt;/p&gt;
+
+&lt;p&gt;The final exam was slightly tough for me. I realised I have made many careless mistakes after completing the exam. Otherwise, the difficulty of the questions asked were similar to those in tutorials. Focus on important topics such as recursion, hashing, sorting etc. These are major concepts that have a higher probability of being tested.&lt;/p&gt;
+
+&lt;p&gt;All in all, a tough and fast paced module that definitely requires more effort than what you normally put in for a 4MC module. Discipline to revise and practice questions (on Codecrunch) on a regular basis is important from the start of the module.&lt;/p&gt;
+
+&lt;p&gt;Some of my codes are hosted &lt;a href=&quot;http://harishv7.github.io/portfolio/&quot;&gt;here&lt;/a&gt; and on &lt;a href=&quot;https://github.com/harishv7&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: &lt;strong&gt;A-&lt;/strong&gt; &lt;br /&gt;
+Difficulty: Tough&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;PC1432: Physics IIE&lt;/h2&gt;
+
+&lt;p&gt;This was the toughest module for me. The rate at which chapters and concepts were covered was astonishing. I could barely keep up with the pace and was lost even before the recess week. It did not help that many of the chapters were inter-linked.&lt;/p&gt;
+
+&lt;p&gt;There were a total of 3 lecturers. All of them were engaging and taught really well. But, it required a lot of effort from my side to fully grasp what they were saying and taking time to practice extra questions outside the tutorials. The questions from the tutorials are NOT enough as practice. The recommended textbook was really helpful for me to get a better understanding of the concepts.&lt;/p&gt;
+
+&lt;p&gt;Assessment was divided into practical viva/reports (10%), online assignment from Mastering Physics (10%), mid-term test (20%) and final exam (60%).&lt;/p&gt;
+
+&lt;p&gt;Ensure that you do your best for the practicals and online assignments as these are relatively easier to score. The mid-term was manageable except for the time restriction. Planning your time during the examination is crucial.&lt;/p&gt;
+
+&lt;p&gt;I found the final exam very hard and was afraid I did not do as well as I expected.&lt;/p&gt;
+
+&lt;p&gt;All in all, a fast-paced and tough module.&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: &lt;strong&gt;A-&lt;/strong&gt; &lt;br /&gt;
+Difficulty: Very Hard&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;MA1506: Mathematics II&lt;/h2&gt;
+
+&lt;p&gt;MA1506 was much more manageable than MA1505, which I took in semester 1. This module covers a great depth into Differential Equations and linear algebra, linear transformations and laplace transforms. Many of these concepts are vital for engineering students.&lt;/p&gt;
+
+&lt;p&gt;Assessment is divided into mid-term test (20%) and final exam (80%).&lt;/p&gt;
+
+&lt;p&gt;The first part involving differential equations (DE) was fairly manageable and was even fun when modelling systems. All it requires is a good understanding of the various ways to solve DEs which can be acheived with sufficient practice from tutorials. The mid-term test was fully MCQ (10 questions in one hour) and was quite easy. I was able to score full marks for this one.&lt;/p&gt;
+
+&lt;p&gt;After recess week, the pace of lectures started to increase together with the difficulty of concepts. Webcasted lectures were really helpful when I was revising to clarify my doubts.&lt;/p&gt;
+
+&lt;p&gt;Final exam was manageable. Make sure you have sufficient practice form the past year papers (check NUS Library website or IVLE). Since there are solutions provided, it helps to understand the structure of the questions. Questions are usually similar year to year.&lt;/p&gt;
+
+&lt;p&gt;Make sure the help sheet (2 sides of 1 A4 sheet) is well prepared. You can see my help sheets &lt;a title=&quot;MA1505 &amp;amp; MA1506 Help Sheets&quot; href=&quot;https://harishv7.wordpress.com/2015/05/26/ma1505-ma1506-help-sheets/&quot; target=&quot;_blank&quot;&gt;here for reference&lt;/a&gt; or &lt;a title=&quot;MA1505/MA1506 Helpsheets&quot; href=&quot;http://harishv7.github.io/nus/2015/05/26/MA1505%20&amp;amp;%20MA1506%20Help%20Sheets/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All in all, a manageable module, provided sufficient effort is put in to understand fundamental concepts.&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: &lt;strong&gt;B+&lt;/strong&gt; &lt;br /&gt;
+Difficulty: Manageable&lt;/p&gt;
+
+&lt;p&gt;Hope the above reviews and tips were helpful! Comments are welcome (use the Disqus thread below).&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+Harish&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>MA1505 & MA1506 Help Sheets</title>
+   <link href="harishv7.github.io/nus/2015/05/26/MA1505%20&%20MA1506%20Help%20Sheets/"/>
+   <updated>2015-05-26T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/nus/2015/05/26/MA1505 & MA1506 Help Sheets</id>
+   <content type="html">&lt;p&gt;Both MA1505 and MA1506 are common modules undertaken by a vast majority of engineering students. They are not exactly easy, and so I thought I will post the helpsheets I have made for my examinations here in the hope that some of the students may find it useful when doing their own helpsheets.&lt;/p&gt;
+
+&lt;p&gt;Do note that it is crucial for students to make their own helpsheets as printed or photocopied helpsheets are strictly not allowed. And from experience, it always helps to make your own helpsheet as it comes in as a form of revision.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/MA1505.pdf&quot;&gt;&lt;strong&gt;MA1505 Helpsheet&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;/assets/MA1506.pdf&quot;&gt;&lt;strong&gt;MA1506 Helpsheet&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>NOC Interview (Round 1)</title>
+   <link href="harishv7.github.io/nus/2015/05/25/NOC%20Interview%20Round%201/"/>
+   <updated>2015-05-25T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/nus/2015/05/25/NOC Interview Round 1</id>
+   <content type="html">&lt;p&gt;I went for the NOC interview a few weeks back, just before my final examinations for semester 2. As it was mentioned in the confirmatione email, it was agroup interview indeed. My session was on the morning of Thursday and had about 8 people including me.&lt;/p&gt;
+
+&lt;p&gt;We were divided into 2 groups and given a hypothetical situation to discuss upon. In my case, we were given 2 simple business models (not as complex as you think) and then we had to discuss which business model will be more successful in the long run. The interviewers were very friendly and approachable. It is crucial to note that the interviewers are NOT looking for a correct answer. In fact, there is no right or wrong answer and it depends entirely upon how you feel. As long as you and your groupmates agree upon a common model and explain in as much detail as possible why it is the better one, you would have done your job.&lt;/p&gt;
+
+&lt;p&gt;In such group interview situations, the best way to make an impression is to try and lead the discussion from the start, which I did. So, instead of sitting around and looking at each other in awkward silence, initate the discussion and the overview. It was a good thing that all members of my team agreed uniformly on the model I had in mind. Then, immediately after settling the main topic of discussion, I tried to model the scope of the discussion by listing out the relevant factors to the topic. After which, I decided on the factors I will be presenting and the subsequent allocation of the other factors for my group members to present.&lt;/p&gt;
+
+&lt;p&gt;Overall the presentation went very well and at the end of the discussion it seemed that the interviewers did agree with our choice of model. I was happy to receive the news that I have successfully passed the first stage of the selection and am current anticipating the second round of interview coming soon in August/September.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Points I learnt: &lt;/strong&gt;
+You are being noted once you step into the interview room. Everything that you say and do will have an impact on the impression the interviewers have on you.
+Learn to be concise. It’s not necessary to talk as much as possible to show that you are good. Being concise will show that you have a clear mind and are focused on what you are doing.&lt;/p&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Catching Up</title>
+   <link href="harishv7.github.io/nus/others/2015/05/14/Catching%20Up/"/>
+   <updated>2015-05-14T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/nus/others/2015/05/14/Catching Up</id>
+   <content type="html">&lt;p&gt;It has been a hectic semester! Seems like the last time I blogged was before my semester. In NUS they always say:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The only easy semester was the last semester.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think it might be true. I was a little confident that the first semester would have helped me to adjust to the environment and that the second semester will be much easier to cope. Though I have gotten used to the environment, the workload is definitely on the rise.&lt;/p&gt;
+
+&lt;p&gt;It is extremely hard to achieve a work-life balance as there is a lot of pressure to give your best. I realise that I can achieve well when I really appreciate and love what I am learning instead of going through the motion of education at college.&lt;/p&gt;
+
+&lt;p&gt;Thankfully summer is finally here and I hope to get a good break. I have a lot of mini projects to accomplish this summer. &lt;/p&gt;
+
+&lt;p&gt;One of the projects will be Friendezvous, which I am doing for a “module” called Orbital. Please do support me by liking the Facebook page &lt;a href=&quot;www.fb.com/ProjectFriendezvous&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My module reviews for the previous semester are on their way! ;)&lt;/p&gt;
+
+&lt;p&gt;Till then,&lt;br /&gt;
+Cheers&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Thoughts with Mass???</title>
+   <link href="harishv7.github.io/general/thoughts/2015/01/17/Thoughts%20with%20Mass/"/>
+   <updated>2015-01-17T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/general/thoughts/2015/01/17/Thoughts with Mass</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://helenmagnani.files.wordpress.com/2013/05/uni6.gif&quot;&gt;&lt;img class=&quot;size-medium wp-image-140&quot; src=&quot;https://harishv7.files.wordpress.com/2015/01/uni6.gif?w=250&quot; alt=&quot;https://helenmagnani.files.wordpress.com/2013/05/uni6.gif&quot; width=&quot;250&quot; height=&quot;300&quot; /&gt;Image Credits: https://helenmagnani.wordpress.com/&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;As I was reading The Lost Symbol, by Dan Brown, there was an interesting idea shared which immediately awed me. It deals with the hypothetical question: “Do thoughts have mass?”. Though, on a weighing scale, thoughts may possess mass ranging in the nano to femto scale, if they do have a mass, there will be many implications.&lt;/p&gt;
+
+&lt;p&gt;One of which was presented in the book was on gravity. If our thoughts had some mass, they will be bound by the laws of physics. Which meant, they will exert a gravitational force on other matter (though the force is of a very very small scale). Despite the insignificant amount force by a single thought, when a group of people come together to think on the same idea, this collective force becomes significant. It might then start to attract others towards this idea or notion. And that, will be powerful, when a thought can attract others and influence them to think in a certain way too.&lt;/p&gt;
+
+&lt;p&gt;Although it is a hypothetical question, the implications simply awed me. Upon further thinking: With thoughts having some mass, they will also be bounded by the Law of Conservation of Energy. Thoughts cannot be destroyed entirely. Instead, the thoughts are simply converted from one thought/idea to another. Or, they may become converted into another form of energy (likely chemical energy) in the brain.&lt;/p&gt;
+
+&lt;p&gt;Indeed, it is fascinating to imagine the implications if such a hypothesis was proven to be real. Whether it is true if thoughts have mass or not, only time will tell.&lt;/p&gt;
+
+&lt;p&gt;A few of my favourite quotes on the power of thoughts:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Change your thoughts and you change your world. &lt;br /&gt;
+&lt;strong&gt;Norman Vincent Peale&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far. &lt;br /&gt;
+&lt;strong&gt;Swami Vivekananda&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Concentrate all your thoughts upon the work at hand. The sun’s rays do not burn until brought to a focus. &lt;br /&gt;
+&lt;strong&gt;Alexander Graham Bell&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A positive attitude causes a chain reaction of positive thoughts, events and outcomes. It is a catalyst and it sparks extraordinary results. &lt;br /&gt;
+&lt;strong&gt;Wade Boggs&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cheers.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>NUS Gradeless First Semester</title>
+   <link href="harishv7.github.io/nus/2014/12/29/NUS%20Gradeless%20First%20Sem/"/>
+   <updated>2014-12-29T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/nus/2014/12/29/NUS Gradeless First Sem</id>
+   <content type="html">&lt;p&gt;NUS has introduced gradeless first semester since AY2014/15. And I am from AY14/15 batch. Though gradeless semester seems enticing, there’s really more to it. There are some conditions and pointers to take note which will leave you confused if you’re not used to the NUS system.&lt;/p&gt;
+
+&lt;p&gt;Some things to know: NUS utilises the Cumulative Average Point (CAP) to determine the performance of a student.&lt;/p&gt;
+
+&lt;p&gt;Formula for determining CAP: &lt;img class=&quot;alignnone size-medium wp-image-126&quot; src=&quot;https://harishv7.files.wordpress.com/2014/12/screen-shot-2014-12-24-at-1-29-19-pm.png?w=300&quot; alt=&quot;Screen Shot 2014-12-24 at 1.29.19 pm&quot; width=&quot;300&quot; height=&quot;32&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically the numerator is the sum of the product of module credits and grade points and the denominator is the sum of the module credits for ALL the modules taken so far. It’s crucial to note the cumulative function of the CAP. Hence, it is not determined on a per semester basis, but rather for the 3-4 years of modules taken.&lt;/p&gt;
+
+&lt;p&gt;To maximise the S/U options given during the gradeless semester, there are some things to note first.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What is the class of degree you&#39;re aiming for.
+&lt;ul&gt;
+&lt;li&gt;Degrees awarded are classified as shown (taken from NUS website):
+&lt;table border=&quot;5&quot; style=&quot;width:100%&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Honours Degree Classification&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Criteria&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Honours (Highest Distinction)&lt;/td&gt;
+&lt;td&gt;CAP 4.50 and above&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Honours (Distinction)&lt;/td&gt;
+&lt;td&gt;4.0 to 4.49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Honours (Merit)&lt;/td&gt;
+&lt;td&gt;3.5 to 3.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Honours&lt;/td&gt;
+&lt;td&gt;3.0 to 3.49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pass&lt;/td&gt;
+&lt;td&gt;2.0 to 2.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fail&lt;/td&gt;
+&lt;td&gt;Below 2.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;li&gt;Note the Grade Point table:
+&lt;table border=&quot;1&quot; style=&quot;width:100%&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Letter Grades:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A+&lt;/td&gt;&lt;td&gt;A&lt;/td&gt;&lt;td&gt;A-&lt;/td&gt;&lt;td&gt;B+&lt;/td&gt;&lt;td&gt;B&lt;/td&gt;&lt;td&gt;B-&lt;/td&gt;&lt;td&gt;C+&lt;/td&gt;&lt;td&gt;C&lt;/td&gt;&lt;td&gt;D+&lt;/td&gt;&lt;td&gt;D&lt;/td&gt;&lt;td&gt;F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Grade Points:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5.0&lt;/td&gt;&lt;td&gt;5.0&lt;/td&gt;&lt;td&gt;4.5&lt;/td&gt;&lt;td&gt;4.0&lt;/td&gt;&lt;td&gt;3.5&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;td&gt;2.5&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;td&gt;1.5&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;If the target is Honours (Highest Distinction), then a CAP of 4.50 and above is required by the end of your 3-4 years. To achieve this, the average grade for the modules you took for 4 years must be at least an A-.&lt;/li&gt;
+&lt;li&gt;Therefore, during the S/U option, S/U anything below A- is a good option, since it will increase the number of modules with grades A- and above&lt;/li&gt;
+
+&lt;/li&gt;
+&lt;li&gt;If the first semester is a good indication of the performance for the rest of the semesters, then S/Uing any modules with a gradepoint below your CAP is a good idea. For example, your CAP is 4.44, and your grades are A,A-, A,B+,B+, then S/U modules below 4.44 which are the 2 B+.&lt;/li&gt;
+&lt;li&gt;The gradepoints allocated to the grades, for example 4.0 for a B+ means it will pull your overall CAP towards the 4.0. Hence, unless the overall CAP is below 4.0, then B+ would not really help with pushing the CAP upwards.&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>NUS CAP Calculator</title>
+   <link href="harishv7.github.io/nus/cap/2014/12/28/NUS%20CAP%20Calculator/"/>
+   <updated>2014-12-28T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/nus/cap/2014/12/28/NUS CAP Calculator</id>
+   <content type="html">&lt;p&gt;Here is a CAP calculator I made in excel. Just a simple excel sheet that helps to keep track of your grades. Feedback welcome and updates will be made to add other functions.&lt;/p&gt;
+
+&lt;p&gt;Click here to download &lt;a href=&quot;assets/cap-calculator1.xlsx&quot;&gt;CAP Calculator v1.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Update! : V1.1: &lt;a href=&quot;assets/cap-calculator2.xlsx&quot;&gt;CAP Calculator v1.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(Note: this was done to be just used as a guide. Check with faculty for degree requirements and the NUS FASS calculator if necessary).&lt;/p&gt;
+
+&lt;p&gt;Inspired from &lt;a title=&quot;Agagooga&#39;s CAP Calculator&quot; href=&quot;http://gssq.entori.net/files/capcalc.htm&quot; target=&quot;_blank&quot;&gt;Agagooga’s CAP calculator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A better CAP calculator with better user interface is coming, for the web, desktop and mobile platforms. Stay tuned! :)&lt;/p&gt;
+
+&lt;p&gt;Cheers.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First Semester in NUS</title>
+   <link href="harishv7.github.io/nus/education/2014/12/25/First%20Semester%20in%20NUS/"/>
+   <updated>2014-12-25T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/nus/education/2014/12/25/First Semester in NUS</id>
+   <content type="html">&lt;p&gt;It’s has been a great semester. Well, it was stressful, but it was particularly fulfilling. University life is exciting as I get to learn what I am most passionate about. The gradeless semester is another point that allowed me to read the modules without worrying too much about grades. Nevertheless, I was never aiming to SU any modules. Here is a quick review of the modules I took in Semester 1. All of them are pre-allocated since I am a Computer Engineering student, except the GEM I took. &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;CG1001: Introduction to Computer Engineering&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The title of this module sums it up all. This module is meant to provide an overview of Computer Engineering for freshmen and allow them to have a clear understanding of what areas they can specialise in during their senior years. Basically, the workload is not much. &lt;br /&gt;
+I was tasked with 2 reports (based on the specialisation areas in Computer Engineering) and a project video. The reports are 25% each and the video is 50%. Reports are done in pairs (randomly grouped by the professor). Similarly, for the project video, you will be assigned a group of four randomly. Then you have present a video (about 5 mins long) which presents the topic chosen in a creative and informative way. My group chose the topic on 4G LTE networks. We personally did it in the form of an advertisement and incorporated animation to make the video more interactive. This module is meant to help you pull up your CAP (though it is only 2 MCs). Give it your best, especially for the reports. Be creative and analytical when discussing the selected topic. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grade I obtained: &lt;strong&gt;A&lt;/strong&gt;&lt;br /&gt;
+Very much delighted to have obtained an A. I had really given my best for the reports and the video (especially the animation and planning).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;CS1010: Programming Methodolody&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was my most favourite module of this semester. I have no experience programming in C language. However, I was familiar with other languages like Python, Javascript and HTML. I personally like programming very much. The natural interest motivated me to do my best for this module. However, do not worry if you have no previous programming experience. Make sure you start learning the basics well, and do one practice task per day (there’s plenty of tasks on the CS1010 website). My lecturer was Mr Gary Tan. He is one amazing lecturer. He makes learning enjoyable and he is really funny. I am really happy to learn under him. He offered us a lot of help (separate group discussions and marking my past-year CS1010 papers I did for practice). &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The lectures are taught in a flipped-classroom method. You are expected to revise the slides and notes before the lectures (held in computer labs). This is very important indeed. Despite the long lecture, it’s not enough to cover all the concepts thoroughly. It requires many hours of practise to get the programming concepts and fluency expected of you. The module grading is broken up into 2 practical exams (10%, 25%), 1 mid-term test (15%), take home lab assignments (5%), attendance (5%) and the final exam (40%). I did not do well for the 2 practical exams. The first one was especially bad. Though I had good practice, the exam stress itself and the pressure under time restrictions made me panic. As a result, I was not able to complete the 2 tasks on time. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another mistake was that I focused on code logic and clarity, thinking that these criteria were also awarded significant marks. However, only after the exam did I know that close to 60% will be awarded for the correct output. Hence, focus on obtaining the right output. Your code may be inefficient, but it is your output that is being considered. Therefore, note that you are being awarded the marks for your ability to complete the task. The take home lab assignments are quite challenging. Try your best to complete it during the weekends. Last-minute stress is never good. Consult your friends and lecturers if you do not know how to do them. Lastly, and most importantly, finish the task within the suggested time limit (comes in helpful for the practical exams). Attendance and the lab marks (5% each) are really a giveaway for this module. Utilise it well and don’t skip tutorials unless you have a valid MC. The final exam was quite easy for me, except for one question. I guess it helped me to make up for the practical exams which I did not do as expected. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Final grade for CS1010: &lt;strong&gt;A-&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not exactly very happy with A-. Being my favourite module, I had really wanted an A+. But the practical exams pulled my overall grade down. :/&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;CS1231: Discrete Structures&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I personally did not like this module when I first started. But as it progressed, I began to appreciate this module. It provides a different view to common concepts. You learn to prove everything. For example, you learn to prove that an even number plus another even number is even. Such seemingly simple things which we just assume to be true must be proven. One of the coolest things you’ll learn is to prove that 1+1 = 2. Well, if before this module, someone asked me to prove that I would have been stunned. But now, I do have an answer that proves this to be true. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lecturers for the module were Prof Stephen Bressan and Prof Bryan Low. Both of them were good. Prof Stephen likes to ask interesting questions on the topic and invites your opinions and answers. But he does cover the chapters very quickly (especially the proofs). Prof Bryan Low was good too. He actually goes through every proof that is in his notes and makes sure that you understand it clearly. Both lecturers are really approachable. Make sure to clear your doubts immediately after the lecture (before you forget them). That being said, this module is really demanding as the pace of the lectures is extremely fast. The tutorials are really crucial for you to grasp the application of the concepts learnt during lectures to the questions in your tutorials. Personal advice: Do NOT skip the tutorials. The recommended textbook is Discrete Mathematics Demystified. I found it barely enough to understand all the concepts taught. Nevertheless, it helped me greatly to comprehend the basic concepts in each chapter. For challenging exercises, see past year questions or ask your tutor. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The module is graded based on a video project, a mid-term test and the final exam. The video project is meant to help you to pull your grade up. Do give your best in terms of analysing and presenting the chosen topic. The mid-term test was quite easy and the final exam was moderately difficult. Some questions only required common sense, while others really tested the concepts and formulas you’ve been taught. All in all, a content-heavy module that can be done well with consistent practise and dedication to learning the concepts well. &lt;/p&gt;
+
+&lt;p&gt;Final grade: &lt;strong&gt;A&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Really happy with the grade as I did not expect it. :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;GEM2027: Public Speaking&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I had to choose to do a SS/GEM/breadth module in the first semester. Public speaking was the only module that fitted my timetable and the skill itself seemed really useful. Plus a bonus was that there were no exams. Of course, instead of the final exam, you will be graded on some of the speeches and there will be a module quiz at the end as well as a video project to be delivered. Lecturer for the module is Ms Cardoza. She is a very good lecturer and I like her enthusiasm in each lecture. She is very approachable (both personally and on forums) and encouraged me to give my best in my speeches. The lectures basically introduces some tips and pointers for effective public speaking. Some are really common sense, but the thing is that many of us fail to follow them. We need to remember simple things like body language (eg: do not put your hands in your pockets) and tone which will be critiqued by your tutor. Such seemingly simple pointers will be reinforced again and again throughout the module. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The graded speeches are Informative (15%), Persuasive (20%) and Responders-Critique (15%). The other 50% is for the quiz and video. While there was plenty of time given for each speech, personally it really took up loads of time to prepare a good speech. It wasn’t as easy as writing the speech alone. Firstly, the speech category is broad. Hence, you will naturally spend quite a bit of time thinking on which topic you should speak about. Second, the preparation requires hours of research and analysis to support your points (any claim you make must be supported to establish your credibility to the audience). Third, you need to make your speech interesting, add some funny elements etc. Fourth, you need to practise again and again to ensure good body language and fluency of your speech. Fifth, if visual aids like PowerPoint is being used, you need to create the slides and practise controlling the slides. As you see, you need many hours of preparation before each speech. I usually use up my whole weekend doing the above. It wasn’t helpful that all my modules had tight deadlines to meet. Of course, if you’re someone who can manage your time easily or have prior experience in public speaking, this comes easy. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another factor is that the marks awarded for the speeches largely depend on how strict is your tutor is. Well, my tutor did have very high expectations since he speaks frequently at events and has a lot of experience in public speaking. Naturally, he expected a much more. Hence, the grade you get depends very much on your tutor too! Nevertheless, give your best and you will get what you deserve. The video project was really fun! We were free to do any video to express the ideas we have learnt in the course. My group created a comic-book type of video that is presented in terms of a storyboard. I enjoyed the project. Since it is due near the last week of the semester, you will barely have time to meet up for the project. Another downside was that my team members were all from different years of study (all of them were in Year 4 and from different faculties/majors). &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hence, it was almost impossible to get a time-slot to meet and discuss. We had to do it right away after class. Surprisingly, our video got shortlisted as one of the top ten! But we did not win the top prize though. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can view the video &lt;a title=&quot;Public Speaking - No Longer Clarkie&#39;s Kryptonite! &quot; href=&quot;https://www.youtube.com/watch?v=hOZsQ18Ufhs&amp;amp;feature=youtu.be&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. &lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/hOZsQ18Ufhs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Tips:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Always take a topic you are well knowledgeable about and confident with.&lt;/li&gt;
+	&lt;li&gt;Try to be clear of the structure of your entire speech before deciding on it.&lt;/li&gt;
+	&lt;li&gt;It may help to write out the entire speech and then do the Preparation Outline (PO). All you would need to do is to copy and paste the relevant sections from the speech into the PO (with some rephrases, of course).&lt;/li&gt;
+	&lt;li&gt;Try to buy a clicker to control the PowerPoint slides when presenting, or ask your close friend to lend you one (like I did).&lt;/li&gt;
+	&lt;li&gt;Creativity is greatly rewarded in this module. Especially for your video project, presenting the learning points in a creative manner can help you achieve good marks!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Final grade: &lt;strong&gt;B+&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not very satisfied with this grade. I expected an A-. Nevertheless, I am sure I have given my best for this module. Public speaking is a skill you have keep developing anyway. Overall, it was a great experience.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;MA1505: Mathematics I&lt;/strong&gt;&lt;/span&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are many concepts you need to understand for this module. Whenever you have free time, learn to utilise it to revise the upcoming topics. Though the lectures are nicely-paced, the amount of concepts to grasp requires quite some time. The last few topics (line and surface integrals may be difficult to grasp). The module is graded with a mid-term test (20%) and the final exam (80%). My lecturer for this module was Prof Leung Pui Fai (Fred). He is a very good lecturer. He takes the time to explain concepts very patiently. He is also very approachable. Make sure to pay good attention during the lectures. If you find the pace slow or you missed the lecture then you can always use the webcast on IVLE. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Initial topics revolve around the ‘A’ level content such as differentiation, integration, functions, vectors etc. Hence, you might not need much time to grasp these concepts. However, for other topics like line integrals and surface integrals, you must be able to visualise what the formula you are using actually means. Everything you do will involved 3D manipulation. So, you have to visualise in 3D as well. This is the hardest part. Initially, I was a little lax about practise since I was able to do all the tutorial questions. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The mid-term test was an eye-opener. The questions really test your understanding and are tricky. Mid-term questions are tricky and requires good thinking and speed to complete on time. Make sure to practise all the past-year papers which are available at IVLE and NUS e-library. It is a tough module, but with consistent practise you can do well. The one A4 paper (2-sided) cheat sheet really helps! Make sure to prepare your cheat sheet well. Ensure it is comprehensive and note that they are strict with the term “2-sided A4 sheet”. Only use a single A4 white paper to write notes on both sides. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Final grade: &lt;strong&gt;B+&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I could have done better (especially in the MCQ mid-term test), but a B+ is not too bad I guess.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;All in all, it was a good semester. Despite the 3 video projects (video projects really take up a lot of time!), I learnt a lot through the term. I could have done better in MA1505 and CS1010, but it is all in the learning experience to not repeat your mistakes. Most importantly, I have learned to manage my time better and study for the love of learning. Not just for the grades. Looking forward to the next semester. Till then,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stay Hungry, Stay Foolish!&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Most Powerful Thing in the World</title>
+   <link href="harishv7.github.io/general/2014/12/20/Most%20Powerful%20Thing%20in%20the%20World/"/>
+   <updated>2014-12-20T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/general/2014/12/20/Most Powerful Thing in the World</id>
+   <content type="html">&lt;p&gt;Have you ever wondered what is the most powerful thing in the world?&lt;/p&gt;
+
+&lt;p&gt;Well, its not money, not wealth, maybe love, but really I think its an idea.&lt;/p&gt;
+
+&lt;p&gt;Yup, an idea. Every single day, we see ideas that change and craft the world. From the phone in your hand to the computer you’re reading this blog on, every thing around us took root from the idea that came up in someone’s brain.&lt;/p&gt;
+
+&lt;p&gt;But when you think about it, an idea isn’t something tangible. Not any physical product you can touch and understand. Nevertheless, you can feel it. And if an idea is powerful enough, it can change the world for the better, or for the worse.&lt;/p&gt;
+
+&lt;p&gt;I particularly felt galvanised watching Inception. Inception is basically about implanting someone else’s idea into a target’s subconscious, deep enough, that it changes their way of thinking. Well, an idea seems like a simple thing. But the potential and the potency of an idea goes beyond itself. It creates a chain reaction so complex that without that single idea in a person’s brain, the world might have been different.&lt;/p&gt;
+
+&lt;p&gt;The idea right now, in your head is something so powerful. Make sure it is put to good use. To make a change for the better.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When you really want something, all the Universe conspires in helping you achieve it. -The Alchemist, Paulo Coelho&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s a quote I always remember. What you are, who you are is defined by your ideas, your actions. If you have a good idea, and truly believe in it, then give it your best shot. Make your ideas come alive.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>I need an Internship!!</title>
+   <link href="harishv7.github.io/education/general/nus/2014/12/09/I%20need%20an%20Internship/"/>
+   <updated>2014-12-09T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/education/general/nus/2014/12/09/I need an Internship</id>
+   <content type="html">&lt;p&gt;Every computer engineer who is passionate about what he does will want to create or inspire a change that makes a difference in this world. Many a times, these inspirations, to even start, does not come from just pure academics, but rather from the practical experiences we gain.&lt;/p&gt;
+
+&lt;p&gt;Recently, I came across the this post which shows the best places where we can develop ourselves and get the inspiration we have always been looking for.&lt;/p&gt;
+
+&lt;p&gt;As listed on Business Insider, the top tech internships are offered by:&lt;/p&gt;
+
+&lt;p&gt;Google
+Qualcomm
+Microsoft
+Intel
+Cisco
+IBM
+Amazon
+Apparently, the interview difficulty in getting the internship increases as we climb the list. Well, at the same time the salary increases (ranges between $5k – 6k) too. So you get what you work for despite the stiff competition.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, it is not only the best tech giants that can provide good internships. A good internship is one where we can learn to the fullest, about the process of not only creating ideas, but implementing it into a practical solution that yields tangible and visible results.&lt;/p&gt;
+
+&lt;p&gt;The best place where we can get such an experience will definitely be the start-up sectors. Here is where true entrepreneurship flourishes. Here is where we can learn the nitty gritty details of kicking off from the ground, to flying the plane, and landing at the destination. And here is where, you learn to unveil the entrepreneur in you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.aminariana.com/essays/ultimate-internship&quot;&gt;Related article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s take the unconventional path to do the greater good in the world. Where’s the fun when everyone wants to the conventional things in life. Risk-taking and courage are truly the qualities of the successful leaders we see today.&lt;/p&gt;
+
+&lt;p&gt;A small quote from Apple:
+&lt;img src=&quot;https://c1.staticflickr.com/7/6238/6225876653_b13ce9b0e9_z.jpg&quot; /&gt;Image Credits: &lt;a href=&quot;https://c1.staticflickr.com/7/6238/6225876653_b13ce9b0e9_z.jpg&quot;&gt;staticflickr.com&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome!</title>
+   <link href="harishv7.github.io/general/2014/12/03/Welcome/"/>
+   <updated>2014-12-03T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/general/2014/12/03/Welcome</id>
+   <content type="html">&lt;pre&gt;&lt;code&gt;&amp;gt;Behind every victory, there lies an undying passion.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hello. I am Harish. This is my personal blog which I share my projects and reflections.&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+Harish V&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="harishv7.github.io/general/2014/12/03/HelloWorld/"/>
+   <updated>2014-12-03T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/general/2014/12/03/HelloWorld</id>
+   <content type="html">&lt;p&gt;Hello World! This is a mandatory first post!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
