@@ -35,19 +35,30 @@
  */
 
 /* Prevent scroll on narrow devices */
+a {
+  color: #08c;
+    font-weight: 400;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
 html,
 body {
   overflow-x: hidden;
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", 'Times New Roman', serif;
   font-weight: 400;
-  color: #313131;
+  color: #fff;
   letter-spacing: -.025rem;
 }
 
@@ -148,7 +159,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+font-weight: 300;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -176,9 +188,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Sidebar nav */
 .sidebar-nav {
   border-bottom: 1px solid rgba(255,255,255,.1);
+    
 }
 .sidebar-nav-item {
   display: block;
+    
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
 }

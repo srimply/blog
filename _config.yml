@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               HarishV's Blog
 tagline:             'Life & Code'
-description:        'Soon-to-be Computer Engineer'
+description:        'Computer Engineering Student'
 url:                harishv7.github.io
 baseurl:             /blog
 paginate:            5
