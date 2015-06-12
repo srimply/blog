@@ -6,7 +6,7 @@ categories: [NUS, education]
 ---
 It's has been a great semester. Well, it was stressful, but it was particularly fulfilling. University life is exciting as I get to learn what I am most passionate about. The gradeless semester is another point that allowed me to read the modules without worrying too much about grades. Nevertheless, I was never aiming to SU any modules. Here is a quick review of the modules I took in Semester 1. All of them are pre-allocated since I am a Computer Engineering student, except the GEM I took. 
 
-<span style="text-decoration: underline;"><strong>CG1001: Introduction to Computer Engineering</strong></span> <br>
+<h2>CG1001: Introduction to Computer Engineering</h2> <br>
 
 The title of this module sums it up all. This module is meant to provide an overview of Computer Engineering for freshmen and allow them to have a clear understanding of what areas they can specialise in during their senior years. Basically, the workload is not much. <br>
 I was tasked with 2 reports (based on the specialisation areas in Computer Engineering) and a project video. The reports are 25% each and the video is 50%. Reports are done in pairs (randomly grouped by the professor). Similarly, for the project video, you will be assigned a group of four randomly. Then you have present a video (about 5 mins long) which presents the topic chosen in a creative and informative way. My group chose the topic on 4G LTE networks. We personally did it in the form of an advertisement and incorporated animation to make the video more interactive. This module is meant to help you pull up your CAP (though it is only 2 MCs). Give it your best, especially for the reports. Be creative and analytical when discussing the selected topic. <br>
@@ -16,7 +16,7 @@ Very much delighted to have obtained an A. I had really given my best for the re
 
 <hr />
 
-<span style="text-decoration: underline;"><strong>CS1010: Programming Methodolody</strong></span> <br>
+<h2>CS1010: Programming Methodolody</h2> <br>
 
 This was my most favourite module of this semester. I have no experience programming in C language. However, I was familiar with other languages like Python, Javascript and HTML. I personally like programming very much. The natural interest motivated me to do my best for this module. However, do not worry if you have no previous programming experience. Make sure you start learning the basics well, and do one practice task per day (there's plenty of tasks on the CS1010 website). My lecturer was Mr Gary Tan. He is one amazing lecturer. He makes learning enjoyable and he is really funny. I am really happy to learn under him. He offered us a lot of help (separate group discussions and marking my past-year CS1010 papers I did for practice). <br>
 
@@ -30,7 +30,7 @@ Not exactly very happy with A-. Being my favourite module, I had really wanted a
 
 <hr />
 
-<span style="text-decoration: underline;"><strong>CS1231: Discrete Structures</strong></span> <br>
+<h2>CS1231: Discrete Structures</h2> <br>
 
 I personally did not like this module when I first started. But as it progressed, I began to appreciate this module. It provides a different view to common concepts. You learn to prove everything. For example, you learn to prove that an even number plus another even number is even. Such seemingly simple things which we just assume to be true must be proven. One of the coolest things you'll learn is to prove that 1+1 = 2. Well, if before this module, someone asked me to prove that I would have been stunned. But now, I do have an answer that proves this to be true. <br>
 
@@ -44,7 +44,7 @@ Really happy with the grade as I did not expect it. :)
 
 <hr />
 
-<span style="text-decoration: underline;"><strong>GEM2027: Public Speaking</strong></span> <br>
+<h2>GEM2027: Public Speaking</h2> <br>
 
 I had to choose to do a SS/GEM/breadth module in the first semester. Public speaking was the only module that fitted my timetable and the skill itself seemed really useful. Plus a bonus was that there were no exams. Of course, instead of the final exam, you will be graded on some of the speeches and there will be a module quiz at the end as well as a video project to be delivered. Lecturer for the module is Ms Cardoza. She is a very good lecturer and I like her enthusiasm in each lecture. She is very approachable (both personally and on forums) and encouraged me to give my best in my speeches. The lectures basically introduces some tips and pointers for effective public speaking. Some are really common sense, but the thing is that many of us fail to follow them. We need to remember simple things like body language (eg: do not put your hands in your pockets) and tone which will be critiqued by your tutor. Such seemingly simple pointers will be reinforced again and again throughout the module. <br>
 
@@ -72,7 +72,7 @@ Not very satisfied with this grade. I expected an A-. Nevertheless, I am sure I 
 
 <hr />
 
-<span style="text-decoration: underline;"><strong>MA1505: Mathematics I</strong></span> <br>
+<h2>MA1505: Mathematics I</h2> <br>
 
 There are many concepts you need to understand for this module. Whenever you have free time, learn to utilise it to revise the upcoming topics. Though the lectures are nicely-paced, the amount of concepts to grasp requires quite some time. The last few topics (line and surface integrals may be difficult to grasp). The module is graded with a mid-term test (20%) and the final exam (80%). My lecturer for this module was Prof Leung Pui Fai (Fred). He is a very good lecturer. He takes the time to explain concepts very patiently. He is also very approachable. Make sure to pay good attention during the lectures. If you find the pace slow or you missed the lecture then you can always use the webcast on IVLE. <br>
 
