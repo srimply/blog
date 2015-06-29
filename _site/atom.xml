@@ -4,7 +4,7 @@
  <title>HarishV's Blog</title>
  <link href="harishv7.github.io/blog/atom.xml" rel="self"/>
  <link href="harishv7.github.io/blog/"/>
- <updated>2015-06-12T17:25:45+08:00</updated>
+ <updated>2015-06-29T23:15:59+08:00</updated>
  <id>harishv7.github.io</id>
  <author>
    <name>Harish V</name>
@@ -13,11 +13,52 @@
 
  
  <entry>
+   <title>Clean & Green Hackathon 2015</title>
+   <link href="harishv7.github.io/general/2015/06/22/Clean%20&%20Green%20Hackathon/"/>
+   <updated>2015-06-22T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/general/2015/06/22/Clean & Green Hackathon</id>
+   <content type="html">&lt;p&gt;I participated in the Clean &amp;amp; Green Hackathon this weekend. This is second hackathon I participated in after Gamecraft (Organised by NUS Games Development Group) last year. It was particularly a very enriching experience. Held on a larger scale (nation-wide) and open to all ideas and hacks (including hardware, software, apps, games etc.) and people from all age groups, I was able to understand what to expect in a hackathon.&lt;/p&gt;
+
+&lt;p&gt;Unlike a continuous 24 hours hackathon, we were allowed to go home and return the next morning. It took place over a period of 3 days, starting from Friday (Ideation and pitching) till Sunday (when the judging and prize presentation was held).&lt;/p&gt;
+
+&lt;p&gt;I got to know many people from different backgrounds and learn a lot from their ideas as well. Some were just there for the pure fun of it, to exchange ideas and make good friends. Some ideas were just excellent and gave me many new insights into further development of my own idea.&lt;/p&gt;
+
+&lt;p&gt;This time, my team (Kenny, Yong Zhi &amp;amp; myself) came up with the idea of a web &amp;amp; mobile ready platform called “The Greenlist”. It is basically a peer-to-peer connecting app where one can post his/her old items (eg: laptops, handphones, toys, books, furniture etc.) up for donation. &lt;/p&gt;
+
+&lt;p&gt;Anyone who needs this item but are willing to have it secondhand (and for free) can simply claim this item, and thereafter proceed to collect the item from the donor themselves. Each successful donation earns the donor some reward points which can then be redeemed for vouchers. To fund the operating costs (which are minimal), we proposed &lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;In-App Advertising&lt;/li&gt;
+    &lt;li&gt;In-App Purchases (Eco-friendly items etc.)&lt;/li&gt;
+    &lt;li&gt;Sponsorship for vouchers&lt;/li&gt;
+    &lt;li&gt;Optional donation before claiming an item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once the idea was formed, we made a prototype both for the web and mobile platform (using Justinmind software). &lt;/p&gt;
+
+&lt;p&gt;On Sunday, as the group leader, I made the pitch for our idea and gave a demo of our prototype. Given only 3 minutes for the pitch, it was crucial to make the most out of each and every second to create an everlasting impression of the idea &amp;amp; product/service. Though nervous, having take some public speaking training and course in NUS allowed me to focus on the pitch and do my best.&lt;/p&gt;
+
+&lt;p&gt;One of the learning points was that I realised that I might have focused too much on the demo of the prototype itself. I should have instead allocated a major part towards helping the audience understand and appreciate the relevance and usefulness of the app in their lives.&lt;/p&gt;
+
+&lt;p&gt;Also, the idea is crucial in a hackathon (even more than the prototype)! An effective idea will definitely win people over.&lt;/p&gt;
+
+&lt;p&gt;Though, my team did not win, we were thankful for the experience. This hackathon gave me some crucial experience that will help me do better in the forthcoming hackathons I will be participating.&lt;/p&gt;
+
+&lt;p&gt;“The Greenlist” project is hosted &lt;a href=&quot;https://github.com/harishv7/thegreenlist&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Clean &amp;amp; Green Hackathon event was covered by Channel NewsAsia and the coverage &lt;a href=&quot;http://www.channelnewsasia.com/news/singapore/ideas-to-solve-littering/1931422.html?cid=fbsg&quot;&gt;available here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The photos of the Hackathon are &lt;a href=&quot;https://www.facebook.com/media/set/?set=a.842836635769622.1073741869.310427622343862&amp;amp;type=3&quot;&gt;available here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Greensleeves</title>
    <link href="harishv7.github.io/music/2015/06/05/Greensleeves/"/>
    <updated>2015-06-05T00:00:00+08:00</updated>
    <id>harishv7.github.io/blog/music/2015/06/05/Greensleeves</id>
-   <content type="html">&lt;p&gt;This is a small attempt to play the popular English folk song Greensleeves on my keyboard! :)&lt;/p&gt;
+   <content type="html">&lt;p&gt;This is a small attempt to play the popular English folk song Greensleeves (Played in Dmin Key with Time Signature of 3/4) on my keyboard! :)&lt;/p&gt;
 
 &lt;audio controls=&quot;&quot;&gt;
   &lt;source src=&quot;/assets/Greensleeves.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
@@ -26,7 +67,11 @@ Your browser does not support the audio element.
 
 &lt;p&gt;If the above player does not work, see below for the SoundCloud embed.&lt;/p&gt;
 
+&lt;p&gt;Greensleeves&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208950439&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Greensleeves with Chords&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212482253&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
@@ -412,7 +457,11 @@ Very much delighted to have obtained an A. I had really given my best for the re
 
 &lt;p&gt;Lecturers for the module were Prof Stephen Bressan and Prof Bryan Low. Both of them were good. Prof Stephen likes to ask interesting questions on the topic and invites your opinions and answers. But he does cover the chapters very quickly (especially the proofs). Prof Bryan Low was good too. He actually goes through every proof that is in his notes and makes sure that you understand it clearly. Both lecturers are really approachable. Make sure to clear your doubts immediately after the lecture (before you forget them). That being said, this module is really demanding as the pace of the lectures is extremely fast. The tutorials are really crucial for you to grasp the application of the concepts learnt during lectures to the questions in your tutorials. Personal advice: Do NOT skip the tutorials. The recommended textbook is Discrete Mathematics Demystified. I found it barely enough to understand all the concepts taught. Nevertheless, it helped me greatly to comprehend the basic concepts in each chapter. For challenging exercises, see past year questions or ask your tutor. &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The module is graded based on a video project, a mid-term test and the final exam. The video project is meant to help you to pull your grade up. Do give your best in terms of analysing and presenting the chosen topic. The mid-term test was quite easy and the final exam was moderately difficult. Some questions only required common sense, while others really tested the concepts and formulas you’ve been taught. All in all, a content-heavy module that can be done well with consistent practise and dedication to learning the concepts well. &lt;/p&gt;
+&lt;p&gt;The module is graded based on a video project, a mid-term test and the final exam. As for the video project, my team focused on exploring the game of Tic Tac Toe. The video has been embed here:&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/Mo1_F806J_I&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The video project is meant to help you to pull your grade up. Do give your best in terms of analysing and presenting the chosen topic. The mid-term test was quite easy and the final exam was moderately difficult. Some questions only required common sense, while others really tested the concepts and formulas you’ve been taught. All in all, a content-heavy module that can be done well with consistent practise and dedication to learning the concepts well. &lt;/p&gt;
 
 &lt;p&gt;Final grade: &lt;strong&gt;A&lt;/strong&gt; &lt;br /&gt;&lt;/p&gt;
 

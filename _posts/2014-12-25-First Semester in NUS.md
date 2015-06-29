@@ -37,7 +37,11 @@ I personally did not like this module when I first started. But as it progressed
 
 Lecturers for the module were Prof Stephen Bressan and Prof Bryan Low. Both of them were good. Prof Stephen likes to ask interesting questions on the topic and invites your opinions and answers. But he does cover the chapters very quickly (especially the proofs). Prof Bryan Low was good too. He actually goes through every proof that is in his notes and makes sure that you understand it clearly. Both lecturers are really approachable. Make sure to clear your doubts immediately after the lecture (before you forget them). That being said, this module is really demanding as the pace of the lectures is extremely fast. The tutorials are really crucial for you to grasp the application of the concepts learnt during lectures to the questions in your tutorials. Personal advice: Do NOT skip the tutorials. The recommended textbook is Discrete Mathematics Demystified. I found it barely enough to understand all the concepts taught. Nevertheless, it helped me greatly to comprehend the basic concepts in each chapter. For challenging exercises, see past year questions or ask your tutor. <br>
 
-The module is graded based on a video project, a mid-term test and the final exam. The video project is meant to help you to pull your grade up. Do give your best in terms of analysing and presenting the chosen topic. The mid-term test was quite easy and the final exam was moderately difficult. Some questions only required common sense, while others really tested the concepts and formulas you've been taught. All in all, a content-heavy module that can be done well with consistent practise and dedication to learning the concepts well. 
+The module is graded based on a video project, a mid-term test and the final exam. As for the video project, my team focused on exploring the game of Tic Tac Toe. The video has been embed here:
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Mo1_F806J_I" frameborder="0" allowfullscreen></iframe>
+
+The video project is meant to help you to pull your grade up. Do give your best in terms of analysing and presenting the chosen topic. The mid-term test was quite easy and the final exam was moderately difficult. Some questions only required common sense, while others really tested the concepts and formulas you've been taught. All in all, a content-heavy module that can be done well with consistent practise and dedication to learning the concepts well. 
 
 Final grade: <strong>A</strong> <br>
 
