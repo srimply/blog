@@ -3,6 +3,8 @@ layout: post
 title: Clean & Green Hackathon 2015
 categories: [general]
 ---
+<img src="http://www.cgs.sg/wp-content/uploads/2014/10/For-Event-Subpages.jpg"/>
+<p>Image Credits: http://www.cgs.sg/events/calendar/hackathon/workshop/</p>
 
 I participated in the Clean & Green Hackathon this weekend. This is second hackathon I participated in after Gamecraft (Organised by NUS Games Development Group) last year. It was particularly a very enriching experience. Held on a larger scale (nation-wide) and open to all ideas and hacks (including hardware, software, apps, games etc.) and people from all age groups, I was able to understand what to expect in a hackathon.
 
