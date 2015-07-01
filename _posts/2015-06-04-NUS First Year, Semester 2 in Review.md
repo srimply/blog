@@ -122,11 +122,11 @@ Difficulty: Very Hard
 
 <h2>MA1506: Mathematics II</h2>
 
-MA1506 was much more manageable than MA1505, which I took in semester 1. This module covers a great depth into Differential Equations and linear algebra, linear transformations and laplace transforms. Many of these concepts are vital for engineering students.
+MA1506 was much more manageable than MA1505, which I took in semester 1. This module covers a great depth into Differential Equations and linear algebra, linear transformations and Laplace transforms. Many of these concepts are crucial for engineering students.
 
 Assessment is divided into mid-term test (20%) and final exam (80%).
 
-The first part involving differential equations (DE) was fairly manageable and was even fun when modelling systems. All it requires is a good understanding of the various ways to solve DEs which can be acheived with sufficient practice from tutorials. The mid-term test was fully MCQ (10 questions in one hour) and was quite easy. I was able to score full marks for this one.
+The first part involving differential equations (DE) was fairly manageable and was even fun when modelling systems. All it requires is a good understanding of the various ways to solve DEs which can be achieved with sufficient practice from tutorials. The mid-term test was fully MCQ (10 questions in one hour) and was quite easy. I was able to score full marks for this one.
 
 After recess week, the pace of lectures started to increase together with the difficulty of concepts. Webcasted lectures were really helpful when I was revising to clarify my doubts.
 
