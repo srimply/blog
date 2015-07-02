@@ -4,15 +4,9 @@ title: Blog Tree
 ---
 
 <!-- List all Posts -->
-
-<ul>
 {% for post in site.posts %}
-<li>
-<a href="{{ post.url }}">{{ post.title }}</a>, 
-<span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-</li>
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}
-</ul>
 
 <!-- List all Categories -->
 
