@@ -4,13 +4,27 @@
  <title>HarishV's Blog</title>
  <link href="harishv7.github.io/blog/atom.xml" rel="self"/>
  <link href="harishv7.github.io/blog/"/>
- <updated>2015-07-02T12:39:38+08:00</updated>
+ <updated>2015-07-03T17:00:04+08:00</updated>
  <id>harishv7.github.io</id>
  <author>
    <name>Harish V</name>
    <email>harish207@live.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The Elephant (Cover)</title>
+   <link href="harishv7.github.io/music/2015/07/03/The%20Elephant/"/>
+   <updated>2015-07-03T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/music/2015/07/03/The Elephant</id>
+   <content type="html">&lt;p&gt;An attempt to play the popular piece, “The Elephant” from the Carnival of the Animals on keyboard (transposed) in Piano mode.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213071671&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Clean & Green Hackathon 2015</title>
@@ -63,11 +77,6 @@ Harish&lt;/p&gt;
    <id>harishv7.github.io/blog/music/2015/06/05/Greensleeves</id>
    <content type="html">&lt;p&gt;This is a small attempt to play the popular English folk song Greensleeves (Played in Dmin Key with Time Signature of 3/4) on my keyboard! :)&lt;/p&gt;
 
-&lt;audio controls=&quot;&quot;&gt;
-  &lt;source src=&quot;/assets/Greensleeves.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
-
 &lt;p&gt;If the above player does not work, see below for the SoundCloud embed.&lt;/p&gt;
 
 &lt;p&gt;Greensleeves&lt;/p&gt;
@@ -75,6 +84,12 @@ Your browser does not support the audio element.
 
 &lt;p&gt;Greensleeves with Chords&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212482253&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Greensleeves Full with Rhythm&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213071440&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish&lt;/p&gt;
 </content>
  </entry>
  
