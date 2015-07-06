@@ -5,7 +5,7 @@ title: Blog Tree
 
 <!-- List all Posts -->
 {% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ site.baseurl}}{{ post.url }})
 {% endfor %}
 
 <!-- List all Categories -->
@@ -18,7 +18,7 @@ title: Blog Tree
     {% for posts in category %}
       {% for post in posts %}
         <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>, 
+        <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>, 
     <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
         </li>
       {% endfor %}
@@ -41,7 +41,7 @@ title: Blog Tree
 {% for post in posts %}
   {% if post.tags contains t %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>, 
+    <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>, 
     <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
   </li>
   {% endif %}
