@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /blog/:year/:month/:day/:title/
+permalink:           pretty
 relative_permalinks: true
 
 # Setup
@@ -9,7 +9,7 @@ title:               HarishV's Blog
 tagline:             'Life & Code'
 description:        'Computer Engineering Student'
 url:                harishv7.github.io/blog
-baseurl:             
+baseurl:             /blog
 paginate:            5
 
 # About/contact
