@@ -37,5 +37,7 @@ The Clean & Green Hackathon event was covered by Channel NewsAsia and the covera
 
 The photos of the Hackathon are <a href="https://www.facebook.com/media/set/?set=a.842836635769622.1073741869.310427622343862&type=3">available here</a>.
 
+More details on the teams and ideas which won and competition details are <a href="http://www.upsingapore.com/events/clean-green-hackathon-2015/#hackathonhome">here</a>.
+
 Cheers, <br>
 Harish
