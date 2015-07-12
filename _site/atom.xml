@@ -4,13 +4,52 @@
  <title>HarishV's Blog</title>
  <link href="harishv7.github.io/blog/blog/atom.xml" rel="self"/>
  <link href="harishv7.github.io/blog/blog/"/>
- <updated>2015-07-10T20:01:05+08:00</updated>
+ <updated>2015-07-12T20:20:25+08:00</updated>
  <id>harishv7.github.io/blog</id>
  <author>
    <name>Harish V</name>
    <email>harish207@live.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Virtual Reality - Google Cardboard</title>
+   <link href="harishv7.github.io/blog/techstuff/2015/07/12/Virtual%20Reality/"/>
+   <updated>2015-07-12T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/blog/techstuff/2015/07/12/Virtual Reality</id>
+   <content type="html">&lt;p&gt;I got a Google Cardboard yesterday. The Google Cardboard comes as a laser-cut template (which you have fold and fix yourself), two 45mm biconvex lenses, 2 neodymium magnets, 2 pairs of velcro and a rubberband.&lt;/p&gt;
+
+&lt;p&gt;It’s really simple to fold and use and all you’ve to do is to download a VR app onto the phone and slot it into the font of the Cardboard.&lt;/p&gt;
+
+&lt;p&gt;A great thing about the Google Cardboard is that it utilises the magnetic switch as a trigger. So while using an app, using the ‘button’ will allow you to interact the same way as you touch your phone’s screen. As compared to other VR devices, such as the VR One, the magnetic switch is something exclusive to the Cardboard.&lt;/p&gt;
+
+&lt;p&gt;There are many apps such as the Cardboard app (which allows you to watch movies, use Google Earth etc.), VR Roller Coaster (which takes you on a ride through the roller coaster) and the apps are definitely growing in number in the App Store.&lt;/p&gt;
+
+&lt;p&gt;Virtual Reality is definitely here to stay and it’s development excites me. It opens up many new and different possibilities that people have only dreamt of. We can start to enjoy experiences which previously required us to be physically present elsewhere. The nascent virtual reality is rapidly developing.&lt;/p&gt;
+
+&lt;p&gt;Whether virtual reality is good or bad, that depends. There will always be people who might use VR technologies to enjoy in the world they want, without any grasp of reality. But on the other hand, VR’s potential can surely bring quality and happiness to many lives. For now, let’s hope that VR will bring us a more enjoyable future in the coming years!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#images&quot;&gt;Below&lt;/a&gt; are pictures of the Google Cardboard.&lt;/p&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div id=&quot;images&quot;&gt;
+&lt;img class=&quot;cardboard&quot; src=&quot;/blog/assets/GoogleCardboard/image2.jpeg&quot; /&gt;
+&lt;img class=&quot;cardboard&quot; src=&quot;/blog/assets/GoogleCardboard/image3.jpeg&quot; /&gt;
+&lt;img class=&quot;cardboard&quot; style=&quot;height:450px&quot; src=&quot;/blog/assets/GoogleCardboard/image6.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+	.cardboard{
+		width: 500px;
+		border-radius: 15%;
+	}
+&lt;/style&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Elephant (Cover)</title>
