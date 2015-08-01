@@ -11,6 +11,11 @@ You can contact me via <a href="https://www.facebook.com/V.Harish">Facebook</a>,
 <a href="https://github.com/harishv7">Github</a>, or 
 <a href="mailto:harish207@live.com?Subject=Hello" target="_top">email</a> (you can also do so through the contact form below).
 
+If you appreciate my services or my blog and resources, you can buy me a coffee! :)
+<br>
+<br>
+<a href='http://ko-fi.com?i=794WROD1G6YP' target='_blank'><img style='border:0px' src='https://az743702.vo.msecnd.net/cdn/btn5.png' border='0' alt='Buy Me A Coffee at Ko-Fi.com' /></a> 
+
 --
 Harish V
 <br>
