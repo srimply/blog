@@ -4,7 +4,7 @@
  <title>HarishV's Blog</title>
  <link href="harishv7.github.io/blog/blog/atom.xml" rel="self"/>
  <link href="harishv7.github.io/blog/blog/"/>
- <updated>2015-08-21T18:58:59+08:00</updated>
+ <updated>2015-08-21T19:07:11+08:00</updated>
  <id>harishv7.github.io/blog</id>
  <author>
    <name>Harish V</name>
@@ -31,7 +31,7 @@ A (thinks to him/herself): Darn, got to ask B and C for another timing again! &l
 
 &lt;p&gt;As shown above, the typical manual process is tedious where we often WhatsApp or message one another for free slots and try to match it all up for a common time to meet. In the point of view of the meeting administrator, it is a rather painstaking process when he/she has to repeatedly ask the team members for a suitable time to meet. &lt;/p&gt;
 
-&lt;p&gt;To solve this issue, I suggested to Al that we should maybe develop a platform which can make the organising of meetings simpler and redefine the ways of doing so. And from there, Friendezvous was born. Friendezvous is an amalgamation of the words Friend and Rendezvous (a meeting at an agreed time and place). So essentially Friendezvous refers to meetings with friends, colleagues etc.&lt;/p&gt;
+&lt;p&gt;To solve this issue, I suggested to Al that we should maybe develop a platform which can make the organising of meetings simpler and redefine the ways of doing so. And from there, Friendezvous was born. Friendezvous is an amalgamation of the words Friend and Rendezvous (a meeting at an agreed time and place). So essentially Friendezvous refers to meetings with friends, colleagues etc. And we decided on a relevant tagline as well: “Organising meetings, redefined.”.&lt;/p&gt;
 
 &lt;p&gt;I think I should describe a little of the technical aspects of Friendezvous as well. Friendezvous was built using the good old LAMP stack. We used PHP and MySQL along with front-end technologies/frameworks such as HTML, CSS, jQuery, jQuery UI, Bootstrap (modified), Angular JS. The development itself was not the difficult part. The hardest part of this journey was to think as an user of this platform. How would an user using Friendezvous feel about the workflow of this app? Is it too complicated? Can we improve on the workflow to minimise the number of steps/clicks an user is required to make to achieve an objective? These are the various questions which were running on our minds all the time. After all, software/app development is not just about blinding writing code. &lt;/p&gt;
 
@@ -50,6 +50,8 @@ A (thinks to him/herself): Darn, got to ask B and C for another timing again! &l
 &lt;p&gt;Development is very active and Al and myself aim to launch Friendezvous as a commercial platform soon (in about 3-5 months). After which, we are planning on porting this towards an Android and iOS application as well.&lt;/p&gt;
 
 &lt;p&gt;Do try Friendezvous if you can and send me your comments in the comment box on my blog or to my &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#104;&amp;#097;&amp;#114;&amp;#105;&amp;#115;&amp;#104;&amp;#050;&amp;#048;&amp;#055;&amp;#064;&amp;#108;&amp;#105;&amp;#118;&amp;#101;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Details on the Orbital programme is &lt;a href=&quot;http://orbital.comp.nus.edu.sg/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cheers, &lt;br /&gt;
 Harish&lt;/p&gt;
