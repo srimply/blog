@@ -4,13 +4,57 @@
  <title>HarishV's Blog</title>
  <link href="harishv7.github.io/blog/blog/atom.xml" rel="self"/>
  <link href="harishv7.github.io/blog/blog/"/>
- <updated>2015-08-20T23:32:51+08:00</updated>
+ <updated>2015-08-21T18:58:59+08:00</updated>
  <id>harishv7.github.io/blog</id>
  <author>
    <name>Harish V</name>
    <email>harish207@live.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Orbital 2015</title>
+   <link href="harishv7.github.io/blog/education/nus/college/techstuff/2015/08/19/Orbital%202015/"/>
+   <updated>2015-08-19T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/blog/education/nus/college/techstuff/2015/08/19/Orbital 2015</id>
+   <content type="html">&lt;p&gt;After 3 months of hard work, the Orbital programme came to a close on 19th Aug 2015. It was a great experience and I picked up many skills of both front and back end development. I did the project with Al who was very supportive during the 3 months though he was on vacation. &lt;/p&gt;
+
+&lt;p&gt;The project’s inspiration came from our shared experiences in daily college life. Many of the times we tend to organise meetings manually. A typical process goes like this (A,B,C are persons).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A–&amp;gt;B: Hey, are you free tomorrow for a project meeting at 2-4pm? &lt;br /&gt;
+B–&amp;gt;A: Yup, that’ll be good I guess. &lt;br /&gt;
+A–&amp;gt;C: Hey, are you free tomorrow for a project meeting at 2-4pm? &lt;br /&gt;
+C–&amp;gt;A: Oh no, I don’t think I’ll be free. How about some other day? &lt;br /&gt;
+A (thinks to him/herself): Darn, got to ask B and C for another timing again! &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As shown above, the typical manual process is tedious where we often WhatsApp or message one another for free slots and try to match it all up for a common time to meet. In the point of view of the meeting administrator, it is a rather painstaking process when he/she has to repeatedly ask the team members for a suitable time to meet. &lt;/p&gt;
+
+&lt;p&gt;To solve this issue, I suggested to Al that we should maybe develop a platform which can make the organising of meetings simpler and redefine the ways of doing so. And from there, Friendezvous was born. Friendezvous is an amalgamation of the words Friend and Rendezvous (a meeting at an agreed time and place). So essentially Friendezvous refers to meetings with friends, colleagues etc.&lt;/p&gt;
+
+&lt;p&gt;I think I should describe a little of the technical aspects of Friendezvous as well. Friendezvous was built using the good old LAMP stack. We used PHP and MySQL along with front-end technologies/frameworks such as HTML, CSS, jQuery, jQuery UI, Bootstrap (modified), Angular JS. The development itself was not the difficult part. The hardest part of this journey was to think as an user of this platform. How would an user using Friendezvous feel about the workflow of this app? Is it too complicated? Can we improve on the workflow to minimise the number of steps/clicks an user is required to make to achieve an objective? These are the various questions which were running on our minds all the time. After all, software/app development is not just about blinding writing code. &lt;/p&gt;
+
+&lt;p&gt;There is much more to that.&lt;/p&gt;
+
+&lt;p&gt;We are dealing with real life users here. Then, we decided to conduct a survey to analyse the perception of our target audience towards the platform. We did it with a closed circle of friends and received very positive feedback. It was definitely a morale booster to our idea and efforts. More than anything, we were passionate about what we did. Even if we made a positive difference in a single person’s life, it would mean a lot to us.&lt;/p&gt;
+
+&lt;p&gt;Orbital Splashdown, where all the teams (from beginner, intermediate &amp;amp; advanced levels) came together to showcase their work, was held on 19th August 2015. It was exhilarating to see so many applications built by students like myself. I was inspired by many apps, with their technical aspects as well as the business models they were planning to develop.&lt;/p&gt;
+
+&lt;p&gt;I was extremely joyful when the visitors to my booth exclaimed “Wow, that is one app I think I would use!” or “This is an excellent app bro!”. They were also impressed at the various features like notification tracking and location suggestions Friendezvous offered.&lt;/p&gt;
+
+&lt;p&gt;On the whole, Orbital 2015 was an exciting journey. I am going to make it a point to develop an application every summer. I find fulfilment in learning so many technologies.&lt;/p&gt;
+
+&lt;p&gt;As for Friendezvous, currently it is available here: &lt;a href=&quot;http://friendezvous.herokuapp.com&quot;&gt;Friendezvous&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Development is very active and Al and myself aim to launch Friendezvous as a commercial platform soon (in about 3-5 months). After which, we are planning on porting this towards an Android and iOS application as well.&lt;/p&gt;
+
+&lt;p&gt;Do try Friendezvous if you can and send me your comments in the comment box on my blog or to my &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#104;&amp;#097;&amp;#114;&amp;#105;&amp;#115;&amp;#104;&amp;#050;&amp;#048;&amp;#055;&amp;#064;&amp;#108;&amp;#105;&amp;#118;&amp;#101;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>NUS First Year, Semester 4 <br> (Special Term 2) in Review</title>
