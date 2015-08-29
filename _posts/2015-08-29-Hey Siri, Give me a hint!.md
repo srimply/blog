@@ -19,12 +19,12 @@ And true enough, Siri responded with it's usual level of cuteness:
 <img class='siri' align="right" src='http://i.imgur.com/cPPGI8Y.png'/>
 <br>
 <img class='siri' align="left" src='http://i.imgur.com/Nm4rD5C.png'/>
-<img class='siri' align="middle" src='http://i.imgur.com/wqBonu5.png'/>
+<img class='siri' align="middle" src='http://i.imgur.com/3YCMIUk.png'/>
 <img class='siri' align="right" src='http://i.imgur.com/rfc5tdG.png'/>
 <br>
 <img class='siri' align="left" src='http://i.imgur.com/yjFhbHU.png'/>
-<img class='siri' align="middle" src='http://i.imgur.com/3YCMIUk.png'/>
-<img class='applelogo' align="right" src='http://i.imgur.com/10ELJWN.png'/>
+<img class='siri' align="middle" src='http://i.imgur.com/10ELJWN.png'/>
+<img class='applelogo' align="right" src='/blog/assets/AppleEvent/apple.png'/>
 </div>
 
 <style>
