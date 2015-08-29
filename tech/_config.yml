@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               HarishV's Blog
+tagline:             'Life & Code'
+description:        'Computer Engineering Student'
+url:                harishv7.github.io/blog/tech
+baseurl:             /blog/tech
+paginate:            5
+
+# About/contact
+author:
+  name:              Harish V
+  url:               https://harishv7.github.io
+  email:             harish207@live.com
+
+# Custom vars
+version:             2.5.0
