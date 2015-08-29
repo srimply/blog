@@ -14,17 +14,17 @@ And true enough, Siri responded with it's usual level of cuteness:
 <hr>
 
 <div class="images">
-<img class='siri' align="left" src='/blog/assets/AppleEvent/20.png'/>
-<img class='siri' align="middle" src='/blog/assets/AppleEvent/21.png'/>
-<img class='siri' align="right" src='/blog/assets/AppleEvent/22.png'/>
+<img class='siri' align="left" src='http://imgur.com/F6PcUgU.png'/>
+<img class='siri' align="middle" src='http://imgur.com/C44CeZq.png'/>
+<img class='siri' align="right" src='http://i.imgur.com/cPPGI8Y.png'/>
 <br>
-<img class='siri' align="left" src='/blog/assets/AppleEvent/23.png'/>
-<img class='siri' align="middle" src='/blog/assets/AppleEvent/25.png'/>
-<img class='siri' align="right" src='/blog/assets/AppleEvent/27.png'/>
+<img class='siri' align="left" src='http://i.imgur.com/Nm4rD5C.png'/>
+<img class='siri' align="middle" src='http://i.imgur.com/wqBonu5.png'/>
+<img class='siri' align="right" src='http://i.imgur.com/rfc5tdG.png'/>
 <br>
-<img class='siri' align="left" src='/blog/assets/AppleEvent/29.png'/>
-<img class='siri' align="middle" src='/blog/assets/AppleEvent/30.png'/>
-<img class='applelogo' align="right" src='/blog/assets/AppleEvent/apple.png'/>
+<img class='siri' align="left" src='http://i.imgur.com/yjFhbHU.png'/>
+<img class='siri' align="middle" src='http://i.imgur.com/3YCMIUk.png'/>
+<img class='applelogo' align="right" src='http://i.imgur.com/10ELJWN.png'/>
 </div>
 
 <style>
