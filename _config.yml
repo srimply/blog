@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               HarishV's Blog
@@ -11,6 +11,9 @@ description:        'Computer Engineering Student'
 url:                harishv7.github.io/blog
 baseurl:             /blog
 paginate:            5
+
+# Plugins
+gems:				[jekyll-paginate]
 
 # About/contact
 author:
