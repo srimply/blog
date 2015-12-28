@@ -4,8 +4,11 @@ title: Second Year, First Semester in Review
 categories: [education]
 tags: [education, nus]
 ---
+The following blog post is also available on my Wordpress site [here](https://harishv7.wordpress.com/2015/12/24/second-year-first-semester-in-review/).
 
-The past semester is definitely the busiest semester I have been through. There was literally no time for anything else other than studies and projects. Part of the reason (as you will see), is that I took 7 modules this time. However, one of them, CP3108B - Orbital has already been completed. Two of the other modules CP2201 and CFG1001 lasted only for the first half of the semester, thankfully. This allowed for a slightl relaxed timetable in the second half of the semester.
+<hr>
+
+The past semester is definitely the busiest semester I have been through. There was literally no time for anything else other than studies and projects. Part of the reason (as you will see), is that I took 8 modules this time. However, one of them, CP3108B - Orbital has already been completed. Two of the other modules CP2201 and CFG1001 lasted only for the first half of the semester, thankfully. This allowed for a slightly relaxed timetable in the second half of the semester.
 
 Right now, I am really glad that I managed to do my best through the semester. And for those who are anticipating such a semester, I felt you might find a review of the modules handy. So here it is:
 
@@ -15,12 +18,12 @@ Right now, I am really glad that I managed to do my best through the semester. A
 
 This is a module about entrepreneurship and is worth 2 MCs. The grading is also in the form of Completed Satisfactorily (CS) or Completed Unsatisfactorily (CU) which means that the grade obtained will not affect the current CAP you have.
 
-Personally, I found this module to be very engaging and entertaining. It provided me with what I wanted to learn about entrepreneruship. Each week, there were invited guest speakers who share their experience on entrepreneurship. A typical outline of the module looks like this:
+Personally, I found this module to be very engaging and entertaining. It provided me with what I wanted to learn about entrepreneurship. Each week, there were invited guest speakers who share their experience on entrepreneurship. A typical outline of the module looks like this:
 
-Week 1: Introduction to module and some basic information
-Week 2: Guest speakers from PropertyGuru and Reebonz with Q&A
-Week 3: Guest speakers from upcoming startups: Klinify, Lomotif and InvestingNote with Q&A
-Week 4: Guest speakers from Red Dot Ventures and Golden Gate Venture with Q&A
+- Week 1: Introduction to module and some basic information
+- Week 2: Guest speakers from PropertyGuru and Reebonz with Q&A
+- Week 3: Guest speakers from upcoming startups: Klinify, Lomotif and InvestingNote with Q&A
+- Week 4: Guest speakers from Red Dot Ventures and Golden Gate Venture with Q&A
 
 Each week, there will be a short assignment which requires some reflection on various aspects of entrepreneurship as well as the guest speakers and the companies.
 
@@ -61,26 +64,28 @@ This module was personally very enriching and I got to learn a lot in terms of t
 
 The grading of the module was divided into 3 main areas: Project (50%), Final Exam (40%) and Participation (10%). As such, the project hold the majority of the weightage and that makes this module different from conventional ones. We apply what we learn. Every week, the lecture introduces new principles and concepts relevant to software engineering. Much of these knowledge can be immediately applied to the project we are doing.
 
-CS2103T is also twinned with CS2101 (as described above). Hence, many of the things we do such as developer's guide, user guide etc. are relevant to the project. The use of version control (Git or GitHub) is extremely crucial for the project and came in really handy. We are prone to introduce bugs/errors when 3-4 people "operate" on the code simulataneously. Having revision control allowed such to keep track of these changes and simply revert our changes if we found them to be buggy later on.
+CS2103T is also twinned with CS2101 (as described above). Hence, many of the things we do such as developer's guide, user guide etc. are relevant to the project. The use of version control (Git or GitHub) is extremely crucial for the project and came in really handy. We are prone to introduce bugs/errors when 3-4 people "operate" on the code simultaneously. Having revision control allowed such to keep track of these changes and simply revert our changes if we found them to be buggy later on.
 
 The participation segment is the easiest to score and you should definitely score the full 10% here. Points can be earned through the proper completion of pre-tutorial and in-tutorial activities, answering questions in lectures, successful completion of weekly lectures quizzes on IVLE etc. There is maximum cap of 200 points which means that any points exceeding the 200th mark will not contribute to the participation points for grading.
 
 The final exam tests the skills we have learnt throughout the semester. If you have learnt and applied these concepts well for the software project, it will be much easier to score here. The CS2103T module handbook (a 200-page document/textbook companion) is a must-read for scoring well for the exams. It helps to reinforce the concepts learnt and clears the small gaps in understanding.
 
-On a personal note, I learnt a lot through this module. My team and I managed to create quite a cool desktop application called "Fini". The name inspired from French, in which Fini refers to finished or accomplished. We felt that this accurately represents the goal of our app and it was easy to remember too! 
+On a personal note, I learnt a lot through this module. My team and I managed to create quite a cool desktop application called "FINI". The name inspired from French, in which Fini refers to finished or accomplished. We felt that this accurately represents the goal of our app and it was easy to remember too! 
 These are some of the screenshots of the application:
 
-![Fini's Welcome Screen](http://i.imgur.com/rwUcDNl.png)
+![FINI's Welcome Screen](http://i.imgur.com/rwUcDNl.png)
 
-![Fini's Overview](http://i.imgur.com/c6qWEbI.png)
+![FINI's Overview](http://i.imgur.com/c6qWEbI.png)
 
-![Fini's Screenshot](http://i.imgur.com/OIFjxyi.png)
+![FINI's Screenshot](http://i.imgur.com/OIFjxyi.png)
 
 Over time, my team and I became really passionate about what we were doing and we even made a cool video for our Oral Presentation 2 in CS2101 and to also serve as an introductory product demo video during our CS2103T demonstration. Here it is:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/utI1N5hhFSs" frameborder="0" allowfullscreen></iframe>
 
-Fini is available for download and use here: [GitHub Link](https://github.com/cs2103aug2015-t16-1j/fini/releases/tag/v0.5)
+Video Credits: Jonas, Team FINI
+
+FINI is available for download and use here: [GitHub Link](https://github.com/cs2103aug2015-t16-1j/fini/releases/tag/v0.5)
 
 Overall, an interesting yet hectic module. If you love creating cool stuff, you will love this module.
 
@@ -94,7 +99,7 @@ This is a 5MCs module which is split into 2 parts. The first part is relatively 
 
 There are also lab and project components in this module. The labs are mostly manageable and primarily introduces the use of FPGAs and the hardware description language known as Verilog. The project is done individually and it involved creating an oscilloscope out of the FPGA. This was really cool because oscilloscopes generally cost many hundreds of dollars. Using a simple FPGA to create an oscilloscope was indeed interesting!
 
-Most of it involved writing Verilog for the FPGA to interpret and display the incoming signal from the signal generators in the lab. The project was graded individually with a range of criterias. Two main influencing factors are the number of features (such as scaling, translating, displaying words/labels, pointers) and the uniqueness of the features *as compared to your peers*.
+Most of it involved writing Verilog for the FPGA to interpret and display the incoming signal from the signal generators in the lab. The project was graded individually with a range of criteria. Two main influencing factors are the number of features (such as scaling, translating, displaying words/labels, pointers) and the uniqueness of the features *as compared to your peers*.
 
 There are no final exams. Instead there is a midterm quiz and final quiz (each 20%) and the rest of the assessment is based on labs and projects.
 
@@ -110,7 +115,7 @@ This module has a lot of theory and formulas on semiconductors. Personally, I fo
 
 The assessment for this module is Homework (10%), Midterm test (20%), Quiz (5%), Final Exam (65%), though I do not remember taking a quiz for the 5%.
 
-The topics covered were very structured starting from the building blocks and slowly moving on to bigger components: semiconductors -> PN junctions -> Bipolar Junction Transistors (BJT) -> Metal Oxide Semiconductors Field Effect Transistors (MOSFET) -> CMOS Logic -> Single Stage Amplifiers -> Multistage Amplifiers -> Opamps.
+The topics covered were very structured starting from the building blocks and slowly moving on to bigger components: Semiconductors -> PN junctions -> Bipolar Junction Transistors (BJT) -> Metal Oxide Semiconductors Field Effect Transistors (MOSFET) -> CMOS Logic -> Single Stage Amplifiers -> Multistage Amplifiers -> Opamps.
 
 This was really overwhelming and was like a bit of PC1432 again. The first part (before midterms) is usually much easier to understand than the second part. So make sure you ace the midterms.
 
@@ -126,11 +131,11 @@ I took this module out of curiosity and the eagerness to learn a new language. I
 
 Why? Firstly, we need to understand that learning a language takes considerable time and effort to both learn, grasp and then practice speaking it. And doing all this while juggling other modules during a period of 1 semester is not a joke. French is apparently written with English alphabets with some accented ones. Also, it is similar to English or rather English is similar to French. As compared to other languages like Chinese and Hindi, this meant that I do not need to spend extra time learning to write the new alphabets which would help to save a considerable amount of time.
 
-I must say French was really awesome. The people I met were mostly from FASS, but there were a few of them like me from engineering or some from Pharmacy and Business. I really liked like environment. It was very interactive and my lecturer Dr Daniel Chan made sure everyone participated in each lesson. The interaction and fun during lessons made me like French even more. To ensure this interaction, all lessons are tutorials (no lectures).
+I must say French was really awesome. The people I met were mostly from FASS, but there were a few of them like me from Engineering or some from Pharmacy and Business. I really liked like environment. It was very interactive and my lecturer Dr Daniel Chan made sure everyone participated in each lesson. The interaction and fun during lessons made me like French even more. To ensure this interaction, all lessons are tutorials (no lectures).
 
 Workload wise, since there are no final exams, you will be having tests / quizzes / homework more frequently than you would have expected to. There are quizzes on the French culture, vocabulary, grammar, audio recording of a self-introduction, writing of an email for an imaginative scenario etc. The final test is an oral conversation between 2 you and two others from your group in front of the lecturer.
 
-I would say it is relatively easy to score for the tests if you have consistently practised French (both writing and speaking). That being said, also means that your peers will score well. Personal advice is to revise the notes posted on IVLE and use Google Translate to its fullest capability. I also utilised the [Duolingo](https://www.duolingo.com) app (web & mobile) to learn much of the content. Oh yes, if you have an iPhone, you can set the language for Siri as French and converse with it in French. It's quite cool and you can also check on your pronounciation by seeing if Siri understands what you just said.
+I would say it is relatively easy to score for the tests if you have consistently practised French (both writing and speaking). That being said, also means that your peers will score well. Personal advice is to revise the notes posted on IVLE and use Google Translate to its fullest capability. I also utilised the [Duolingo](https://www.duolingo.com) app (web & mobile) to learn much of the content. Oh yes, if you have an iPhone, you can set the language for Siri as French and converse with it in French. It's quite cool and you can also check on your pronunciation by seeing if Siri understands what you just said.
 
 All in all, a very enjoyable module taught by a great lecturer. 
 
