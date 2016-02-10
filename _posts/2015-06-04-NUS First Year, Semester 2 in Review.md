@@ -96,6 +96,8 @@ All in all, a tough and fast paced module that definitely requires more effort t
 
 Some of my codes are hosted <a href="http://harishv7.github.io/portfolio/">here</a> and on <a href="https://github.com/harishv7">Github</a>.
 
+Cheatsheet for final exam is now hosted [here](https://drive.google.com/file/d/0BwSVKyZQM1obbzVJUTBXWFIzVkk/view?usp=sharing). (Please do write your own, this is only for reference, not reproduction).
+
 Grade Obtained: <strong>A-</strong> <br>
 Difficulty: Tough
 
