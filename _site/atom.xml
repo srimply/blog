@@ -4,13 +4,111 @@
  <title>HarishV's Blog</title>
  <link href="harishv7.github.io/blog/blog/atom.xml" rel="self"/>
  <link href="harishv7.github.io/blog/blog/"/>
- <updated>2016-02-10T19:28:31+08:00</updated>
+ <updated>2016-06-09T23:32:27+08:00</updated>
  <id>harishv7.github.io/blog</id>
  <author>
    <name>Harish V</name>
    <email>harish207@live.com</email>
  </author>
 
+ 
+ <entry>
+   <title>NUS Second Year, Second Semester in Review</title>
+   <link href="harishv7.github.io/blog/nus/education/2016/06/09/NUS%20Second%20Year%20Second%20Semester%20in%20Rev/"/>
+   <updated>2016-06-09T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/blog/nus/education/2016/06/09/NUS Second Year Second Semester in Rev</id>
+   <content type="html">&lt;p&gt;The following post is also available at &lt;a href=&quot;https://harishv7.wordpress.com/&quot;&gt;https://harishv7.wordpress.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt; CS2010: Data Structures &amp;amp; Algorithms II &lt;/h2&gt;
+
+&lt;p&gt;This module is one of my favourite modules in this semester. Usually CS2010 is taught by Prof Steven Halim, but it was Dr Brown this semester who is teaching this module for the first time in NUS. Dr Brown was really great and funny as well. He tried to bring across the concepts taught very well and in my opinion one of the coolest professors I have seen. Once I required an extension to one of the important lab assignments and he was so chill about it and totally understands students’ positions. Also, this is a must-take module for any computer science person as it introduces the key algorithms that has made the tech world around us possible.&lt;/p&gt;
+
+&lt;p&gt;The course weight he is divided into assignments, labs, lecture quizzes, mid term and final exams. Yes, the weightage is pretty diversified across the various components. It’s important to be consistent in this module as the further weightage for each lab or assignment would also vary depending on the difficulty. The rough breakdown of the course weightage is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In-lecture exercises (8%) – Mini-assignments done during lecture&lt;/li&gt;
+  &lt;li&gt;Lab exercises (12%) – Similar to assignments but shorter and easier&lt;/li&gt;
+  &lt;li&gt;Four Assignments (40%) – Weighted differently depending on difficulty&lt;/li&gt;
+  &lt;li&gt;Exams (40%) – Midterm + Final&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The course structure is basically an introduction to trees, heaps, hash tables in the first half followed by a heavy focus on graphs in the second half.&lt;/p&gt;
+
+&lt;p&gt;Overall a great and crucial module to take for  any computer science or engineering student.&lt;/p&gt;
+
+&lt;p&gt;Difficulty (out of 5): ☆☆☆&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: A&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt; EE2024: Programming for Computer Interfaces &lt;/h2&gt;
+
+&lt;p&gt;This module was one of the heaviest, if not, the heaviest module I have ever taken. The course mainly focuses on Assembly language in the first half and low-level C programming for computer interfaces in the second half. Both halves consist of a related project done in pairs. While the first project is largely manageable, the second project is huge and is extremely time intensive. In fact, I don’t remember doing anything other than this module in the last 3-4 weeks of the semester. My partner and myself came to NUS at 10am and left at 10pm daily for these weeks. It was an extremely challenging period.&lt;/p&gt;
+
+&lt;p&gt;Tip for projects is to 1) Start early &amp;amp; 2) Use the resources around you to learn fully (both online &amp;amp; offline).&lt;/p&gt;
+
+&lt;p&gt;While this module is definitely useful as it gives great in depth understanding of how devices around us were programmed and interfaced, the content was so heavy that I couldn’t get enough time to appreciate everything I learnt. Nevertheless, the module helped me understand the importance of several technologies such as UART, master-slave protocols etc and their applications.&lt;/p&gt;
+
+&lt;p&gt;Final exams were slightly hard as expected. Nevertheless, Prof Rajesh went through all the past year papers one by one during the last few weeks as solutions to the papers are not released. That really helped to clarify a lot of the learning gaps and also on the expectations for the final paper.&lt;/p&gt;
+
+&lt;p&gt;Difficulty (out of 5): ☆☆☆☆☆&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: A-&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt; CG2271: Real-Time Operating Systems &lt;/h2&gt;
+
+&lt;p&gt;Overall a great module. Took this under Prof Tulika. This is actually the CEG counterpart module of the CS version of Operating Systems. Hence most of the focus was on the lower level areas.&lt;/p&gt;
+
+&lt;p&gt;The module is structured into labs, midterms and finals. Also, there is a small component for tutorial attendance. Most of the earlier labs are manageable. However, as we moved along into the later parts, I found the labs to be harder not because of the concepts but mostly the debugging of programs and identifying where we went wrong. Hence, it became a little time-intensive too. Labs are done in pairs using a Spark fun (Arduino) kit.&lt;/p&gt;
+
+&lt;p&gt;Attending lectures (or watching webcasts) is important to help in the understanding. I actually enjoyed this module quite a bit. And after the module was completed, I began appreciating the use of many of the concepts I have learnt. Concepts such as semaphores, mutexes are so crucial and they are being used everywhere around us.&lt;/p&gt;
+
+&lt;p&gt;Final exams were pretty hard as compared to the midterms, but manageable.&lt;/p&gt;
+
+&lt;p&gt;Difficulty (out of 5): ☆☆☆&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: A&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt; ST2334: Statistics &lt;/h2&gt;
+
+&lt;p&gt;Statistics is a useful and slightly easier than the other modules I took this semester. However, easier means others will also find it easy. I guess the competition for the module was a little high.&lt;/p&gt;
+
+&lt;p&gt;The notes were pretty self explanatory out of the times and there are plenty of problems to practice. Both midterms and final exams were pretty okay.&lt;/p&gt;
+
+&lt;p&gt;Module structure is mostly based on IVLE quizzes, tutorial attendance, tutorial participation, midterms and finals. Important tip for this module is to be consistent. And the lecturer did make sure we are consistent by giving online quizzes each week and tutorials on alternate weeks.&lt;/p&gt;
+
+&lt;p&gt;Difficulty (out of 5): ☆☆☆&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: B+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt; CG2023: Signals &amp;amp; Systems &lt;/h2&gt;
+
+&lt;p&gt;Signals and Systems was an intimidating module for me at first. Looking at so much math and complex terms didn’t help in motivating myself to study. However as time went by, I realised it wasn’t that hard after all. The only requirement to do well in this module is the investment of time. Understanding of the concepts comes over time and dedication  to read the notes again and again. Do this till you understand. Whenever I felt unsure, I used the recommended textbook to write down a few problems and solve then to check my understanding.&lt;/p&gt;
+
+&lt;p&gt;For midterms and finals, it is very crucial to practice a lot of the past year papers to clarify on the difficulty level and on what is expected.&lt;/p&gt;
+
+&lt;p&gt;The professors were also kind and helpful whenever we approach them with questions. For this module, we just need the discipline to sit down and invest some time in the understanding of the concepts taught.&lt;/p&gt;
+
+&lt;p&gt;Difficulty (out of 5): ☆☆☆☆&lt;/p&gt;
+
+&lt;p&gt;Grade Obtained: A&lt;/p&gt;
+
+&lt;p&gt;As usual, it was the most hectic semester I’ve had. Till next time, cheers.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Harish V&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Ask NOC - Honestbee & Shopback Sharing Session</title>
