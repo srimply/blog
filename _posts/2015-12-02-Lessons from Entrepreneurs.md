@@ -7,7 +7,7 @@ tags: [entrepreneurship]
 
 Over the past semester, I undertook a module in NUS known as "Journey of the Innovator" (CP2201). More than just a module, it was conducted in an interesting and engaging seminar style. Each week, many lessons on entrepreneurship were shared and in one of the weeks, 3 startup founders were invited to share their views and insights into entrepreneurship.
 
-##Klinify
+## Klinify
 
 The first talk was by Krish, the CEO and Founder of Klinify. Personally, I found Klinify's mission to "provide the freedom of paper with the power of digital technology" intriguing. It aims to propagate a change within the medical industry and empower doctors to harness the strengths of technology to further improve the medical services being delivered. During his talk, Krish mentioned some importants points on entrepreneurship that he has learnt thus far. I have combined those pointers, together with my learning points from the talk:
 
@@ -19,7 +19,7 @@ The first talk was by Krish, the CEO and Founder of Klinify. Personally, I found
 
 - Some concerns on Klinify: Security. Technology rules today's world. However, the growth of technology has brought about potential incentives for people to expose data. Medical records are meant to be private. In an event of a security breach, millions of medical records can be leaked. However, during the talk, Krish did mention their focus to ensure the safety and privacy of patient records. And only a strong defence system can deter such security compromises.
 
-##Lomotif
+## Lomotif
 
 The second talk was by Paul from Lomotif. Lomotif is essentially a mobile application that allows users to create a video from their stash of videos and even add songs to it. After using it, a clear winning point of Lomotif was the usability factor. It was very simple to use and even a novice mobile user will be able to use it easily. 
 Some pointers from Paul:

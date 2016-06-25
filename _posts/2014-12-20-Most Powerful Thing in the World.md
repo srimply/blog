@@ -17,6 +17,6 @@ I particularly felt galvanised watching Inception. Inception is basically about 
 
 The idea right now, in your head is something so powerful. Make sure it is put to good use. To make a change for the better.
 
->When you really want something, all the Universe conspires in helping you achieve it. -The Alchemist, Paulo Coelho
+> When you really want something, all the Universe conspires in helping you achieve it. -The Alchemist, Paulo Coelho
 
 That's a quote I always remember. What you are, who you are is defined by your ideas, your actions. If you have a good idea, and truly believe in it, then give it your best shot. Make your ideas come alive.

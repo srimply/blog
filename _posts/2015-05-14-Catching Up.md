@@ -7,7 +7,7 @@ tags: [college, thoughts]
 
 It has been a hectic semester! Seems like the last time I blogged was before my semester. In NUS they always say:
 
->The only easy semester was the last semester.
+> The only easy semester was the last semester.
 
 I think it might be true. I was a little confident that the first semester would have helped me to adjust to the environment and that the second semester will be much easier to cope. Though I have gotten used to the environment, the workload is definitely on the rise.
 

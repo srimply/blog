@@ -9,7 +9,7 @@ tags: [general]
 
 There is an interesting riddle written by Einstein in the last century. He claimed that **98%** of the people in the world will not be able to solve it.
 
-##The Riddle:
+## The Riddle:
 
 * There are 5 different houses, each of a different colour.
 * There is a owner of a different nationality in each house.
@@ -19,7 +19,7 @@ There is an interesting riddle written by Einstein in the last century. He claim
 
 _None of the owners drink the same drink / smoke the same cigarette brand / have the same type of pets / have same nationality / live in the same house._
 
-##The Clues:
+## The Clues:
 
 * the Brit lives in the red house
 * the Swede keeps dogs as pets
@@ -37,11 +37,11 @@ _None of the owners drink the same drink / smoke the same cigarette brand / have
 * the Norwegian lives next to the blue house
 * the man who smokes blend has a neighbor who drinks water
 
-##The Challenge:
+## The Challenge:
 
 You are challenged to find out who has the fish using the above information and clues.
 
-##The Solution:
+## The Solution:
 
 The first thing to understand is that though the information seems sparse and disjointed, there is indeed a logical path for you to work out the riddle. 
 

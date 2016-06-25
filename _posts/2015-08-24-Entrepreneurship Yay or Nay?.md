@@ -9,7 +9,7 @@ Today was an exciting day. Having taken the CP2201 module, Journey of the Innova
 
 The entire session focused on how they built their business from scratch and the hurdles they went through.
 
-###Several important points were highlighted throughout the session, such as:
+### Several important points were highlighted throughout the session, such as:
 
 1. For an entrepreneur, his focus should be on innovation.
 2. Having a solid business model is crucial. The growth in online traffic (for web/mobile based businesses) helps to convert losses to profits.
@@ -18,7 +18,7 @@ The entire session focused on how they built their business from scratch and the
 5. Invest in a good team with good leaders (CFO, CTO, CEO etc.).
 6. With the best content and most traffic you can make it to be #1 in the market. 
 
-###Firstly, to summarise my learning from PropertyGuru:
+### Firstly, to summarise my learning from PropertyGuru:
 The idea of PropertyGuru was to allow transparency of information in the property market by placing the entire market online to solve a real-world issue: Everyone needs a home!
 
 Several growth tactics were used to leverage on the growing population in emerging countries, rising smartphone and broadband penetration rates and increasing trend of online marketplaces and online transactions.
@@ -41,7 +41,7 @@ Some great quotes I found during the presentation:
 >
 > “As an entrepreneur always be paranoid of competitors and them taking away your market!”
 
-###The second part of the presentation was focused on Reebonz:
+### The second part of the presentation was focused on Reebonz:
 
 Important points for aspiring entrepreneurs:
 

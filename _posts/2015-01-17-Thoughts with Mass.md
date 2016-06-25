@@ -15,16 +15,16 @@ Indeed, it is fascinating to imagine the implications if such a hypothesis was p
 
 A few of my favourite quotes on the power of thoughts:
 
->Change your thoughts and you change your world. <br>
+> Change your thoughts and you change your world. <br>
 <strong>Norman Vincent Peale</strong>
 
->We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far. <br>
+> We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far. <br>
 <strong>Swami Vivekananda</strong>
 
->Concentrate all your thoughts upon the work at hand. The sun's rays do not burn until brought to a focus. <br>
+> Concentrate all your thoughts upon the work at hand. The sun's rays do not burn until brought to a focus. <br>
 <strong>Alexander Graham Bell</strong>
 
->A positive attitude causes a chain reaction of positive thoughts, events and outcomes. It is a catalyst and it sparks extraordinary results. <br>
+> A positive attitude causes a chain reaction of positive thoughts, events and outcomes. It is a catalyst and it sparks extraordinary results. <br>
 <strong>Wade Boggs</strong>
 
 Cheers.
