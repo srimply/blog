@@ -4,7 +4,7 @@
  <title>HarishV's Blog</title>
  <link href="harishv7.github.io/blog/blog/atom.xml" rel="self"/>
  <link href="harishv7.github.io/blog/blog/"/>
- <updated>2016-06-26T00:22:34+08:00</updated>
+ <updated>2016-07-31T20:28:20+08:00</updated>
  <id>harishv7.github.io/blog</id>
  <author>
    <name>Harish V</name>
@@ -105,6 +105,59 @@
 &lt;p&gt;As usual, it was the most hectic semester I’ve had. Till next time, cheers.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Harish V&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Science Student Challenge 2016 Experience</title>
+   <link href="harishv7.github.io/blog/techstuff/2016/03/29/Data%20Science%20Student%20Challenge%20Experience/"/>
+   <updated>2016-03-29T00:00:00+08:00</updated>
+   <id>harishv7.github.io/blog/blog/techstuff/2016/03/29/Data Science Student Challenge Experience</id>
+   <content type="html">&lt;h2 id=&quot;about-the-challenge--our-product&quot;&gt;About the Challenge &amp;amp; Our Product&lt;/h2&gt;
+
+&lt;p&gt;Recently, I had the opportunity to participate in the Data Science Student Challenge which was co-organised and sponsored by Microsoft.&lt;/p&gt;
+
+&lt;p&gt;I took part in this event together with my friends Alvian, Chris &amp;amp; Ida. We worked tirelessly over just 24 hours to build a full-fledged working application which integrates the concepts of machine learning and data science. And the result of our effort was “Prosper”.&lt;/p&gt;
+
+&lt;p&gt;The following extract is from our Github page.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Prosper&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stands&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Property&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Resale&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Price&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Forecaster&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;It&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;essentially&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;future&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;resale&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Singapore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sounds&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exciting?&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;We&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;have&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;combined&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;power&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Microsoft&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Azure&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Machine&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Learning&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;capabilities&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;together&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;resale&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flat&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gov&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sg&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;utilise&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;over&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;years&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;480&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;points&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;astonishing&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;95&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;margin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;%) accuracy in prediction of the price.&lt;/span&gt;
+
+&lt;span class=&quot;sx&quot;&gt;As a pro analytics feature, Prosper also provides a suggestion on when you should be selling your flat based on your expected annual growth rate of the flat price. Hence, the application tries to maximise your profit given the expected growth price per annum.&lt;/span&gt;
+
+&lt;span class=&quot;sx&quot;&gt;This application runs using Java and you can download it from the Releases page.&lt;/span&gt;
+
+&lt;span class=&quot;sx&quot;&gt;Prosper was developed in 24 hours in the National University of Singapore (NUS)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Data&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Science&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Student&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Challenge&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;supported&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Mircosoft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;Prosper&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;managed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;th&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;place&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;among&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dozens&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;teams&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;NUS&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Data&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Science&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Student&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Challenge&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Below are some screenshots of the application. You can download and give Prosper a try &lt;a href=&quot;https://github.com/harishv7/Prosper/releases&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;experience&quot;&gt;Experience&lt;/h2&gt;
+
+&lt;p&gt;While it was extremely tiring, it was really a fulfilling experience. In that intense 24 hours, I actually learnt so much skills. It also proved that to learn something new, we only needed the determination and the dedication to pursue it.&lt;/p&gt;
+
+&lt;p&gt;Alvian has always been interested in the topics of data science and machine learning. Naturally, he was able to lead our discussion and ideas prior to the building of the actual application. I was in charge of developing the desktop client to communicate with the APIs provided by Microsoft Azure.&lt;/p&gt;
+
+&lt;p&gt;Initially, I tried using simple AJAX calls through a website. However, it did not work due to some error relating to the blockage of “Cross-Origin Requests”. After about 2 hours and going through multiple StackOverflow questions, we decided to change track. I never thought my experience in a previous module, CS2103 Software Engineering, will help me. I used the good old legacy language Java as it was stable and what everyone in my team knew best. Our technology stack was essentially JavaFX to design the layout the GUI and pure Java for the backend logic.&lt;/p&gt;
+
+&lt;p&gt;Both Ida and Chris helped me and Alvian to get the building of the application done. Meanwhile, Alvian started training the model for our app with the data provided by &lt;a href=&quot;https://data.gov.sg/developer&quot;&gt;https://data.gov.sg/developer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After getting through the initial round, my team was selected for the finals where we had to present to a panel of judges. It was really a tough experience. Imagine 24 hours++ without sleep and still needing the energy to be able to present lively to the audience in front of you.&lt;/p&gt;
+
+&lt;p&gt;While we did not obtain the top 3 prizes, I was definitely overjoyed to have my team in the 5th place considering that we were all just sophomores in NUS without much experience in these field. I definitely look forward to participating in the next challenge.&lt;/p&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/UyzzCLM.png&quot; alt=&quot;Image1&quot; /&gt;
+&lt;img src=&quot;http://i.imgur.com/eWqAGKg.png&quot; alt=&quot;Image2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers, &lt;br /&gt;
+Harish V&lt;/p&gt;
 </content>
  </entry>
  
