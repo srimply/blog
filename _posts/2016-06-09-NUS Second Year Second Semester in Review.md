@@ -70,6 +70,10 @@ The notes were pretty self explanatory out of the times and there are plenty of 
 
 Module structure is mostly based on IVLE quizzes, tutorial attendance, tutorial participation, midterms and finals. Important tip for this module is to be consistent. And the lecturer did make sure we are consistent by giving online quizzes each week and tutorials on alternate weeks.
 
+Cheatsheets I used for the mid-terms are [here](https://drive.google.com/open?id=0BwSVKyZQM1obZ0RWQkJGYUlLOVE).
+
+Cheatsheets I used for the final exams are [here](https://drive.google.com/open?id=0BwSVKyZQM1oba2UyN2QzRFVRaVU).
+
 Difficulty (out of 5): ☆☆☆
 
 Grade Obtained: B+
@@ -83,6 +87,10 @@ Signals and Systems was an intimidating module for me at first. Looking at so mu
 For midterms and finals, it is very crucial to practice a lot of the past year papers to clarify on the difficulty level and on what is expected.
 
 The professors were also kind and helpful whenever we approach them with questions. For this module, we just need the discipline to sit down and invest some time in the understanding of the concepts taught.
+
+Cheatsheets I used for the mid-terms are [here](https://drive.google.com/open?id=0BwSVKyZQM1obc0NZNUp5T0JoSnM).
+
+Cheatsheets I used for the final exams are [here](https://drive.google.com/open?id=0BwSVKyZQM1obMk5kWU5mdk1LM0E).
 
 Difficulty (out of 5): ☆☆☆☆
 
