@@ -60,7 +60,7 @@ username: harishv7
 repo: blog
 branch: gh-pages
 relative_source: blog/
-destination: /_site/
+destination: ../generated_site/
 production_url:  http://harishv.me/blog/
 source_url:      https://github.com/harishv7/blog/
 
