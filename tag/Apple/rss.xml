@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Hey Siri, Give me a hint!</title>
+	  <link>/blog//Hey-Siri,-Give-me-a-hint!</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-08-29T00:00:00+00:00</pubDate>
+	  <guid>/blog//Hey-Siri,-Give-me-a-hint!</guid>
+	  <description><![CDATA[
+	     <p>Visited Apple’s events page today and was greeted by this:</p>
+
+<p><img src="assets/AppleEvent/webpage.png" alt="Apple's Events Page" /></p>
+
+<p>And true enough, Siri responded with it’s usual level of cuteness:</p>
+
+<hr />
+
+<div class="images">
+<img class="siri" align="left" src="http://imgur.com/F6PcUgU.png" />
+<img class="siri" align="middle" src="http://imgur.com/C44CeZq.png" />
+<img class="siri" align="right" src="http://i.imgur.com/cPPGI8Y.png" />
+<br />
+<img class="siri" align="left" src="http://i.imgur.com/Nm4rD5C.png" />
+<img class="siri" align="middle" src="http://i.imgur.com/3YCMIUk.png" />
+<img class="siri" align="right" src="http://i.imgur.com/rfc5tdG.png" />
+<br />
+<img class="siri" align="left" src="http://i.imgur.com/yjFhbHU.png" />
+<img class="siri" align="middle" src="http://i.imgur.com/10ELJWN.png" />
+<img class="applelogo" align="right" src="/blog/assets/AppleEvent/apple.png" />
+</div>
+
+<style>
+.images{
+    text-align:center;
+}
+.applelogo{
+	width:160px;
+	height: 240x;
+	padding-top: 50px;
+}
+.siri{
+	width: 160px;
+		height: 284px;
+		display:inline-block;
+}
+</style>
+
+<p>Cheers, <br />
+Harish</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

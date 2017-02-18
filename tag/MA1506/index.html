@@ -61,7 +61,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="tag-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -69,7 +69,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home  nav-current" role="presentation"><a href="/blog/">Home</a></li>
+        <li class="nav-home " role="presentation"><a href="/blog/">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/blog/about">About</a></li>
         <li class="nav-general " role="presentation"><a href="/blog/tag/General">General</a></li>
         <li class="nav-general " role="presentation"><a href="/blog/tag/TechStuff">TechStuff</a></li>
@@ -100,12 +100,14 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < default -->
+        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
+
+
+<!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header "
-        style="background-image: url(/blog/assets/images/cover7.jpg) ">
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(/blog/assets/images/cover2.jpg) ">
     <nav class="main-nav overlay clearfix">
         <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
         
@@ -114,11 +116,14 @@
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">Harish V</h1>
-            <h2 class="page-description">My thoughts - on life & code.</h2>
+            <h1 class="page-title">MA1506</h1>
+            <h2 class="page-description">
+            
+			    A 2-post collection
+            
+            </h2>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 <!-- The main content area on the homepage -->
@@ -130,9 +135,7 @@
         
             <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 8 </span>
-     
-        <a class="older-posts" href="/blog/page2/" title="Next Page">Older Posts &raquo;</a>
+    <span class="page-number"> Page 1 of 1 </span>
      
 </nav>
         
@@ -142,10 +145,10 @@
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/blog/NUS-Third-Year-First-Semester-in-Review">NUS Third Year | First Semester in Review</a></h2>
+            <h2 class="post-title"><a href="/blog/NUS-First-Year,-Semester-2-in-Review">NUS First Year | Second Semester in Review</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>The following post is also available at https://harishv7.wordpress.com/ CG3207: Computer Architecture CG3207 was one of the most informative, educational modules I have taken. This module answered... <a class="read-more" href="/blog/NUS-Third-Year-First-Semester-in-Review">&raquo;</a></p>
+            <p>The following post is also available at: https://harishv7.wordpress.com/2015/06/04/nus-first-year-semester-2-in-review/ It has been a long freshman year and I am surprised I am already writing a review for... <a class="read-more" href="/blog/NUS-First-Year,-Semester-2-in-Review">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
@@ -164,36 +167,36 @@
                        
                 
                     
-                       <a href='/blog/tag/CG3207'>CG3207</a>,
+                       <a href='/blog/tag/PC1432'>PC1432</a>,
                        
                 
                     
-                       <a href='/blog/tag/CS3244'>CS3244</a>,
+                       <a href='/blog/tag/MA1506'>MA1506</a>,
                        
                 
                     
-                       <a href='/blog/tag/EG2401'>EG2401</a>,
+                       <a href='/blog/tag/GEK1549'>GEK1549</a>,
                        
                 
                     
-                       <a href='/blog/tag/EE3204'>EE3204</a>,
+                       <a href='/blog/tag/CS1020'>CS1020</a>,
                        
                 
                     
-                       <a href='/blog/tag/CG3002'>CG3002</a>
+                       <a href='/blog/tag/CG1108'>CG1108</a>
                        
                 
             
-            <time class="post-date" datetime="2016-12-11">11 Dec 2016</time>
+            <time class="post-date" datetime="2015-06-04">04 Jun 2015</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/blog/NUS-Second-Year-Second-Semester-in-Review">NUS Second Year | Second Semester in Review</a></h2>
+            <h2 class="post-title"><a href="/blog/MA1505-&-MA1506-Help-Sheets">MA1505 & MA1506 Help Sheets</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>The following post is also available at https://harishv7.wordpress.com/ CS2010: Data Structures &amp; Algorithms II This module is one of my favourite modules in this semester. Usually... <a class="read-more" href="/blog/NUS-Second-Year-Second-Semester-in-Review">&raquo;</a></p>
+            <p>Both MA1505 and MA1506 are common modules undertaken by a vast majority of engineering students. They are not exactly easy, and so I thought I will... <a class="read-more" href="/blog/MA1505-&-MA1506-Help-Sheets">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
@@ -208,155 +211,19 @@
                        
                 
                     
-                       <a href='/blog/tag/Education'>Education</a>,
+                       <a href='/blog/tag/MA1505'>MA1505</a>,
                        
                 
                     
-                       <a href='/blog/tag/CS2010'>CS2010</a>,
+                       <a href='/blog/tag/MA1506'>MA1506</a>,
                        
                 
                     
-                       <a href='/blog/tag/CG2023'>CG2023</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/CG2271'>CG2271</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/EE2024'>EE2024</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/ST2334'>ST2334</a>
+                       <a href='/blog/tag/Help Sheets'>Help Sheets</a>
                        
                 
             
-            <time class="post-date" datetime="2016-06-09">09 Jun 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/blog/Data-Science-Student-Challenge-Experience">Data Science Student Challenge 2016 Experience</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>About the Challenge &amp; Our Product Recently, I had the opportunity to participate in the Data Science Student Challenge which was co-organised and sponsored by Microsoft.... <a class="read-more" href="/blog/Data-Science-Student-Challenge-Experience">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/blog/author/harish'>Harish V</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/blog/tag/TechStuff'>TechStuff</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Machine Learning'>Machine Learning</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Hackathons'>Hackathons</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-03-29">29 Mar 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/blog/askNOC-Session-Review">Ask NOC - Honestbee & Shopback Sharing Session</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Recently, I attended 2 talks during askNOC. There were two invited guests: Jonathan Low from Honestbee and Henry Chan from Shopback. Both companies are startups, having... <a class="read-more" href="/blog/askNOC-Session-Review">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/blog/author/harish'>Harish V</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/blog/tag/Entrepreneurship'>Entrepreneurship</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/NUS'>NUS</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Shopback'>Shopback</a>
-                       
-                
-            
-            <time class="post-date" datetime="2016-01-28">28 Jan 2016</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/blog/Second-Year,-First-Semester-in-Review">Second Year | First Semester in Review</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>The following blog post is also available on my Wordpress site here. The past semester is definitely the busiest semester I have been through. There was... <a class="read-more" href="/blog/Second-Year,-First-Semester-in-Review">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/blog/author/harish'>Harish V</a>
-            <!-- [[tags prefix=" on "]] -->
-             
-                on 
-                
-                    
-                       <a href='/blog/tag/NUS'>NUS</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Education'>Education</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/CP2201'>CP2201</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/CP3108B'>CP3108B</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/CS2101'>CS2101</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/CS2103T'>CS2103T</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/EE2020'>EE2020</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/EE2021'>EE2021</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/LAF1201'>LAF1201</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/CFG1001'>CFG1001</a>
-                       
-                
-            
-            <time class="post-date" datetime="2015-12-22">22 Dec 2015</time>
+            <time class="post-date" datetime="2015-05-26">26 May 2015</time>
         </footer>
     </article>
     
@@ -365,9 +232,7 @@
     
         <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 8 </span>
-     
-        <a class="older-posts" href="/blog/page2/" title="Next Page">Older Posts &raquo;</a>
+    <span class="page-number"> Page 1 of 1 </span>
      
 </nav>
     
@@ -386,7 +251,6 @@
 
 
 </main>
-
 
         <footer class="site-footer clearfix">
           <section class="copyright"><a href="/blog/">Harish V</a> &copy; 2017</section>
