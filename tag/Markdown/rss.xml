@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>What is Markdown?</title>
+	  <link>/blog//What-is-Markdown</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
+	  <guid>/blog//What-is-Markdown</guid>
+	  <description><![CDATA[
+	     <p>Markdown is a markup language that can be easily converted to HTML or other formats. The best part of Markdown is that you can write it in plaintext format, yet format it using certain special characters such as hyphens (<code class="highlighter-rouge">-</code>), quotes etc. Even this post was rendered with Markdown. Let’s see how we can craft posts with Markdown.</p>
+
+<h2 id="headings">Headings</h2>
+
+<p>Similar to HTML, Markdown supports six levels of headings, from H1 to H6. To achieve different headings, we simply use the <code class="highlighter-rouge">#</code> to denote the level. For example:</p>
+
+<p><code class="highlighter-rouge"># Hello</code> yields a H1 header while <code class="highlighter-rouge">## Hello</code> yields a H2 header. Here’s a demo:</p>
+
+<h1 id="h1-header">H1 header</h1>
+
+<h2 id="h2-header">H2 header</h2>
+
+<h3 id="h3-header">H3 header</h3>
+
+<h4 id="h4-header">H4 header</h4>
+
+<h5 id="h5-header">H5 header</h5>
+
+<h6 id="h6-header">H6 header</h6>
+
+<h2 id="bold-italics-underline-and-strikethrough">Bold, Italics, Underline and Strikethrough</h2>
+
+<p>To give sufficient emphasis we can use the following syntax:</p>
+
+<p>```markdown
+Text can be made bold by using a <strong>double asterisks</strong> or <strong>double underscores</strong> at both the start and end of the text segment.</p>
+
+<p>Text can be made italics by using a single asterisk or single underscore at both the start and end of the text segment.</p>
+
+<p>To combine both bold and italics, we can use both the above notations like <em><strong>this</strong></em>.</p>
+
+<p>To make a strikethrough, we can use two tildes at the start and end of the text segment ~~like this~~.
+```</p>
+
+<p>Text can be made bold by using a <strong>double asterisks</strong> or <strong>double underscores</strong> at both the start and end of the text segment.</p>
+
+<p>Text can be made italics by using a single asterisk or single underscore at both the start and end of the text segment.</p>
+
+<p>To combine both bold and italics, we can use both the above notations like <em><strong>this</strong></em>.</p>
+
+<p>To make a strikethrough, we can use two tildes at the start and end of the text segment ~~like this~~.</p>
+
+<h2 id="making-lists">Making Lists</h2>
+
+<p>Lists are one of the most needed features for anyone writing anything! Markdown offers a nifty feature for making lists that is super easy to write.</p>
+
+<h3 id="ordered-numbered-lists">Ordered (Numbered) Lists</h3>
+
+<p>To make numbered lists, we simply start with <code class="highlighter-rouge">1. </code> and markdown interprets whatever comes after as the first point of the list. You can create nested lists with three spaces followed by a number.</p>
+
+<p><code class="highlighter-rouge">markdown
+1. Hello World
+2. This is a numbered list.
+   3. This is a nested numbered list.
+</code>
+The above gives us the following result:</p>
+
+<ol>
+  <li>Hello World</li>
+  <li>This is a numbered list.
+    <ol>
+      <li>This is a nested numbered list.</li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="unordered-lists">Unordered Lists</h3>
+
+<p>To make unordered lists, we can use asterisks (*), minuses (-), pluses (+).</p>
+
+<p><code class="highlighter-rouge">markdown
+* Unordered point 1
++ Unordered point 2
+- Unordered point 3
+</code></p>
+
+<p>The above will now translate to:</p>
+
+<ul>
+  <li>Unordered point 1</li>
+  <li>Unordered point 2</li>
+  <li>Unordered point 3</li>
+</ul>
+
+<h3 id="combining-ordered-and-unordered-lists">Combining Ordered and Unordered Lists</h3>
+
+<p>To combine and nest ordered and unordered lists, we just need to add trailing spaces before the next point followed by a number/asterisk/minus/plus.</p>
+
+<p><code class="highlighter-rouge">markdown
+1. Ordered point 1
+2. Ordered point 2
+   * Unordered point nested under point 2
+3. Ordered point 3
+   1. Ordered point 1 under point 3
+</code>
+Result:</p>
+
+<ol>
+  <li>Ordered point 1</li>
+  <li>Ordered point 2
+    <ul>
+      <li>Unordered point nested under point 2</li>
+    </ul>
+  </li>
+  <li>Ordered point 3
+    <ol>
+      <li>Ordered point 1 under point 3</li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="adding-links">Adding Links</h2>
+
+<p>Hyperlinks are one of the most commonly used features in any document, blog etc. Adding links in Markdown is really simple too!</p>
+
+<p>To add a hyperlink on a text, we use both square brackets <code class="highlighter-rouge">[]</code> and round brackets <code class="highlighter-rouge">()</code>.</p>
+
+<p>First we put the text we want to hyperlink into the square brackets, in this example, Google: <code class="highlighter-rouge">[Google]</code>. Next, we hyperlink by adding the actual web address in between round brackets right after the square brackets, like this:</p>
+
+<p><code class="highlighter-rouge">markdown
+[Google](http://www.google.com)
+</code></p>
+
+<p>Rendering the markdown, we get this:</p>
+
+<p><a href="http://google.com">Google</a></p>
+
+<h2 id="adding-images">Adding Images</h2>
+
+<p>Adding images is very similar to adding links. All we need to do is to add an exclamation mark in front of the square brackets. The alt text for the image goes into the square brackets and web address into the round brackets. Suppose we want to display the Google logo, we do this:</p>
+
+<p><code class="highlighter-rouge">markdown
+![Google Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png)
+</code></p>
+
+<p>And this renders as:</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png" alt="Google Logo" /></p>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<p>Blockquotes are handy to specify sections which have been to quoted from another source. They are commonly used in emails where you can highlight the point you are addressing with regards to a previous email. To add a block quote, you use the <code class="highlighter-rouge">&gt;</code> sign.</p>
+
+<p><code class="highlighter-rouge">markdown
+&gt; This is a blockquote.
+&gt; This is the second line of the blockquote.
+</code></p>
+
+<blockquote>
+  <p>This is a blockquote.
+This is the second line of the blockquote.</p>
+</blockquote>
+
+<h2 id="adding-code">Adding Code</h2>
+
+<p>Markdown supports adding code and syntax-highlighting. This is a joy for any programmer or developer. I am personally a heavy user of this feature to make my notes/articles. To add a code block, we wrap the code with three backticks: “```” .</p>
+
+<p>```</p>
+
+<p>This is a general code block as there is no language specified.</p>
+
+<p>```</p>
+
+<p>We can add code blocks by specifying the language as well. We do this by adding the language name right after the first “```”. For example, lets add a Python code block.</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="sb">```</span>python
+def print_hello_world():
+    print("Hello World!");
+    
+print_hello_world();
+<span class="sb">```</span></code></pre></figure>
+
+<p>Writing the above renders into:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">print_hello_world</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">);</span>
+    
+<span class="n">print_hello_world</span><span class="p">();</span></code></pre></figure>
+
+<p>Similarly, Markdown supports an astonishing variety of languages!</p>
+
+<p>Sometimes, you just want to highlight a specific word like <code class="highlighter-rouge">this</code>. That’s called inline code. To add inline code, we just use one backtick.</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="sb">`inline code`</span></code></pre></figure>
+
+<p>gives us <code class="highlighter-rouge">inline code</code>.</p>
+
+<h2 id="adding-tables">Adding Tables</h2>
+
+<p>Yup, there is support for adding tables too! Now you can easily add tables with markdown to all your emails instead of creating them elsewhere and painstakingly copying them over to ensure in-tact formatting.</p>
+
+<p>We use fences to make tables in markdown. A typical markdown table looks like this:</p>
+
+<p><code class="highlighter-rouge">markdown
+| Fruits    | Cost   | Quantity  | Total |Supplier   |
+| :-------- |-------:| ---------:|------:|:---------:|
+| Apples    | $2     |   160     |$320   |XYZ Company|
+| Oranges   | $3     |   120     |$360   |ABC Company|
+| Pears     | $4     |   100     |$400   |123 Company|
+</code></p>
+
+<p>Colons help us align the content within the columns. You can also add emphasis (bold, italics, strikethrough) in the tables.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Fruits</th>
+      <th style="text-align: right">Cost</th>
+      <th style="text-align: right">Quantity</th>
+      <th style="text-align: right">Total</th>
+      <th style="text-align: center">Supplier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Apples</td>
+      <td style="text-align: right">$2</td>
+      <td style="text-align: right">160</td>
+      <td style="text-align: right">$320</td>
+      <td style="text-align: center">XYZ Company</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Oranges</td>
+      <td style="text-align: right">$3</td>
+      <td style="text-align: right">120</td>
+      <td style="text-align: right">$360</td>
+      <td style="text-align: center">ABC Company</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Pears</td>
+      <td style="text-align: right">$4</td>
+      <td style="text-align: right">100</td>
+      <td style="text-align: right">$400</td>
+      <td style="text-align: center">123 Company</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As you can it is a really neat way to make tables! Placing the colon on either sides of the dividing line indicates how the content for the column will be aligned. Colon on left helps left-align (see column <code class="highlighter-rouge">Fruits</code>). Colon on the right helps right-align (see columns <code class="highlighter-rouge">Cost</code>, <code class="highlighter-rouge">Quantity</code> and <code class="highlighter-rouge">Total</code>). Colons on both sides centers the column’s content (see column <code class="highlighter-rouge">Supplier</code>).</p>
+
+<h2 id="horizontal-line-breaks">Horizontal Line Breaks</h2>
+
+<p>To have horziontal lines as dividers, we can use three asterisks (*), hyphens (-) or underscores (_).</p>
+
+<p>For example:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">Horizontal line 1:
+<span class="p">
+***
+</span>
+Horizontal line 2:
+<span class="p">
+---
+</span>
+Horizontal line 3:
+<span class="ge">__</span>_</code></pre></figure>
+
+<p>renders as:</p>
+
+<p>Horizontal line 1:</p>
+
+<hr />
+
+<p>Horizontal line 2:</p>
+
+<hr />
+
+<p>Horizontal line 3:
+___</p>
+
+<p>And that’s it folks! Markdown is a handy and simply language to learn that can help to save loads of time for plaintext lovers. Already planning on which Markdown editor to use? A new article is coming right on that. Meanwhile, give Markdown a try and share your comments below 👇🏼!</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

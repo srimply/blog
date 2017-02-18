@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>What is Markdown?</title>
+        
+          <description>&lt;p&gt;Markdown is a markup language that can be easily converted to HTML or other formats. The best part of Markdown is that you can write it in plaintext format, yet format it using certain special characters such as hyphens (&lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;), quotes etc. Even this post was rendered with Markdown. Let’s see how we can craft posts with Markdown.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 19 Feb 2017 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/What-is-Markdown</link>
+        <guid isPermaLink="true">http://harishv.me/What-is-Markdown</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>NUS Third Year | First Semester in Review</title>
         
           <description>&lt;p&gt;The following post is also available at &lt;a href=&quot;https://harishv7.wordpress.com/&quot;&gt;https://harishv7.wordpress.com/&lt;/a&gt;&lt;/p&gt;
