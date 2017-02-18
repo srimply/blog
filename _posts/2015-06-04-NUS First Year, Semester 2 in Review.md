@@ -1,8 +1,12 @@
 ---
 layout: post
-title: NUS First Year, Second Semester in Review
-categories: [NUS, education]
-tags: [NUS, CEG, PC1432, MA1506, GEK1549, CS1020, CG1108, Semester 2]
+title: NUS First Year | Second Semester in Review
+categories: [NUS, Education]
+tags: [NUS, Education, PC1432, MA1506, GEK1549, CS1020, CG1108]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 The following post is also available at: <a href="https://harishv7.wordpress.com/2015/06/04/nus-first-year-semester-2-in-review/">https://harishv7.wordpress.com/2015/06/04/nus-first-year-semester-2-in-review/</a> 

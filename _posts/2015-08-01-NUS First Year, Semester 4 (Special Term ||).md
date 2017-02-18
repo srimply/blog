@@ -1,8 +1,12 @@
 ---
 layout: post
-title: NUS First Year, Semester 4 <br> (Special Term 2) in Review
-categories: [education, NUS, college]
-tags: [NUS, cs2107, review]
+title: NUS First Year | Semester 4 | (Special Term 2) in Review
+categories: [Education, NUS]
+tags: [NUS, Education, CS2107, Review, Computer Security]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 ![Computer Security](http://www.wreporter.com/wp-content/uploads/2015/07/CyberSecurity.jpg)

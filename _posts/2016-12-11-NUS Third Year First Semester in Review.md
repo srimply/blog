@@ -1,8 +1,12 @@
 ---
 layout: post
-title: NUS Third Year, First Semester in Review
-categories: [NUS, education]
-tags: [NUS, CEG, CG3207, CS3244, EG2401, EE3204, CG3002, Third Semester]
+title: NUS Third Year | First Semester in Review
+categories: [NUS, Education]
+tags: [NUS, Education, CG3207, CS3244, EG2401, EE3204, CG3002]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 The following post is also available at [https://harishv7.wordpress.com/](https://harishv7.wordpress.com/)

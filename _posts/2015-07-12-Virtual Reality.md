@@ -2,6 +2,11 @@
 layout: post
 title: Virtual Reality - Google Cardboard
 categories: [TechStuff]
+tags: [TechStuff, Google, Cardboard, Virtual Reality]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-techstuff'
+logo: 'assets/images/logo.png'
 ---
 
 I got a Google Cardboard yesterday. The Google Cardboard comes as a laser-cut template (which you have fold and fix yourself), two 45mm biconvex lenses, 2 neodymium magnets, 2 pairs of velcro and a rubberband.

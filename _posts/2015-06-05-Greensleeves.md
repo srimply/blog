@@ -2,7 +2,11 @@
 layout: post
 title: Greensleeves
 categories: [Music]
-tags: [greensleeves, music]
+tags: [Greensleeves, Music]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-music'
+logo: 'assets/images/logo.png'
 ---
 
 This is a small attempt to play the popular English folk song Greensleeves (Played in Dmin Key with Time Signature of 3/4) on my keyboard! :)

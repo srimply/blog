@@ -1,8 +1,13 @@
 ---
 layout: post
 title: I need an Internship!!
-categories: [education, general, NUS]
-tags: [internship, college]
+categories: [Education]
+tags: [Education, Internship, College]
+cover: 'assets/images/cover3.jpg'
+date:   2014-12-09
+navigation: True
+subclass: 'post tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 Every computer engineer who is passionate about what he does will want to create or inspire a change that makes a difference in this world. Many a times, these inspirations, to even start, does not come from just pure academics, but rather from the practical experiences we gain.

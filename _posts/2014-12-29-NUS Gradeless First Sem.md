@@ -1,8 +1,12 @@
 ---
 layout: post
 title: NUS Gradeless First Semester
-categories: [NUS]
-tags: [CAP, education, NUS, Gradeless, First Semester]
+categories: [NUS, Education]
+tags: [CAP, NUS, Education, Gradeless, First Semester]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 NUS has introduced gradeless first semester since AY2014/15. And I am from AY14/15 batch. Though gradeless semester seems enticing, there's really more to it. There are some conditions and pointers to take note which will leave you confused if you're not used to the NUS system.

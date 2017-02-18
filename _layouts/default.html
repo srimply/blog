@@ -1,105 +1,57 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    
-  {% include head.html %}
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <body class="theme-base-0f">
+    <!-- [[! Page Meta ]] -->
+    <title>{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
+    <meta name="description" content="{{ site.name }} - {{ site.description }}" />
 
-    {% include sidebar.html %}
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=428272297274830";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico" >
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/custom.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/syntax.css" />
 
-            
-        <div class="fb-follow facebook-harish" data-href="https://www.facebook.com/V.Harish" data-width="20" data-colorscheme="light" data-layout="button_count" data-show-faces="false"></div>
-              <style>
-                .facebook-harish{
-                    float: right;
-                }
-              </style>
-              &nbsp
-        <div class="coffee">
-        Like my site and posts?
-        <a href='https://www.paypal.me/harishv/2' target='_blank'><img style='border:0px' src='https://az743702.vo.msecnd.net/cdn/btn1.png' border='0' alt='Buy Me A Coffee at Ko-Fi.com' /></a> 
-        </div>
-        <style>
-          .coffee{
-            
-            zoom: 0.5;
-            float: right;
-          }
-        </style>
-           
+    <!-- [[! highlight.js ]] -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
-          </h3>
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+    {% include head.html %}
 
-        </div>
+</head>
+<body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %} nav-closed">
 
-      </div>
+    {% include navigation.html %}
 
-      <div class="container content">
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
         {{ content }}
-      </div>
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; {{  site.time | date: '%Y' }}</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
     </div>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="{{ site.baseurl }}assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}assets/js/index.js"></script>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
-
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-      
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Unit1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9698859336751728"
-     data-ad-slot="7346033495"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-      
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-64407254-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-  </body>
+    <!-- Add Google Analytics  -->
+    {% include analytics.html %}   
+</body>
 </html>

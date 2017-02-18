@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Clean & Green Hackathon 2015
-categories: [general]
+categories: [TechStuff]
+tags: [TechStuff]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-techstuff'
+logo: 'assets/images/logo.png'
 ---
 <img src="http://www.cgs.sg/wp-content/uploads/2014/10/For-Event-Subpages.jpg"/>
 <p>Image Credits: http://www.cgs.sg/events/calendar/hackathon/workshop/</p>

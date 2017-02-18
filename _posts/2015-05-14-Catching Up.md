@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Catching Up
-categories: [NUS, others]
-tags: [college, thoughts]
+categories: [NUS, Education]
+tags: [NUS, Education, College, Thoughts]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 It has been a hectic semester! Seems like the last time I blogged was before my semester. In NUS they always say:

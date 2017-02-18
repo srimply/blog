@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Data Science Student Challenge 2016 Experience
-categories: [techstuff]
-tags: [techstuff, machine learning]
+categories: [TechStuff]
+tags: [TechStuff, Machine Learning, Hackathons]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-techstuff'
+logo: 'assets/images/logo.png'
 ---
 
 ## About the Challenge & Our Product

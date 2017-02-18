@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Lessons from Entrepreneurs
-categories: [general]
-tags: [entrepreneurship]
+categories: [Entrepreneurship]
+tags: [Entrepreneurship, Klinify, Lomotif, Investing Note]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-entrepreneurship'
+logo: 'assets/images/logo.png'
 ---
 
 Over the past semester, I undertook a module in NUS known as "Journey of the Innovator" (CP2201). More than just a module, it was conducted in an interesting and engaging seminar style. Each week, many lessons on entrepreneurship were shared and in one of the weeks, 3 startup founders were invited to share their views and insights into entrepreneurship.

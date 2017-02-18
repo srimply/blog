@@ -1,8 +1,12 @@
 ---
 layout: post
 title: My Getting Things Done (GTD) Framework
-categories: [general]
-tags: [general, productivity]
+categories: [General, Random]
+tags: [General, Random, Productivity]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-general tag-random'
+logo: 'assets/images/logo.png'
 ---
 
 We all talk about productivity and efficiency today. So here is my way of getting my things done.

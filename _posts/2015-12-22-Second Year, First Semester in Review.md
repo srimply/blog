@@ -1,8 +1,12 @@
 ---
 layout: post
-title: Second Year, First Semester in Review
-categories: [education]
-tags: [education, nus]
+title: Second Year | First Semester in Review
+categories: [NUS, Education]
+tags: [NUS, Education, CP2201, CP3108B, CS2101, CS2103T, EE2020, EE2021, LAF1201, CFG1001]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 The following blog post is also available on my Wordpress site [here](https://harishv7.wordpress.com/2015/12/24/second-year-first-semester-in-review/).
 

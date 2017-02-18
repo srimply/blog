@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Hey Siri, Give me a hint!
-categories: [general, techstuff]
-tags: [tech]
+categories: [TechStuff]
+tags: [TechStuff, Apple]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-techstuff'
+logo: 'assets/images/logo.png'
 ---
 
 Visited Apple's events page today and was greeted by this:

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>NUS CAP Calculator</title>
+	  <link>/blog//NUS-CAP-Calculator</link>
+	  <author>Harish V</author>
+	  <pubDate>2014-12-28T00:00:00+08:00</pubDate>
+	  <guid>/blog//NUS-CAP-Calculator</guid>
+	  <description><![CDATA[
+	     <p>Here is a CAP calculator I made in excel. Just a simple excel sheet that helps to keep track of your grades. Feedback welcome and updates will be made to add other functions.</p>
+
+<p>Click here to download <a href="assets/cap-calculator1.xlsx">CAP Calculator v1.0</a>.</p>
+
+<p>Update! : V1.1: <a href="assets/cap-calculator2.xlsx">CAP Calculator v1.1</a></p>
+
+<p>(Note: this was done to be just used as a guide. Check with faculty for degree requirements and the NUS FASS calculator if necessary).</p>
+
+<p>Inspired from <a title="Agagooga's CAP Calculator" href="http://gssq.entori.net/files/capcalc.htm" target="_blank">Agagooga’s CAP calculator</a>.</p>
+
+<p>A better CAP calculator with better user interface is coming, for the web, desktop and mobile platforms. Stay tuned! :)</p>
+
+<p>Cheers.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

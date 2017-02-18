@@ -1,8 +1,12 @@
 ---
 layout: post
 title: NUS CAP Calculator
-categories: [NUS, CAP]
-tags: [NUS, CAP, calculator, education]
+categories: [NUS, Education]
+tags: [NUS, CAP, Calculator, Education]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 Here is a CAP calculator I made in excel. Just a simple excel sheet that helps to keep track of your grades. Feedback welcome and updates will be made to add other functions.

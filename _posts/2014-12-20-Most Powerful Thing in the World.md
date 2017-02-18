@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Most Powerful Thing in the World
-tags: [thoughts]
-categories: [general]
+categories: [General, Random]
+tags: [General, Thoughts]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-general tag-random'
+logo: 'assets/images/logo.png'
 ---
 
 Have you ever wondered what is the most powerful thing in the world?

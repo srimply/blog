@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Thoughts with Mass???
-categories: [General, Thoughts]
+categories: [General, Random]
+tags: [General, Random]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-general tag-random'
+logo: 'assets/images/logo.png'
 ---
 <a href="https://helenmagnani.files.wordpress.com/2013/05/uni6.gif"><img class="size-medium wp-image-140" src="https://harishv7.files.wordpress.com/2015/01/uni6.gif?w=250" alt="https://helenmagnani.files.wordpress.com/2013/05/uni6.gif" width="250" height="300" />Image Credits: https://helenmagnani.wordpress.com/</a> 
 

@@ -1,8 +1,12 @@
 ---
 layout: post
-title: First Semester in NUS
-tags: [NUS, first semester, college]
-categories: [NUS, education]
+title: NUS First Year | First Semester in Review
+categories: [NUS, Education]
+tags: [NUS, Education, CG1001, CS1010, CS1231, GEM2027, MA1505]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 It's has been a great semester. Well, it was stressful, but it was particularly fulfilling. University life is exciting as I get to learn what I am most passionate about. The gradeless semester is another point that allowed me to read the modules without worrying too much about grades. Nevertheless, I was never aiming to SU any modules. Here is a quick review of the modules I took in Semester 1. All of them are pre-allocated since I am a Computer Engineering student, except the GEM I took. 
 <hr>

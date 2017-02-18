@@ -1,8 +1,12 @@
 ---
 layout: post
-title: NUS Second Year, Second Semester in Review
-categories: [NUS, education]
-tags: [NUS, CEG, CS2010, CG2023, CG2271, EE2024, ST2334, Semester 2]
+title: NUS Second Year | Second Semester in Review
+categories: [NUS, Education]
+tags: [NUS, Education, CS2010, CG2023, CG2271, EE2024, ST2334]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
 ---
 
 The following post is also available at [https://harishv7.wordpress.com/](https://harishv7.wordpress.com/)

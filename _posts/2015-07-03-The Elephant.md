@@ -2,7 +2,11 @@
 layout: post
 title: The Elephant (Cover)
 categories: [Music]
-tags: [the elephant, music]
+tags: [The Elephant, Music]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-music'
+logo: 'assets/images/logo.png'
 ---
 
 An attempt to play the popular piece, "The Elephant" from the Carnival of the Animals on keyboard (transposed) in Piano mode.

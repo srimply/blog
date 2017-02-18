@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Entrepreneurship - Yay or Nay?
-categories: [general, techstuff, entrepreneurship]
-tags: [tech, entrepeneurship]
+categories: [Entrepreneurship]
+tags: [Entrepeneurship, Property Guru, Reebonz]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-entrepreneurship'
+logo: 'assets/images/logo.png'
 ---
 
 Today was an exciting day. Having taken the CP2201 module, Journey of the Innovator, today was the first 2 talks by self-made entrepreneurs and businessmen, Steve Melhuish from PropertyGuru and Samuel Lim from Reebonz.

@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Ask NOC - Honestbee & Shopback Sharing Session
-categories: [entrepeneurship]
-tags: [entrepreneurship, nus]
+categories: [Entrepreneurship]
+tags: [Entrepreneurship, NUS, Shopback]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-entrepreneurship'
+logo: 'assets/images/logo.png'
 ---
 
 Recently, I attended 2 talks during askNOC. There were two invited guests: Jonathan Low from Honestbee and Henry Chan from Shopback. Both companies are startups, having only been in the market for around a year or so. Today's sharing was largely focused on their business and how they overcame the various challenges.

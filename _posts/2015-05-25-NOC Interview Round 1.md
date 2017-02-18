@@ -2,7 +2,11 @@
 layout: post
 title: NOC Interview (Round 1)
 categories: [NUS]
-tags: [NUS,NOC]
+tags: [NUS, NOC, Internship]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus'
+logo: 'assets/images/logo.png'
 ---
 
 I went for the NOC interview a few weeks back, just before my final examinations for semester 2. As it was mentioned in the confirmatione email, it was agroup interview indeed. My session was on the morning of Thursday and had about 8 people including me.

@@ -1,0 +1,45 @@
+.post-content {
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -300px;
+    text-align:center
+    position: relative;
+    width:90%;
+
+    
+}
+
+.headerbg {
+    margin:1 auto;
+    text-align:center;
+	height: auto;
+	width: auto;
+
+}
+
+.wrapper {
+    text-align:center;
+
+}
+
+.paddedrow {
+	padding-top: 10%;
+}	
+
+.ccrow{
+    padding-top: 2%;
+}
+
+.fb-follow{
+    padding-left: 2%;
+}
+
+.g-follow{
+    padding-left: 2%;
+    margin-top: 5%;
+}
+
+.social-icons{
+    align-self: center;
+}

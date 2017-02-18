@@ -1,25 +1,75 @@
+# Jykell configuration
+#markdown: redcarpet
+#highlighter: pygments
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+language: 'en-uk'
+
+# Website info
+name: 'Harish V'
+description: "My thoughts - on life & code."
+
+# Author's info
+author: 'Harish V'
+# edit 'categories' in the front matter of every post to match this username
+nickname: harish
+bio: 'Web Developer | Computer Engineer | Tech Enthusiast'
+location: 'Singapore'
+url: 'http://harishv.me'
+image: 'assets/images/profile.png'
+
+short_url: 'http://harishv.me'
+google_analytics: UA-64407254-1
+disqus: harishv7
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /blog/
+
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-#relative_permalinks: true
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
 
-# Setup
-title:               HarishV's Blog
-tagline:             'Life & Code'
-description:        'Computer Engineering Student'
-url:                harishv7.github.io/blog
-baseurl:             /blog
-paginate:            5
 
-# Plugins
-gems:				[jekyll-paginate]
+# gems and other configs
+gems: [jekyll-paginate]
+exclude: [vendor]
 
-# About/contact
-author:
-  name:              Harish V
-  url:               https://harishv7.wordpress.com
-  email:             harish207@live.com
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
 
-# Custom vars
-version:             2.5.0
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: false
+lsi: false
+username: harishv7
+repo: jasper
+branch: master
+# relative_source: ../jasper/
+# destination: ../jasper-pages/
+# production_url:  https://biomadeira.github.io/jasper/
+# source_url:      https://github.com/biomadeira/jasper/
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml

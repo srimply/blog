@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Solving Einstein's Riddle
-categories: [general]
-tags: [general]
+categories: [Random]
+tags: [Random, Einstein, Riddle]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-random'
+logo: 'assets/images/logo.png'
 ---
 
 <img src="http://i.imgur.com/IgXHPOF.jpg " alt="Einstein" style="width: 200px;"/>

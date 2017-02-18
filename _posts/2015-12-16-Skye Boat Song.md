@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Skye Boat Song
-categories: [music]
-tags: [music]
+categories: [Music]
+tags: [Music, Skye Boat Song, Outlander]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-music'
+logo: 'assets/images/logo.png'
 ---
 
 
