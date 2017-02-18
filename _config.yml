@@ -54,11 +54,11 @@ exclude: [vendor]
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-safe: false
-lsi: false
-username: harishv7
-repo: jasper
-branch: master
+# safe: false
+# lsi: false
+# username: harishv7
+# repo: jasper
+# branch: master
 # relative_source: ../jasper/
 # destination: ../jasper-pages/
 # production_url:  https://biomadeira.github.io/jasper/

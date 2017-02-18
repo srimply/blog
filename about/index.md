@@ -12,7 +12,6 @@ Hey there! I am currently a student pursuing my undergraduate studies in Compute
 I am experienced with front-end web development, coding in languages such as C, Java, Javascript etc. So if you're looking for a web-designer (Wordpress, Bootstrap, Jekyll frameworks) or a coder, feel free to leave a quote here via the contact form below.
 
 
-
 <!-- Google AdSense -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Unit1 -->
