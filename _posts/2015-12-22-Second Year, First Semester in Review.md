@@ -1,0 +1,175 @@
+---
+layout: post
+title: Second Year | First Semester in Review
+categories: [NUS, Education]
+tags: [NUS, Education, CP2201, CP3108B, CS2101, CS2103T, EE2020, EE2021, LAF1201, CFG1001]
+cover: 'assets/images/cover3.jpg'
+navigation: True
+subclass: 'post tag-nus tag-education'
+logo: 'assets/images/logo.png'
+---
+The following blog post is also available on my Wordpress site [here](https://harishv7.wordpress.com/2015/12/24/second-year-first-semester-in-review/).
+
+<hr>
+
+The past semester is definitely the busiest semester I have been through. There was literally no time for anything else other than studies and projects. Part of the reason (as you will see), is that I took 8 modules this time. However, one of them, CP3108B - Orbital has already been completed. Two of the other modules CP2201 and CFG1001 lasted only for the first half of the semester, thankfully. This allowed for a slightly relaxed timetable in the second half of the semester.
+
+Right now, I am really glad that I managed to do my best through the semester. And for those who are anticipating such a semester, I felt you might find a review of the modules handy. So here it is:
+
+<hr>
+
+<h2> CP 2201: Journey of the Innovator </h2>
+
+This is a module about entrepreneurship and is worth 2 MCs. The grading is also in the form of Completed Satisfactorily (CS) or Completed Unsatisfactorily (CU) which means that the grade obtained will not affect the current CAP you have.
+
+Personally, I found this module to be very engaging and entertaining. It provided me with what I wanted to learn about entrepreneurship. Each week, there were invited guest speakers who share their experience on entrepreneurship. A typical outline of the module looks like this:
+
+- Week 1: Introduction to module and some basic information
+- Week 2: Guest speakers from PropertyGuru and Reebonz with Q&A
+- Week 3: Guest speakers from upcoming startups: Klinify, Lomotif and InvestingNote with Q&A
+- Week 4: Guest speakers from Red Dot Ventures and Golden Gate Venture with Q&A
+
+Each week, there will be a short assignment which requires some reflection on various aspects of entrepreneurship as well as the guest speakers and the companies.
+
+All in all a great module to learn from entrepreneurship.
+
+PS: Oh did I mention that there is a buffet dinner and networking session for 30 mins weekly?
+
+Difficulty (out of 5): ☆
+
+<hr>
+
+<h2> CS2101: Effective Communication for Computing Professionals </h2>
+
+This is a twinned module with CS2103T (see below). Basically, this module teaches you to write and present your ideas in an effective manner. Communication skills, writing skills and presentation skills are the 3 most crucial skills required to do well.
+
+I found this module good as I was able to pick up on the above-mentioned skills. However, there are a number of continual assessments for this module since there are no final exams. This means you will be kept busy almost every week.
+
+Nevertheless, some of the CAs are simple activities like doing a reflection on communication or your oral presentations. Some of the assessments I remember doing are:
+- Reflection on Communication Skills & Commenting on others' reflections
+- Oral Presentation 1 (OP1)
+- Writing a Project Proposal
+- Writing of a Progress Report on the software project
+- Oral Presentation 2 (OP2)
+- Reflection 2 on OP2 & Commenting on others' reflections
+- Writing of a Project Manual (Developer and User Guide)
+
+To do well in this module, it is crucial to have the enthusiasm and appreciation for what you are doing. Of course, that will also help you to be more participative in your class (participation is also counted for grading). Also, I cannot emphasise enough on having a good team who can support you in these tasks. This is definitely not a one-man-army type of module for you to do alone. Effective teamwork is important in bringing out the best in most parts of the module.
+
+Difficulty (out of 5): ☆ ☆
+
+<hr>
+
+<h2> CS2013T - Software Engineering </h2>
+
+I have been looking forward to this module for some time. Personally, I love software engineering and development. 
+
+This module was personally very enriching and I got to learn a lot in terms of the various software engineering principles. That being said, this is one of the most hectic modules. As a team of 4, we were tasked to build a desktop-based task manager from scratch which had a primary input through the keyboard. By task manager, I mean a productivity software akin to popular ones like Google Keep, Todoist, Wunderlist, Any.do etc.
+
+The grading of the module was divided into 3 main areas: Project (50%), Final Exam (40%) and Participation (10%). As such, the project hold the majority of the weightage and that makes this module different from conventional ones. We apply what we learn. Every week, the lecture introduces new principles and concepts relevant to software engineering. Much of these knowledge can be immediately applied to the project we are doing.
+
+CS2103T is also twinned with CS2101 (as described above). Hence, many of the things we do such as developer's guide, user guide etc. are relevant to the project. The use of version control (Git or GitHub) is extremely crucial for the project and came in really handy. We are prone to introduce bugs/errors when 3-4 people "operate" on the code simultaneously. Having revision control allowed such to keep track of these changes and simply revert our changes if we found them to be buggy later on.
+
+The participation segment is the easiest to score and you should definitely score the full 10% here. Points can be earned through the proper completion of pre-tutorial and in-tutorial activities, answering questions in lectures, successful completion of weekly lectures quizzes on IVLE etc. There is maximum cap of 200 points which means that any points exceeding the 200th mark will not contribute to the participation points for grading.
+
+The final exam tests the skills we have learnt throughout the semester. If you have learnt and applied these concepts well for the software project, it will be much easier to score here. The CS2103T module handbook (a 200-page document/textbook companion) is a must-read for scoring well for the exams. It helps to reinforce the concepts learnt and clears the small gaps in understanding.
+
+On a personal note, I learnt a lot through this module. My team and I managed to create quite a cool desktop application called "FINI". The name inspired from French, in which Fini refers to finished or accomplished. We felt that this accurately represents the goal of our app and it was easy to remember too! 
+These are some of the screenshots of the application:
+
+![FINI's Welcome Screen](http://i.imgur.com/rwUcDNl.png)
+
+![FINI's Overview](http://i.imgur.com/c6qWEbI.png)
+
+![FINI's Screenshot](http://i.imgur.com/OIFjxyi.png)
+
+Over time, my team and I became really passionate about what we were doing and we even made a cool video for our Oral Presentation 2 in CS2101 and to also serve as an introductory product demo video during our CS2103T demonstration. Here it is:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/utI1N5hhFSs" frameborder="0" allowfullscreen></iframe>
+
+Video Credits: Jonas, Team FINI
+
+FINI is available for download and use here: [GitHub Link](https://github.com/cs2103aug2015-t16-1j/fini/releases/tag/v0.5)
+
+Overall, an interesting yet hectic module. If you love creating cool stuff, you will love this module.
+
+Difficulty (out of 5): ☆ ☆	☆ ☆
+
+<hr>
+
+<h2> EE2020 - Digital Fundamentals </h2>
+
+This is a 5MCs module which is split into 2 parts. The first part is relatively easier to understand and introduces the basic building blocks of computers such as logic gates. The second part is focused mostly on slightly more intricate topics such as Finite State Machines (FSMs).
+
+There are also lab and project components in this module. The labs are mostly manageable and primarily introduces the use of FPGAs and the hardware description language known as Verilog. The project is done individually and it involved creating an oscilloscope out of the FPGA. This was really cool because oscilloscopes generally cost many hundreds of dollars. Using a simple FPGA to create an oscilloscope was indeed interesting!
+
+Most of it involved writing Verilog for the FPGA to interpret and display the incoming signal from the signal generators in the lab. The project was graded individually with a range of criteria. Two main influencing factors are the number of features (such as scaling, translating, displaying words/labels, pointers) and the uniqueness of the features *as compared to your peers*.
+
+There are no final exams. Instead there is a midterm quiz and final quiz (each 20%) and the rest of the assessment is based on labs and projects.
+
+On the whole, a manageable module. Be creative with the project.
+
+Difficulty (out of 5): ☆ ☆ ☆
+
+<hr>
+
+<h2> EE2021 - Devices and Circuits </h2>
+
+This module has a lot of theory and formulas on semiconductors. Personally, I found it quite intensive and usually took me the most time out of all my modules to revise and gain a complete understanding of what was being taught.
+
+The assessment for this module is Homework (10%), Midterm test (20%), Quiz (5%), Final Exam (65%), though I do not remember taking a quiz for the 5%.
+
+The topics covered were very structured starting from the building blocks and slowly moving on to bigger components: Semiconductors -> PN junctions -> Bipolar Junction Transistors (BJT) -> Metal Oxide Semiconductors Field Effect Transistors (MOSFET) -> CMOS Logic -> Single Stage Amplifiers -> Multistage Amplifiers -> Opamps.
+
+This was really overwhelming and was like a bit of PC1432 again. The first part (before midterms) is usually much easier to understand than the second part. So make sure you ace the midterms.
+
+On the whole, a difficult module indeed due to the time commitment for understanding and revision. If you can appreciate what you learn, it will greatly help in the learning process.
+
+Difficulty (out of 5): ☆ ☆ ☆ ☆
+
+<hr>
+
+<h2> LAF1201 - French 1 </h2>
+
+I took this module out of curiosity and the eagerness to learn a new language. I had shortlisted Chinese, Hindi and French and finally decided on French.
+
+Why? Firstly, we need to understand that learning a language takes considerable time and effort to both learn, grasp and then practice speaking it. And doing all this while juggling other modules during a period of 1 semester is not a joke. French is apparently written with English alphabets with some accented ones. Also, it is similar to English or rather English is similar to French. As compared to other languages like Chinese and Hindi, this meant that I do not need to spend extra time learning to write the new alphabets which would help to save a considerable amount of time.
+
+I must say French was really awesome. The people I met were mostly from FASS, but there were a few of them like me from Engineering or some from Pharmacy and Business. I really liked like environment. It was very interactive and my lecturer Dr Daniel Chan made sure everyone participated in each lesson. The interaction and fun during lessons made me like French even more. To ensure this interaction, all lessons are tutorials (no lectures).
+
+Workload wise, since there are no final exams, you will be having tests / quizzes / homework more frequently than you would have expected to. There are quizzes on the French culture, vocabulary, grammar, audio recording of a self-introduction, writing of an email for an imaginative scenario etc. The final test is an oral conversation between 2 you and two others from your group in front of the lecturer.
+
+I would say it is relatively easy to score for the tests if you have consistently practised French (both writing and speaking). That being said, also means that your peers will score well. Personal advice is to revise the notes posted on IVLE and use Google Translate to its fullest capability. I also utilised the [Duolingo](https://www.duolingo.com) app (web & mobile) to learn much of the content. Oh yes, if you have an iPhone, you can set the language for Siri as French and converse with it in French. It's quite cool and you can also check on your pronunciation by seeing if Siri understands what you just said.
+
+All in all, a very enjoyable module taught by a great lecturer. 
+
+Difficulty (out of 5): ☆ ☆
+
+<hr>
+
+<h2> CP3108B - Independent Work (Orbital Programme) </h2>
+
+I participated in the Orbital programme during the summer break before my semester 1. I have written a post on the Orbital experience which is available [here](http://harishv7.github.io/blog/education/nus/college/techstuff/2015/08/19/Orbital%202015/) and [here](https://harishv7.wordpress.com/2015/08/20/orbital-2015).
+
+Difficulty (out of 5): ☆ ☆	☆
+
+<hr>
+
+<h2> CFG1001 - Headstart Module </h2>
+
+While this is a 0 MCs module to prepare you for your career, there is a reason I have written about it here. Before attending the sessions, I was a little complacent and thought of this module as something that is snatching my precious time away. However, upon attending the module, I thought differently. 
+
+This module helps to expose how it is like in the "real" world outside of NUS. Preparing for a career also includes preparing for the various interviews, networking with others etc. And it helped me understand and appreciate the importance of many skills and pointers which will definitely come in handy during my interview applications etc.
+
+This module is graded with a Completed Satisfactorily (CS) or CU (Completed Unsatisfactorily) grade. You'll just need to attend all the 2-3 face-to-face sessions to get a CS grade.
+
+Difficulty (out of 5): (Nil)
+
+<hr>
+
+And, I just realised I have 4 consecutive exams in the coming semester! 
+
+Guess I need to mentally prepare for it. After all, the only easy semester was the last semester!
+
+Cheers, <br>
+Harish V
