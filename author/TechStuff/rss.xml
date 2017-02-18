@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Data Science Student Challenge 2016 Experience</title>
+	  <link>/blog//Data-Science-Student-Challenge-Experience</link>
+	  <author>Harish V</author>
+	  <pubDate>2016-03-29T00:00:00+00:00</pubDate>
+	  <guid>/blog//Data-Science-Student-Challenge-Experience</guid>
+	  <description><![CDATA[
+	     <h2 id="about-the-challenge--our-product">About the Challenge &amp; Our Product</h2>
+
+<p>Recently, I had the opportunity to participate in the Data Science Student Challenge which was co-organised and sponsored by Microsoft.</p>
+
+<p>I took part in this event together with my friends Alvian, Chris &amp; Ida. We worked tirelessly over just 24 hours to build a full-fledged working application which integrates the concepts of machine learning and data science. And the result of our effort was “Prosper”.</p>
+
+<p>The following extract is from our Github page.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Prosper</span> <span class="n">stands</span> <span class="k">for</span> <span class="no">Property</span> <span class="no">Resale</span> <span class="no">Price</span> <span class="no">Forecaster</span><span class="o">.</span>
+
+<span class="no">It</span> <span class="n">is</span> <span class="n">essentially</span> <span class="n">an</span> <span class="n">application</span> <span class="n">that</span> <span class="n">can</span> <span class="n">predict</span> <span class="n">the</span> <span class="n">future</span> <span class="n">resale</span> <span class="n">value</span> <span class="n">of</span> <span class="n">your</span> <span class="n">flat</span> <span class="p">(</span><span class="k">in</span> <span class="no">Singapore</span><span class="p">)</span><span class="o">!</span> <span class="no">Sounds</span> <span class="n">exciting?</span>
+
+<span class="no">We</span> <span class="n">have</span> <span class="n">combined</span> <span class="n">the</span> <span class="n">power</span> <span class="n">of</span> <span class="no">Microsoft</span> <span class="no">Azure</span><span class="err">'</span><span class="n">s</span> <span class="no">Machine</span> <span class="no">Learning</span> <span class="n">capabilities</span> <span class="n">together</span> <span class="n">with</span> <span class="n">the</span> <span class="n">resale</span> <span class="n">flat</span> <span class="n">data</span> <span class="n">from</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">data</span><span class="p">.</span><span class="nf">gov</span><span class="p">.</span><span class="nf">sg</span> <span class="n">to</span> <span class="n">utilise</span> <span class="n">over</span> <span class="mi">15</span> <span class="n">years</span> <span class="n">of</span> <span class="n">data</span> <span class="n">and</span> <span class="mi">480</span><span class="p">,</span><span class="mo">000</span> <span class="n">data</span> <span class="n">points</span> <span class="k">for</span> <span class="n">an</span> <span class="n">astonishing</span> <span class="mi">95</span><span class="o">%</span> <span class="p">(</span><span class="n">error</span> <span class="n">margin</span> <span class="n">of</span> <span class="o">+-</span><span class="mi">5</span><span class="o">%</span><span class="p">)</span> <span class="n">accuracy</span> <span class="k">in</span> <span class="n">prediction</span> <span class="n">of</span> <span class="n">the</span> <span class="n">price</span><span class="o">.</span>
+
+<span class="no">As</span> <span class="n">a</span> <span class="n">pro</span> <span class="n">analytics</span> <span class="n">feature</span><span class="p">,</span> <span class="no">Prosper</span> <span class="n">also</span> <span class="n">provides</span> <span class="n">a</span> <span class="n">suggestion</span> <span class="n">on</span> <span class="k">when</span> <span class="n">you</span> <span class="n">should</span> <span class="n">be</span> <span class="n">selling</span> <span class="n">your</span> <span class="n">flat</span> <span class="n">based</span> <span class="n">on</span> <span class="n">your</span> <span class="n">expected</span> <span class="n">annual</span> <span class="n">growth</span> <span class="n">rate</span> <span class="n">of</span> <span class="n">the</span> <span class="n">flat</span> <span class="n">price</span><span class="o">.</span> <span class="no">Hence</span><span class="p">,</span> <span class="n">the</span> <span class="n">application</span> <span class="n">tries</span> <span class="n">to</span> <span class="n">maximise</span> <span class="n">your</span> <span class="n">profit</span> <span class="n">given</span> <span class="n">the</span> <span class="n">expected</span> <span class="n">growth</span> <span class="n">price</span> <span class="n">per</span> <span class="n">annum</span><span class="o">.</span>
+
+<span class="no">This</span> <span class="n">application</span> <span class="n">runs</span> <span class="n">using</span> <span class="no">Java</span> <span class="n">and</span> <span class="n">you</span> <span class="n">can</span> <span class="n">download</span> <span class="n">it</span> <span class="n">from</span> <span class="n">the</span> <span class="no">Releases</span> <span class="n">page</span><span class="o">.</span>
+
+<span class="no">Prosper</span> <span class="n">was</span> <span class="n">developed</span> <span class="k">in</span> <span class="mi">24</span> <span class="n">hours</span> <span class="k">in</span> <span class="n">the</span> <span class="no">National</span> <span class="no">University</span> <span class="n">of</span> <span class="no">Singapore</span> <span class="p">(</span><span class="no">NUS</span><span class="p">)</span> <span class="no">Data</span> <span class="no">Science</span> <span class="no">Student</span> <span class="no">Challenge</span> <span class="n">supported</span> <span class="n">by</span> <span class="no">Mircosoft</span><span class="o">.</span>
+
+<span class="no">Prosper</span> <span class="n">managed</span> <span class="n">to</span> <span class="n">secure</span> <span class="n">the</span> <span class="mi">5</span><span class="n">th</span> <span class="n">place</span> <span class="n">among</span> <span class="n">dozens</span> <span class="n">of</span> <span class="n">teams</span> <span class="n">at</span> <span class="no">NUS</span> <span class="no">Data</span> <span class="no">Science</span> <span class="no">Student</span> <span class="no">Challenge</span> <span class="mi">2016</span><span class="o">.</span></code></pre></figure>
+
+<p>Below are some screenshots of the application. You can download and give Prosper a try <a href="https://github.com/harishv7/Prosper/releases">here</a>.</p>
+
+<h2 id="experience">Experience</h2>
+
+<p>While it was extremely tiring, it was really a fulfilling experience. In that intense 24 hours, I actually learnt so much skills. It also proved that to learn something new, we only needed the determination and the dedication to pursue it.</p>
+
+<p>Alvian has always been interested in the topics of data science and machine learning. Naturally, he was able to lead our discussion and ideas prior to the building of the actual application. I was in charge of developing the desktop client to communicate with the APIs provided by Microsoft Azure.</p>
+
+<p>Initially, I tried using simple AJAX calls through a website. However, it did not work due to some error relating to the blockage of “Cross-Origin Requests”. After about 2 hours and going through multiple StackOverflow questions, we decided to change track. I never thought my experience in a previous module, CS2103 Software Engineering, will help me. I used the good old legacy language Java as it was stable and what everyone in my team knew best. Our technology stack was essentially JavaFX to design the layout the GUI and pure Java for the backend logic.</p>
+
+<p>Both Ida and Chris helped me and Alvian to get the building of the application done. Meanwhile, Alvian started training the model for our app with the data provided by <a href="https://data.gov.sg/developer">https://data.gov.sg/developer</a>.</p>
+
+<p>After getting through the initial round, my team was selected for the finals where we had to present to a panel of judges. It was really a tough experience. Imagine 24 hours++ without sleep and still needing the energy to be able to present lively to the audience in front of you.</p>
+
+<p>While we did not obtain the top 3 prizes, I was definitely overjoyed to have my team in the 5th place considering that we were all just sophomores in NUS without much experience in these field. I definitely look forward to participating in the next challenge.</p>
+
+<h2 id="screenshots">Screenshots</h2>
+
+<p><img src="http://i.imgur.com/UyzzCLM.png" alt="Image1" />
+<img src="http://i.imgur.com/eWqAGKg.png" alt="Image2" /></p>
+
+<p>Cheers, <br />
+Harish V</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Gamecraft 2015!</title>
+	  <link>/blog//Gamecraft-2015</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-12-06T00:00:00+00:00</pubDate>
+	  <guid>/blog//Gamecraft-2015</guid>
+	  <description><![CDATA[
+	     <p><img src="http://i.imgur.com/KnFi8cM.png " alt="TwistedMaze Logo" style="width: 200px;" /></p>
+
+<p>I recently participated in Gamecraft 2015. This is my 2nd time participating this is “game-hackathon”. This time my team consisted of Al, Ted, Chris &amp; myself. The theme for this year was “Twist”. As usual, the interpretation of this theme in relation to the game was left open to us.</p>
+
+<p>One of the first things that came to my mind was a maze that twists. As I was imagining this idea, I suddenly had this inspiration from this book <a href="https://en.wikipedia.org/wiki/The_Maze_Runner">The Mazerunner</a>. It is a book where a group of “hostages” have to escape from a ever-changing labyrinth. There has also been a movie released with the same name.</p>
+
+<p>I suggested this idea and we tried brainstorming a few ideas before settling and finalising on this one. After this decision, we focused our efforts towards the game development. Me and Chris took on the roles of the game design where we made the shifting maps for the maze and the necessary sprites.</p>
+
+<p>Ted was the sound engineer and gather suitable sounds for use in the game. Al, being the lead programmer of the group, devoted his attention to the game physics and the actual coding of the game.</p>
+
+<p>We utilised Unity for the game and eventually (after 24 hrs) managed to come up with a finished game, TwistedMaze. TwistedMaze is available for download (both Mac and Windows versions) at <a href="https://github.com/harishv7/TwistedMaze/releases">GitHub</a>.</p>
+
+<p>Future work on porting the game to Android and iOS is currently being discussed.</p>
+
+<p>Hope you enjoy playing the game as much as we enjoyed creating it. :)</p>
+
+<p>Cheers, <br />
+Harish V</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Hey Siri, Give me a hint!</title>
+	  <link>/blog//Hey-Siri,-Give-me-a-hint!</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-08-29T00:00:00+00:00</pubDate>
+	  <guid>/blog//Hey-Siri,-Give-me-a-hint!</guid>
+	  <description><![CDATA[
+	     <p>Visited Apple’s events page today and was greeted by this:</p>
+
+<p><img src="assets/AppleEvent/webpage.png" alt="Apple's Events Page" /></p>
+
+<p>And true enough, Siri responded with it’s usual level of cuteness:</p>
+
+<hr />
+
+<div class="images">
+<img class="siri" align="left" src="http://imgur.com/F6PcUgU.png" />
+<img class="siri" align="middle" src="http://imgur.com/C44CeZq.png" />
+<img class="siri" align="right" src="http://i.imgur.com/cPPGI8Y.png" />
+<br />
+<img class="siri" align="left" src="http://i.imgur.com/Nm4rD5C.png" />
+<img class="siri" align="middle" src="http://i.imgur.com/3YCMIUk.png" />
+<img class="siri" align="right" src="http://i.imgur.com/rfc5tdG.png" />
+<br />
+<img class="siri" align="left" src="http://i.imgur.com/yjFhbHU.png" />
+<img class="siri" align="middle" src="http://i.imgur.com/10ELJWN.png" />
+<img class="applelogo" align="right" src="/blog/assets/AppleEvent/apple.png" />
+</div>
+
+<style>
+.images{
+    text-align:center;
+}
+.applelogo{
+	width:160px;
+	height: 240x;
+	padding-top: 50px;
+}
+.siri{
+	width: 160px;
+		height: 284px;
+		display:inline-block;
+}
+</style>
+
+<p>Cheers, <br />
+Harish</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Orbital 2015</title>
+	  <link>/blog//Orbital-2015</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-08-19T00:00:00+00:00</pubDate>
+	  <guid>/blog//Orbital-2015</guid>
+	  <description><![CDATA[
+	     <p><img src="http://i.imgur.com/5EjaKFa.png" alt="Friendezvous" /></p>
+
+<p>After 3 months of hard work, the Orbital programme came to a close on 19th Aug 2015. It was a great experience and I picked up many skills of both front and back end development. I did the project with Al who was very supportive during the 3 months though he was on vacation.</p>
+
+<p>The project’s inspiration came from our shared experiences in daily college life. Many of the times we tend to organise meetings manually. A typical process goes like this (A,B,C are persons).</p>
+
+<blockquote>
+  <p>A–&gt;B: Hey, are you free tomorrow for a project meeting at 2-4pm? <br />
+B–&gt;A: Yup, that’ll be good I guess. <br />
+A–&gt;C: Hey, are you free tomorrow for a project meeting at 2-4pm? <br />
+C–&gt;A: Oh no, I don’t think I’ll be free. How about some other day? <br />
+A (thinks to him/herself): Darn, got to ask B and C for another timing again! <br /></p>
+</blockquote>
+
+<p>As shown above, the typical manual process is tedious where we often WhatsApp or message one another for free slots and try to match it all up for a common time to meet. In the point of view of the meeting administrator, it is a rather painstaking process when he/she has to repeatedly ask the team members for a suitable time to meet.</p>
+
+<p>To solve this issue, I suggested to Al that we should maybe develop a platform which can make the organising of meetings simpler and redefine the ways of doing so. And from there, Friendezvous was born. Friendezvous is an amalgamation of the words Friend and Rendezvous (a meeting at an agreed time and place). So essentially Friendezvous refers to meetings with friends, colleagues etc. And we decided on a relevant tagline as well: “Organising meetings, redefined.”.</p>
+
+<p>I think I should describe a little of the technical aspects of Friendezvous as well. Friendezvous was built using the good old LAMP stack. We used PHP and MySQL along with front-end technologies/frameworks such as HTML, CSS, jQuery, jQuery UI, Bootstrap (modified), Angular JS. The development itself was not the difficult part. The hardest part of this journey was to think as an user of this platform. How would an user using Friendezvous feel about the workflow of this app? Is it too complicated? Can we improve on the workflow to minimise the number of steps/clicks an user is required to make to achieve an objective? These are the various questions which were running on our minds all the time. After all, software/app development is not just about blinding writing code.</p>
+
+<p>There is much more to that.</p>
+
+<p>We are dealing with real life users here. Then, we decided to conduct a survey to analyse the perception of our target audience towards the platform. We did it with a closed circle of friends and received very positive feedback. It was definitely a morale booster to our idea and efforts. More than anything, we were passionate about what we did. Even if we made a positive difference in a single person’s life, it would mean a lot to us.</p>
+
+<p>Orbital Splashdown, where all the teams (from beginner, intermediate &amp; advanced levels) came together to showcase their work, was held on 19th August 2015. It was exhilarating to see so many applications built by students like myself. I was inspired by many apps, with their technical aspects as well as the business models they were planning to develop.</p>
+
+<p>I was extremely joyful when the visitors to my booth exclaimed “Wow, that is one app I think I would use!” or “This is an excellent app bro!”. They were also impressed at the various features like notification tracking and location suggestions Friendezvous offered.</p>
+
+<p>On the whole, Orbital 2015 was an exciting journey. I am going to make it a point to develop an application every summer. I find fulfilment in learning so many technologies.</p>
+
+<p>As for Friendezvous, currently it is available here: <a href="http://friendezvous.herokuapp.com">Friendezvous</a>.</p>
+
+<p>Development is very active and Al and myself aim to launch Friendezvous as a commercial platform soon (in about 3-5 months). After which, we are planning on porting this towards an Android and iOS application as well.</p>
+
+<p>Do try Friendezvous if you can and send me your comments in the comment box on my blog or to my <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#097;&#114;&#105;&#115;&#104;&#050;&#048;&#055;&#064;&#108;&#105;&#118;&#101;&#046;&#099;&#111;&#109;">email</a>.</p>
+
+<p>Details on the Orbital programme is <a href="http://orbital.comp.nus.edu.sg/">here</a>.</p>
+
+<p>Cheers, <br />
+Harish</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Virtual Reality - Google Cardboard</title>
+	  <link>/blog//Virtual-Reality</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-07-12T00:00:00+00:00</pubDate>
+	  <guid>/blog//Virtual-Reality</guid>
+	  <description><![CDATA[
+	     <p>I got a Google Cardboard yesterday. The Google Cardboard comes as a laser-cut template (which you have fold and fix yourself), two 45mm biconvex lenses, 2 neodymium magnets, 2 pairs of velcro and a rubberband.</p>
+
+<p>It’s really simple to fold and use and all you’ve to do is to download a VR app onto the phone and slot it into the font of the Cardboard.</p>
+
+<p>A great thing about the Google Cardboard is that it utilises the magnetic switch as a trigger. So while using an app, using the ‘button’ will allow you to interact the same way as you touch your phone’s screen. As compared to other VR devices, such as the VR One, the magnetic switch is something exclusive to the Cardboard.</p>
+
+<p>There are many apps such as the Cardboard app (which allows you to watch movies, use Google Earth etc.), VR Roller Coaster (which takes you on a ride through the roller coaster) and the apps are definitely growing in number in the App Store.</p>
+
+<p>Virtual Reality is definitely here to stay and it’s development excites me. It opens up many new and different possibilities that people have only dreamt of. We can start to enjoy experiences which previously required us to be physically present elsewhere. The nascent virtual reality is rapidly developing.</p>
+
+<p>Whether virtual reality is good or bad, that depends. There will always be people who might use VR technologies to enjoy in the world they want, without any grasp of reality. But on the other hand, VR’s potential can surely bring quality and happiness to many lives. For now, let’s hope that VR will bring us a more enjoyable future in the coming years!</p>
+
+<p><a href="#images">Below</a> are pictures of the Google Cardboard.</p>
+
+<p>Cheers, <br />
+Harish</p>
+
+<hr />
+
+<div id="images">
+<img class="cardboard" src="/blog/assets/GoogleCardboard/image2.jpeg" />
+<img class="cardboard" src="/blog/assets/GoogleCardboard/image3.jpeg" />
+<img class="cardboard" style="height:450px" src="/blog/assets/GoogleCardboard/image6.jpeg" />
+</div>
+
+<style type="text/css">
+	.cardboard{
+		width: 500px;
+		border-radius: 15%;
+	}
+</style>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Clean & Green Hackathon 2015</title>
+	  <link>/blog//Clean-&-Green-Hackathon</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-06-22T00:00:00+00:00</pubDate>
+	  <guid>/blog//Clean-&-Green-Hackathon</guid>
+	  <description><![CDATA[
+	     <p><img src="http://www.cgs.sg/wp-content/uploads/2014/10/For-Event-Subpages.jpg" /></p>
+<p>Image Credits: http://www.cgs.sg/events/calendar/hackathon/workshop/</p>
+
+<p>I participated in the Clean &amp; Green Hackathon this weekend. This is second hackathon I participated in after Gamecraft (Organised by NUS Games Development Group) last year. It was particularly a very enriching experience. Held on a larger scale (nation-wide) and open to all ideas and hacks (including hardware, software, apps, games etc.) and people from all age groups, I was able to understand what to expect in a hackathon.</p>
+
+<p>Unlike a continuous 24 hours hackathon, we were allowed to go home and return the next morning. It took place over a period of 3 days, starting from Friday (Ideation and pitching) till Sunday (when the judging and prize presentation was held).</p>
+
+<p>I got to know many people from different backgrounds and learn a lot from their ideas as well. Some were just there for the pure fun of it, to exchange ideas and make good friends. Some ideas were just excellent and gave me many new insights into further development of my own idea.</p>
+
+<p>This time, my team (Kenny, Yong Zhi &amp; myself) came up with the idea of a web &amp; mobile ready platform called “The Greenlist”. It is basically a peer-to-peer connecting app where one can post his/her old items (eg: laptops, handphones, toys, books, furniture etc.) up for donation.</p>
+
+<p>Anyone who needs this item but are willing to have it secondhand (and for free) can simply claim this item, and thereafter proceed to collect the item from the donor themselves. Each successful donation earns the donor some reward points which can then be redeemed for vouchers. To fund the operating costs (which are minimal), we proposed</p>
+<ol>
+    <li>In-App Advertising</li>
+    <li>In-App Purchases (Eco-friendly items etc.)</li>
+    <li>Sponsorship for vouchers</li>
+    <li>Optional donation before claiming an item</li>
+</ol>
+<p>Once the idea was formed, we made a prototype both for the web and mobile platform (using Justinmind software).</p>
+
+<p>On Sunday, as the group leader, I made the pitch for our idea and gave a demo of our prototype. Given only 3 minutes for the pitch, it was crucial to make the most out of each and every second to create an everlasting impression of the idea &amp; product/service. Though nervous, having take some public speaking training and course in NUS allowed me to focus on the pitch and do my best.</p>
+
+<p>One of the learning points was that I realised that I might have focused too much on the demo of the prototype itself. I should have instead allocated a major part towards helping the audience understand and appreciate the relevance and usefulness of the app in their lives.</p>
+
+<p>Also, the idea is crucial in a hackathon (even more than the prototype)! An effective idea will definitely win people over.</p>
+
+<p>Though, my team did not win, we were thankful for the experience. This hackathon gave me some crucial experience that will help me do better in the forthcoming hackathons I will be participating.</p>
+
+<p>“The Greenlist” project is hosted <a href="https://github.com/harishv7/thegreenlist">here</a>.</p>
+
+<p>The Clean &amp; Green Hackathon event was covered by Channel NewsAsia and the coverage <a href="http://www.channelnewsasia.com/news/singapore/ideas-to-solve-littering/1931422.html?cid=fbsg">available here</a>.</p>
+
+<p>The photos of the Hackathon are <a href="https://www.facebook.com/media/set/?set=a.842836635769622.1073741869.310427622343862&amp;type=3">available here</a>.</p>
+
+<p>More details on the teams and ideas which won and competition details are <a href="http://www.upsingapore.com/events/clean-green-hackathon-2015/#hackathonhome">here</a>.</p>
+
+<p>Cheers, <br />
+Harish</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Gamecraft 2014</title>
+	  <link>/blog//Gamecraft-2014</link>
+	  <author>Harish V</author>
+	  <pubDate>2014-12-05T10:18:00+00:00</pubDate>
+	  <guid>/blog//Gamecraft-2014</guid>
+	  <description><![CDATA[
+	     <p>I recently took part in Gamecraft 2014, organised by NUS Games Development Group (GDG). My first so-called “hackathon” experience. Glad to have worked with great teammates, Alvian, Chris &amp; Tio. Learnt a lot from one another.</p>
+
+<p>In the given 24 hours and under the theme of “Contact”, we had to design and build a working game! This was a tough task, since we had to ideate within a short span of time and build a working prototype.</p>
+
+<p>Nevertheless, some of my teammates had prior experience with platforms such as Gamemaker and Unity which allowed us to have a clear vision of how exactly are we going to execute our gameplan.</p>
+
+<p>Below is the link to final copy of the 2D game, titled “ConTag”, which also won us the 2nd Prize in Gamecraft 2014!</p>
+
+<p><a href="https://www.dropbox.com/sh/o2snaeg836jelzr/AAD-Lxa5URgMqDPM-J8G1cr9a?dl=0">Download ConTag</a></p>
+
+<p>Cheers, <br />
+Harish</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

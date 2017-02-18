@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Gamecraft 2015!</title>
+	  <link>/blog//Gamecraft-2015</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-12-06T00:00:00+00:00</pubDate>
+	  <guid>/blog//Gamecraft-2015</guid>
+	  <description><![CDATA[
+	     <p><img src="http://i.imgur.com/KnFi8cM.png " alt="TwistedMaze Logo" style="width: 200px;" /></p>
+
+<p>I recently participated in Gamecraft 2015. This is my 2nd time participating this is “game-hackathon”. This time my team consisted of Al, Ted, Chris &amp; myself. The theme for this year was “Twist”. As usual, the interpretation of this theme in relation to the game was left open to us.</p>
+
+<p>One of the first things that came to my mind was a maze that twists. As I was imagining this idea, I suddenly had this inspiration from this book <a href="https://en.wikipedia.org/wiki/The_Maze_Runner">The Mazerunner</a>. It is a book where a group of “hostages” have to escape from a ever-changing labyrinth. There has also been a movie released with the same name.</p>
+
+<p>I suggested this idea and we tried brainstorming a few ideas before settling and finalising on this one. After this decision, we focused our efforts towards the game development. Me and Chris took on the roles of the game design where we made the shifting maps for the maze and the necessary sprites.</p>
+
+<p>Ted was the sound engineer and gather suitable sounds for use in the game. Al, being the lead programmer of the group, devoted his attention to the game physics and the actual coding of the game.</p>
+
+<p>We utilised Unity for the game and eventually (after 24 hrs) managed to come up with a finished game, TwistedMaze. TwistedMaze is available for download (both Mac and Windows versions) at <a href="https://github.com/harishv7/TwistedMaze/releases">GitHub</a>.</p>
+
+<p>Future work on porting the game to Android and iOS is currently being discussed.</p>
+
+<p>Hope you enjoy playing the game as much as we enjoyed creating it. :)</p>
+
+<p>Cheers, <br />
+Harish V</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Gamecraft 2014</title>
+	  <link>/blog//Gamecraft-2014</link>
+	  <author>Harish V</author>
+	  <pubDate>2014-12-05T10:18:00+00:00</pubDate>
+	  <guid>/blog//Gamecraft-2014</guid>
+	  <description><![CDATA[
+	     <p>I recently took part in Gamecraft 2014, organised by NUS Games Development Group (GDG). My first so-called “hackathon” experience. Glad to have worked with great teammates, Alvian, Chris &amp; Tio. Learnt a lot from one another.</p>
+
+<p>In the given 24 hours and under the theme of “Contact”, we had to design and build a working game! This was a tough task, since we had to ideate within a short span of time and build a working prototype.</p>
+
+<p>Nevertheless, some of my teammates had prior experience with platforms such as Gamemaker and Unity which allowed us to have a clear vision of how exactly are we going to execute our gameplan.</p>
+
+<p>Below is the link to final copy of the 2D game, titled “ConTag”, which also won us the 2nd Prize in Gamecraft 2014!</p>
+
+<p><a href="https://www.dropbox.com/sh/o2snaeg836jelzr/AAD-Lxa5URgMqDPM-J8G1cr9a?dl=0">Download ConTag</a></p>
+
+<p>Cheers, <br />
+Harish</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

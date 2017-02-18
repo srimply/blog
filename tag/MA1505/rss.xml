@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>MA1505 & MA1506 Help Sheets</title>
+	  <link>/blog//MA1505-&-MA1506-Help-Sheets</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-05-26T00:00:00+00:00</pubDate>
+	  <guid>/blog//MA1505-&-MA1506-Help-Sheets</guid>
+	  <description><![CDATA[
+	     <p>Both MA1505 and MA1506 are common modules undertaken by a vast majority of engineering students. They are not exactly easy, and so I thought I will post the helpsheets I have made for my examinations here in the hope that some of the students may find it useful when doing their own helpsheets.</p>
+
+<p>Do note that it is crucial for students to make their own helpsheets as printed or photocopied helpsheets are strictly not allowed. And from experience, it always helps to make your own helpsheet as it comes in as a form of revision.</p>
+
+<p><a href="https://drive.google.com/open?id=0BwSVKyZQM1obbEJiaW4zTFB5T0E"><strong>MA1505 Helpsheet</strong></a> <br />
+<a href="https://drive.google.com/open?id=0BwSVKyZQM1obQzdodmNwUEtvd2c"><strong>MA1506 Helpsheet</strong></a></p>
+
+<p>Cheers, <br />
+Harish</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>NUS First Year | First Semester in Review</title>
+	  <link>/blog//First-Semester-in-NUS</link>
+	  <author>Harish V</author>
+	  <pubDate>2014-12-25T00:00:00+00:00</pubDate>
+	  <guid>/blog//First-Semester-in-NUS</guid>
+	  <description><![CDATA[
+	     <p>It’s has been a great semester. Well, it was stressful, but it was particularly fulfilling. University life is exciting as I get to learn what I am most passionate about. The gradeless semester is another point that allowed me to read the modules without worrying too much about grades. Nevertheless, I was never aiming to SU any modules. Here is a quick review of the modules I took in Semester 1. All of them are pre-allocated since I am a Computer Engineering student, except the GEM I took.</p>
+<hr />
+
+<h2>CG1001: Introduction to Computer Engineering</h2>
+
+<p>The title of this module sums it up all. This module is meant to provide an overview of Computer Engineering for freshmen and allow them to have a clear understanding of what areas they can specialise in during their senior years. Basically, the workload is not much. <br />
+I was tasked with 2 reports (based on the specialisation areas in Computer Engineering) and a project video. The reports are 25% each and the video is 50%. Reports are done in pairs (randomly grouped by the professor). Similarly, for the project video, you will be assigned a group of four randomly. Then you have present a video (about 5 mins long) which presents the topic chosen in a creative and informative way. My group chose the topic on 4G LTE networks. We personally did it in the form of an advertisement and incorporated animation to make the video more interactive. This module is meant to help you pull up your CAP (though it is only 2 MCs). Give it your best, especially for the reports. Be creative and analytical when discussing the selected topic.</p>
+
+<p>Grade I obtained: <strong>A</strong><br />
+Very much delighted to have obtained an A. I had really given my best for the reports and the video (especially the animation and planning).</p>
+
+<hr />
+
+<h2>CS1010: Programming Methodolody</h2>
+
+<p>This was my most favourite module of this semester. I have no experience programming in C language. However, I was familiar with other languages like Python, Javascript and HTML. I personally like programming very much. The natural interest motivated me to do my best for this module. However, do not worry if you have no previous programming experience. Make sure you start learning the basics well, and do one practice task per day (there’s plenty of tasks on the CS1010 website). My lecturer was Mr Gary Tan. He is one amazing lecturer. He makes learning enjoyable and he is really funny. I am really happy to learn under him. He offered us a lot of help (separate group discussions and marking my past-year CS1010 papers I did for practice). <br /></p>
+
+<p>The lectures are taught in a flipped-classroom method. You are expected to revise the slides and notes before the lectures (held in computer labs). This is very important indeed. Despite the long lecture, it’s not enough to cover all the concepts thoroughly. It requires many hours of practise to get the programming concepts and fluency expected of you. The module grading is broken up into 2 practical exams (10%, 25%), 1 mid-term test (15%), take home lab assignments (5%), attendance (5%) and the final exam (40%). I did not do well for the 2 practical exams. The first one was especially bad. Though I had good practice, the exam stress itself and the pressure under time restrictions made me panic. As a result, I was not able to complete the 2 tasks on time. <br /></p>
+
+<p>Another mistake was that I focused on code logic and clarity, thinking that these criteria were also awarded significant marks. However, only after the exam did I know that close to 60% will be awarded for the correct output. Hence, focus on obtaining the right output. Your code may be inefficient, but it is your output that is being considered. Therefore, note that you are being awarded the marks for your ability to complete the task. The take home lab assignments are quite challenging. Try your best to complete it during the weekends. Last-minute stress is never good. Consult your friends and lecturers if you do not know how to do them. Lastly, and most importantly, finish the task within the suggested time limit (comes in helpful for the practical exams). Attendance and the lab marks (5% each) are really a giveaway for this module. Utilise it well and don’t skip tutorials unless you have a valid MC. The final exam was quite easy for me, except for one question. I guess it helped me to make up for the practical exams which I did not do as expected. <br /></p>
+
+<p>Final grade for CS1010: <strong>A-</strong> <br /></p>
+
+<p>Not exactly very happy with A-. Being my favourite module, I had really wanted an A+. But the practical exams pulled my overall grade down. :/</p>
+
+<hr />
+
+<h2>CS1231: Discrete Structures</h2>
+
+<p>I personally did not like this module when I first started. But as it progressed, I began to appreciate this module. It provides a different view to common concepts. You learn to prove everything. For example, you learn to prove that an even number plus another even number is even. Such seemingly simple things which we just assume to be true must be proven. One of the coolest things you’ll learn is to prove that 1+1 = 2. Well, if before this module, someone asked me to prove that I would have been stunned. But now, I do have an answer that proves this to be true. <br /></p>
+
+<p>Lecturers for the module were Prof Stephen Bressan and Prof Bryan Low. Both of them were good. Prof Stephen likes to ask interesting questions on the topic and invites your opinions and answers. But he does cover the chapters very quickly (especially the proofs). Prof Bryan Low was good too. He actually goes through every proof that is in his notes and makes sure that you understand it clearly. Both lecturers are really approachable. Make sure to clear your doubts immediately after the lecture (before you forget them). That being said, this module is really demanding as the pace of the lectures is extremely fast. The tutorials are really crucial for you to grasp the application of the concepts learnt during lectures to the questions in your tutorials. Personal advice: Do NOT skip the tutorials. The recommended textbook is Discrete Mathematics Demystified. I found it barely enough to understand all the concepts taught. Nevertheless, it helped me greatly to comprehend the basic concepts in each chapter. For challenging exercises, see past year questions or ask your tutor. <br /></p>
+
+<p>The module is graded based on a video project, a mid-term test and the final exam. As for the video project, my team focused on exploring the game of Tic Tac Toe. The video has been embed here:</p>
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Mo1_F806J_I" frameborder="0" allowfullscreen=""></iframe>
+
+<p>The video project is meant to help you to pull your grade up. Do give your best in terms of analysing and presenting the chosen topic. The mid-term test was quite easy and the final exam was moderately difficult. Some questions only required common sense, while others really tested the concepts and formulas you’ve been taught. All in all, a content-heavy module that can be done well with consistent practise and dedication to learning the concepts well.</p>
+
+<p>Final grade: <strong>A</strong> <br /></p>
+
+<p>Really happy with the grade as I did not expect it. :)</p>
+
+<hr />
+
+<h2>GEM2027: Public Speaking</h2>
+
+<p>I had to choose to do a SS/GEM/breadth module in the first semester. Public speaking was the only module that fitted my timetable and the skill itself seemed really useful. Plus a bonus was that there were no exams. Of course, instead of the final exam, you will be graded on some of the speeches and there will be a module quiz at the end as well as a video project to be delivered. Lecturer for the module is Ms Cardoza. She is a very good lecturer and I like her enthusiasm in each lecture. She is very approachable (both personally and on forums) and encouraged me to give my best in my speeches. The lectures basically introduces some tips and pointers for effective public speaking. Some are really common sense, but the thing is that many of us fail to follow them. We need to remember simple things like body language (eg: do not put your hands in your pockets) and tone which will be critiqued by your tutor. Such seemingly simple pointers will be reinforced again and again throughout the module. <br /></p>
+
+<p>The graded speeches are Informative (15%), Persuasive (20%) and Responders-Critique (15%). The other 50% is for the quiz and video. While there was plenty of time given for each speech, personally it really took up loads of time to prepare a good speech. It wasn’t as easy as writing the speech alone. Firstly, the speech category is broad. Hence, you will naturally spend quite a bit of time thinking on which topic you should speak about. Second, the preparation requires hours of research and analysis to support your points (any claim you make must be supported to establish your credibility to the audience). Third, you need to make your speech interesting, add some funny elements etc. Fourth, you need to practise again and again to ensure good body language and fluency of your speech. Fifth, if visual aids like PowerPoint is being used, you need to create the slides and practise controlling the slides. As you see, you need many hours of preparation before each speech. I usually use up my whole weekend doing the above. It wasn’t helpful that all my modules had tight deadlines to meet. Of course, if you’re someone who can manage your time easily or have prior experience in public speaking, this comes easy. <br /></p>
+
+<p>Another factor is that the marks awarded for the speeches largely depend on how strict is your tutor is. Well, my tutor did have very high expectations since he speaks frequently at events and has a lot of experience in public speaking. Naturally, he expected a much more. Hence, the grade you get depends very much on your tutor too! Nevertheless, give your best and you will get what you deserve. The video project was really fun! We were free to do any video to express the ideas we have learnt in the course. My group created a comic-book type of video that is presented in terms of a storyboard. I enjoyed the project. Since it is due near the last week of the semester, you will barely have time to meet up for the project. Another downside was that my team members were all from different years of study (all of them were in Year 4 and from different faculties/majors). <br /></p>
+
+<p>Hence, it was almost impossible to get a time-slot to meet and discuss. We had to do it right away after class. Surprisingly, our video got shortlisted as one of the top ten! But we did not win the top prize though. <br /></p>
+
+<p>You can view the video <a title="Public Speaking - No Longer Clarkie's Kryptonite! " href="https://www.youtube.com/watch?v=hOZsQ18Ufhs&amp;feature=youtu.be" target="_blank">here</a>.</p>
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/hOZsQ18Ufhs" frameborder="0" allowfullscreen=""></iframe>
+
+<p><strong>Tips:</strong></p>
+<ol>
+	<li>Always take a topic you are well knowledgeable about and confident with.</li>
+	<li>Try to be clear of the structure of your entire speech before deciding on it.</li>
+	<li>It may help to write out the entire speech and then do the Preparation Outline (PO). All you would need to do is to copy and paste the relevant sections from the speech into the PO (with some rephrases, of course).</li>
+	<li>Try to buy a clicker to control the PowerPoint slides when presenting, or ask your close friend to lend you one (like I did).</li>
+	<li>Creativity is greatly rewarded in this module. Especially for your video project, presenting the learning points in a creative manner can help you achieve good marks!</li>
+</ol>
+<p>Final grade: <strong>B+</strong> <br /></p>
+
+<p>Not very satisfied with this grade. I expected an A-. Nevertheless, I am sure I have given my best for this module. Public speaking is a skill you have keep developing anyway. Overall, it was a great experience.</p>
+
+<hr />
+
+<h2>MA1505: Mathematics I</h2>
+
+<p>There are many concepts you need to understand for this module. Whenever you have free time, learn to utilise it to revise the upcoming topics. Though the lectures are nicely-paced, the amount of concepts to grasp requires quite some time. The last few topics (line and surface integrals may be difficult to grasp). The module is graded with a mid-term test (20%) and the final exam (80%). My lecturer for this module was Prof Leung Pui Fai (Fred). He is a very good lecturer. He takes the time to explain concepts very patiently. He is also very approachable. Make sure to pay good attention during the lectures. If you find the pace slow or you missed the lecture then you can always use the webcast on IVLE. <br /></p>
+
+<p>Initial topics revolve around the ‘A’ level content such as differentiation, integration, functions, vectors etc. Hence, you might not need much time to grasp these concepts. However, for other topics like line integrals and surface integrals, you must be able to visualise what the formula you are using actually means. Everything you do will involved 3D manipulation. So, you have to visualise in 3D as well. This is the hardest part. Initially, I was a little lax about practise since I was able to do all the tutorial questions. <br /></p>
+
+<p>The mid-term test was an eye-opener. The questions really test your understanding and are tricky. Mid-term questions are tricky and requires good thinking and speed to complete on time. Make sure to practise all the past-year papers which are available at IVLE and NUS e-library. It is a tough module, but with consistent practise you can do well. The one A4 paper (2-sided) cheat sheet really helps! Make sure to prepare your cheat sheet well. Ensure it is comprehensive and note that they are strict with the term “2-sided A4 sheet”. Only use a single A4 white paper to write notes on both sides. <br /></p>
+
+<p>Final grade: <strong>B+</strong> <br /></p>
+
+<p>I could have done better (especially in the MCQ mid-term test), but a B+ is not too bad I guess.</p>
+
+<hr />
+
+<p>All in all, it was a good semester. Despite the 3 video projects (video projects really take up a lot of time!), I learnt a lot through the term. I could have done better in MA1505 and CS1010, but it is all in the learning experience to not repeat your mistakes. Most importantly, I have learned to manage my time better and study for the love of learning. Not just for the grades. Looking forward to the next semester. Till then,</p>
+
+<blockquote>
+  <p>Stay Hungry, Stay Foolish!</p>
+</blockquote>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
