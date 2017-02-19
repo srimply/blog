@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>Scalability for Web Applications</title>
-	  <link>/blog/Large-Scale-Scaling</link>
+	  <link>/blog//Large-Scale-Scaling</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-09-18T00:00:00+08:00</pubDate>
-	  <guid>/blog/Large-Scale-Scaling</guid>
+	  <guid>/blog//Large-Scale-Scaling</guid>
 	  <description><![CDATA[
 	     <p>Attended Friday Hacks, which are hosted by <a href="http://nushackers.org/">NUSHackers</a>, where each week a guest speaker is invited to give talks on the latest tech developments etc. Today’s talk was on scalability by <a href="http://ryandao.net/">Ryan</a> from PayPal, who provided some good insights [1]. Personally, I am keen on web development and am currently working on some web applications as side-projects apart from university projects.</p>
 

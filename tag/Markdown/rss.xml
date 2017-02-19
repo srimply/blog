@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>What is Markdown?</title>
-	  <link>/blog/What-is-Markdown</link>
+	  <link>/blog//What-is-Markdown</link>
 	  <author>Harish V</author>
 	  <pubDate>2017-02-18T00:00:00+08:00</pubDate>
-	  <guid>/blog/What-is-Markdown</guid>
+	  <guid>/blog//What-is-Markdown</guid>
 	  <description><![CDATA[
 	     <p>Markdown is a markup language that can be easily converted to HTML or other formats. The best part of Markdown is that you can write it in plaintext format, yet format it using certain special characters such as hyphens (<code class="highlighter-rouge">-</code>), quotes etc. Even this post was rendered with Markdown. Let’s see how we can craft posts with Markdown.</p>
 
