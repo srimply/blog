@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Top Todo App of 2016</title>
+    <title>MVC Design Pattern</title>
     <meta name="description" content="Harish V - My thoughts - on life & code." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -108,7 +108,7 @@
 <!-- Everything inside the #post tags pulls data from the post -->
 <!-- #post -->
 
-<header class="main-header post-head " style="background-image: url(/blog/assets/images/posts/wunderlist.jpg) ">
+<header class="main-header post-head " style="background-image: url(/blog/assets/images/posts/mvc.png) ">
     <nav class="main-nav  overlay  clearfix">
         <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
         
@@ -122,18 +122,18 @@
     <article class="post tag-techstuff">
 
         <header class="post-header">
-            <h1 class="post-title">Top Todo App of 2016</h1>
+            <h1 class="post-title">MVC Design Pattern</h1>
             <span class="reading-time" title="Estimated read time">
   
   
-    <i> 3 mins read </i>
+    <i> 2 mins read </i>
   
 </span>
 
 
             <section class="post-meta">
             <!-- <a href='/blog/'>Harish V</a> -->
-            <time class="post-date" datetime="2017-02-19">19 Feb 2017</time>
+            <time class="post-date" datetime="2015-10-02">02 Oct 2015</time>
                 <!-- [[tags prefix=" on "]] -->
                  
                 on 
@@ -143,15 +143,11 @@
                        
                 
                     
-                       <a href='/blog/tag/Wunderlist'>Wunderlist</a>,
+                       <a href='/blog/tag/MVC'>MVC</a>,
                        
                 
                     
-                       <a href='/blog/tag/Todo Lists'>Todo Lists</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Productivity'>Productivity</a>
+                       <a href='/blog/tag/Software Engineering'>Software Engineering</a>
                        
                 
                 
@@ -160,29 +156,36 @@
         <br>
         <section class="post-content">
             
-            <p><img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Wunderlist_Logo.png" alt="Wunderlist Logo" /></p>
+            <h1 id="introduction">Introduction</h1>
 
-<p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
+<p>Model-View-Controller (MVC) is one of the most popular design patterns in the software/web development world. The MVC model was popularised by the Spring Framework, Ruby on Rails and Django.</p>
 
-<h2 id="wunderlist">Wunderlist</h2>
+<p>As the name suggests, there are three main components of this pattern: Model, View and Controller. An application can be divided into these components which will then interact with one another to achieve the intended objective.</p>
 
-<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
+<h1 id="interaction-overview">Interaction Overview</h1>
 
-<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
+<p><img src="http://i.imgur.com/U7Z1Eir.png" /></p>
 
-<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
+<h1 id="model">Model</h1>
 
-<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
+<p>The model component can be summarised to contain objects that provide the logic implementation for the application. Typically, these objects correspond with the storage to retrieve/update/store data.</p>
 
-<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
+<p>As stated on <a href="https://msdn.microsoft.com/en-us/library/dd381412(v=vs.108).aspx">the MSN MVC Overview</a>, for small applications, the model does not necessarily refer to a physical layers and its subclasses. If an application just reads a dataset and passes it to the view, then the dataset there takes the role of the model.</p>
 
-<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
+<h1 id="view">View</h1>
 
-<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
+<p>View essentially contains the objects/components dealing with the user interface (UI) of the application. The view typically reflects and outputs the data from the model layer. If the model consists of a dataset of students, then the view probably contains a table view of the details of the students with fields such as the First Name, Last Name, Age, Matriculation Number and so on.</p>
 
-<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
+<h1 id="controller">Controller</h1>
 
-<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
+<p>Controller are components which handle the user interaction and communicate directly with the model, depending on what the user’s request is. Based on this communication and response, it then selects a view to render. For example, if the user searches for a specific student’s name, the controller then passes the query to the model which then looks up the database, applies necessary filters and then returns the data representing the student (assuming it is a valid search). The controller will now select the appropriate view to present the data to the user. For example, views may change based on the platform (PC/mobile phone/tablet) or the type of user accounts (root/admin/guest) etc.</p>
+
+<h1 id="implementation--advantages">Implementation &amp; Advantages</h1>
+
+<p>There are several ways the MVC can be implemented. For example, one can choose to divide the interactions both on the client and server side for a web application.</p>
+
+<p>The MVC model can come in particularly handy to organise the structure of an application during development. It can help in parallel development as different members of the team can work on the various components together. Another advantage is that we can separate the concerns of the application in a distinct manner which allows for better developer focus.</p>
+
 
 
         </section>
@@ -214,15 +217,15 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/share?text=Top Todo App of 2016&amp;url=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-twitter" href="http://twitter.com/share?text=MVC Design Pattern&amp;url=http://harishv.meMVC-Design-Pattern"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://harishv.meMVC-Design-Pattern"
                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://harishv.meMVC-Design-Pattern"
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
@@ -255,13 +258,20 @@
 
     <!-- [[! next_post ]] -->
     
+        <a class="read-next-story " style="background-image: url(/blog/assets/images/posts/idea.jpg)" href="/blog/Lessons-from-Entrepreneurs">
+            <section class="post">
+                <h2>Lessons from Entrepreneurs</h2>
+                <p>Over the past semester, I undertook a module in NUS known as "Journey of the...</p>
+            </section>
+        </a>
+    
     <!-- [[! /next_post ]] -->
     <!-- [[! prev_post ]] -->
     
-        <a class="read-next-story prev " style="background-image: url(/blog/assets/images/posts/email.png)" href="/blog/Top-Email-Clients-for-Mac">
+        <a class="read-next-story prev " style="background-image: url(/blog/assets/images/posts/html.png)" href="/blog/Introduction-to-HTML-P2">
             <section class="post">
-                <h2>Top Email Clients for the New Mac</h2>
-                <p>Apple Mail Apple’s built in client, Mail, offers a neat interface for managing multiple email...</p>
+                <h2>Tutorial - Introduction to HTML (Part 2)</h2>
+                <p>Recap In part 1, we covered the basics of HTML, the structure, declaring headings, paragraphs...</p>
             </section>
         </a>
     

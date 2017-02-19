@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Top Todo App of 2016</title>
+    <title>Asynchronous Programming in Node.JS</title>
     <meta name="description" content="Harish V - My thoughts - on life & code." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -108,7 +108,7 @@
 <!-- Everything inside the #post tags pulls data from the post -->
 <!-- #post -->
 
-<header class="main-header post-head " style="background-image: url(/blog/assets/images/posts/wunderlist.jpg) ">
+<header class="main-header post-head " style="background-image: url(/blog/assets/images/posts/node.jpg) ">
     <nav class="main-nav  overlay  clearfix">
         <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
         
@@ -122,18 +122,18 @@
     <article class="post tag-techstuff">
 
         <header class="post-header">
-            <h1 class="post-title">Top Todo App of 2016</h1>
+            <h1 class="post-title">Asynchronous Programming in Node.JS</h1>
             <span class="reading-time" title="Estimated read time">
   
   
-    <i> 3 mins read </i>
+    <i> 1 min read </i>
   
 </span>
 
 
             <section class="post-meta">
             <!-- <a href='/blog/'>Harish V</a> -->
-            <time class="post-date" datetime="2017-02-19">19 Feb 2017</time>
+            <time class="post-date" datetime="2016-07-30">30 Jul 2016</time>
                 <!-- [[tags prefix=" on "]] -->
                  
                 on 
@@ -143,15 +143,7 @@
                        
                 
                     
-                       <a href='/blog/tag/Wunderlist'>Wunderlist</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Todo Lists'>Todo Lists</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Productivity'>Productivity</a>
+                       <a href='/blog/tag/ReactJS'>ReactJS</a>
                        
                 
                 
@@ -160,29 +152,35 @@
         <br>
         <section class="post-content">
             
-            <p><img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Wunderlist_Logo.png" alt="Wunderlist Logo" /></p>
+            <p>Let’s imagine a restaurant reservation application where 10 people are trying to book at the same time. It will be really inconvenient if the 10th person has wait for the 9 others to finish their bookings first. The database calls can take considerable amount of time. With asynchronous programming, we can run multiple requests at the same time.</p>
 
-<p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
+<p>Instead of running things one by one, we can use the concepts of callbacks and promises to have our code to do something while something else is happening. For example, when one user has submitted his booking, while this request is being processed on the backend, the web application can service another request from the next user.</p>
 
-<h2 id="wunderlist">Wunderlist</h2>
+<p>A simple demo:</p>
 
-<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
+<p>Let’s consider this program (app.js):</p>
 
-<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ONE"</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"TWO"</span><span class="p">);</span></code></pre></figure>
 
-<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
+<p>Running this with <code class="highlighter-rouge">node app.js</code> will print this:</p>
 
-<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">ONE</span>
+<span class="nx">TWO</span></code></pre></figure>
 
-<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
+<p>Let’s replace this code in <code class="highlighter-rouge">app.js</code> with:</p>
 
-<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ONE"</span><span class="p">);</span>
+<span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"TWO"</span><span class="p">);</span></code></pre></figure>
 
-<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
+<p>Running this now prints:</p>
 
-<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">TWO</span>
+<span class="nx">ONE</span></code></pre></figure>
 
-<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
+<p>This demonstrates asynchronous programming with callbacks. The function inside setTimeout is the callback function after the 1000 milliseconds have passed. During this 1000 milliseconds, the program continues on to execute the next instruction which is to log “TWO” to the console.</p>
 
 
         </section>
@@ -214,15 +212,15 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/share?text=Top Todo App of 2016&amp;url=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-twitter" href="http://twitter.com/share?text=Asynchronous Programming in Node.JS&amp;url=http://harishv.meAsynchronous-Programming"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://harishv.meAsynchronous-Programming"
                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://harishv.meAsynchronous-Programming"
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
@@ -255,13 +253,20 @@
 
     <!-- [[! next_post ]] -->
     
+        <a class="read-next-story " style="background-image: url(/blog/assets/images/posts/year3-sem1.jpg)" href="/blog/NUS-Third-Year-First-Semester-in-Review">
+            <section class="post">
+                <h2>NUS Third Year | First Semester in Review</h2>
+                <p>The following post is also available at [https://harishv7.wordpress.com/](https://harishv7.wordpress.com/) CG3207: Computer Architecture CG3207 was one of...</p>
+            </section>
+        </a>
+    
     <!-- [[! /next_post ]] -->
     <!-- [[! prev_post ]] -->
     
-        <a class="read-next-story prev " style="background-image: url(/blog/assets/images/posts/email.png)" href="/blog/Top-Email-Clients-for-Mac">
+        <a class="read-next-story prev " style="background-image: url(/blog/assets/images/posts/react.png)" href="/blog/ReactJS-Workshop">
             <section class="post">
-                <h2>Top Email Clients for the New Mac</h2>
-                <p>Apple Mail Apple’s built in client, Mail, offers a neat interface for managing multiple email...</p>
+                <h2>ReactJS Workshop</h2>
+                <p>Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on...</p>
             </section>
         </a>
     

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Harish V</title>
+    <title>Author</title>
     <meta name="description" content="Harish V - My thoughts - on life & code." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -61,7 +61,7 @@
 
 
 </head>
-<body class="tag-template nav-closed">
+<body class="paged archive-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -100,44 +100,57 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
-
-
-<!-- < default}} -->
+        <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- If we have a tag cover, display that - else blog cover - else nothing -->
-<header class="main-header tag-head " style="background-image: url(/blog/assets/images/category_images/techstuff.jpg) ">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
-        
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">TechStuff</h1>
-            <h2 class="page-description">
+<!-- The big featured header -->
+
+<!-- Everything inside the #author tags pulls data from the author -->
+<!-- #author  -->
+    <header class="main-header author-head " style="background-image: url(/blog/assets/images/cover4.jpg) ">
+        <nav class="main-nav overlay clearfix">
+            <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
             
-                "Everything around you that you call life was made up by people, and you can change it." ~ Steve Jobs
+                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
             
-            </h2>
+        </nav>
+    </header>
+
+    <section class="author-profile inner">
+        
+        <figure class="author-image">
+            <div class="img" style="background-image: url(/blog/assets/images/profile.png)"><span class="hidden">Harish V's Picture</span></div>
+        </figure>
+        
+        <h1 class="author-title">Harish V</h1>
+        
+            <h2 class="author-bio">Web Developer | Computer Engineer | Tech Enthusiast</h2>
+        
+        <div class="author-meta">
+            <span class="author-location icon-location">Singapore</span>
+            <span class="author-link icon-link"><a href="http://harishv.me">http://harishv.me</a></span>
+            <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
+            <span class="author-stats"><i class="icon-stats"></i>16 posts</span>
         </div>
-    </div>
-</header>
+    </section>
+<!-- /author -->
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    <!-- The tag below includes the post loop - partials/loop.hbs  -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
             <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 3 </span>
+        
+            <a class="newer-posts" href="/blog/author/harish/page2/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 3 of 4 </span>
      
-        <a class="older-posts" href="/blog/tag/TechStuff/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/blog/author/harish/page4/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
         
@@ -147,10 +160,10 @@
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/blog/Top-Todo-App-of-2016">Top Todo App of 2016</a></h2>
+            <h2 class="post-title"><a href="/blog/Large-Scale-Scaling">Scalability for Web Applications</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are... <a class="read-more" href="/blog/Top-Todo-App-of-2016">&raquo;</a></p>
+            <p>Attended Friday Hacks, which are hosted by NUSHackers, where each week a guest speaker is invited to give talks on the latest tech developments etc. Today’s... <a class="read-more" href="/blog/Large-Scale-Scaling">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
@@ -165,28 +178,50 @@
                        
                 
                     
-                       <a href='/blog/tag/Wunderlist'>Wunderlist</a>,
+                       <a href='/blog/tag/Scalability'>Scalability</a>,
                        
                 
                     
-                       <a href='/blog/tag/Todo Lists'>Todo Lists</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Productivity'>Productivity</a>
+                       <a href='/blog/tag/Web Applications'>Web Applications</a>
                        
                 
             
-            <time class="post-date" datetime="2017-02-19">19 Feb 2017</time>
+            <time class="post-date" datetime="2015-09-18">18 Sep 2015</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/blog/Top-Email-Clients-for-Mac">Top Email Clients for the New Mac</a></h2>
+            <h2 class="post-title"><a href="/blog/Hey-Siri,-Give-me-a-hint!">Hey Siri, Give me a hint!</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Apple Mail Apple’s built in client, Mail, offers a neat interface for managing multiple email accounts at once. From experience, it integrates smoothly with all the... <a class="read-more" href="/blog/Top-Email-Clients-for-Mac">&raquo;</a></p>
+            <p>Visited Apple’s events page today and was greeted by this:
+
+
+
+And true enough, Siri responded with it’s usual level of cuteness:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cheers, 
+Harish
+ <a class="read-more" href="/blog/Hey-Siri,-Give-me-a-hint!">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
@@ -201,32 +236,20 @@
                        
                 
                     
-                       <a href='/blog/tag/Email'>Email</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Airmail'>Airmail</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Spark'>Spark</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Apple Mail'>Apple Mail</a>
+                       <a href='/blog/tag/Apple'>Apple</a>
                        
                 
             
-            <time class="post-date" datetime="2017-02-19">19 Feb 2017</time>
+            <time class="post-date" datetime="2015-08-29">29 Aug 2015</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/blog/What-is-Markdown">What is Markdown?</a></h2>
+            <h2 class="post-title"><a href="/blog/Orbital-2015">Orbital 2015</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Markdown is a markup language that can be easily converted to HTML or other formats. The best part of Markdown is that you can write it... <a class="read-more" href="/blog/What-is-Markdown">&raquo;</a></p>
+            <p>After 3 months of hard work, the Orbital programme came to a close on 19th Aug 2015. It was a great experience and I picked up... <a class="read-more" href="/blog/Orbital-2015">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
@@ -237,24 +260,28 @@
                 on 
                 
                     
-                       <a href='/blog/tag/TechStuff'>TechStuff</a>,
+                       <a href='/blog/tag/NUS'>NUS</a>,
                        
                 
                     
-                       <a href='/blog/tag/Markdown'>Markdown</a>
+                       <a href='/blog/tag/Education'>Education</a>,
+                       
+                
+                    
+                       <a href='/blog/tag/Orbital'>Orbital</a>
                        
                 
             
-            <time class="post-date" datetime="2017-02-18">18 Feb 2017</time>
+            <time class="post-date" datetime="2015-08-19">19 Aug 2015</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/blog/Asynchronous-Programming">Asynchronous Programming in Node.JS</a></h2>
+            <h2 class="post-title"><a href="/blog/Virtual-Reality">Virtual Reality - Google Cardboard</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Let’s imagine a restaurant reservation application where 10 people are trying to book at the same time. It will be really inconvenient if the 10th person... <a class="read-more" href="/blog/Asynchronous-Programming">&raquo;</a></p>
+            <p>I got a Google Cardboard yesterday. The Google Cardboard comes as a laser-cut template (which you have fold and fix yourself), two 45mm biconvex lenses, 2... <a class="read-more" href="/blog/Virtual-Reality">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
@@ -269,20 +296,28 @@
                        
                 
                     
-                       <a href='/blog/tag/ReactJS'>ReactJS</a>
+                       <a href='/blog/tag/Google'>Google</a>,
+                       
+                
+                    
+                       <a href='/blog/tag/Cardboard'>Cardboard</a>,
+                       
+                
+                    
+                       <a href='/blog/tag/Virtual Reality'>Virtual Reality</a>
                        
                 
             
-            <time class="post-date" datetime="2016-07-30">30 Jul 2016</time>
+            <time class="post-date" datetime="2015-07-12">12 Jul 2015</time>
         </footer>
     </article>
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/blog/ReactJS-Workshop">ReactJS Workshop</a></h2>
+            <h2 class="post-title"><a href="/blog/Clean-&-Green-Hackathon">Clean & Green Hackathon 2015</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as... <a class="read-more" href="/blog/ReactJS-Workshop">&raquo;</a></p>
+            <p>Image Credits: http://www.cgs.sg/events/calendar/hackathon/workshop/ I participated in the Clean &amp; Green Hackathon this weekend. This is second hackathon I participated in after Gamecraft (Organised by NUS Games... <a class="read-more" href="/blog/Clean-&-Green-Hackathon">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             <img class="author-thumb" src="/blog/assets/images/profile.png" alt="Author image" nopin="nopin" />
@@ -293,15 +328,11 @@
                 on 
                 
                     
-                       <a href='/blog/tag/TechStuff'>TechStuff</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/ReactJS'>ReactJS</a>
+                       <a href='/blog/tag/TechStuff'>TechStuff</a>
                        
                 
             
-            <time class="post-date" datetime="2016-06-22">22 Jun 2016</time>
+            <time class="post-date" datetime="2015-06-22">22 Jun 2015</time>
         </footer>
     </article>
     
@@ -310,9 +341,13 @@
     
         <nav class="pagination" role="pagination">
     
-    <span class="page-number"> Page 1 of 3 </span>
+        
+            <a class="newer-posts" href="/blog/author/harish/page2/" title="Previous Page">&laquo; Newer Posts</a>
+      
+    
+    <span class="page-number"> Page 3 of 4 </span>
      
-        <a class="older-posts" href="/blog/tag/TechStuff/page2/" title="Next Page">Older Posts &raquo;</a>
+        <a class="older-posts" href="/blog/author/harish/page4/" title="Next Page">Older Posts &raquo;</a>
      
 </nav>
     
@@ -331,6 +366,7 @@
 
 
 </main>
+
 
         <footer class="site-footer clearfix">
           <section class="copyright"><a href="/blog/">Harish V</a> &copy; 2017</section>

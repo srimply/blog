@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Top Todo App of 2016</title>
+    <title>Scalability for Web Applications</title>
     <meta name="description" content="Harish V - My thoughts - on life & code." />
 
     <meta name="HandheldFriendly" content="True" />
@@ -108,7 +108,7 @@
 <!-- Everything inside the #post tags pulls data from the post -->
 <!-- #post -->
 
-<header class="main-header post-head " style="background-image: url(/blog/assets/images/posts/wunderlist.jpg) ">
+<header class="main-header post-head " style="background-image: url(/blog/assets/images/posts/scalability.jpg) ">
     <nav class="main-nav  overlay  clearfix">
         <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
         
@@ -122,7 +122,7 @@
     <article class="post tag-techstuff">
 
         <header class="post-header">
-            <h1 class="post-title">Top Todo App of 2016</h1>
+            <h1 class="post-title">Scalability for Web Applications</h1>
             <span class="reading-time" title="Estimated read time">
   
   
@@ -133,7 +133,7 @@
 
             <section class="post-meta">
             <!-- <a href='/blog/'>Harish V</a> -->
-            <time class="post-date" datetime="2017-02-19">19 Feb 2017</time>
+            <time class="post-date" datetime="2015-09-18">18 Sep 2015</time>
                 <!-- [[tags prefix=" on "]] -->
                  
                 on 
@@ -143,15 +143,11 @@
                        
                 
                     
-                       <a href='/blog/tag/Wunderlist'>Wunderlist</a>,
+                       <a href='/blog/tag/Scalability'>Scalability</a>,
                        
                 
                     
-                       <a href='/blog/tag/Todo Lists'>Todo Lists</a>,
-                       
-                
-                    
-                       <a href='/blog/tag/Productivity'>Productivity</a>
+                       <a href='/blog/tag/Web Applications'>Web Applications</a>
                        
                 
                 
@@ -160,29 +156,40 @@
         <br>
         <section class="post-content">
             
-            <p><img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Wunderlist_Logo.png" alt="Wunderlist Logo" /></p>
+            <p>Attended Friday Hacks, which are hosted by <a href="http://nushackers.org/">NUSHackers</a>, where each week a guest speaker is invited to give talks on the latest tech developments etc. Today’s talk was on scalability by <a href="http://ryandao.net/">Ryan</a> from PayPal, who provided some good insights [1]. Personally, I am keen on web development and am currently working on some web applications as side-projects apart from university projects.</p>
 
-<p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
+<p>The first part of the presentation focused on measuring your web application’s performance. Some great tools that were introduced include ApacheBench and <a href="http://www.webpagetest.org/">webpagetest</a>.</p>
 
-<h2 id="wunderlist">Wunderlist</h2>
+<p>The importance of latency was also stressed during the introduction. To understand latency, let’s consider the scenario when someone from Singapore is accessing a web application hosted from the US. Here, we are concerned how fast can a packet be sent over? These packets typically are routed through several servers and poor cable networks before reaching you.</p>
 
-<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
+<p>A key point on the things not to do was having too many JavaScript files. Simply don’t have too many of these:
+<code class="highlighter-rouge">&lt;script src="myjsfile.js"&gt;&lt;/script&gt; </code></p>
 
-<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
+<p>As a web development enthusiast myself, I could agree to this. Having multiple file references also means that more number of requests are being made to refresh/load these files. This can be simply minimised by unifying the separate files into one large file during deployment. Of course, minify them.</p>
 
-<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
+<p>The second part introduced Amdahl’s Law, which states:
+&gt; the speedup of a parallel algorithm is limited by the fraction of the problem that must be performed sequentially; that is, your design is only as strong as its weakest link. [2]</p>
 
-<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
+<p>An example of a building evacution was given. For example, all the people in a building are evacuating a building through a single door. Ultimately, the entire evacuation process will be slowed down. However, compare it with having 2 doors (x2 faster) or an infinte number of doors (takes no time at all).</p>
 
-<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
+<p>This then brings the topic of instances of web applications. For example, having a single instance means that a single request received by the server is processed fully first, and then it moves onto the second difference.</p>
 
-<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
+<p>In web development, it is crucial to consider both concurrency and parallelism. These are two of the most confused as being the same. Though not the same, they are related.</p>
 
-<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
+<p>Simply put, concurrency is about <em>dealing</em> with many things at once (deals with the structure), while parallelism is about <em>doing</em> a lot of things at once (deals with the execution). Hence, concurrency is basically a way to structure a program by breaking it into pieces that can be executed independently [3]. The Go language, for example, is built with concurrency in mind [4].
+Then we have asynchronous IO (AKA non-blocking IO) is a form of input-output processing that allows us to continue with other processing/actions before the current task has completed fully. Node.JS is an example of a JavaScript runtime environment that employs this technique.</p>
 
-<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
+<p>The last part focuses on infrastructure. Today, the best ways for scaling without having to buy expensive bare metal servers, would be cloud hosting and deployment. For example, Netflix is hosted on Amazon Cloud, whereas GitHub employs hosting from bare metal physical servers. Cloud advancements have provided great scope for scalability.</p>
 
-<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
+<p>A simple example is autoscaling (pre-requisite is having stateless apps). Autoscaling allows us to monitor resource exhaustion/redudance and spawn or kill as many instances as required by the situation. While this is cost-effective and resilient, it is also harder to test/debug/implement etc.</p>
+
+<p>The above information and factors come in crucial when attempting to scale as your demand grows. I feel the advancement of cloud technologies and deployment is great and has provided us with an easy way to scale and monitor our apps. As compared to the past, where people had to purchase/set up/maintain huge bulky physical servers, this is so much more hassle-free.</p>
+
+<hr />
+
+<h5 id="the-above-content-was-delivered-at-nus-friday-hacks-on-18th-sep-2015">The above content was delivered at NUS Friday Hacks on 18th Sep 2015.</h5>
+
+<h5 id="references-1httpryandaonet-2httpwwwembeddedcomdesignmcus-processors-and-socs4006486what-amdahl-s-law-can-tell-us-about-multicores-and-multiprocessing-3httpbloggolangorgconcurrency-is-not-parallelism-4httptalksgolangorg2012wazaslide10"><strong>References: <a href="http://ryandao.net/">1</a>, <a href="http://www.embedded.com/design/mcus-processors-and-socs/4006486/What-Amdahl-s-Law-can-tell-us-about-multicores-and-multiprocessing">2</a>, <a href="http://blog.golang.org/concurrency-is-not-parallelism">3</a>, <a href="http://talks.golang.org/2012/waza.slide#10">4</a></strong></h5>
 
 
         </section>
@@ -214,15 +221,15 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/share?text=Top Todo App of 2016&amp;url=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-twitter" href="http://twitter.com/share?text=Scalability for Web Applications&amp;url=http://harishv.meLarge-Scale-Scaling"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://harishv.meLarge-Scale-Scaling"
                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://harishv.meTop-Todo-App-of-2016"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://harishv.meLarge-Scale-Scaling"
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
@@ -255,13 +262,20 @@
 
     <!-- [[! next_post ]] -->
     
+        <a class="read-next-story " style="background-image: url(/blog/assets/images/posts/html.png)" href="/blog/Introduction-to-HTML-P1">
+            <section class="post">
+                <h2>Tutorial - Introduction to HTML (Part 1)</h2>
+                <p># Introduction In this first part of the Introduction to HTML, I will be going...</p>
+            </section>
+        </a>
+    
     <!-- [[! /next_post ]] -->
     <!-- [[! prev_post ]] -->
     
-        <a class="read-next-story prev " style="background-image: url(/blog/assets/images/posts/email.png)" href="/blog/Top-Email-Clients-for-Mac">
+        <a class="read-next-story prev " style="background-image: url(/blog/assets/images/posts/apple-siri.jpg)" href="/blog/Hey-Siri,-Give-me-a-hint!">
             <section class="post">
-                <h2>Top Email Clients for the New Mac</h2>
-                <p>Apple Mail Apple’s built in client, Mail, offers a neat interface for managing multiple email...</p>
+                <h2>Hey Siri, Give me a hint!</h2>
+                <p>Visited Apple’s events page today and was greeted by this: And true enough, Siri responded...</p>
             </section>
         </a>
     

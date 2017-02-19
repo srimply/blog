@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Asynchronous Programming in Node.JS</title>
+	  <link>/blog//Asynchronous-Programming</link>
+	  <author>Harish V</author>
+	  <pubDate>2016-07-30T00:00:00+08:00</pubDate>
+	  <guid>/blog//Asynchronous-Programming</guid>
+	  <description><![CDATA[
+	     <p>Let’s imagine a restaurant reservation application where 10 people are trying to book at the same time. It will be really inconvenient if the 10th person has wait for the 9 others to finish their bookings first. The database calls can take considerable amount of time. With asynchronous programming, we can run multiple requests at the same time.</p>
+
+<p>Instead of running things one by one, we can use the concepts of callbacks and promises to have our code to do something while something else is happening. For example, when one user has submitted his booking, while this request is being processed on the backend, the web application can service another request from the next user.</p>
+
+<p>A simple demo:</p>
+
+<p>Let’s consider this program (app.js):</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ONE"</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"TWO"</span><span class="p">);</span></code></pre></figure>
+
+<p>Running this with <code class="highlighter-rouge">node app.js</code> will print this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">ONE</span>
+<span class="nx">TWO</span></code></pre></figure>
+
+<p>Let’s replace this code in <code class="highlighter-rouge">app.js</code> with:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ONE"</span><span class="p">);</span>
+<span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"TWO"</span><span class="p">);</span></code></pre></figure>
+
+<p>Running this now prints:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">TWO</span>
+<span class="nx">ONE</span></code></pre></figure>
+
+<p>This demonstrates asynchronous programming with callbacks. The function inside setTimeout is the callback function after the 1000 milliseconds have passed. During this 1000 milliseconds, the program continues on to execute the next instruction which is to log “TWO” to the console.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>ReactJS Workshop</title>
+	  <link>/blog//ReactJS-Workshop</link>
+	  <author>Harish V</author>
+	  <pubDate>2016-06-22T00:00:00+08:00</pubDate>
+	  <guid>/blog//ReactJS-Workshop</guid>
+	  <description><![CDATA[
+	     <p>Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as a framework). Unlike a framework that typically deals with all the 3 main areas of Model, View and Controller layers (see my <a href="http://harishv.me/tech/general/techstuff/2015/10/02/MVC-Design-Pattern.html">MVC post</a>, React is a Javascript library for building user interfaces.</p>
+
+<p>Initially I thought React is just one of another Javascript framework or library that pops up and fades away. But no, React is just amazing and it’s popularity has been growing ever since it’s release.</p>
+
+<p>To know why, you can check out one of the many React tutorials out there. In the workshop, I basically covered a simple todo app which can be built with ReactJS.</p>
+
+<p>The workshop materials are available on <a href="https://github.com/harishv7/reactjs">Github</a> and <a href="http://harishv7.github.io/reactjs/#/">here</a>.</p>
+
+<p>I’ll try and write the tutorial out as a blog post sometime. <br /></p>
+
+<p>Till next time, <br />
+Cheers, <br />
+Harish V</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

@@ -386,6 +386,70 @@ ___</p>
 	</item>
 
 	<item>
+	  <title>Asynchronous Programming in Node.JS</title>
+	  <link>/blog//Asynchronous-Programming</link>
+	  <author>Harish V</author>
+	  <pubDate>2016-07-30T00:00:00+08:00</pubDate>
+	  <guid>/blog//Asynchronous-Programming</guid>
+	  <description><![CDATA[
+	     <p>Let’s imagine a restaurant reservation application where 10 people are trying to book at the same time. It will be really inconvenient if the 10th person has wait for the 9 others to finish their bookings first. The database calls can take considerable amount of time. With asynchronous programming, we can run multiple requests at the same time.</p>
+
+<p>Instead of running things one by one, we can use the concepts of callbacks and promises to have our code to do something while something else is happening. For example, when one user has submitted his booking, while this request is being processed on the backend, the web application can service another request from the next user.</p>
+
+<p>A simple demo:</p>
+
+<p>Let’s consider this program (app.js):</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ONE"</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"TWO"</span><span class="p">);</span></code></pre></figure>
+
+<p>Running this with <code class="highlighter-rouge">node app.js</code> will print this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">ONE</span>
+<span class="nx">TWO</span></code></pre></figure>
+
+<p>Let’s replace this code in <code class="highlighter-rouge">app.js</code> with:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ONE"</span><span class="p">);</span>
+<span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"TWO"</span><span class="p">);</span></code></pre></figure>
+
+<p>Running this now prints:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">TWO</span>
+<span class="nx">ONE</span></code></pre></figure>
+
+<p>This demonstrates asynchronous programming with callbacks. The function inside setTimeout is the callback function after the 1000 milliseconds have passed. During this 1000 milliseconds, the program continues on to execute the next instruction which is to log “TWO” to the console.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>ReactJS Workshop</title>
+	  <link>/blog//ReactJS-Workshop</link>
+	  <author>Harish V</author>
+	  <pubDate>2016-06-22T00:00:00+08:00</pubDate>
+	  <guid>/blog//ReactJS-Workshop</guid>
+	  <description><![CDATA[
+	     <p>Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as a framework). Unlike a framework that typically deals with all the 3 main areas of Model, View and Controller layers (see my <a href="http://harishv.me/tech/general/techstuff/2015/10/02/MVC-Design-Pattern.html">MVC post</a>, React is a Javascript library for building user interfaces.</p>
+
+<p>Initially I thought React is just one of another Javascript framework or library that pops up and fades away. But no, React is just amazing and it’s popularity has been growing ever since it’s release.</p>
+
+<p>To know why, you can check out one of the many React tutorials out there. In the workshop, I basically covered a simple todo app which can be built with ReactJS.</p>
+
+<p>The workshop materials are available on <a href="https://github.com/harishv7/reactjs">Github</a> and <a href="http://harishv7.github.io/reactjs/#/">here</a>.</p>
+
+<p>I’ll try and write the tutorial out as a blog post sometime. <br /></p>
+
+<p>Till next time, <br />
+Cheers, <br />
+Harish V</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Data Science Student Challenge 2016 Experience</title>
 	  <link>/blog//Data-Science-Student-Challenge-Experience</link>
 	  <author>Harish V</author>
@@ -471,217 +535,478 @@ Harish V</p>
 	</item>
 
 	<item>
-	  <title>Hey Siri, Give me a hint!</title>
-	  <link>/blog//Hey-Siri,-Give-me-a-hint!</link>
+	  <title>MVC Design Pattern</title>
+	  <link>/blog//MVC-Design-Pattern</link>
 	  <author>Harish V</author>
-	  <pubDate>2015-08-29T00:00:00+08:00</pubDate>
-	  <guid>/blog//Hey-Siri,-Give-me-a-hint!</guid>
+	  <pubDate>2015-10-02T00:00:00+08:00</pubDate>
+	  <guid>/blog//MVC-Design-Pattern</guid>
 	  <description><![CDATA[
-	     <p>Visited Apple’s events page today and was greeted by this:</p>
+	     <h1 id="introduction">Introduction</h1>
 
-<p><img src="assets/AppleEvent/webpage.png" alt="Apple's Events Page" /></p>
+<p>Model-View-Controller (MVC) is one of the most popular design patterns in the software/web development world. The MVC model was popularised by the Spring Framework, Ruby on Rails and Django.</p>
 
-<p>And true enough, Siri responded with it’s usual level of cuteness:</p>
+<p>As the name suggests, there are three main components of this pattern: Model, View and Controller. An application can be divided into these components which will then interact with one another to achieve the intended objective.</p>
+
+<h1 id="interaction-overview">Interaction Overview</h1>
+
+<p><img src="http://i.imgur.com/U7Z1Eir.png" /></p>
+
+<h1 id="model">Model</h1>
+
+<p>The model component can be summarised to contain objects that provide the logic implementation for the application. Typically, these objects correspond with the storage to retrieve/update/store data.</p>
+
+<p>As stated on <a href="https://msdn.microsoft.com/en-us/library/dd381412(v=vs.108).aspx">the MSN MVC Overview</a>, for small applications, the model does not necessarily refer to a physical layers and its subclasses. If an application just reads a dataset and passes it to the view, then the dataset there takes the role of the model.</p>
+
+<h1 id="view">View</h1>
+
+<p>View essentially contains the objects/components dealing with the user interface (UI) of the application. The view typically reflects and outputs the data from the model layer. If the model consists of a dataset of students, then the view probably contains a table view of the details of the students with fields such as the First Name, Last Name, Age, Matriculation Number and so on.</p>
+
+<h1 id="controller">Controller</h1>
+
+<p>Controller are components which handle the user interaction and communicate directly with the model, depending on what the user’s request is. Based on this communication and response, it then selects a view to render. For example, if the user searches for a specific student’s name, the controller then passes the query to the model which then looks up the database, applies necessary filters and then returns the data representing the student (assuming it is a valid search). The controller will now select the appropriate view to present the data to the user. For example, views may change based on the platform (PC/mobile phone/tablet) or the type of user accounts (root/admin/guest) etc.</p>
+
+<h1 id="implementation--advantages">Implementation &amp; Advantages</h1>
+
+<p>There are several ways the MVC can be implemented. For example, one can choose to divide the interactions both on the client and server side for a web application.</p>
+
+<p>The MVC model can come in particularly handy to organise the structure of an application during development. It can help in parallel development as different members of the team can work on the various components together. Another advantage is that we can separate the concerns of the application in a distinct manner which allows for better developer focus.</p>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Tutorial - Introduction to HTML (Part 2)</title>
+	  <link>/blog//Introduction-to-HTML-P2</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-09-24T00:00:00+08:00</pubDate>
+	  <guid>/blog//Introduction-to-HTML-P2</guid>
+	  <description><![CDATA[
+	     <h1 id="recap">Recap</h1>
+
+<p>In <a href="http://harishv7.github.io/tech/general/techstuff/2015/09/20/Introduction%20to%20HTML%20P1.html">part 1</a>, we covered the basics of HTML, the structure, declaring headings, paragraphs and adding images in a HTML file.</p>
 
 <hr />
 
-<div class="images">
-<img class="siri" align="left" src="http://imgur.com/F6PcUgU.png" />
-<img class="siri" align="middle" src="http://imgur.com/C44CeZq.png" />
-<img class="siri" align="right" src="http://i.imgur.com/cPPGI8Y.png" />
-<br />
-<img class="siri" align="left" src="http://i.imgur.com/Nm4rD5C.png" />
-<img class="siri" align="middle" src="http://i.imgur.com/3YCMIUk.png" />
-<img class="siri" align="right" src="http://i.imgur.com/rfc5tdG.png" />
-<br />
-<img class="siri" align="left" src="http://i.imgur.com/yjFhbHU.png" />
-<img class="siri" align="middle" src="http://i.imgur.com/10ELJWN.png" />
-<img class="applelogo" align="right" src="/blog/assets/AppleEvent/apple.png" />
-</div>
-
-<style>
-.images{
-    text-align:center;
-}
-.applelogo{
-	width:160px;
-	height: 240x;
-	padding-top: 50px;
-}
-.siri{
-	width: 160px;
-		height: 284px;
-		display:inline-block;
-}
-</style>
-
-<p>Cheers, <br />
-Harish</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Orbital 2015</title>
-	  <link>/blog//Orbital-2015</link>
-	  <author>Harish V</author>
-	  <pubDate>2015-08-19T00:00:00+08:00</pubDate>
-	  <guid>/blog//Orbital-2015</guid>
-	  <description><![CDATA[
-	     <p><img src="http://i.imgur.com/5EjaKFa.png" alt="Friendezvous" /></p>
-
-<p>After 3 months of hard work, the Orbital programme came to a close on 19th Aug 2015. It was a great experience and I picked up many skills of both front and back end development. I did the project with Al who was very supportive during the 3 months though he was on vacation.</p>
-
-<p>The project’s inspiration came from our shared experiences in daily college life. Many of the times we tend to organise meetings manually. A typical process goes like this (A,B,C are persons).</p>
-
-<blockquote>
-  <p>A–&gt;B: Hey, are you free tomorrow for a project meeting at 2-4pm? <br />
-B–&gt;A: Yup, that’ll be good I guess. <br />
-A–&gt;C: Hey, are you free tomorrow for a project meeting at 2-4pm? <br />
-C–&gt;A: Oh no, I don’t think I’ll be free. How about some other day? <br />
-A (thinks to him/herself): Darn, got to ask B and C for another timing again! <br /></p>
-</blockquote>
-
-<p>As shown above, the typical manual process is tedious where we often WhatsApp or message one another for free slots and try to match it all up for a common time to meet. In the point of view of the meeting administrator, it is a rather painstaking process when he/she has to repeatedly ask the team members for a suitable time to meet.</p>
-
-<p>To solve this issue, I suggested to Al that we should maybe develop a platform which can make the organising of meetings simpler and redefine the ways of doing so. And from there, Friendezvous was born. Friendezvous is an amalgamation of the words Friend and Rendezvous (a meeting at an agreed time and place). So essentially Friendezvous refers to meetings with friends, colleagues etc. And we decided on a relevant tagline as well: “Organising meetings, redefined.”.</p>
-
-<p>I think I should describe a little of the technical aspects of Friendezvous as well. Friendezvous was built using the good old LAMP stack. We used PHP and MySQL along with front-end technologies/frameworks such as HTML, CSS, jQuery, jQuery UI, Bootstrap (modified), Angular JS. The development itself was not the difficult part. The hardest part of this journey was to think as an user of this platform. How would an user using Friendezvous feel about the workflow of this app? Is it too complicated? Can we improve on the workflow to minimise the number of steps/clicks an user is required to make to achieve an objective? These are the various questions which were running on our minds all the time. After all, software/app development is not just about blinding writing code.</p>
-
-<p>There is much more to that.</p>
-
-<p>We are dealing with real life users here. Then, we decided to conduct a survey to analyse the perception of our target audience towards the platform. We did it with a closed circle of friends and received very positive feedback. It was definitely a morale booster to our idea and efforts. More than anything, we were passionate about what we did. Even if we made a positive difference in a single person’s life, it would mean a lot to us.</p>
-
-<p>Orbital Splashdown, where all the teams (from beginner, intermediate &amp; advanced levels) came together to showcase their work, was held on 19th August 2015. It was exhilarating to see so many applications built by students like myself. I was inspired by many apps, with their technical aspects as well as the business models they were planning to develop.</p>
-
-<p>I was extremely joyful when the visitors to my booth exclaimed “Wow, that is one app I think I would use!” or “This is an excellent app bro!”. They were also impressed at the various features like notification tracking and location suggestions Friendezvous offered.</p>
-
-<p>On the whole, Orbital 2015 was an exciting journey. I am going to make it a point to develop an application every summer. I find fulfilment in learning so many technologies.</p>
-
-<p>As for Friendezvous, currently it is available here: <a href="http://friendezvous.herokuapp.com">Friendezvous</a>.</p>
-
-<p>Development is very active and Al and myself aim to launch Friendezvous as a commercial platform soon (in about 3-5 months). After which, we are planning on porting this towards an Android and iOS application as well.</p>
-
-<p>Do try Friendezvous if you can and send me your comments in the comment box on my blog or to my <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#097;&#114;&#105;&#115;&#104;&#050;&#048;&#055;&#064;&#108;&#105;&#118;&#101;&#046;&#099;&#111;&#109;">email</a>.</p>
-
-<p>Details on the Orbital programme is <a href="http://orbital.comp.nus.edu.sg/">here</a>.</p>
-
-<p>Cheers, <br />
-Harish</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Virtual Reality - Google Cardboard</title>
-	  <link>/blog//Virtual-Reality</link>
-	  <author>Harish V</author>
-	  <pubDate>2015-07-12T00:00:00+08:00</pubDate>
-	  <guid>/blog//Virtual-Reality</guid>
-	  <description><![CDATA[
-	     <p>I got a Google Cardboard yesterday. The Google Cardboard comes as a laser-cut template (which you have fold and fix yourself), two 45mm biconvex lenses, 2 neodymium magnets, 2 pairs of velcro and a rubberband.</p>
-
-<p>It’s really simple to fold and use and all you’ve to do is to download a VR app onto the phone and slot it into the font of the Cardboard.</p>
-
-<p>A great thing about the Google Cardboard is that it utilises the magnetic switch as a trigger. So while using an app, using the ‘button’ will allow you to interact the same way as you touch your phone’s screen. As compared to other VR devices, such as the VR One, the magnetic switch is something exclusive to the Cardboard.</p>
-
-<p>There are many apps such as the Cardboard app (which allows you to watch movies, use Google Earth etc.), VR Roller Coaster (which takes you on a ride through the roller coaster) and the apps are definitely growing in number in the App Store.</p>
-
-<p>Virtual Reality is definitely here to stay and it’s development excites me. It opens up many new and different possibilities that people have only dreamt of. We can start to enjoy experiences which previously required us to be physically present elsewhere. The nascent virtual reality is rapidly developing.</p>
-
-<p>Whether virtual reality is good or bad, that depends. There will always be people who might use VR technologies to enjoy in the world they want, without any grasp of reality. But on the other hand, VR’s potential can surely bring quality and happiness to many lives. For now, let’s hope that VR will bring us a more enjoyable future in the coming years!</p>
-
-<p><a href="#images">Below</a> are pictures of the Google Cardboard.</p>
-
-<p>Cheers, <br />
-Harish</p>
+<h1 id="introduction">Introduction</h1>
+<p>In this section, we look at hyperlinks, making lists (ordered/unordered/nested), making comments, adding styles (fonts, colors, background color, bold, italics) &amp; tables.</p>
 
 <hr />
 
-<div id="images">
-<img class="cardboard" src="/blog/assets/GoogleCardboard/image2.jpeg" />
-<img class="cardboard" src="/blog/assets/GoogleCardboard/image3.jpeg" />
-<img class="cardboard" style="height:450px" src="/blog/assets/GoogleCardboard/image6.jpeg" />
-</div>
+<h1 id="hyperlinks">Hyperlinks</h1>
+<p>Hyperlinks are links such as <a href="">this</a>. These are the words or images you click to go to a new page! To link a word to point to another page/image etc., we can use the <code class="highlighter-rouge">&lt;a&gt;</code> tag.</p>
 
-<style type="text/css">
-	.cardboard{
-		width: 500px;
-		border-radius: 15%;
-	}
-</style>
+<p>A simple example will look like this:
+<code class="highlighter-rouge">
+	&lt;a href="www.google.com"&gt;Google&lt;/a&gt;
+</code></p>
 
-	  ]]></description>
-	</item>
+<p>This translates into: <br />
+<a href="www.google.com">Google</a></p>
 
-	<item>
-	  <title>Clean & Green Hackathon 2015</title>
-	  <link>/blog//Clean-&-Green-Hackathon</link>
-	  <author>Harish V</author>
-	  <pubDate>2015-06-22T00:00:00+08:00</pubDate>
-	  <guid>/blog//Clean-&-Green-Hackathon</guid>
-	  <description><![CDATA[
-	     <p><img src="http://www.cgs.sg/wp-content/uploads/2014/10/For-Event-Subpages.jpg" /></p>
-<p>Image Credits: http://www.cgs.sg/events/calendar/hackathon/workshop/</p>
+<p>Now when you click on “Google”, it brings you right to Google’s homepage. You can observe this by simply hovering your mouse on “Google”. Your browser shows where the link points to at the bottom of the browser.</p>
 
-<p>I participated in the Clean &amp; Green Hackathon this weekend. This is second hackathon I participated in after Gamecraft (Organised by NUS Games Development Group) last year. It was particularly a very enriching experience. Held on a larger scale (nation-wide) and open to all ideas and hacks (including hardware, software, apps, games etc.) and people from all age groups, I was able to understand what to expect in a hackathon.</p>
+<p>Hyperlinks come in handy when you need to redirect your users/viewers to another webpage.</p>
 
-<p>Unlike a continuous 24 hours hackathon, we were allowed to go home and return the next morning. It took place over a period of 3 days, starting from Friday (Ideation and pitching) till Sunday (when the judging and prize presentation was held).</p>
+<hr />
 
-<p>I got to know many people from different backgrounds and learn a lot from their ideas as well. Some were just there for the pure fun of it, to exchange ideas and make good friends. Some ideas were just excellent and gave me many new insights into further development of my own idea.</p>
+<h1 id="lists">Lists</h1>
+<p>Lists have mainly 2 forms: ordered and unordered. We can create an ordered (numbered) list of things in HTML by using the <code class="highlighter-rouge">&lt;ol&gt;</code> tag.
+Similarly, we can create unordered(bullet) lists in HTML by using <code class="highlighter-rouge">&lt;ul&gt;</code> tag instead of <code class="highlighter-rouge">&lt;ol&gt;</code>.</p>
 
-<p>This time, my team (Kenny, Yong Zhi &amp; myself) came up with the idea of a web &amp; mobile ready platform called “The Greenlist”. It is basically a peer-to-peer connecting app where one can post his/her old items (eg: laptops, handphones, toys, books, furniture etc.) up for donation.</p>
+<p><em>Example: Ordered List</em></p>
 
-<p>Anyone who needs this item but are willing to have it secondhand (and for free) can simply claim this item, and thereafter proceed to collect the item from the donor themselves. Each successful donation earns the donor some reward points which can then be redeemed for vouchers. To fund the operating costs (which are minimal), we proposed</p>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ol&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 1 <span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 2 <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></code></pre></figure>
+
+<p>This translates into: <br /></p>
+
 <ol>
-    <li>In-App Advertising</li>
-    <li>In-App Purchases (Eco-friendly items etc.)</li>
-    <li>Sponsorship for vouchers</li>
-    <li>Optional donation before claiming an item</li>
+	<li> List point no. 1 </li>
+	<li> List point no. 2 </li>
 </ol>
-<p>Once the idea was formed, we made a prototype both for the web and mobile platform (using Justinmind software).</p>
 
-<p>On Sunday, as the group leader, I made the pitch for our idea and gave a demo of our prototype. Given only 3 minutes for the pitch, it was crucial to make the most out of each and every second to create an everlasting impression of the idea &amp; product/service. Though nervous, having take some public speaking training and course in NUS allowed me to focus on the pitch and do my best.</p>
+<p><em>Example: Unordered List</em></p>
 
-<p>One of the learning points was that I realised that I might have focused too much on the demo of the prototype itself. I should have instead allocated a major part towards helping the audience understand and appreciate the relevance and usefulness of the app in their lives.</p>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 1 <span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 2 <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
 
-<p>Also, the idea is crucial in a hackathon (even more than the prototype)! An effective idea will definitely win people over.</p>
+<p>This translates into: <br /></p>
+<ul>
+	<li> List point no. 1 </li>
+	<li> List point no. 2 </li>
+</ul>
 
-<p>Though, my team did not win, we were thankful for the experience. This hackathon gave me some crucial experience that will help me do better in the forthcoming hackathons I will be participating.</p>
+<p>We can also create nested lists. Simply, include your list inside the parent <code class="highlighter-rouge">&lt;li&gt;</code> tag.</p>
 
-<p>“The Greenlist” project is hosted <a href="https://github.com/harishv7/thegreenlist">here</a>.</p>
+<p><em>Example: Nested Lists</em></p>
 
-<p>The Clean &amp; Green Hackathon event was covered by Channel NewsAsia and the coverage <a href="http://www.channelnewsasia.com/news/singapore/ideas-to-solve-littering/1931422.html?cid=fbsg">available here</a>.</p>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Vegetables<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Fruits
+    <span class="nt">&lt;ul&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Apples<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Oranges<span class="nt">&lt;/li&gt;</span>
+	  <span class="nt">&lt;li&gt;</span>Pears<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Snacks<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
 
-<p>The photos of the Hackathon are <a href="https://www.facebook.com/media/set/?set=a.842836635769622.1073741869.310427622343862&amp;type=3">available here</a>.</p>
+<p>will translate into:</p>
 
-<p>More details on the teams and ideas which won and competition details are <a href="http://www.upsingapore.com/events/clean-green-hackathon-2015/#hackathonhome">here</a>.</p>
+<ul>
+  <li>Vegetables</li>
+  <li>Fruits
+    <ul>
+      <li>Apples</li>
+      <li>Oranges</li>
+	  <li>Pears</li>
+    </ul>
+  </li>
+  <li>Snacks</li>
+</ul>
 
-<p>Cheers, <br />
-Harish</p>
+<p>Here, “Apples”, “Oranges” and “Pears” are nested list items under Fruits.</p>
+
+<hr />
+
+<h1 id="font-size-colors-families--emphasis">Font Size, Colors, Families &amp; Emphasis</h1>
+<p>It is boring to look at a website entirely presented in a same font like Times New Roman or Arial. Also, we can specify a certain font size for the words. We can change this font by using the <code class="highlighter-rouge">style</code> property. This property must be included within the tag (i.e. before closing the tag).</p>
+
+<p><em>Example: Font Size</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-size: 12px"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-size: 30px"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>translates to:</p>
+
+<p style="font-size: 12px"> Your Paragraph here </p>
+<p style="font-size: 30px"> Your Paragraph here </p>
+
+<p>We now realise our entire output is in plain black and white. That’s so boring. Let’s add some colors now, with the <code class="highlighter-rouge">color</code> property. This is really simple and similar to the <code class="highlighter-rouge">font-size</code> property.</p>
+
+<p><em>Example: Font Color</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: blue"</span><span class="nt">&gt;</span> Blue Paragraph here <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: green"</span><span class="nt">&gt;</span> Green Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>And this gives us:</p>
+
+<p style="color: blue"> Blue Paragraph here </p>
+<p style="color: green"> Green Paragraph here </p>
+
+<p>Apart from the font size and colors, to change the font-type, we use the <code class="highlighter-rouge">font-family</code> property. This is utilized in the same way as font-size.</p>
+
+<p><em>Example: Font-Family</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-family: Garamond"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-family: Verdana"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>translates to</p>
+
+<p style="font-family: Garamond"> Your Paragraph here </p>
+<p style="font-family: Verdana"> Your Paragraph here </p>
+
+<p>Sometimes we need to highlight certain important information. Commonly, we use the bold and emphasis of words to highlight something important. To achieve this in HTML we use the <code class="highlighter-rouge">&lt;strong&gt;</code> and <code class="highlighter-rouge">&lt;em&gt;</code> tags for bold and italics respectively.</p>
+
+<p><em>Example: Text Emphasis</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;&lt;strong&gt;</span>Hello There!<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;em&gt;</span>Hello There!<span class="nt">&lt;/em&gt;&lt;/p&gt;</span></code></pre></figure>
+
+<p>and this gives us:</p>
+<p><strong>Hello There!</strong></p>
+<p><em>Hello There!</em></p>
+
+<p>To combine multiple properties, we simply use: <code class="highlighter-rouge">&lt;p style="font-size:20px; font-family:Garamond;"&gt;Sample Paragraphy&lt;/p&gt;</code></p>
+
+<p>which produces:</p>
+
+<p style="font-size:20px; font-family:Garamond;">Sample Paragraphy</p>
+
+<p>Simply, separate the various properties with the use of the semi-colon: <code class="highlighter-rouge">;</code></p>
+
+<p>There are many other properties that can be included such as color, font-weight etc. which will be covered under CSS which stands for Cascadin Style Sheets. CSS can simplify and is the professional method to style web elements.</p>
+
+<hr />
+
+<h1 id="tables">Tables</h1>
+<p>We can add tables to our HTML code by using tables. To achieve this, we utilize <code class="highlighter-rouge">&lt;table&gt;</code>, <code class="highlighter-rouge">&lt;th&gt;</code>, <code class="highlighter-rouge">&lt;tr&gt;</code>, <code class="highlighter-rouge">&lt;td&gt;</code>. That may be a lot of tags, but it helps to structure our table nicely. <code class="highlighter-rouge">&lt;tr&gt;</code> refers to the table row, <code class="highlighter-rouge">&lt;td&gt;</code> refers to the table column and <code class="highlighter-rouge">&lt;th&gt;</code> refers to the row heading.</p>
+
+<p><em>Example: Tables</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">	
+<span class="nt">&lt;table&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+  <span class="nt">&lt;th&gt;</span>Jack's Details<span class="nt">&lt;/th&gt;</span>
+  <span class="nt">&lt;th&gt;</span>Mary's Details<span class="nt">&lt;/th&gt;</span>
+<span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Jack<span class="nt">&lt;/td&gt;</span>
+	<span class="nt">&lt;td&gt;</span>Mary<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+	  <span class="nt">&lt;td&gt;</span>Anderson<span class="nt">&lt;/td&gt;</span>
+	  <span class="nt">&lt;td&gt;</span>Smith<span class="nt">&lt;/td&gt;</span> 
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+	<span class="nt">&lt;td&gt;</span>21<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>24<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span></code></pre></figure>
+
+<p>This gives us:</p>
+
+<table>
+	<tr>
+  <th>Jack's Details</th>
+  <th>Mary's Details</th>
+</tr>
+  <tr>
+    <td>Jack</td>
+	<td>Mary</td>
+  </tr>
+  <tr>
+	  <td>Anderson</td>
+	  <td>Smith</td> 
+  </tr>
+  <tr>
+	<td>21</td>
+    <td>24</td>
+  </tr>
+</table>
+
+<p>If you look at what is being written, we can see that we define the table is a very structured way, row by row. The top row is the heading and uses the <code class="highlighter-rouge">&lt;th&gt;</code> tag. Subsequent rows (<code class="highlighter-rouge">&lt;tr&gt;</code>) uses <code class="highlighter-rouge">&lt;td&gt;</code> to indicate the details such as First Name, Last Name and Ages. The entire table is enclosed with the <code class="highlighter-rouge">&lt;table&gt;</code> and <code class="highlighter-rouge">&lt;/table&gt;</code> tags which mark the start and end of the table respectively.</p>
+
+<hr />
+
+<p>With the above information, we can create a simple website! Here’s a sample:</p>
+
+<noscript><pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;My Webpage&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;My Hobbies&lt;/h1&gt;
+		&lt;p&gt;My hobbies are swimming, badminton and writing code.&lt;/p&gt;
+		
+		&lt;h1&gt;My Current Projects&lt;/h1&gt;
+		&lt;p&gt;I am currently developing the technological breakthrough in computer sciences.&lt;/p&gt;
+		
+		&lt;h2&gt;Additional Information&lt;/h2&gt;
+		&lt;p&gt;I am currenly involved in blah...blah...blah...&lt;/p&gt;
+		
+		&lt;h3&gt;My Favorite Picture&lt;/h3&gt;
+		&lt;img src=&quot;https://lh5.ggpht.com/cb7PU-mvWE1_JxMlpQwyNfMk7yL9kUByZj3bS2YLcPkLor8V6RfkwMzt76_BsZaz0rad=h900&quot;&gt;
+		
+		&lt;h3&gt;Some Emphasis on Text! &lt;/h3&gt;
+		&lt;p&gt;&lt;strong&gt;Hello There!&lt;/strong&gt;&lt;/p&gt;
+		&lt;p&gt;&lt;em&gt;Hello There!&lt;/em&gt;&lt;/p&gt;
+		
+		&lt;h3&gt;Hyperlinks... A lot of them! &lt;/h3&gt;
+		&lt;a href=&quot;www.google.com&quot;&gt;Google&lt;/a&gt;
+		&lt;a href=&quot;www.yahoo.com&quot;&gt;Yahoo!&lt;/a&gt;
+		&lt;a href=&quot;www.apple.com&quot;&gt;Apple&lt;/a&gt;
+		&lt;a href=&quot;www.samsung.com&quot;&gt;Samsung&lt;/a&gt;
+		&lt;a href=&quot;www.bing.com&quot;&gt;Bing&lt;/a&gt;
+		&lt;a href=&quot;www.download.com&quot;&gt;Download.com&lt;/a&gt;
+		&lt;a href=&quot;www.harishv7.github.io/tech&quot;&gt;My website!&lt;/a&gt;
+		
+		&lt;h3&gt; My List! &lt;/h3&gt;
+		&lt;ul&gt;
+		  &lt;li&gt;Vegetables&lt;/li&gt;
+		  &lt;li&gt;Fruits
+		    &lt;ul&gt;
+		      &lt;li&gt;Apples&lt;/li&gt;
+		      &lt;li&gt;Oranges&lt;/li&gt;
+			  &lt;li&gt;Pears&lt;/li&gt;
+		    &lt;/ul&gt;
+		  &lt;/li&gt;
+		  &lt;li&gt;Snacks&lt;/li&gt;
+		&lt;/ul&gt;
+		
+		&lt;h3 style=&quot;font-family: Garamond&quot;&gt;Just playing with some styles&lt;/h3&gt;
+		&lt;p style=&quot;color: blue&quot;&gt;Blue Text!&lt;/p&gt;
+		&lt;p style=&quot;color: green&quot;&gt;Green Text!&lt;/p&gt;
+		&lt;p style=&quot;color: yellow&quot;&gt;Yellow Text!&lt;/p&gt;
+		&lt;p style=&quot;color: violet&quot;&gt;Violet Text!&lt;/p&gt;
+		
+		&lt;h2&gt; A Sample Table &lt;/h2&gt;
+		&lt;table&gt;
+			&lt;tr&gt;
+		  &lt;th&gt;Jack&#39;s Details&lt;/th&gt;
+		  &lt;th&gt;Mary&#39;s Details&lt;/th&gt;
+		&lt;/tr&gt;
+		  &lt;tr&gt;
+		    &lt;td&gt;Jack&lt;/td&gt;
+			&lt;td&gt;Mary&lt;/td&gt;
+		  &lt;/tr&gt;
+		  &lt;tr&gt;
+			  &lt;td&gt;Anderson&lt;/td&gt;
+			  &lt;td&gt;Smith&lt;/td&gt; 
+		  &lt;/tr&gt;
+		  &lt;tr&gt;
+			&lt;td&gt;21&lt;/td&gt;
+		    &lt;td&gt;24&lt;/td&gt;
+		  &lt;/tr&gt;
+		&lt;/table&gt;
+		
+		
+	&lt;/body&gt;
+&lt;/html&gt;</pre></noscript>
+<script src="https://gist.github.com/harishv7/414c2db23055af890658.js"> </script>
+
+<p>The output will look like this:
+<a href="http://i.imgur.com/SmHrvHN.png">Image</a></p>
 
 	  ]]></description>
 	</item>
 
 	<item>
-	  <title>Gamecraft 2014</title>
-	  <link>/blog//Gamecraft-2014</link>
+	  <title>Tutorial - Introduction to HTML (Part 1)</title>
+	  <link>/blog//Introduction-to-HTML-P1</link>
 	  <author>Harish V</author>
-	  <pubDate>2014-12-05T18:18:00+08:00</pubDate>
-	  <guid>/blog//Gamecraft-2014</guid>
+	  <pubDate>2015-09-20T00:00:00+08:00</pubDate>
+	  <guid>/blog//Introduction-to-HTML-P1</guid>
 	  <description><![CDATA[
-	     <p>I recently took part in Gamecraft 2014, organised by NUS Games Development Group (GDG). My first so-called “hackathon” experience. Glad to have worked with great teammates, Alvian, Chris &amp; Tio. Learnt a lot from one another.</p>
+	     <h1 id="introduction">Introduction</h1>
 
-<p>In the given 24 hours and under the theme of “Contact”, we had to design and build a working game! This was a tough task, since we had to ideate within a short span of time and build a working prototype.</p>
+<p>In this first part of the Introduction to HTML, I will be going through the basics of HTML.</p>
 
-<p>Nevertheless, some of my teammates had prior experience with platforms such as Gamemaker and Unity which allowed us to have a clear vision of how exactly are we going to execute our gameplan.</p>
+<p>HTML stands for HyperText Markup Language. This is the standard markup language which allows web browsers (such as Internet Explorer/Firefox/Chrome) to render content into the webpages you visit (yes, including this one). If you haven’t been acquainted with HTML at all, you might want to try right-click and “view page source” on Chrome/Firefox browsers. A typical screenshot of the page source (from Apple.com) is this:
+<img src="http://i.imgur.com/Hsg4sWu.png" alt="HTML page source of Apple.com" /></p>
 
-<p>Below is the link to final copy of the 2D game, titled “ConTag”, which also won us the 2nd Prize in Gamecraft 2014!</p>
+<p>Please don’t be daunted by the intimidating lines of code. We will start right from the basics.</p>
 
-<p><a href="https://www.dropbox.com/sh/o2snaeg836jelzr/AAD-Lxa5URgMqDPM-J8G1cr9a?dl=0">Download ConTag</a></p>
+<hr />
+
+<h1 id="structure-of-a-html-file">Structure of a HTML File</h1>
+
+<noscript><pre>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;
+			&lt;h1&gt; Heading 1 &lt;/h1&gt;
+		
+		&lt;/title&gt;	
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;p&gt; Start of a paragraph &lt;/p&gt;
+	&lt;/body&gt;
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/html&gt;</pre></noscript>
+<script src="https://gist.github.com/harishv7/6896f30b6453a9cc5ae7.js"> </script>
+
+<p>The above is the basic structure of a HTML file. The document starts with <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag which defines the start of the document. The file is basically divided into 3 major sections, namely, <code class="highlighter-rouge">&lt;head&gt;</code>, <code class="highlighter-rouge">&lt;body&gt;</code> and <code class="highlighter-rouge">&lt;footer&gt;</code>.</p>
+
+<p>The head contains basic information such as the title of the webpage and some scripts or resources to be loaded when the file is opened.</p>
+
+<p>The body contains the main content of what the user is to see and the optional footer typically contains links to the various sections of the website etc.</p>
+
+<p>Firstly, in the head tag, we can include the site’s title. For example:
+<code class="highlighter-rouge">
+	&lt;head&gt; 
+		&lt;title&gt; My Title &lt;/title&gt;
+	&lt;/head&gt;
+</code></p>
+
+<p>The above snippet will specify that the title of the webpage is “My Title”.</p>
+
+<p>Now you can also try this out by copying the above snippet(s), pasting it into an editor of your choice (eg: Notepad/TextEdit/TextMate). If you are clueless which editor to use, I would suggest using <a href="http://www.sublimetext.com/">Sublime Text</a>.</p>
+
+<hr />
+
+<h1 id="headings">Headings</h1>
+
+<p>We can highlight certain parts of the page by selecting different sizes of headers. This is done with the header tag. Headings range from <code class="highlighter-rouge">&lt;h1&gt;</code> to <code class="highlighter-rouge">&lt;h6&gt;</code>, where h1 defines the largest heading and h6 is the smallest.</p>
+
+<p>For example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;h1&gt; This is a big heading &lt;/h1&gt;
+</code></pre>
+</div>
+
+<p>translates to:</p>
+<h1> This is a big heading </h1>
+
+<p>and</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;h6&gt; This is a small heading &lt;/h6&gt;
+</code></pre>
+</div>
+
+<p>translates to:</p>
+<h6> This is a small heading </h6>
+
+<hr />
+
+<h1 id="paragraphs">Paragraphs</h1>
+
+<p>We can include paragraphs with the <code class="highlighter-rouge">&lt;p&gt;</code> tag.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;p&gt; hello, i am harish. this is a sample paragraph. &lt;/p&gt;
+</code></pre>
+</div>
+
+<p>translates to</p>
+<p> hello, i am harish. this is a sample paragraph. </p>
+
+<h1 id="images">Images</h1>
+
+<p>No webpage is complete with just some simple text. So how do we add images?
+You do it with the <code class="highlighter-rouge">&lt;img&gt;</code> tag.</p>
+
+<p>The full tag looks like</p>
+
+<p><code class="highlighter-rouge">&lt;img src="https://upload.wikimedia.org/wikipedia/en/6/65/Hello_logo_sm.gif"&gt;</code></p>
+
+<p>translates to</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/en/6/65/Hello_logo_sm.gif" /></p>
+
+<p>There you go. You have just added an image to your page.</p>
+
+<p>Adding from local folders (pictures residing on your computer, offline) is slightly trickier. For example, if the picture is in the same folder as where you save your html file, and is called “picture.jpg”, then your image tag will look like this:</p>
+
+<p><code class="highlighter-rouge">&lt;img src="picture.jpg"&gt;</code>. If it is in a subfolder of your current html file, then it would look something like <code class="highlighter-rouge">&lt;img src="subfolder/picture.jpg"&gt;</code></p>
+
+<hr />
+
+<p>That’s all for the first part. A sample webpage that you should have by now should be something like this:</p>
+<noscript><pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;My Webpage&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;My Hobbies&lt;/h1&gt;
+		&lt;p&gt;My hobbies are swimming, badminton and writing code.&lt;/p&gt;
+		&lt;h1&gt;My Current Projects&lt;/h1&gt;
+		&lt;p&gt;I am currently developing the technological breakthrough in computer sciences.&lt;/p&gt;
+		&lt;h2&gt;Additional Information&lt;/h2&gt;
+		&lt;p&gt;I am currenly involved in blah...blah...blah...&lt;/p&gt;
+		&lt;h3&gt;My Favorite Picture&lt;/h3&gt;
+		&lt;img src=&quot;https://lh5.ggpht.com/cb7PU-mvWE1_JxMlpQwyNfMk7yL9kUByZj3bS2YLcPkLor8V6RfkwMzt76_BsZaz0rad=h900&quot;&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</pre></noscript>
+<script src="https://gist.github.com/harishv7/051a48b69f31e427ece7.js"> </script>
+
+<p>that looks like this:</p>
+
+<p><img src="http://i.imgur.com/sRCwIoD.png" alt="Screenshot of Sample HTML Page" /></p>
+
+<p>Part 2 coming up soon.</p>
 
 <p>Cheers, <br />
-Harish</p>
+V.Harish</p>
 
 	  ]]></description>
 	</item>

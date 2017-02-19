@@ -68,6 +68,36 @@
     
       
       <item>
+        <title>Asynchronous Programming in Node.JS</title>
+        
+          <description>&lt;p&gt;Let’s imagine a restaurant reservation application where 10 people are trying to book at the same time. It will be really inconvenient if the 10th person has wait for the 9 others to finish their bookings first. The database calls can take considerable amount of time. With asynchronous programming, we can run multiple requests at the same time.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 30 Jul 2016 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/Asynchronous-Programming</link>
+        <guid isPermaLink="true">http://harishv.me/Asynchronous-Programming</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>ReactJS Workshop</title>
+        
+          <description>&lt;p&gt;Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as a framework). Unlike a framework that typically deals with all the 3 main areas of Model, View and Controller layers (see my &lt;a href=&quot;http://harishv.me/tech/general/techstuff/2015/10/02/MVC-Design-Pattern.html&quot;&gt;MVC post&lt;/a&gt;, React is a Javascript library for building user interfaces.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 22 Jun 2016 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/ReactJS-Workshop</link>
+        <guid isPermaLink="true">http://harishv.me/ReactJS-Workshop</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>NUS Second Year | Second Semester in Review</title>
         
           <description>&lt;p&gt;The following post is also available at &lt;a href=&quot;https://harishv7.wordpress.com/&quot;&gt;https://harishv7.wordpress.com/&lt;/a&gt;&lt;/p&gt;
@@ -213,6 +243,66 @@
         <link>
         http://harishv.me/Lessons-from-Entrepreneurs</link>
         <guid isPermaLink="true">http://harishv.me/Lessons-from-Entrepreneurs</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>MVC Design Pattern</title>
+        
+          <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Fri, 02 Oct 2015 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/MVC-Design-Pattern</link>
+        <guid isPermaLink="true">http://harishv.me/MVC-Design-Pattern</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Tutorial - Introduction to HTML (Part 2)</title>
+        
+          <description>&lt;h1 id=&quot;recap&quot;&gt;Recap&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Thu, 24 Sep 2015 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/Introduction-to-HTML-P2</link>
+        <guid isPermaLink="true">http://harishv.me/Introduction-to-HTML-P2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Tutorial - Introduction to HTML (Part 1)</title>
+        
+          <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 20 Sep 2015 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/Introduction-to-HTML-P1</link>
+        <guid isPermaLink="true">http://harishv.me/Introduction-to-HTML-P1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Scalability for Web Applications</title>
+        
+          <description>&lt;p&gt;Attended Friday Hacks, which are hosted by &lt;a href=&quot;http://nushackers.org/&quot;&gt;NUSHackers&lt;/a&gt;, where each week a guest speaker is invited to give talks on the latest tech developments etc. Today’s talk was on scalability by &lt;a href=&quot;http://ryandao.net/&quot;&gt;Ryan&lt;/a&gt; from PayPal, who provided some good insights [1]. Personally, I am keen on web development and am currently working on some web applications as side-projects apart from university projects.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 18 Sep 2015 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/Large-Scale-Scaling</link>
+        <guid isPermaLink="true">http://harishv.me/Large-Scale-Scaling</guid>
       </item>
       
     

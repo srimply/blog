@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Tutorial - Introduction to HTML (Part 2)</title>
+	  <link>/blog//Introduction-to-HTML-P2</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-09-24T00:00:00+08:00</pubDate>
+	  <guid>/blog//Introduction-to-HTML-P2</guid>
+	  <description><![CDATA[
+	     <h1 id="recap">Recap</h1>
+
+<p>In <a href="http://harishv7.github.io/tech/general/techstuff/2015/09/20/Introduction%20to%20HTML%20P1.html">part 1</a>, we covered the basics of HTML, the structure, declaring headings, paragraphs and adding images in a HTML file.</p>
+
+<hr />
+
+<h1 id="introduction">Introduction</h1>
+<p>In this section, we look at hyperlinks, making lists (ordered/unordered/nested), making comments, adding styles (fonts, colors, background color, bold, italics) &amp; tables.</p>
+
+<hr />
+
+<h1 id="hyperlinks">Hyperlinks</h1>
+<p>Hyperlinks are links such as <a href="">this</a>. These are the words or images you click to go to a new page! To link a word to point to another page/image etc., we can use the <code class="highlighter-rouge">&lt;a&gt;</code> tag.</p>
+
+<p>A simple example will look like this:
+<code class="highlighter-rouge">
+	&lt;a href="www.google.com"&gt;Google&lt;/a&gt;
+</code></p>
+
+<p>This translates into: <br />
+<a href="www.google.com">Google</a></p>
+
+<p>Now when you click on “Google”, it brings you right to Google’s homepage. You can observe this by simply hovering your mouse on “Google”. Your browser shows where the link points to at the bottom of the browser.</p>
+
+<p>Hyperlinks come in handy when you need to redirect your users/viewers to another webpage.</p>
+
+<hr />
+
+<h1 id="lists">Lists</h1>
+<p>Lists have mainly 2 forms: ordered and unordered. We can create an ordered (numbered) list of things in HTML by using the <code class="highlighter-rouge">&lt;ol&gt;</code> tag.
+Similarly, we can create unordered(bullet) lists in HTML by using <code class="highlighter-rouge">&lt;ul&gt;</code> tag instead of <code class="highlighter-rouge">&lt;ol&gt;</code>.</p>
+
+<p><em>Example: Ordered List</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ol&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 1 <span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 2 <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></code></pre></figure>
+
+<p>This translates into: <br /></p>
+
+<ol>
+	<li> List point no. 1 </li>
+	<li> List point no. 2 </li>
+</ol>
+
+<p><em>Example: Unordered List</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 1 <span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span> List point no. 2 <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
+
+<p>This translates into: <br /></p>
+<ul>
+	<li> List point no. 1 </li>
+	<li> List point no. 2 </li>
+</ul>
+
+<p>We can also create nested lists. Simply, include your list inside the parent <code class="highlighter-rouge">&lt;li&gt;</code> tag.</p>
+
+<p><em>Example: Nested Lists</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Vegetables<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Fruits
+    <span class="nt">&lt;ul&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Apples<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Oranges<span class="nt">&lt;/li&gt;</span>
+	  <span class="nt">&lt;li&gt;</span>Pears<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Snacks<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
+
+<p>will translate into:</p>
+
+<ul>
+  <li>Vegetables</li>
+  <li>Fruits
+    <ul>
+      <li>Apples</li>
+      <li>Oranges</li>
+	  <li>Pears</li>
+    </ul>
+  </li>
+  <li>Snacks</li>
+</ul>
+
+<p>Here, “Apples”, “Oranges” and “Pears” are nested list items under Fruits.</p>
+
+<hr />
+
+<h1 id="font-size-colors-families--emphasis">Font Size, Colors, Families &amp; Emphasis</h1>
+<p>It is boring to look at a website entirely presented in a same font like Times New Roman or Arial. Also, we can specify a certain font size for the words. We can change this font by using the <code class="highlighter-rouge">style</code> property. This property must be included within the tag (i.e. before closing the tag).</p>
+
+<p><em>Example: Font Size</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-size: 12px"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-size: 30px"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>translates to:</p>
+
+<p style="font-size: 12px"> Your Paragraph here </p>
+<p style="font-size: 30px"> Your Paragraph here </p>
+
+<p>We now realise our entire output is in plain black and white. That’s so boring. Let’s add some colors now, with the <code class="highlighter-rouge">color</code> property. This is really simple and similar to the <code class="highlighter-rouge">font-size</code> property.</p>
+
+<p><em>Example: Font Color</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: blue"</span><span class="nt">&gt;</span> Blue Paragraph here <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: green"</span><span class="nt">&gt;</span> Green Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>And this gives us:</p>
+
+<p style="color: blue"> Blue Paragraph here </p>
+<p style="color: green"> Green Paragraph here </p>
+
+<p>Apart from the font size and colors, to change the font-type, we use the <code class="highlighter-rouge">font-family</code> property. This is utilized in the same way as font-size.</p>
+
+<p><em>Example: Font-Family</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-family: Garamond"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-family: Verdana"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>translates to</p>
+
+<p style="font-family: Garamond"> Your Paragraph here </p>
+<p style="font-family: Verdana"> Your Paragraph here </p>
+
+<p>Sometimes we need to highlight certain important information. Commonly, we use the bold and emphasis of words to highlight something important. To achieve this in HTML we use the <code class="highlighter-rouge">&lt;strong&gt;</code> and <code class="highlighter-rouge">&lt;em&gt;</code> tags for bold and italics respectively.</p>
+
+<p><em>Example: Text Emphasis</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;&lt;strong&gt;</span>Hello There!<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;em&gt;</span>Hello There!<span class="nt">&lt;/em&gt;&lt;/p&gt;</span></code></pre></figure>
+
+<p>and this gives us:</p>
+<p><strong>Hello There!</strong></p>
+<p><em>Hello There!</em></p>
+
+<p>To combine multiple properties, we simply use: <code class="highlighter-rouge">&lt;p style="font-size:20px; font-family:Garamond;"&gt;Sample Paragraphy&lt;/p&gt;</code></p>
+
+<p>which produces:</p>
+
+<p style="font-size:20px; font-family:Garamond;">Sample Paragraphy</p>
+
+<p>Simply, separate the various properties with the use of the semi-colon: <code class="highlighter-rouge">;</code></p>
+
+<p>There are many other properties that can be included such as color, font-weight etc. which will be covered under CSS which stands for Cascadin Style Sheets. CSS can simplify and is the professional method to style web elements.</p>
+
+<hr />
+
+<h1 id="tables">Tables</h1>
+<p>We can add tables to our HTML code by using tables. To achieve this, we utilize <code class="highlighter-rouge">&lt;table&gt;</code>, <code class="highlighter-rouge">&lt;th&gt;</code>, <code class="highlighter-rouge">&lt;tr&gt;</code>, <code class="highlighter-rouge">&lt;td&gt;</code>. That may be a lot of tags, but it helps to structure our table nicely. <code class="highlighter-rouge">&lt;tr&gt;</code> refers to the table row, <code class="highlighter-rouge">&lt;td&gt;</code> refers to the table column and <code class="highlighter-rouge">&lt;th&gt;</code> refers to the row heading.</p>
+
+<p><em>Example: Tables</em></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">	
+<span class="nt">&lt;table&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+  <span class="nt">&lt;th&gt;</span>Jack's Details<span class="nt">&lt;/th&gt;</span>
+  <span class="nt">&lt;th&gt;</span>Mary's Details<span class="nt">&lt;/th&gt;</span>
+<span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Jack<span class="nt">&lt;/td&gt;</span>
+	<span class="nt">&lt;td&gt;</span>Mary<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+	  <span class="nt">&lt;td&gt;</span>Anderson<span class="nt">&lt;/td&gt;</span>
+	  <span class="nt">&lt;td&gt;</span>Smith<span class="nt">&lt;/td&gt;</span> 
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+	<span class="nt">&lt;td&gt;</span>21<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>24<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span></code></pre></figure>
+
+<p>This gives us:</p>
+
+<table>
+	<tr>
+  <th>Jack's Details</th>
+  <th>Mary's Details</th>
+</tr>
+  <tr>
+    <td>Jack</td>
+	<td>Mary</td>
+  </tr>
+  <tr>
+	  <td>Anderson</td>
+	  <td>Smith</td> 
+  </tr>
+  <tr>
+	<td>21</td>
+    <td>24</td>
+  </tr>
+</table>
+
+<p>If you look at what is being written, we can see that we define the table is a very structured way, row by row. The top row is the heading and uses the <code class="highlighter-rouge">&lt;th&gt;</code> tag. Subsequent rows (<code class="highlighter-rouge">&lt;tr&gt;</code>) uses <code class="highlighter-rouge">&lt;td&gt;</code> to indicate the details such as First Name, Last Name and Ages. The entire table is enclosed with the <code class="highlighter-rouge">&lt;table&gt;</code> and <code class="highlighter-rouge">&lt;/table&gt;</code> tags which mark the start and end of the table respectively.</p>
+
+<hr />
+
+<p>With the above information, we can create a simple website! Here’s a sample:</p>
+
+<noscript><pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;My Webpage&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;My Hobbies&lt;/h1&gt;
+		&lt;p&gt;My hobbies are swimming, badminton and writing code.&lt;/p&gt;
+		
+		&lt;h1&gt;My Current Projects&lt;/h1&gt;
+		&lt;p&gt;I am currently developing the technological breakthrough in computer sciences.&lt;/p&gt;
+		
+		&lt;h2&gt;Additional Information&lt;/h2&gt;
+		&lt;p&gt;I am currenly involved in blah...blah...blah...&lt;/p&gt;
+		
+		&lt;h3&gt;My Favorite Picture&lt;/h3&gt;
+		&lt;img src=&quot;https://lh5.ggpht.com/cb7PU-mvWE1_JxMlpQwyNfMk7yL9kUByZj3bS2YLcPkLor8V6RfkwMzt76_BsZaz0rad=h900&quot;&gt;
+		
+		&lt;h3&gt;Some Emphasis on Text! &lt;/h3&gt;
+		&lt;p&gt;&lt;strong&gt;Hello There!&lt;/strong&gt;&lt;/p&gt;
+		&lt;p&gt;&lt;em&gt;Hello There!&lt;/em&gt;&lt;/p&gt;
+		
+		&lt;h3&gt;Hyperlinks... A lot of them! &lt;/h3&gt;
+		&lt;a href=&quot;www.google.com&quot;&gt;Google&lt;/a&gt;
+		&lt;a href=&quot;www.yahoo.com&quot;&gt;Yahoo!&lt;/a&gt;
+		&lt;a href=&quot;www.apple.com&quot;&gt;Apple&lt;/a&gt;
+		&lt;a href=&quot;www.samsung.com&quot;&gt;Samsung&lt;/a&gt;
+		&lt;a href=&quot;www.bing.com&quot;&gt;Bing&lt;/a&gt;
+		&lt;a href=&quot;www.download.com&quot;&gt;Download.com&lt;/a&gt;
+		&lt;a href=&quot;www.harishv7.github.io/tech&quot;&gt;My website!&lt;/a&gt;
+		
+		&lt;h3&gt; My List! &lt;/h3&gt;
+		&lt;ul&gt;
+		  &lt;li&gt;Vegetables&lt;/li&gt;
+		  &lt;li&gt;Fruits
+		    &lt;ul&gt;
+		      &lt;li&gt;Apples&lt;/li&gt;
+		      &lt;li&gt;Oranges&lt;/li&gt;
+			  &lt;li&gt;Pears&lt;/li&gt;
+		    &lt;/ul&gt;
+		  &lt;/li&gt;
+		  &lt;li&gt;Snacks&lt;/li&gt;
+		&lt;/ul&gt;
+		
+		&lt;h3 style=&quot;font-family: Garamond&quot;&gt;Just playing with some styles&lt;/h3&gt;
+		&lt;p style=&quot;color: blue&quot;&gt;Blue Text!&lt;/p&gt;
+		&lt;p style=&quot;color: green&quot;&gt;Green Text!&lt;/p&gt;
+		&lt;p style=&quot;color: yellow&quot;&gt;Yellow Text!&lt;/p&gt;
+		&lt;p style=&quot;color: violet&quot;&gt;Violet Text!&lt;/p&gt;
+		
+		&lt;h2&gt; A Sample Table &lt;/h2&gt;
+		&lt;table&gt;
+			&lt;tr&gt;
+		  &lt;th&gt;Jack&#39;s Details&lt;/th&gt;
+		  &lt;th&gt;Mary&#39;s Details&lt;/th&gt;
+		&lt;/tr&gt;
+		  &lt;tr&gt;
+		    &lt;td&gt;Jack&lt;/td&gt;
+			&lt;td&gt;Mary&lt;/td&gt;
+		  &lt;/tr&gt;
+		  &lt;tr&gt;
+			  &lt;td&gt;Anderson&lt;/td&gt;
+			  &lt;td&gt;Smith&lt;/td&gt; 
+		  &lt;/tr&gt;
+		  &lt;tr&gt;
+			&lt;td&gt;21&lt;/td&gt;
+		    &lt;td&gt;24&lt;/td&gt;
+		  &lt;/tr&gt;
+		&lt;/table&gt;
+		
+		
+	&lt;/body&gt;
+&lt;/html&gt;</pre></noscript>
+<script src="https://gist.github.com/harishv7/414c2db23055af890658.js"> </script>
+
+<p>The output will look like this:
+<a href="http://i.imgur.com/SmHrvHN.png">Image</a></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Tutorial - Introduction to HTML (Part 1)</title>
+	  <link>/blog//Introduction-to-HTML-P1</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-09-20T00:00:00+08:00</pubDate>
+	  <guid>/blog//Introduction-to-HTML-P1</guid>
+	  <description><![CDATA[
+	     <h1 id="introduction">Introduction</h1>
+
+<p>In this first part of the Introduction to HTML, I will be going through the basics of HTML.</p>
+
+<p>HTML stands for HyperText Markup Language. This is the standard markup language which allows web browsers (such as Internet Explorer/Firefox/Chrome) to render content into the webpages you visit (yes, including this one). If you haven’t been acquainted with HTML at all, you might want to try right-click and “view page source” on Chrome/Firefox browsers. A typical screenshot of the page source (from Apple.com) is this:
+<img src="http://i.imgur.com/Hsg4sWu.png" alt="HTML page source of Apple.com" /></p>
+
+<p>Please don’t be daunted by the intimidating lines of code. We will start right from the basics.</p>
+
+<hr />
+
+<h1 id="structure-of-a-html-file">Structure of a HTML File</h1>
+
+<noscript><pre>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;
+			&lt;h1&gt; Heading 1 &lt;/h1&gt;
+		
+		&lt;/title&gt;	
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;p&gt; Start of a paragraph &lt;/p&gt;
+	&lt;/body&gt;
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/html&gt;</pre></noscript>
+<script src="https://gist.github.com/harishv7/6896f30b6453a9cc5ae7.js"> </script>
+
+<p>The above is the basic structure of a HTML file. The document starts with <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag which defines the start of the document. The file is basically divided into 3 major sections, namely, <code class="highlighter-rouge">&lt;head&gt;</code>, <code class="highlighter-rouge">&lt;body&gt;</code> and <code class="highlighter-rouge">&lt;footer&gt;</code>.</p>
+
+<p>The head contains basic information such as the title of the webpage and some scripts or resources to be loaded when the file is opened.</p>
+
+<p>The body contains the main content of what the user is to see and the optional footer typically contains links to the various sections of the website etc.</p>
+
+<p>Firstly, in the head tag, we can include the site’s title. For example:
+<code class="highlighter-rouge">
+	&lt;head&gt; 
+		&lt;title&gt; My Title &lt;/title&gt;
+	&lt;/head&gt;
+</code></p>
+
+<p>The above snippet will specify that the title of the webpage is “My Title”.</p>
+
+<p>Now you can also try this out by copying the above snippet(s), pasting it into an editor of your choice (eg: Notepad/TextEdit/TextMate). If you are clueless which editor to use, I would suggest using <a href="http://www.sublimetext.com/">Sublime Text</a>.</p>
+
+<hr />
+
+<h1 id="headings">Headings</h1>
+
+<p>We can highlight certain parts of the page by selecting different sizes of headers. This is done with the header tag. Headings range from <code class="highlighter-rouge">&lt;h1&gt;</code> to <code class="highlighter-rouge">&lt;h6&gt;</code>, where h1 defines the largest heading and h6 is the smallest.</p>
+
+<p>For example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;h1&gt; This is a big heading &lt;/h1&gt;
+</code></pre>
+</div>
+
+<p>translates to:</p>
+<h1> This is a big heading </h1>
+
+<p>and</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;h6&gt; This is a small heading &lt;/h6&gt;
+</code></pre>
+</div>
+
+<p>translates to:</p>
+<h6> This is a small heading </h6>
+
+<hr />
+
+<h1 id="paragraphs">Paragraphs</h1>
+
+<p>We can include paragraphs with the <code class="highlighter-rouge">&lt;p&gt;</code> tag.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;p&gt; hello, i am harish. this is a sample paragraph. &lt;/p&gt;
+</code></pre>
+</div>
+
+<p>translates to</p>
+<p> hello, i am harish. this is a sample paragraph. </p>
+
+<h1 id="images">Images</h1>
+
+<p>No webpage is complete with just some simple text. So how do we add images?
+You do it with the <code class="highlighter-rouge">&lt;img&gt;</code> tag.</p>
+
+<p>The full tag looks like</p>
+
+<p><code class="highlighter-rouge">&lt;img src="https://upload.wikimedia.org/wikipedia/en/6/65/Hello_logo_sm.gif"&gt;</code></p>
+
+<p>translates to</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/en/6/65/Hello_logo_sm.gif" /></p>
+
+<p>There you go. You have just added an image to your page.</p>
+
+<p>Adding from local folders (pictures residing on your computer, offline) is slightly trickier. For example, if the picture is in the same folder as where you save your html file, and is called “picture.jpg”, then your image tag will look like this:</p>
+
+<p><code class="highlighter-rouge">&lt;img src="picture.jpg"&gt;</code>. If it is in a subfolder of your current html file, then it would look something like <code class="highlighter-rouge">&lt;img src="subfolder/picture.jpg"&gt;</code></p>
+
+<hr />
+
+<p>That’s all for the first part. A sample webpage that you should have by now should be something like this:</p>
+<noscript><pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;My Webpage&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;My Hobbies&lt;/h1&gt;
+		&lt;p&gt;My hobbies are swimming, badminton and writing code.&lt;/p&gt;
+		&lt;h1&gt;My Current Projects&lt;/h1&gt;
+		&lt;p&gt;I am currently developing the technological breakthrough in computer sciences.&lt;/p&gt;
+		&lt;h2&gt;Additional Information&lt;/h2&gt;
+		&lt;p&gt;I am currenly involved in blah...blah...blah...&lt;/p&gt;
+		&lt;h3&gt;My Favorite Picture&lt;/h3&gt;
+		&lt;img src=&quot;https://lh5.ggpht.com/cb7PU-mvWE1_JxMlpQwyNfMk7yL9kUByZj3bS2YLcPkLor8V6RfkwMzt76_BsZaz0rad=h900&quot;&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</pre></noscript>
+<script src="https://gist.github.com/harishv7/051a48b69f31e427ece7.js"> </script>
+
+<p>that looks like this:</p>
+
+<p><img src="http://i.imgur.com/sRCwIoD.png" alt="Screenshot of Sample HTML Page" /></p>
+
+<p>Part 2 coming up soon.</p>
+
+<p>Cheers, <br />
+V.Harish</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Scalability for Web Applications</title>
+	  <link>/blog//Large-Scale-Scaling</link>
+	  <author>Harish V</author>
+	  <pubDate>2015-09-18T00:00:00+08:00</pubDate>
+	  <guid>/blog//Large-Scale-Scaling</guid>
+	  <description><![CDATA[
+	     <p>Attended Friday Hacks, which are hosted by <a href="http://nushackers.org/">NUSHackers</a>, where each week a guest speaker is invited to give talks on the latest tech developments etc. Today’s talk was on scalability by <a href="http://ryandao.net/">Ryan</a> from PayPal, who provided some good insights [1]. Personally, I am keen on web development and am currently working on some web applications as side-projects apart from university projects.</p>
+
+<p>The first part of the presentation focused on measuring your web application’s performance. Some great tools that were introduced include ApacheBench and <a href="http://www.webpagetest.org/">webpagetest</a>.</p>
+
+<p>The importance of latency was also stressed during the introduction. To understand latency, let’s consider the scenario when someone from Singapore is accessing a web application hosted from the US. Here, we are concerned how fast can a packet be sent over? These packets typically are routed through several servers and poor cable networks before reaching you.</p>
+
+<p>A key point on the things not to do was having too many JavaScript files. Simply don’t have too many of these:
+<code class="highlighter-rouge">&lt;script src="myjsfile.js"&gt;&lt;/script&gt; </code></p>
+
+<p>As a web development enthusiast myself, I could agree to this. Having multiple file references also means that more number of requests are being made to refresh/load these files. This can be simply minimised by unifying the separate files into one large file during deployment. Of course, minify them.</p>
+
+<p>The second part introduced Amdahl’s Law, which states:
+&gt; the speedup of a parallel algorithm is limited by the fraction of the problem that must be performed sequentially; that is, your design is only as strong as its weakest link. [2]</p>
+
+<p>An example of a building evacution was given. For example, all the people in a building are evacuating a building through a single door. Ultimately, the entire evacuation process will be slowed down. However, compare it with having 2 doors (x2 faster) or an infinte number of doors (takes no time at all).</p>
+
+<p>This then brings the topic of instances of web applications. For example, having a single instance means that a single request received by the server is processed fully first, and then it moves onto the second difference.</p>
+
+<p>In web development, it is crucial to consider both concurrency and parallelism. These are two of the most confused as being the same. Though not the same, they are related.</p>
+
+<p>Simply put, concurrency is about <em>dealing</em> with many things at once (deals with the structure), while parallelism is about <em>doing</em> a lot of things at once (deals with the execution). Hence, concurrency is basically a way to structure a program by breaking it into pieces that can be executed independently [3]. The Go language, for example, is built with concurrency in mind [4].
+Then we have asynchronous IO (AKA non-blocking IO) is a form of input-output processing that allows us to continue with other processing/actions before the current task has completed fully. Node.JS is an example of a JavaScript runtime environment that employs this technique.</p>
+
+<p>The last part focuses on infrastructure. Today, the best ways for scaling without having to buy expensive bare metal servers, would be cloud hosting and deployment. For example, Netflix is hosted on Amazon Cloud, whereas GitHub employs hosting from bare metal physical servers. Cloud advancements have provided great scope for scalability.</p>
+
+<p>A simple example is autoscaling (pre-requisite is having stateless apps). Autoscaling allows us to monitor resource exhaustion/redudance and spawn or kill as many instances as required by the situation. While this is cost-effective and resilient, it is also harder to test/debug/implement etc.</p>
+
+<p>The above information and factors come in crucial when attempting to scale as your demand grows. I feel the advancement of cloud technologies and deployment is great and has provided us with an easy way to scale and monitor our apps. As compared to the past, where people had to purchase/set up/maintain huge bulky physical servers, this is so much more hassle-free.</p>
+
+<hr />
+
+<h5 id="the-above-content-was-delivered-at-nus-friday-hacks-on-18th-sep-2015">The above content was delivered at NUS Friday Hacks on 18th Sep 2015.</h5>
+
+<h5 id="references-1httpryandaonet-2httpwwwembeddedcomdesignmcus-processors-and-socs4006486what-amdahl-s-law-can-tell-us-about-multicores-and-multiprocessing-3httpbloggolangorgconcurrency-is-not-parallelism-4httptalksgolangorg2012wazaslide10"><strong>References: <a href="http://ryandao.net/">1</a>, <a href="http://www.embedded.com/design/mcus-processors-and-socs/4006486/What-Amdahl-s-Law-can-tell-us-about-multicores-and-multiprocessing">2</a>, <a href="http://blog.golang.org/concurrency-is-not-parallelism">3</a>, <a href="http://talks.golang.org/2012/waza.slide#10">4</a></strong></h5>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
