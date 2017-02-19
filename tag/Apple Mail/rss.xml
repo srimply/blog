@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Top Email Clients for the New Mac</title>
+	  <link>/blog//Top-Email-Clients-for-Mac</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
+	  <guid>/blog//Top-Email-Clients-for-Mac</guid>
+	  <description><![CDATA[
+	     <h2 id="apple-mail">Apple Mail</h2>
+
+<p><img src="http://imgur.com/hm3hIAU.png" alt="Apple Mail" /></p>
+
+<p><img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/osx/yos_mail_conversations.png" alt="Apple Mail" /></p>
+
+<p>Apple’s built in client, Mail, offers a neat interface for managing multiple email accounts at once. From experience, it integrates smoothly with all the popular service providers such as Google, Yahoo, Outlook and Office Enterprise accounts. It also offers markup capabilities to edit your PDF or image attachment right within the client. Spotlight on macOS also includes Mail attachments and emails into search. Mail comes installed by default on all new Macs.</p>
+
+<h2 id="spark">Spark</h2>
+
+<p><img src="https://sparkmailapp.com/img/new/index/all_devices.png" alt="Spark" /></p>
+
+<p>Spark won “Best of 2016” award. Spark places itself as a client for users looking productivity. It has a Smart Inbox which allows you to focus on the most important emails by categorising new emails into  Personal, Notifications and Newsletters. Spark’s snooze feature helps you to get rid of emails that are not urgent. </p>
+
+<p><img src="http://imgur.com/hZ07VF2.png" alt="Smart Search" /></p>
+
+<p>My favourite feature of Spark is its smart search that support natural language. If you are looking for attachments from John, your colleague, simply typing “attachments from John” will bring the relevant results to you in an instant. Spark offers smart notifications, which helps you filter email notifications to only those of high priority. Signature support is also great in Spark as you just need to quickly swipe or choose between your frequently used signatures. </p>
+
+<p>Spark offers an “Undo Send” feature which allows a delay of 5 seconds before sending the email. This may be useful for those who often send hurried emails as you can stop sending the email and continue edits. However, currently Spark does not allow for variable delay and it is fixed to 5 seconds.</p>
+
+<p>Something that really stands out in Spark is its Quick Replies. You can quickly reply to any email with a preset of emotions such as Like, Thanks, Agree etc. And beyond all the hoard of features, Spark has a great UI that keeps you coming back to it. Spark comes free on both the Mac App Store for Macs and the iTunes Store for iOS devices. It’s definitely worth a try for all new users.</p>
+
+<h2 id="airmail"> Airmail</h2>
+
+<p><img src="http://imgur.com/kAhWBrC.png" alt="Airmail" /></p>
+
+<p>I have been a loyal user of Airmail for about two years now. I made the switch from Apple’s Mail to Airmail primarily because of the Snooze function it offerred back then. At that time, Airmail seemed to be the best option as other alternatives (such as Spark) were not present. But a word of warning is that Airmail offers tons of preferences and settings which may not be for the average user. </p>
+
+<p>Like Spark, Airmail has many of the features discussed. I personally like the “Undo Send” function which offers up to 120 seconds delay before sending an email which you clicked Send. It has already proved to be a crucial function in several scenarios.</p>
+
+<p><img src="http://imgur.com/faZx1p1.png" alt="Markdown - Airmail" /></p>
+
+<p>Airmail contains several themes which may appeal to different individuals. Also, Airmail offers crafting emails in Markdown, a popular language for blogging nowadays. It provides a immediate preview of the email by having a split screen view. With Markdown, you can easily create lists, and even embed your code blocks.</p>
+
+<p>Airmail supports integrations with several productivity apps such as:</p>
+
+<ul>
+  <li>Calendar</li>
+  <li>Reminders</li>
+  <li>OmniFocus</li>
+  <li>Wunderlist</li>
+  <li>Todoist</li>
+</ul>
+
+<p>and many others!</p>
+
+<p>While Airmail is not free, it comes at an affordable price of US$9.99.)</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
