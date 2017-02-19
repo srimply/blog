@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>Tutorial - Introduction to HTML (Part 2)</title>
-	  <link>/blog//Introduction-to-HTML-Part-2</link>
+	  <link>/blog/Introduction-to-HTML-Part-2</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-09-24T00:00:00+08:00</pubDate>
-	  <guid>/blog//Introduction-to-HTML-Part-2</guid>
+	  <guid>/blog/Introduction-to-HTML-Part-2</guid>
 	  <description><![CDATA[
 	     <h1 id="recap">Recap</h1>
 
@@ -306,10 +306,10 @@ Similarly, we can create unordered(bullet) lists in HTML by using <code class="h
 
 	<item>
 	  <title>Tutorial - Introduction to HTML (Part 1)</title>
-	  <link>/blog//Introduction-to-HTML-Part-1</link>
+	  <link>/blog/Introduction-to-HTML-Part-1</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-09-20T00:00:00+08:00</pubDate>
-	  <guid>/blog//Introduction-to-HTML-Part-1</guid>
+	  <guid>/blog/Introduction-to-HTML-Part-1</guid>
 	  <description><![CDATA[
 	     <h1 id="introduction">Introduction</h1>
 
@@ -449,10 +449,10 @@ V.Harish</p>
 
 	<item>
 	  <title>Scalability for Web Applications</title>
-	  <link>/blog//Large-Scale-Scaling</link>
+	  <link>/blog/Large-Scale-Scaling</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-09-18T00:00:00+08:00</pubDate>
-	  <guid>/blog//Large-Scale-Scaling</guid>
+	  <guid>/blog/Large-Scale-Scaling</guid>
 	  <description><![CDATA[
 	     <p>Attended Friday Hacks, which are hosted by <a href="http://nushackers.org/">NUSHackers</a>, where each week a guest speaker is invited to give talks on the latest tech developments etc. Today’s talk was on scalability by <a href="http://ryandao.net/">Ryan</a> from PayPal, who provided some good insights [1]. Personally, I am keen on web development and am currently working on some web applications as side-projects apart from university projects.</p>
 

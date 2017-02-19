@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>Top Todo App of 2016</title>
-	  <link>/blog//Top-Todo-App-of-2016</link>
+	  <link>/blog/Top-Todo-App-of-2016</link>
 	  <author>Harish V</author>
 	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
-	  <guid>/blog//Top-Todo-App-of-2016</guid>
+	  <guid>/blog/Top-Todo-App-of-2016</guid>
 	  <description><![CDATA[
 	     <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
 
@@ -45,10 +45,10 @@
 
 	<item>
 	  <title>Top Email Clients for the New Mac</title>
-	  <link>/blog//Top-Email-Clients-for-Mac</link>
+	  <link>/blog/Top-Email-Clients-for-Mac</link>
 	  <author>Harish V</author>
 	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
-	  <guid>/blog//Top-Email-Clients-for-Mac</guid>
+	  <guid>/blog/Top-Email-Clients-for-Mac</guid>
 	  <description><![CDATA[
 	     <h2 id="apple-mail">Apple Mail</h2>
 
@@ -103,10 +103,10 @@
 
 	<item>
 	  <title>What is Markdown?</title>
-	  <link>/blog//What-is-Markdown</link>
+	  <link>/blog/What-is-Markdown</link>
 	  <author>Harish V</author>
 	  <pubDate>2017-02-18T00:00:00+08:00</pubDate>
-	  <guid>/blog//What-is-Markdown</guid>
+	  <guid>/blog/What-is-Markdown</guid>
 	  <description><![CDATA[
 	     <p>Markdown is a markup language that can be easily converted to HTML or other formats. The best part of Markdown is that you can write it in plaintext format, yet format it using certain special characters such as hyphens (<code class="highlighter-rouge">-</code>), quotes etc. Even this post was rendered with Markdown. Let’s see how we can craft posts with Markdown.</p>
 
@@ -385,10 +385,10 @@ ___</p>
 
 	<item>
 	  <title>Asynchronous Programming in Node.JS</title>
-	  <link>/blog//Asynchronous-Programming</link>
+	  <link>/blog/Asynchronous-Programming</link>
 	  <author>Harish V</author>
 	  <pubDate>2016-07-30T00:00:00+08:00</pubDate>
-	  <guid>/blog//Asynchronous-Programming</guid>
+	  <guid>/blog/Asynchronous-Programming</guid>
 	  <description><![CDATA[
 	     <p>Let’s imagine a restaurant reservation application where 10 people are trying to book at the same time. It will be really inconvenient if the 10th person has wait for the 9 others to finish their bookings first. The database calls can take considerable amount of time. With asynchronous programming, we can run multiple requests at the same time.</p>
 
@@ -425,10 +425,10 @@ ___</p>
 
 	<item>
 	  <title>ReactJS Workshop</title>
-	  <link>/blog//ReactJS-Workshop</link>
+	  <link>/blog/ReactJS-Workshop</link>
 	  <author>Harish V</author>
 	  <pubDate>2016-06-22T00:00:00+08:00</pubDate>
-	  <guid>/blog//ReactJS-Workshop</guid>
+	  <guid>/blog/ReactJS-Workshop</guid>
 	  <description><![CDATA[
 	     <p>Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as a framework). Unlike a framework that typically deals with all the 3 main areas of Model, View and Controller layers (see my <a href="http://harishv.me/tech/general/techstuff/2015/10/02/MVC-Design-Pattern.html">MVC post</a>, React is a Javascript library for building user interfaces.</p>
 
@@ -449,10 +449,10 @@ Harish V</p>
 
 	<item>
 	  <title>Data Science Student Challenge 2016 Experience</title>
-	  <link>/blog//Data-Science-Student-Challenge-Experience</link>
+	  <link>/blog/Data-Science-Student-Challenge-Experience</link>
 	  <author>Harish V</author>
 	  <pubDate>2016-03-29T00:00:00+08:00</pubDate>
-	  <guid>/blog//Data-Science-Student-Challenge-Experience</guid>
+	  <guid>/blog/Data-Science-Student-Challenge-Experience</guid>
 	  <description><![CDATA[
 	     <h2 id="about-the-challenge--our-product">About the Challenge &amp; Our Product</h2>
 
@@ -505,10 +505,10 @@ Harish V</p>
 
 	<item>
 	  <title>Gamecraft 2015!</title>
-	  <link>/blog//Gamecraft-2015</link>
+	  <link>/blog/Gamecraft-2015</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-12-06T00:00:00+08:00</pubDate>
-	  <guid>/blog//Gamecraft-2015</guid>
+	  <guid>/blog/Gamecraft-2015</guid>
 	  <description><![CDATA[
 	     <p><img src="http://i.imgur.com/KnFi8cM.png " alt="TwistedMaze Logo" style="width: 200px;" /></p>
 
@@ -534,10 +534,10 @@ Harish V</p>
 
 	<item>
 	  <title>MVC Design Pattern</title>
-	  <link>/blog//MVC-Design-Pattern</link>
+	  <link>/blog/MVC-Design-Pattern</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-10-02T00:00:00+08:00</pubDate>
-	  <guid>/blog//MVC-Design-Pattern</guid>
+	  <guid>/blog/MVC-Design-Pattern</guid>
 	  <description><![CDATA[
 	     <h1 id="introduction">Introduction</h1>
 
@@ -575,10 +575,10 @@ Harish V</p>
 
 	<item>
 	  <title>Tutorial - Introduction to HTML (Part 2)</title>
-	  <link>/blog//Introduction-to-HTML-Part-2</link>
+	  <link>/blog/Introduction-to-HTML-Part-2</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-09-24T00:00:00+08:00</pubDate>
-	  <guid>/blog//Introduction-to-HTML-Part-2</guid>
+	  <guid>/blog/Introduction-to-HTML-Part-2</guid>
 	  <description><![CDATA[
 	     <h1 id="recap">Recap</h1>
 
@@ -868,10 +868,10 @@ Similarly, we can create unordered(bullet) lists in HTML by using <code class="h
 
 	<item>
 	  <title>Tutorial - Introduction to HTML (Part 1)</title>
-	  <link>/blog//Introduction-to-HTML-Part-1</link>
+	  <link>/blog/Introduction-to-HTML-Part-1</link>
 	  <author>Harish V</author>
 	  <pubDate>2015-09-20T00:00:00+08:00</pubDate>
-	  <guid>/blog//Introduction-to-HTML-Part-1</guid>
+	  <guid>/blog/Introduction-to-HTML-Part-1</guid>
 	  <description><![CDATA[
 	     <h1 id="introduction">Introduction</h1>
 
