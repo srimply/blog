@@ -26,7 +26,7 @@
 </iframe>
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=harishv7-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01DICYKRU&amp;asins=B01DICYKRU&amp;linkId=955dd407043325294afff9cffcfc76bf&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff">
-    </iframe>
+</iframe>
 
 <p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
 
@@ -819,22 +819,7 @@ Similarly, we can create unordered(bullet) lists in HTML by using <code class="h
 
 <h1 id="structure-of-a-html-file">Structure of a HTML File</h1>
 
-<noscript><pre>&lt;!DOCTYPE HTML&gt;
-&lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;
-			&lt;h1&gt; Heading 1 &lt;/h1&gt;
-		
-		&lt;/title&gt;	
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;p&gt; Start of a paragraph &lt;/p&gt;
-	&lt;/body&gt;
-	&lt;footer&gt;
-		
-	&lt;/footer&gt;
-&lt;/html&gt;</pre></noscript>
-<script src="https://gist.github.com/harishv7/6896f30b6453a9cc5ae7.js"> </script>
+<p>true<script src="https://gist.github.com/harishv7/6896f30b6453a9cc5ae7.js"> </script></p>
 
 <p>The above is the basic structure of a HTML file. The document starts with <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag which defines the start of the document. The file is basically divided into 3 major sections, namely, <code class="highlighter-rouge">&lt;head&gt;</code>, <code class="highlighter-rouge">&lt;body&gt;</code> and <code class="highlighter-rouge">&lt;footer&gt;</code>.</p>
 
