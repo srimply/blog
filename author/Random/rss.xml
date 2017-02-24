@@ -3,7 +3,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-      <title>http://harishv.me</title>
+      <title>http://harishv.me/</title>
    
    <link>http://harishv.me</link>
    <description>My thoughts - on life & code.</description>
@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>Great Quotes Close to My Heart</title>
-	  <link>/blog//Great-Quotes</link>
+	  <link>/blog//Great-Quotes-Close-to-My-Heart</link>
 	  <author>Harish V</author>
 	  <pubDate>2017-02-25T00:00:00+08:00</pubDate>
-	  <guid>/blog//Great-Quotes</guid>
+	  <guid>/blog//Great-Quotes-Close-to-My-Heart</guid>
 	  <description><![CDATA[
 	     <blockquote>
   <p>When you truly and deeply want something, all of the universe conspires in helping you achieve it. - The Alchemist by Paulo Coelho</p>
