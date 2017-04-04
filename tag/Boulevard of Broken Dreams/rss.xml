@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me/</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Boulevard of Broken Dreams - Green Day</title>
+	  <link>/blog//Boulevard-of-Broken-Dreams-Greenday</link>
+	  <author>Harish V</author>
+	  <pubDate>2014-12-27T00:00:00+08:00</pubDate>
+	  <guid>/blog//Boulevard-of-Broken-Dreams-Greenday</guid>
+	  <description><![CDATA[
+	     <h3 id="boulevard-of-broken-dreams-by-green-day---guitar-chords">Boulevard of Broken Dreams by Green Day - Guitar Chords</h3>
+
+<p>Here is the basic chord strumming for the song. Sing and strum along!</p>
+
+<p><em>Remember to use a capo on the 1st fret of the guitar</em></p>
+
+<p>Chords Required (in sequence): 
+<code class="highlighter-rouge">
+E(minor), G(major), D(major), A(minor)
+</code></p>
+
+<p>Strumming Pattern:
+<code class="highlighter-rouge">
+D D U (change chord now) D D U (change) ...
+</code></p>
+
+<p>Repeat the above for the entire song.</p>
+
+<p>It’s that simple! :D</p>
+
+<p>Refer to video if unsure: <a href="http://www.youtube.com/watch?v=qOa_qKfyPV4">Link to YouTube</a></p>
+
+<p>Credits</p>
+
+<ul>
+  <li>http://www.guitar-skill-builder.com/free-printable-guitar-chord-chart.html</li>
+  <li>Credit: http://www.guitar-skill-builder.com/free-printable-guitar-chord-chart.html</li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
