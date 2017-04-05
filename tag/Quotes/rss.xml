@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me/</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Favourite Quotes from The Alchemist by Paulo Coelho</title>
+	  <link>/blog//Favourite-Quotes-from-The-Alchemist</link>
+	  <author>Harish V</author>
+	  <pubDate>2014-12-07T00:00:00+08:00</pubDate>
+	  <guid>/blog//Favourite-Quotes-from-The-Alchemist</guid>
+	  <description><![CDATA[
+	     <p><img id="book" src="http://theliterarylawyer.ca/wp-content/uploads/2014/08/the-alchemist.jpg" /></p>
+
+<style>
+#book {
+	width: 40%;
+}
+</style>
+
+<blockquote>
+  <p>“It’s not what enters men’s mouths that’s evil; It’s what come out of their mouth that is.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“What you still to know is this: before a dream is realized, the Soul of the World tests everything that was learned along the way. It does this not because it is evil, but so that we can, in addition to realizing our dreams, master the lessons we’ve learned as we’ve moved toward that dream. That’s the point at which most people give up. It’s the point at which, as we say in the language of the desert, one ‘dies of thirst just when the palm trees have appeared on the horizon.’</p>
+</blockquote>
+
+<blockquote>
+  <p>“Every search begins with beginner’s luck. And every search ends with the victor’s being severly tested.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“It is said that the darkest hour of the night came just before the dawn”</p>
+</blockquote>
+
+<blockquote>
+  <p>“There is only one thing that makes a dream impossible to achieve: the fear of failure.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“I don’t live in either my past or my future. I’m only interested in the present. If you can concentrate always on the present, you’ll be a happy man. You’ll see that there is life in the desert, that there are stars in the heavens, and that tribesmen fight because they are part of the human race. Life will be a party for you, a grand festival, because life is the moment we’re living right now.”</p>
+</blockquote>
+
+<blockquote>
+  <p>Maktub (“It’s written.”)</p>
+</blockquote>
+
+<blockquote>
+  <p>“It was the pure Language of the World. It required no explanation, just as the universe needs none as it travels through endless time. What the boy felt at that moment was that he was in the presence of the only woman in his life, and that, with no need for words, she recognized the same thing. He was more certain of it than of anything in the world. He had been told by his parents and grandparents that he must fall in love and really know a person before becoming committed. But maybe people who felt that way had never learned the universal language. Because, when you know that language, it’s easy to understand that someone in the world awaits you, whether it’s in the middle of the desert or in some great city. And when two such people encounter each other, and their eyes meet, the past and the future become unimportant. There is only that moment, and the incredible certainty that everything under the sun has been written by one hand only. It is the hand that evokes love, and creates a twin soul for every person in the world. Without such love, one’s dreams would have no meaning.”</p>
+</blockquote>
+
+<p><em>From The Alchemist by Paulo Coelho</em></p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
