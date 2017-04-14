@@ -29,7 +29,7 @@
 <p>Version control is crucial for any project you do. GitHub Pages is connected with your GitHub repository, which means once any changes are pushed, your website is automatically rebuilt and deployed for you. The individual sub-pages that see - <a href="http://harishv.me/blog/">my blog</a>, <a href="http://harishv.me/projects/">my projects</a>, <a href="http://harishv.me/photography/">my photography page</a> are all individual GitHub repositories. The main page is a GitHub repository named <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> on the <code class="highlighter-rouge">master</code> branch. To deploy other repositories under your GitHub Pages domain, you simply push your changes to a <code class="highlighter-rouge">gh-pages</code> branch.</p>
 
 <h4 id="custom-domain-names">3. Custom domain names</h4>
-<p>By default GitHub Pages offers the domain <code class="highlighter-rouge">http://&lt;your-github-username&gt;.github.io</code>. This is good enough for many hobbyists to try deploying their local projects on the web. But if you want a custom domain, you can do that too. Simply register for a domain name on sites like <a href="http://namecheap.com/">Namecheap</a> or <a href="http://godaddy.com/">GoDaddy</a> and connect them to GitHub pages. My site domain <a href="http://harishv.me">harishv.me</a> is registered on Namecheap and connected to my GitHub repositories.</p>
+<p>By default GitHub Pages offers the domain <code class="highlighter-rouge">http://&lt;your-github-username&gt;.github.io</code>. This is good enough for many hobbyists to try deploying their local projects on the web. But if you want a custom domain, you can do that too. Simply register for a domain name on sites like <a href="http://namecheap.com/">Namecheap</a> or <a href="http://godaddy.com/">GoDaddy</a> and connect them to GitHub pages. My site domain <a href="http://harishv.me">harishv.me</a> is registered on Namecheap and connected to my GitHub repositories. If you want to see how I connected my Namecheap domain with GitHub Pages, check <a href="/blog//Connecting-Namecheap-Domain-with-GitHub">this</a> out.</p>
 
 <h4 id="jekyll-blogging-support">4. Jekyll blogging support</h4>
 <p>GitHub Pages supports Jekyll, which means you can create blogs and deploy them. Jekyll is a powerful <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>-based blogging tool. All you need to do is run a few Jekyll commands after writing your posts and Jekyll builds static sites which you can easily push to GitHub. My <a href="http://harishv.me/blog/">blog</a> is built with Jekyll as well. It’s a great way for people who prefer pure code-style of blogging. Also, all your posts can be easily backed up as they are all in a text-based Markdown format.</p>
@@ -46,6 +46,44 @@
 
 <h4 id="only-supports-github-repositories">2. Only supports GitHub repositories</h4>
 <p>Of course, GitHub only supports repositories from itself. If you use another platform like <a href="https://bitbucket.org/">Atlassian BitBucket</a> for version control then you will not be able to utilise GitHub Pages. If you are using BitBucket, you are in luck since they too offer support for hosting static sites.  Check this <a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html">FAQ section</a> for more information.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Connecting Namecheap Domain with GitHub Pages</title>
+	  <link>/blog//Connecting-Namecheap-Domain-with-GitHub</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-12T00:00:00+08:00</pubDate>
+	  <guid>/blog//Connecting-Namecheap-Domain-with-GitHub</guid>
+	  <description><![CDATA[
+	     <p>A basic tutorial for those who are looking to connect their custom domain to GitHub Pages. This post assumes you will be getting your domain with Namecheap. But, it should mostly apply to any domain providers.</p>
+
+<p>I first used Namecheap because they offered students free domains. Yup, if you are a student you can get a free Namecheap domain ending with `.me’ free for a year. Check their offer <a href="https://nc.me/">here</a>.</p>
+
+<h4 id="register-on-namecheap">1. Register on Namecheap</h4>
+<p>Simply go to the <a href="https://www.namecheap.com/">Namecheap homepage</a> and register for an account.</p>
+
+<h4 id="select-a-cool-domain">2. Select a cool domain</h4>
+<p>Try to get a <code class="highlighter-rouge">.com</code> domain. It is the most general and commonly used domain. But with a ton of websites floating online, you may not be able to find your ideal domain available under <code class="highlighter-rouge">.com</code>. If thats the case check out <code class="highlighter-rouge">.me</code> domains for a personal website (like mine), the trendy <code class="highlighter-rouge">.io</code> for a startup/business, <code class="highlighter-rouge">.net</code>. Namecheap offers a wide range of domains to choose from. Some of them are <code class="highlighter-rouge">.life</code>, <code class="highlighter-rouge">.co</code>, <code class="highlighter-rouge">.tech</code> etc.</p>
+
+<p>Choose the domain carefully as you will be sticking with it for some considerable time.</p>
+
+<h4 id="get-a-github-repository">3. Get a GitHub Repository</h4>
+<p>If you have not yet created a repository, go to GitHub to create one. Name it <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> and ensure you have a master branch where you can push your HTML files. I assume you have your HTML, CSS, JavaScript files ready. Push them to this repository on the master branch.</p>
+
+<p>Visit the website <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> should allow you to view the expected website.</p>
+
+<h4 id="create-a-cname-record-in-your-repository">4. Create a CNAME record in your Repository</h4>
+<p>Create a file titled CNAME with your domain name. That’s it. For example my CNAME file contains this:
+<code class="highlighter-rouge">harishv.me</code>.</p>
+
+<h4 id="go-to-namecheaps-dashboard">5. Go to Namecheap’s Dashboard</h4>
+<p>Under the Advanced DNS section, add in the following records. The CNAME record’s value  follows the GitHub URL you made in step 3. The A records are used to point the domain name to the IP address of the hosting server, which in your case will be GitHub’s.</p>
+
+<p><img src="assets/images/posts/namecheap_records.png" alt="Namecheap Records" /></p>
+
+<p>That’s all folks. Give it a few minutes (or hours) and your site will be live at your newly registered domain.</p>
 
 	  ]]></description>
 	</item>
@@ -613,299 +651,6 @@ Harish V</p>
 
 <p>The MVC model can come in particularly handy to organise the structure of an application during development. It can help in parallel development as different members of the team can work on the various components together. Another advantage is that we can separate the concerns of the application in a distinct manner which allows for better developer focus.</p>
 
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Tutorial - Introduction to HTML (Part 2)</title>
-	  <link>/blog//Introduction-to-HTML-Part-2</link>
-	  <author>Harish V</author>
-	  <pubDate>2015-09-24T00:00:00+08:00</pubDate>
-	  <guid>/blog//Introduction-to-HTML-Part-2</guid>
-	  <description><![CDATA[
-	     <h1 id="recap">Recap</h1>
-
-<p>In <a href="http://harishv7.github.io/tech/general/techstuff/2015/09/20/Introduction%20to%20HTML%20P1.html">part 1</a>, we covered the basics of HTML, the structure, declaring headings, paragraphs and adding images in a HTML file.</p>
-
-<hr />
-
-<h1 id="introduction">Introduction</h1>
-<p>In this section, we look at hyperlinks, making lists (ordered/unordered/nested), making comments, adding styles (fonts, colors, background color, bold, italics) &amp; tables.</p>
-
-<hr />
-
-<h1 id="hyperlinks">Hyperlinks</h1>
-<p>Hyperlinks are links such as <a href="">this</a>. These are the words or images you click to go to a new page! To link a word to point to another page/image etc., we can use the <code class="highlighter-rouge">&lt;a&gt;</code> tag.</p>
-
-<p>A simple example will look like this:
-<code class="highlighter-rouge">
-	&lt;a href="www.google.com"&gt;Google&lt;/a&gt;
-</code></p>
-
-<p>This translates into: <br />
-<a href="www.google.com">Google</a></p>
-
-<p>Now when you click on “Google”, it brings you right to Google’s homepage. You can observe this by simply hovering your mouse on “Google”. Your browser shows where the link points to at the bottom of the browser.</p>
-
-<p>Hyperlinks come in handy when you need to redirect your users/viewers to another webpage.</p>
-
-<hr />
-
-<h1 id="lists">Lists</h1>
-<p>Lists have mainly 2 forms: ordered and unordered. We can create an ordered (numbered) list of things in HTML by using the <code class="highlighter-rouge">&lt;ol&gt;</code> tag.
-Similarly, we can create unordered(bullet) lists in HTML by using <code class="highlighter-rouge">&lt;ul&gt;</code> tag instead of <code class="highlighter-rouge">&lt;ol&gt;</code>.</p>
-
-<p><em>Example: Ordered List</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ol&gt;</span>
-	<span class="nt">&lt;li&gt;</span> List point no. 1 <span class="nt">&lt;/li&gt;</span>
-	<span class="nt">&lt;li&gt;</span> List point no. 2 <span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ol&gt;</span></code></pre></figure>
-
-<p>This translates into: <br /></p>
-
-<ol>
-	<li> List point no. 1 </li>
-	<li> List point no. 2 </li>
-</ol>
-
-<p><em>Example: Unordered List</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
-	<span class="nt">&lt;li&gt;</span> List point no. 1 <span class="nt">&lt;/li&gt;</span>
-	<span class="nt">&lt;li&gt;</span> List point no. 2 <span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
-
-<p>This translates into: <br /></p>
-<ul>
-	<li> List point no. 1 </li>
-	<li> List point no. 2 </li>
-</ul>
-
-<p>We can also create nested lists. Simply, include your list inside the parent <code class="highlighter-rouge">&lt;li&gt;</code> tag.</p>
-
-<p><em>Example: Nested Lists</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Vegetables<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Fruits
-    <span class="nt">&lt;ul&gt;</span>
-      <span class="nt">&lt;li&gt;</span>Apples<span class="nt">&lt;/li&gt;</span>
-      <span class="nt">&lt;li&gt;</span>Oranges<span class="nt">&lt;/li&gt;</span>
-	  <span class="nt">&lt;li&gt;</span>Pears<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;/ul&gt;</span>
-  <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Snacks<span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
-
-<p>will translate into:</p>
-
-<ul>
-  <li>Vegetables</li>
-  <li>Fruits
-    <ul>
-      <li>Apples</li>
-      <li>Oranges</li>
-	  <li>Pears</li>
-    </ul>
-  </li>
-  <li>Snacks</li>
-</ul>
-
-<p>Here, “Apples”, “Oranges” and “Pears” are nested list items under Fruits.</p>
-
-<hr />
-
-<h1 id="font-size-colors-families--emphasis">Font Size, Colors, Families &amp; Emphasis</h1>
-<p>It is boring to look at a website entirely presented in a same font like Times New Roman or Arial. Also, we can specify a certain font size for the words. We can change this font by using the <code class="highlighter-rouge">style</code> property. This property must be included within the tag (i.e. before closing the tag).</p>
-
-<p><em>Example: Font Size</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-size: 12px"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-size: 30px"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
-
-<p>translates to:</p>
-
-<p style="font-size: 12px"> Your Paragraph here </p>
-<p style="font-size: 30px"> Your Paragraph here </p>
-
-<p>We now realise our entire output is in plain black and white. That’s so boring. Let’s add some colors now, with the <code class="highlighter-rouge">color</code> property. This is really simple and similar to the <code class="highlighter-rouge">font-size</code> property.</p>
-
-<p><em>Example: Font Color</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: blue"</span><span class="nt">&gt;</span> Blue Paragraph here <span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: green"</span><span class="nt">&gt;</span> Green Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
-
-<p>And this gives us:</p>
-
-<p style="color: blue"> Blue Paragraph here </p>
-<p style="color: green"> Green Paragraph here </p>
-
-<p>Apart from the font size and colors, to change the font-type, we use the <code class="highlighter-rouge">font-family</code> property. This is utilized in the same way as font-size.</p>
-
-<p><em>Example: Font-Family</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-family: Garamond"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-family: Verdana"</span><span class="nt">&gt;</span> Your Paragraph here <span class="nt">&lt;/p&gt;</span></code></pre></figure>
-
-<p>translates to</p>
-
-<p style="font-family: Garamond"> Your Paragraph here </p>
-<p style="font-family: Verdana"> Your Paragraph here </p>
-
-<p>Sometimes we need to highlight certain important information. Commonly, we use the bold and emphasis of words to highlight something important. To achieve this in HTML we use the <code class="highlighter-rouge">&lt;strong&gt;</code> and <code class="highlighter-rouge">&lt;em&gt;</code> tags for bold and italics respectively.</p>
-
-<p><em>Example: Text Emphasis</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;&lt;strong&gt;</span>Hello There!<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
-<span class="nt">&lt;p&gt;&lt;em&gt;</span>Hello There!<span class="nt">&lt;/em&gt;&lt;/p&gt;</span></code></pre></figure>
-
-<p>and this gives us:</p>
-<p><strong>Hello There!</strong></p>
-<p><em>Hello There!</em></p>
-
-<p>To combine multiple properties, we simply use: <code class="highlighter-rouge">&lt;p style="font-size:20px; font-family:Garamond;"&gt;Sample Paragraphy&lt;/p&gt;</code></p>
-
-<p>which produces:</p>
-
-<p style="font-size:20px; font-family:Garamond;">Sample Paragraphy</p>
-
-<p>Simply, separate the various properties with the use of the semi-colon: <code class="highlighter-rouge">;</code></p>
-
-<p>There are many other properties that can be included such as color, font-weight etc. which will be covered under CSS which stands for Cascadin Style Sheets. CSS can simplify and is the professional method to style web elements.</p>
-
-<hr />
-
-<h1 id="tables">Tables</h1>
-<p>We can add tables to our HTML code by using tables. To achieve this, we utilize <code class="highlighter-rouge">&lt;table&gt;</code>, <code class="highlighter-rouge">&lt;th&gt;</code>, <code class="highlighter-rouge">&lt;tr&gt;</code>, <code class="highlighter-rouge">&lt;td&gt;</code>. That may be a lot of tags, but it helps to structure our table nicely. <code class="highlighter-rouge">&lt;tr&gt;</code> refers to the table row, <code class="highlighter-rouge">&lt;td&gt;</code> refers to the table column and <code class="highlighter-rouge">&lt;th&gt;</code> refers to the row heading.</p>
-
-<p><em>Example: Tables</em></p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">	
-<span class="nt">&lt;table&gt;</span>
-  <span class="nt">&lt;tr&gt;</span>
-  <span class="nt">&lt;th&gt;</span>Jack's Details<span class="nt">&lt;/th&gt;</span>
-  <span class="nt">&lt;th&gt;</span>Mary's Details<span class="nt">&lt;/th&gt;</span>
-<span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;tr&gt;</span>
-    <span class="nt">&lt;td&gt;</span>Jack<span class="nt">&lt;/td&gt;</span>
-	<span class="nt">&lt;td&gt;</span>Mary<span class="nt">&lt;/td&gt;</span>
-  <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;tr&gt;</span>
-	  <span class="nt">&lt;td&gt;</span>Anderson<span class="nt">&lt;/td&gt;</span>
-	  <span class="nt">&lt;td&gt;</span>Smith<span class="nt">&lt;/td&gt;</span> 
-  <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;tr&gt;</span>
-	<span class="nt">&lt;td&gt;</span>21<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;td&gt;</span>24<span class="nt">&lt;/td&gt;</span>
-  <span class="nt">&lt;/tr&gt;</span>
-<span class="nt">&lt;/table&gt;</span></code></pre></figure>
-
-<p>This gives us:</p>
-
-<table>
-	<tr>
-  <th>Jack's Details</th>
-  <th>Mary's Details</th>
-</tr>
-  <tr>
-    <td>Jack</td>
-	<td>Mary</td>
-  </tr>
-  <tr>
-	  <td>Anderson</td>
-	  <td>Smith</td> 
-  </tr>
-  <tr>
-	<td>21</td>
-    <td>24</td>
-  </tr>
-</table>
-
-<p>If you look at what is being written, we can see that we define the table is a very structured way, row by row. The top row is the heading and uses the <code class="highlighter-rouge">&lt;th&gt;</code> tag. Subsequent rows (<code class="highlighter-rouge">&lt;tr&gt;</code>) uses <code class="highlighter-rouge">&lt;td&gt;</code> to indicate the details such as First Name, Last Name and Ages. The entire table is enclosed with the <code class="highlighter-rouge">&lt;table&gt;</code> and <code class="highlighter-rouge">&lt;/table&gt;</code> tags which mark the start and end of the table respectively.</p>
-
-<hr />
-
-<p>With the above information, we can create a simple website! Here’s a sample:</p>
-
-<noscript><pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;My Webpage&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;h1&gt;My Hobbies&lt;/h1&gt;
-		&lt;p&gt;My hobbies are swimming, badminton and writing code.&lt;/p&gt;
-		
-		&lt;h1&gt;My Current Projects&lt;/h1&gt;
-		&lt;p&gt;I am currently developing the technological breakthrough in computer sciences.&lt;/p&gt;
-		
-		&lt;h2&gt;Additional Information&lt;/h2&gt;
-		&lt;p&gt;I am currenly involved in blah...blah...blah...&lt;/p&gt;
-		
-		&lt;h3&gt;My Favorite Picture&lt;/h3&gt;
-		&lt;img src=&quot;https://lh5.ggpht.com/cb7PU-mvWE1_JxMlpQwyNfMk7yL9kUByZj3bS2YLcPkLor8V6RfkwMzt76_BsZaz0rad=h900&quot;&gt;
-		
-		&lt;h3&gt;Some Emphasis on Text! &lt;/h3&gt;
-		&lt;p&gt;&lt;strong&gt;Hello There!&lt;/strong&gt;&lt;/p&gt;
-		&lt;p&gt;&lt;em&gt;Hello There!&lt;/em&gt;&lt;/p&gt;
-		
-		&lt;h3&gt;Hyperlinks... A lot of them! &lt;/h3&gt;
-		&lt;a href=&quot;www.google.com&quot;&gt;Google&lt;/a&gt;
-		&lt;a href=&quot;www.yahoo.com&quot;&gt;Yahoo!&lt;/a&gt;
-		&lt;a href=&quot;www.apple.com&quot;&gt;Apple&lt;/a&gt;
-		&lt;a href=&quot;www.samsung.com&quot;&gt;Samsung&lt;/a&gt;
-		&lt;a href=&quot;www.bing.com&quot;&gt;Bing&lt;/a&gt;
-		&lt;a href=&quot;www.download.com&quot;&gt;Download.com&lt;/a&gt;
-		&lt;a href=&quot;www.harishv7.github.io/tech&quot;&gt;My website!&lt;/a&gt;
-		
-		&lt;h3&gt; My List! &lt;/h3&gt;
-		&lt;ul&gt;
-		  &lt;li&gt;Vegetables&lt;/li&gt;
-		  &lt;li&gt;Fruits
-		    &lt;ul&gt;
-		      &lt;li&gt;Apples&lt;/li&gt;
-		      &lt;li&gt;Oranges&lt;/li&gt;
-			  &lt;li&gt;Pears&lt;/li&gt;
-		    &lt;/ul&gt;
-		  &lt;/li&gt;
-		  &lt;li&gt;Snacks&lt;/li&gt;
-		&lt;/ul&gt;
-		
-		&lt;h3 style=&quot;font-family: Garamond&quot;&gt;Just playing with some styles&lt;/h3&gt;
-		&lt;p style=&quot;color: blue&quot;&gt;Blue Text!&lt;/p&gt;
-		&lt;p style=&quot;color: green&quot;&gt;Green Text!&lt;/p&gt;
-		&lt;p style=&quot;color: yellow&quot;&gt;Yellow Text!&lt;/p&gt;
-		&lt;p style=&quot;color: violet&quot;&gt;Violet Text!&lt;/p&gt;
-		
-		&lt;h2&gt; A Sample Table &lt;/h2&gt;
-		&lt;table&gt;
-			&lt;tr&gt;
-		  &lt;th&gt;Jack&#39;s Details&lt;/th&gt;
-		  &lt;th&gt;Mary&#39;s Details&lt;/th&gt;
-		&lt;/tr&gt;
-		  &lt;tr&gt;
-		    &lt;td&gt;Jack&lt;/td&gt;
-			&lt;td&gt;Mary&lt;/td&gt;
-		  &lt;/tr&gt;
-		  &lt;tr&gt;
-			  &lt;td&gt;Anderson&lt;/td&gt;
-			  &lt;td&gt;Smith&lt;/td&gt; 
-		  &lt;/tr&gt;
-		  &lt;tr&gt;
-			&lt;td&gt;21&lt;/td&gt;
-		    &lt;td&gt;24&lt;/td&gt;
-		  &lt;/tr&gt;
-		&lt;/table&gt;
-		
-		
-	&lt;/body&gt;
-&lt;/html&gt;</pre></noscript>
-<script src="https://gist.github.com/harishv7/414c2db23055af890658.js"> </script>
-
-<p>The output will look like this:
-<a href="http://i.imgur.com/SmHrvHN.png">Image</a></p>
 
 	  ]]></description>
 	</item>

@@ -29,7 +29,7 @@
 <p>Version control is crucial for any project you do. GitHub Pages is connected with your GitHub repository, which means once any changes are pushed, your website is automatically rebuilt and deployed for you. The individual sub-pages that see - <a href="http://harishv.me/blog/">my blog</a>, <a href="http://harishv.me/projects/">my projects</a>, <a href="http://harishv.me/photography/">my photography page</a> are all individual GitHub repositories. The main page is a GitHub repository named <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> on the <code class="highlighter-rouge">master</code> branch. To deploy other repositories under your GitHub Pages domain, you simply push your changes to a <code class="highlighter-rouge">gh-pages</code> branch.</p>
 
 <h4 id="custom-domain-names">3. Custom domain names</h4>
-<p>By default GitHub Pages offers the domain <code class="highlighter-rouge">http://&lt;your-github-username&gt;.github.io</code>. This is good enough for many hobbyists to try deploying their local projects on the web. But if you want a custom domain, you can do that too. Simply register for a domain name on sites like <a href="http://namecheap.com/">Namecheap</a> or <a href="http://godaddy.com/">GoDaddy</a> and connect them to GitHub pages. My site domain <a href="http://harishv.me">harishv.me</a> is registered on Namecheap and connected to my GitHub repositories.</p>
+<p>By default GitHub Pages offers the domain <code class="highlighter-rouge">http://&lt;your-github-username&gt;.github.io</code>. This is good enough for many hobbyists to try deploying their local projects on the web. But if you want a custom domain, you can do that too. Simply register for a domain name on sites like <a href="http://namecheap.com/">Namecheap</a> or <a href="http://godaddy.com/">GoDaddy</a> and connect them to GitHub pages. My site domain <a href="http://harishv.me">harishv.me</a> is registered on Namecheap and connected to my GitHub repositories. If you want to see how I connected my Namecheap domain with GitHub Pages, check <a href="/blog//Connecting-Namecheap-Domain-with-GitHub">this</a> out.</p>
 
 <h4 id="jekyll-blogging-support">4. Jekyll blogging support</h4>
 <p>GitHub Pages supports Jekyll, which means you can create blogs and deploy them. Jekyll is a powerful <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>-based blogging tool. All you need to do is run a few Jekyll commands after writing your posts and Jekyll builds static sites which you can easily push to GitHub. My <a href="http://harishv.me/blog/">blog</a> is built with Jekyll as well. It’s a great way for people who prefer pure code-style of blogging. Also, all your posts can be easily backed up as they are all in a text-based Markdown format.</p>
@@ -46,6 +46,44 @@
 
 <h4 id="only-supports-github-repositories">2. Only supports GitHub repositories</h4>
 <p>Of course, GitHub only supports repositories from itself. If you use another platform like <a href="https://bitbucket.org/">Atlassian BitBucket</a> for version control then you will not be able to utilise GitHub Pages. If you are using BitBucket, you are in luck since they too offer support for hosting static sites.  Check this <a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html">FAQ section</a> for more information.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Connecting Namecheap Domain with GitHub Pages</title>
+	  <link>/blog//Connecting-Namecheap-Domain-with-GitHub</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-12T00:00:00+08:00</pubDate>
+	  <guid>/blog//Connecting-Namecheap-Domain-with-GitHub</guid>
+	  <description><![CDATA[
+	     <p>A basic tutorial for those who are looking to connect their custom domain to GitHub Pages. This post assumes you will be getting your domain with Namecheap. But, it should mostly apply to any domain providers.</p>
+
+<p>I first used Namecheap because they offered students free domains. Yup, if you are a student you can get a free Namecheap domain ending with `.me’ free for a year. Check their offer <a href="https://nc.me/">here</a>.</p>
+
+<h4 id="register-on-namecheap">1. Register on Namecheap</h4>
+<p>Simply go to the <a href="https://www.namecheap.com/">Namecheap homepage</a> and register for an account.</p>
+
+<h4 id="select-a-cool-domain">2. Select a cool domain</h4>
+<p>Try to get a <code class="highlighter-rouge">.com</code> domain. It is the most general and commonly used domain. But with a ton of websites floating online, you may not be able to find your ideal domain available under <code class="highlighter-rouge">.com</code>. If thats the case check out <code class="highlighter-rouge">.me</code> domains for a personal website (like mine), the trendy <code class="highlighter-rouge">.io</code> for a startup/business, <code class="highlighter-rouge">.net</code>. Namecheap offers a wide range of domains to choose from. Some of them are <code class="highlighter-rouge">.life</code>, <code class="highlighter-rouge">.co</code>, <code class="highlighter-rouge">.tech</code> etc.</p>
+
+<p>Choose the domain carefully as you will be sticking with it for some considerable time.</p>
+
+<h4 id="get-a-github-repository">3. Get a GitHub Repository</h4>
+<p>If you have not yet created a repository, go to GitHub to create one. Name it <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> and ensure you have a master branch where you can push your HTML files. I assume you have your HTML, CSS, JavaScript files ready. Push them to this repository on the master branch.</p>
+
+<p>Visit the website <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> should allow you to view the expected website.</p>
+
+<h4 id="create-a-cname-record-in-your-repository">4. Create a CNAME record in your Repository</h4>
+<p>Create a file titled CNAME with your domain name. That’s it. For example my CNAME file contains this:
+<code class="highlighter-rouge">harishv.me</code>.</p>
+
+<h4 id="go-to-namecheaps-dashboard">5. Go to Namecheap’s Dashboard</h4>
+<p>Under the Advanced DNS section, add in the following records. The CNAME record’s value  follows the GitHub URL you made in step 3. The A records are used to point the domain name to the IP address of the hosting server, which in your case will be GitHub’s.</p>
+
+<p><img src="assets/images/posts/namecheap_records.png" alt="Namecheap Records" /></p>
+
+<p>That’s all folks. Give it a few minutes (or hours) and your site will be live at your newly registered domain.</p>
 
 	  ]]></description>
 	</item>

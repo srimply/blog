@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me/</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Connecting Namecheap Domain with GitHub Pages</title>
+	  <link>/blog//Connecting-Namecheap-Domain-with-GitHub</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-12T00:00:00+08:00</pubDate>
+	  <guid>/blog//Connecting-Namecheap-Domain-with-GitHub</guid>
+	  <description><![CDATA[
+	     <p>A basic tutorial for those who are looking to connect their custom domain to GitHub Pages. This post assumes you will be getting your domain with Namecheap. But, it should mostly apply to any domain providers.</p>
+
+<p>I first used Namecheap because they offered students free domains. Yup, if you are a student you can get a free Namecheap domain ending with `.me’ free for a year. Check their offer <a href="https://nc.me/">here</a>.</p>
+
+<h4 id="register-on-namecheap">1. Register on Namecheap</h4>
+<p>Simply go to the <a href="https://www.namecheap.com/">Namecheap homepage</a> and register for an account.</p>
+
+<h4 id="select-a-cool-domain">2. Select a cool domain</h4>
+<p>Try to get a <code class="highlighter-rouge">.com</code> domain. It is the most general and commonly used domain. But with a ton of websites floating online, you may not be able to find your ideal domain available under <code class="highlighter-rouge">.com</code>. If thats the case check out <code class="highlighter-rouge">.me</code> domains for a personal website (like mine), the trendy <code class="highlighter-rouge">.io</code> for a startup/business, <code class="highlighter-rouge">.net</code>. Namecheap offers a wide range of domains to choose from. Some of them are <code class="highlighter-rouge">.life</code>, <code class="highlighter-rouge">.co</code>, <code class="highlighter-rouge">.tech</code> etc.</p>
+
+<p>Choose the domain carefully as you will be sticking with it for some considerable time.</p>
+
+<h4 id="get-a-github-repository">3. Get a GitHub Repository</h4>
+<p>If you have not yet created a repository, go to GitHub to create one. Name it <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> and ensure you have a master branch where you can push your HTML files. I assume you have your HTML, CSS, JavaScript files ready. Push them to this repository on the master branch.</p>
+
+<p>Visit the website <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> should allow you to view the expected website.</p>
+
+<h4 id="create-a-cname-record-in-your-repository">4. Create a CNAME record in your Repository</h4>
+<p>Create a file titled CNAME with your domain name. That’s it. For example my CNAME file contains this:
+<code class="highlighter-rouge">harishv.me</code>.</p>
+
+<h4 id="go-to-namecheaps-dashboard">5. Go to Namecheap’s Dashboard</h4>
+<p>Under the Advanced DNS section, add in the following records. The CNAME record’s value  follows the GitHub URL you made in step 3. The A records are used to point the domain name to the IP address of the hosting server, which in your case will be GitHub’s.</p>
+
+<p><img src="assets/images/posts/namecheap_records.png" alt="Namecheap Records" /></p>
+
+<p>That’s all folks. Give it a few minutes (or hours) and your site will be live at your newly registered domain.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
