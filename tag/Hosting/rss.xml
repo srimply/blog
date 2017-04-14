@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me/</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Hosting with GitHub Pages</title>
+	  <link>/blog//Hosting-with-GitHub-Pages</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-14T00:00:00+08:00</pubDate>
+	  <guid>/blog//Hosting-with-GitHub-Pages</guid>
+	  <description><![CDATA[
+	     <p>Did you know you can host websites with GitHub Pages? In fact, so far, all my websites have been hosted with GitHub Pages. See my <a href="http://harishv7.github.io/projects">Projects</a>. All the websites there under the domain <a href="http://harishv.me">harishv.me</a> are hosted under GitHub Pages. And of course, my homepage, and even this blog you are reading now are hosted on GitHub Pages. Let’s see why is it so awesome.</p>
+
+<h3 id="the-great-stuff">The Great Stuff</h3>
+
+<h4 id="its-free">1. It’s free!</h4>
+<p>GitHub Pages offers free hosting of your websites/apps etc. That’s right, its totally free. (There’s a catch though, check the limitations below).</p>
+
+<h4 id="connected-to-your-git-repository">2. Connected to your Git repository</h4>
+<p>Version control is crucial for any project you do. GitHub Pages is connected with your GitHub repository, which means once any changes are pushed, your website is automatically rebuilt and deployed for you. The individual sub-pages that see - <a href="http://harishv.me/blog/">my blog</a>, <a href="http://harishv.me/projects/">my projects</a>, <a href="http://harishv.me/photography/">my photography page</a> are all individual GitHub repositories. The main page is a GitHub repository named <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> on the <code class="highlighter-rouge">master</code> branch. To deploy other repositories under your GitHub Pages domain, you simply push your changes to a <code class="highlighter-rouge">gh-pages</code> branch.</p>
+
+<h4 id="custom-domain-names">3. Custom domain names</h4>
+<p>By default GitHub Pages offers the domain <code class="highlighter-rouge">http://&lt;your-github-username&gt;.github.io</code>. This is good enough for many hobbyists to try deploying their local projects on the web. But if you want a custom domain, you can do that too. Simply register for a domain name on sites like <a href="http://namecheap.com/">Namecheap</a> or <a href="http://godaddy.com/">GoDaddy</a> and connect them to GitHub pages. My site domain <a href="http://harishv.me">harishv.me</a> is registered on Namecheap and connected to my GitHub repositories.</p>
+
+<h4 id="jekyll-blogging-support">4. Jekyll blogging support</h4>
+<p>GitHub Pages supports Jekyll, which means you can create blogs and deploy them. Jekyll is a powerful <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>-based blogging tool. All you need to do is run a few Jekyll commands after writing your posts and Jekyll builds static sites which you can easily push to GitHub. My <a href="http://harishv.me/blog/">blog</a> is built with Jekyll as well. It’s a great way for people who prefer pure code-style of blogging. Also, all your posts can be easily backed up as they are all in a text-based Markdown format.</p>
+
+<h4 id="great-uptime">5. Great Uptime</h4>
+<p>GitHub is almost always up with some rare cases of downtime. This means that it provides reliable service in ensuring your webpages are live 99% of the time. That’s one huge bonus for a free service. You can check on the GitHub system status <a href="https://status.github.com/">here</a>.</p>
+
+<h3 id="limitations">Limitations</h3>
+
+<p>This is a rather short section since there aren’t many disadvantages I can think of. There are rather limitations with GitHub Pages.</p>
+
+<h4 id="only-hosts-static-sites">1. Only Hosts Static Sites</h4>
+<p>While its true that GitHub Pages offers free hosting, it does not support full-fledged dynamic sites. Rather you can only host static sites which means they are in pure HTML, CSS and JavaScript. Essentially, there is no server-side support where you can for example do database-related operations etc. Nevertheless, this alone is powerful enough for some projects. All my pure front-end based projects are hosted with GitHub Pages. I have made many of those with the combination of HTML, CSS, JavaScript, libraries such as ReactJS and jQuery, and frameworks such as Bootstrap or Foundation.</p>
+
+<h4 id="only-supports-github-repositories">2. Only supports GitHub repositories</h4>
+<p>Of course, GitHub only supports repositories from itself. If you use another platform like <a href="https://bitbucket.org/">Atlassian BitBucket</a> for version control then you will not be able to utilise GitHub Pages. If you are using BitBucket, you are in luck since they too offer support for hosting static sites.  Check this <a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html">FAQ section</a> for more information.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

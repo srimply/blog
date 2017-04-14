@@ -12,6 +12,45 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Hosting with GitHub Pages</title>
+	  <link>/blog//Hosting-with-GitHub-Pages</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-14T00:00:00+08:00</pubDate>
+	  <guid>/blog//Hosting-with-GitHub-Pages</guid>
+	  <description><![CDATA[
+	     <p>Did you know you can host websites with GitHub Pages? In fact, so far, all my websites have been hosted with GitHub Pages. See my <a href="http://harishv7.github.io/projects">Projects</a>. All the websites there under the domain <a href="http://harishv.me">harishv.me</a> are hosted under GitHub Pages. And of course, my homepage, and even this blog you are reading now are hosted on GitHub Pages. Let’s see why is it so awesome.</p>
+
+<h3 id="the-great-stuff">The Great Stuff</h3>
+
+<h4 id="its-free">1. It’s free!</h4>
+<p>GitHub Pages offers free hosting of your websites/apps etc. That’s right, its totally free. (There’s a catch though, check the limitations below).</p>
+
+<h4 id="connected-to-your-git-repository">2. Connected to your Git repository</h4>
+<p>Version control is crucial for any project you do. GitHub Pages is connected with your GitHub repository, which means once any changes are pushed, your website is automatically rebuilt and deployed for you. The individual sub-pages that see - <a href="http://harishv.me/blog/">my blog</a>, <a href="http://harishv.me/projects/">my projects</a>, <a href="http://harishv.me/photography/">my photography page</a> are all individual GitHub repositories. The main page is a GitHub repository named <code class="highlighter-rouge">&lt;your-github-username&gt;.github.io</code> on the <code class="highlighter-rouge">master</code> branch. To deploy other repositories under your GitHub Pages domain, you simply push your changes to a <code class="highlighter-rouge">gh-pages</code> branch.</p>
+
+<h4 id="custom-domain-names">3. Custom domain names</h4>
+<p>By default GitHub Pages offers the domain <code class="highlighter-rouge">http://&lt;your-github-username&gt;.github.io</code>. This is good enough for many hobbyists to try deploying their local projects on the web. But if you want a custom domain, you can do that too. Simply register for a domain name on sites like <a href="http://namecheap.com/">Namecheap</a> or <a href="http://godaddy.com/">GoDaddy</a> and connect them to GitHub pages. My site domain <a href="http://harishv.me">harishv.me</a> is registered on Namecheap and connected to my GitHub repositories.</p>
+
+<h4 id="jekyll-blogging-support">4. Jekyll blogging support</h4>
+<p>GitHub Pages supports Jekyll, which means you can create blogs and deploy them. Jekyll is a powerful <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>-based blogging tool. All you need to do is run a few Jekyll commands after writing your posts and Jekyll builds static sites which you can easily push to GitHub. My <a href="http://harishv.me/blog/">blog</a> is built with Jekyll as well. It’s a great way for people who prefer pure code-style of blogging. Also, all your posts can be easily backed up as they are all in a text-based Markdown format.</p>
+
+<h4 id="great-uptime">5. Great Uptime</h4>
+<p>GitHub is almost always up with some rare cases of downtime. This means that it provides reliable service in ensuring your webpages are live 99% of the time. That’s one huge bonus for a free service. You can check on the GitHub system status <a href="https://status.github.com/">here</a>.</p>
+
+<h3 id="limitations">Limitations</h3>
+
+<p>This is a rather short section since there aren’t many disadvantages I can think of. There are rather limitations with GitHub Pages.</p>
+
+<h4 id="only-hosts-static-sites">1. Only Hosts Static Sites</h4>
+<p>While its true that GitHub Pages offers free hosting, it does not support full-fledged dynamic sites. Rather you can only host static sites which means they are in pure HTML, CSS and JavaScript. Essentially, there is no server-side support where you can for example do database-related operations etc. Nevertheless, this alone is powerful enough for some projects. All my pure front-end based projects are hosted with GitHub Pages. I have made many of those with the combination of HTML, CSS, JavaScript, libraries such as ReactJS and jQuery, and frameworks such as Bootstrap or Foundation.</p>
+
+<h4 id="only-supports-github-repositories">2. Only supports GitHub repositories</h4>
+<p>Of course, GitHub only supports repositories from itself. If you use another platform like <a href="https://bitbucket.org/">Atlassian BitBucket</a> for version control then you will not be able to utilise GitHub Pages. If you are using BitBucket, you are in luck since they too offer support for hosting static sites.  Check this <a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html">FAQ section</a> for more information.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Top Todo App of 2016</title>
 	  <link>/blog//Top-Todo-App-of-2016</link>
 	  <author>Harish V</author>
@@ -867,149 +906,6 @@ Similarly, we can create unordered(bullet) lists in HTML by using <code class="h
 
 <p>The output will look like this:
 <a href="http://i.imgur.com/SmHrvHN.png">Image</a></p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Tutorial - Introduction to HTML (Part 1)</title>
-	  <link>/blog//Introduction-to-HTML-Part-1</link>
-	  <author>Harish V</author>
-	  <pubDate>2015-09-20T00:00:00+08:00</pubDate>
-	  <guid>/blog//Introduction-to-HTML-Part-1</guid>
-	  <description><![CDATA[
-	     <h1 id="introduction">Introduction</h1>
-
-<p>In this first part of the Introduction to HTML, I will be going through the basics of HTML.</p>
-
-<p>HTML stands for HyperText Markup Language. This is the standard markup language which allows web browsers (such as Internet Explorer/Firefox/Chrome) to render content into the webpages you visit (yes, including this one). If you haven’t been acquainted with HTML at all, you might want to try right-click and “view page source” on Chrome/Firefox browsers. A typical screenshot of the page source (from Apple.com) is this:
-<img src="http://i.imgur.com/Hsg4sWu.png" alt="HTML page source of Apple.com" /></p>
-
-<p>Please don’t be daunted by the intimidating lines of code. We will start right from the basics.</p>
-
-<hr />
-
-<h1 id="structure-of-a-html-file">Structure of a HTML File</h1>
-
-<noscript><pre>&lt;!DOCTYPE HTML&gt;
-&lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;
-			&lt;h1&gt; Heading 1 &lt;/h1&gt;
-		
-		&lt;/title&gt;	
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;p&gt; Start of a paragraph &lt;/p&gt;
-	&lt;/body&gt;
-	&lt;footer&gt;
-		
-	&lt;/footer&gt;
-&lt;/html&gt;</pre></noscript>
-<script src="https://gist.github.com/harishv7/6896f30b6453a9cc5ae7.js"> </script>
-
-<p>The above is the basic structure of a HTML file. The document starts with <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag which defines the start of the document. The file is basically divided into 3 major sections, namely, <code class="highlighter-rouge">&lt;head&gt;</code>, <code class="highlighter-rouge">&lt;body&gt;</code> and <code class="highlighter-rouge">&lt;footer&gt;</code>.</p>
-
-<p>The head contains basic information such as the title of the webpage and some scripts or resources to be loaded when the file is opened.</p>
-
-<p>The body contains the main content of what the user is to see and the optional footer typically contains links to the various sections of the website etc.</p>
-
-<p>Firstly, in the head tag, we can include the site’s title. For example:
-<code class="highlighter-rouge">
-	&lt;head&gt; 
-		&lt;title&gt; My Title &lt;/title&gt;
-	&lt;/head&gt;
-</code></p>
-
-<p>The above snippet will specify that the title of the webpage is “My Title”.</p>
-
-<p>Now you can also try this out by copying the above snippet(s), pasting it into an editor of your choice (eg: Notepad/TextEdit/TextMate). If you are clueless which editor to use, I would suggest using <a href="http://www.sublimetext.com/">Sublime Text</a>.</p>
-
-<hr />
-
-<h1 id="headings">Headings</h1>
-
-<p>We can highlight certain parts of the page by selecting different sizes of headers. This is done with the header tag. Headings range from <code class="highlighter-rouge">&lt;h1&gt;</code> to <code class="highlighter-rouge">&lt;h6&gt;</code>, where h1 defines the largest heading and h6 is the smallest.</p>
-
-<p>For example:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;h1&gt; This is a big heading &lt;/h1&gt;
-</code></pre>
-</div>
-
-<p>translates to:</p>
-<h1> This is a big heading </h1>
-
-<p>and</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;h6&gt; This is a small heading &lt;/h6&gt;
-</code></pre>
-</div>
-
-<p>translates to:</p>
-<h6> This is a small heading </h6>
-
-<hr />
-
-<h1 id="paragraphs">Paragraphs</h1>
-
-<p>We can include paragraphs with the <code class="highlighter-rouge">&lt;p&gt;</code> tag.</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;p&gt; hello, i am harish. this is a sample paragraph. &lt;/p&gt;
-</code></pre>
-</div>
-
-<p>translates to</p>
-<p> hello, i am harish. this is a sample paragraph. </p>
-
-<h1 id="images">Images</h1>
-
-<p>No webpage is complete with just some simple text. So how do we add images?
-You do it with the <code class="highlighter-rouge">&lt;img&gt;</code> tag.</p>
-
-<p>The full tag looks like</p>
-
-<p><code class="highlighter-rouge">&lt;img src="https://upload.wikimedia.org/wikipedia/en/6/65/Hello_logo_sm.gif"&gt;</code></p>
-
-<p>translates to</p>
-
-<p><img src="https://upload.wikimedia.org/wikipedia/en/6/65/Hello_logo_sm.gif" /></p>
-
-<p>There you go. You have just added an image to your page.</p>
-
-<p>Adding from local folders (pictures residing on your computer, offline) is slightly trickier. For example, if the picture is in the same folder as where you save your html file, and is called “picture.jpg”, then your image tag will look like this:</p>
-
-<p><code class="highlighter-rouge">&lt;img src="picture.jpg"&gt;</code>. If it is in a subfolder of your current html file, then it would look something like <code class="highlighter-rouge">&lt;img src="subfolder/picture.jpg"&gt;</code></p>
-
-<hr />
-
-<p>That’s all for the first part. A sample webpage that you should have by now should be something like this:</p>
-<noscript><pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;My Webpage&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;h1&gt;My Hobbies&lt;/h1&gt;
-		&lt;p&gt;My hobbies are swimming, badminton and writing code.&lt;/p&gt;
-		&lt;h1&gt;My Current Projects&lt;/h1&gt;
-		&lt;p&gt;I am currently developing the technological breakthrough in computer sciences.&lt;/p&gt;
-		&lt;h2&gt;Additional Information&lt;/h2&gt;
-		&lt;p&gt;I am currenly involved in blah...blah...blah...&lt;/p&gt;
-		&lt;h3&gt;My Favorite Picture&lt;/h3&gt;
-		&lt;img src=&quot;https://lh5.ggpht.com/cb7PU-mvWE1_JxMlpQwyNfMk7yL9kUByZj3bS2YLcPkLor8V6RfkwMzt76_BsZaz0rad=h900&quot;&gt;
-	&lt;/body&gt;
-&lt;/html&gt;</pre></noscript>
-<script src="https://gist.github.com/harishv7/051a48b69f31e427ece7.js"> </script>
-
-<p>that looks like this:</p>
-
-<p><img src="http://i.imgur.com/sRCwIoD.png" alt="Screenshot of Sample HTML Page" /></p>
-
-<p>Part 2 coming up soon.</p>
-
-<p>Cheers, <br />
-V.Harish</p>
 
 	  ]]></description>
 	</item>
