@@ -12,6 +12,117 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Scales in Music Theory</title>
+	  <link>/blog//Scales-in-Music-Theory</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-23T00:00:00+08:00</pubDate>
+	  <guid>/blog//Scales-in-Music-Theory</guid>
+	  <description><![CDATA[
+	     <p>Scales are commonplace in any music theory. We can consider a scale to be a set of notes within one octave. In fact, all the popular songs you listen to all uses scales in one way or another. In music pieces, we may see different sections of the songs being written in different keys. For example, the first section can be in the key of F, because it resolves or concludes on the F note/chord.</p>
+
+<h3 id="whole-and-half-steps">Whole and Half Steps</h3>
+<p>Before we see what scales are, we need to understand what are half steps and whole steps. To put it simply, a half step is the distance between 2 consecutive notes on the keyboard. So a half step from C gives us C#. A half step from E gives us F (there is no black key between E and F).</p>
+
+<p>A whole step is just made up of 2 half steps. So a whole step from C gives us D and a whole step from E gives us F#.</p>
+
+<h3 id="the-major-scale">The Major Scale</h3>
+<p>This is most common scale you will be seeing. We can construct the major scale with a simple formula.</p>
+
+<h5 id="w-w-h-w-w-w-h">W W h W W W h</h5>
+
+<p>We can see this easily with an example. Taking the simplest C major scale, we start off with the note C.</p>
+
+<h5 id="c---d---e---f---g---a---b---c">C -&gt; D -&gt; E -&gt; F -&gt; G -&gt; A -&gt; B -&gt; C</h5>
+
+<p><img src="assets/images/posts/scales/C_Major_Scale.png" alt="C Major Scale" /></p>
+
+<p>From C to D, D to E we have taken a whole step. Then we take a half step from E to F. From F to G, G to A, and A to B, we have taken a whole step. And finally, with one more half step, we go back to C.</p>
+
+<p>The notes: C, D, E, F, G, A, B are all in the C major scale.</p>
+
+<p>One more example. Let’s look at the scale F# major. So, we start with the note of F#.</p>
+
+<h5 id="f--gb---g--ab---a--bb---b---c--db---d--eb---e--f---f">F# / Gb -&gt; G# / Ab -&gt; A# / Bb -&gt; B -&gt; C# / Db -&gt; D# / Eb -&gt; E# / F -&gt; F</h5>
+
+<p><img src="assets/images/posts/scales/FSharp_Major_Scale.png" alt="F# Major Scale" /></p>
+
+<p>So F# major scale has 6 sharps in total and contains the notes: F#, G#, A#, B, C#, D#, E#. Note that musically, E# is just equivalent to F.</p>
+
+<h3 id="the-minor-scale">The Minor Scale</h3>
+<p>There are three different types of minor scales: natural, harmonic and melodic.</p>
+
+<h4 id="the-natural-minor-scale">The Natural Minor Scale</h4>
+<p>The formula for deriving the natural minor scale from the root note is:</p>
+
+<h5 id="w-h-w-w-h-w-w">W h W W h W W</h5>
+
+<p>Similar to the above examples of the major scale, we can apply this formula to know which notes compose the natural minor scale.</p>
+
+<p>Let’s take an example: F Natural Minor scale. So, we will start with the note of F.</p>
+
+<h5 id="f---g---g--ab---a--bb---c---c--db---d--eb---f">F -&gt; G -&gt; G# / Ab -&gt; A# / Bb -&gt; C -&gt; C# / Db -&gt; D# / Eb -&gt; F</h5>
+
+<p><img src="assets/images/posts/scales/F_Minor_Natural_Scale.png" alt="F Natural Minor Scale" /></p>
+
+<h4 id="the-harmonic-minor-scale">The Harmonic Minor Scale</h4>
+<p>There is not much difference between the natural minor and harmonic minor, except that you will need to increase the seventh note in the scale by a half step.</p>
+
+<p>As seen above, the F Harmonic Minor Scale will look like this:</p>
+
+<h5 id="f---g---g--ab---a--bb---c---c--db---e---f">F -&gt; G -&gt; G# / Ab -&gt; A# / Bb -&gt; C -&gt; C# / Db -&gt; E -&gt; F</h5>
+
+<p><img src="assets/images/posts/scales/F_Harmonic_Minor_Scale.png" alt="F Harmonic Minor Scale" /></p>
+
+<p>Since D# / Eb is the seventh note in the scale of F minor natural, we increase it by a half step to E.</p>
+
+<h4 id="the-melodic-minor-scale">The Melodic Minor Scale</h4>
+<p>Adding onto the harmonic minor scale, for the melodic minor scale, we simply increase both the sixth and seventh notes of the natural minor scale by a half step.</p>
+
+<p>So, the F Melodic Minor Scale will look like this:</p>
+
+<h5 id="f---g---g--ab---a--bb---c---d---e---f">F -&gt; G -&gt; G# / Ab -&gt; A# / Bb -&gt; C -&gt; D -&gt; E -&gt; F</h5>
+
+<p><img src="assets/images/posts/scales/F_Melodic_Minor_Scale.png" alt="F Melodic Minor Scale" /></p>
+
+<p>C# / Db and D# / Eb were the sixth and seventh notes of the F natural minor respectively. Increasing both by a half step will give us D and E.</p>
+
+<h3 id="pentatonic-scales">Pentatonic Scales</h3>
+
+<p>Pentatonic scales, as the name suggests, are scales containing 5 notes. There are essentially 2 forms of pentatonic scales and yes you guessed it right, the major and minor pentatonic scales.</p>
+
+<h4 id="major-pentatonic-scales">Major Pentatonic Scales</h4>
+<p>As we have seen above, both the major and minor scales contain 7 notes in one octave. For the major pentatonic scale, we will just be using the 1st, 2nd, 3rd, 5th and 6th notes from the natural major scale. In other words, simply exclude the 4th and 7th notes from the major scale to get the corresponding pentatonic scale.</p>
+
+<p>So the C major pentatonic scale looks like this:</p>
+
+<h5 id="c---d---e---g---a">C -&gt; D -&gt; E -&gt; G -&gt; A</h5>
+
+<p><img src="assets/images/posts/scales/C_Major_Pentatonic_Scale.png" alt="C Major Pentatonic Scale" /></p>
+
+<p>The F# major pentatonic scale looks like this:</p>
+
+<h5 id="f-gb---g--ab---a--bb---c--db---d--eb">F# /Gb -&gt; G# / Ab -&gt; A# / Bb -&gt; C# / Db -&gt; D# / Eb</h5>
+
+<h4 id="minor-pentatonic-scales">Minor Pentatonic Scales</h4>
+<p>For the minor pentatonic scales, we only include the 1st, 3rd, 4th, 5th and 7th notes of the natural minor scale.</p>
+
+<p>The F minor pentatonic scale will look like this:</p>
+
+<h5 id="f---g--ab---a--bb---c---d--eb">F -&gt; G# / Ab -&gt; A# / Bb -&gt; C -&gt; D# / Eb</h5>
+
+<p><img src="assets/images/posts/scales/F_Minor_Pentatonic_Scale.png" alt="F Minor Pentatonic Scale" /></p>
+
+<p><strong>References</strong></p>
+
+<ul>
+  <li><a href="http://www.musictheory.net/lessons/22">http://www.musictheory.net/lessons/22</a></li>
+  <li><a href="http://musictheorysite.com/pentatonic-scales/">http://musictheorysite.com/pentatonic-scales/</a></li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Skye Boat Song</title>
 	  <link>/blog//Skye-Boat-Song</link>
 	  <author>Harish V</author>
