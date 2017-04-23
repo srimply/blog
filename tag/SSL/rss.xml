@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me/</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Adding SSL to Your Site (Free!)</title>
+	  <link>/blog//Adding-SSL-to-Your-Site-for-Free</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-24T00:00:00+08:00</pubDate>
+	  <guid>/blog//Adding-SSL-to-Your-Site-for-Free</guid>
+	  <description><![CDATA[
+	     <p>I have been using <a href="https://pages.github.com/">GitHub Pages</a> to host my static websites for several years now. But recently, this error notice worried me.</p>
+
+<p><img src="assets/images/posts/SSL_error.png" alt="SSL Error Message" /></p>
+
+<p>This happens when you visit my website, harishv.me, with a <code class="highlighter-rouge">www</code> in front. This redirects to <a href="https://harishv.me">https://harishv.me</a> and all you will see is this <code class="highlighter-rouge">ERR_SSL_PROTOCOL_ERROR</code> as the site is unable to provide a secure connection.</p>
+
+<p>If you are using a normal GitHub Pages site, which means it has a domain that has <code class="highlighter-rouge">.github.io</code>, you can simply go to the GitHub repository you are using, click settings, go all the way down till you see <code class="highlighter-rouge">Enforce HTTPS</code>. Clicking this will mean that your site will always be served over HTTPS.</p>
+
+<p>When researching for free SSL options to add onto my website, I found that you can actually use <a href="https://www.cloudflare.com/">Cloudflare’s</a> name servers under their free plan to obtain a SSL certificate for your website.</p>
+
+<p>Simply,</p>
+
+<ol>
+  <li>Create a <a href="https://www.cloudflare.com/">Cloudflare</a> account</li>
+  <li>Allow Cloudflare to scan your website records</li>
+  <li>Check and verify that the automatically generated records by Cloudflare matches with those on your registrar’s page (in my case, this is <a href="http://namecheap.com/">Namecheap.com</a>)</li>
+  <li>Cloudflare will now give you 2 nameservers to add into your account</li>
+  <li>Login to Namecheap</li>
+  <li>Click on Domains List</li>
+  <li>Select the domain you want to add SSL for and click on <code class="highlighter-rouge">Manage</code> at the right side</li>
+  <li>Under nameservers, copy and paste the 2 nameservers Cloudflare gave you</li>
+  <li>Once done, on Cloudflare’s Overview tab, click on <code class="highlighter-rouge">Recheck Nameservers</code></li>
+</ol>
+
+<p>Cloudflare also offers up to three page rules in the free plan. With this, we can always enforce a `https on our website. To do that,</p>
+
+<ol>
+  <li>Click on the Page Rule tab at the top in Cloudflare</li>
+  <li>Enter this: <code class="highlighter-rouge">http://*&lt;your-domain-name&gt;.com/*</code></li>
+  <li>Add the settings to be <code class="highlighter-rouge">Always Use HTTPS</code></li>
+  <li>Click on <code class="highlighter-rouge">Save and Deploy</code></li>
+</ol>
+
+<p>The asterisks are like wildcard patterns which means any URLs entered in that format will be enforced to utilise HTTPS connection. For example, <a href="www.harishv.me">www.harishv.me</a> or <a href="http://harishv.me/blog">http://harishv.me/blog</a> will all now be enforced with HTTPS.</p>
+
+<p>That’s all folks. Get your free SSL certificate with Cloudflare now!</p>
+
+<p>P.S. If you’re wondering why is HTTPS that big of a deal, wait a few days for my next article on HTTPS - What’s the Big Deal?.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

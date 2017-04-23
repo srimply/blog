@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- [[! Page Meta ]] -->
+    <title>Adding SSL to Your Site (Free!)</title>
+    <meta name="description" content="Harish V - My thoughts - on life & code." />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/blog/assets/images/favicon.ico" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/custom.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/syntax.css" />
+
+    <!-- [[! highlight.js ]] -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64407254-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="/blog/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/blog/page2/" />
+
+    <meta property="og:site_name" content="Harish V" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Harish V" />
+    <meta property="og:description" content="My thoughts - on life & code." />
+    <meta property="og:url" content="/blog/" />
+    <meta property="og:image" content="http://imgur.com/9gJ1x9x.png" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Harish V" />
+    <meta name="twitter:description" content="My thoughts - on life & code." />
+    <meta name="twitter:url" content="/blog/" />
+    <meta name="twitter:image:src" content="http://imgur.com/9gJ1x9x.png" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Harish V",
+    "url": "/blog/",
+    "image": "{http://imgur.com/9gJ1x9x.png",
+    "description": "My thoughts - on life & code."
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Harish V" href="/blog/feed.xml" />
+
+    <!-- Begin Jekyll SEO tag v1.3.2 -->
+<title>Adding SSL to Your Site (Free!) - Harish V</title>
+<meta property="og:title" content="Adding SSL to Your Site (Free!)" />
+<meta name="description" content="I have been using GitHub Pages to host my static websites for several years now. But recently, this error notice worried me." />
+<meta property="og:description" content="I have been using GitHub Pages to host my static websites for several years now. But recently, this error notice worried me." />
+<link rel="canonical" href="http://harishv.me/blog//Adding-SSL-to-Your-Site-for-Free" />
+<meta property="og:url" content="http://harishv.me/blog//Adding-SSL-to-Your-Site-for-Free" />
+<meta property="og:site_name" content="Harish V" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-04-24T00:00:00+08:00" />
+<link rel="prev" href="http://harishv.me/blog//Scales-in-Music-Theory" title="Scales in Music Theory" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Adding SSL to Your Site (Free!)",
+    "datePublished": "2017-04-24T00:00:00+08:00",
+    "description": "I have been using GitHub Pages to host my static websites for several years now. But recently, this error notice worried me.",
+    "url": "http://harishv.me/blog//Adding-SSL-to-Your-Site-for-Free"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+<body class="home-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/blog/">Home</a></li>
+        <li class="nav-about " role="presentation"><a href="/blog/about">About</a></li>
+        <li class="nav-tree " role="presentation"><a href="/blog/tree">All Posts</a></li>
+        <li class="nav-general " role="presentation"><a href="/blog/tag/General">General</a></li>
+        <li class="nav-general " role="presentation"><a href="/blog/tag/TechStuff">TechStuff</a></li>
+        <li class="nav-general " role="presentation"><a href="/blog/tag/Education">Education</a></li>
+        <li class="nav-general " role="presentation"><a href="/blog/tag/NUS">NUS</a></li>
+        <li class="nav-general " role="presentation"><a href="/blog/tag/Entrepreneurship">Entrepreneurship</a></li>
+        <li class="nav-general " role="presentation"><a href="/blog/tag/Music">Music</a></li>
+        <li class="nav-general " role="presentation"><a href="/blog/tag/Random">Random</a></li>
+        <li class="nav-search " role="presentation"><a href="/blog/search">Search</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="/blog/feed.xml">Subscribe</a>
+    <br>
+    <br>
+    <br>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Unit1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9698859336751728"
+     data-ad-slot="7346033495"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head " style="background-image: url(/blog/assets/images/posts/lock_ssl.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
+        <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-techstuff">
+
+        <header class="post-header">
+            <h1 class="post-title">Adding SSL to Your Site (Free!)</h1>
+            <span class="reading-time" title="Estimated read time">
+  
+  
+    <i> 2 mins read </i>
+  
+</span>
+
+
+            <section class="post-meta">
+            <!-- <a href='/blog/'>Harish V</a> -->
+            <time class="post-date" datetime="2017-04-24">24 Apr 2017</time>
+                <!-- [[tags prefix=" on "]] -->
+                 
+                on 
+                
+                    
+                       <a href='/blog/tag/TechStuff'>TechStuff</a>,
+                       
+                
+                    
+                       <a href='/blog/tag/SSL'>SSL</a>,
+                       
+                
+                    
+                       <a href='/blog/tag/HTTPS'>HTTPS</a>,
+                       
+                
+                    
+                       <a href='/blog/tag/GitHub Pages'>GitHub Pages</a>
+                       
+                
+                
+            </section>
+        </header>
+        <br>
+        <section class="post-content">
+            
+            <p>I have been using <a href="https://pages.github.com/">GitHub Pages</a> to host my static websites for several years now. But recently, this error notice worried me.</p>
+
+<p><img src="assets/images/posts/SSL_error.png" alt="SSL Error Message" /></p>
+
+<p>This happens when you visit my website, harishv.me, with a <code class="highlighter-rouge">www</code> in front. This redirects to <a href="https://harishv.me">https://harishv.me</a> and all you will see is this <code class="highlighter-rouge">ERR_SSL_PROTOCOL_ERROR</code> as the site is unable to provide a secure connection.</p>
+
+<p>If you are using a normal GitHub Pages site, which means it has a domain that has <code class="highlighter-rouge">.github.io</code>, you can simply go to the GitHub repository you are using, click settings, go all the way down till you see <code class="highlighter-rouge">Enforce HTTPS</code>. Clicking this will mean that your site will always be served over HTTPS.</p>
+
+<p>When researching for free SSL options to add onto my website, I found that you can actually use <a href="https://www.cloudflare.com/">Cloudflare’s</a> name servers under their free plan to obtain a SSL certificate for your website.</p>
+
+<p>Simply,</p>
+
+<ol>
+  <li>Create a <a href="https://www.cloudflare.com/">Cloudflare</a> account</li>
+  <li>Allow Cloudflare to scan your website records</li>
+  <li>Check and verify that the automatically generated records by Cloudflare matches with those on your registrar’s page (in my case, this is <a href="http://namecheap.com/">Namecheap.com</a>)</li>
+  <li>Cloudflare will now give you 2 nameservers to add into your account</li>
+  <li>Login to Namecheap</li>
+  <li>Click on Domains List</li>
+  <li>Select the domain you want to add SSL for and click on <code class="highlighter-rouge">Manage</code> at the right side</li>
+  <li>Under nameservers, copy and paste the 2 nameservers Cloudflare gave you</li>
+  <li>Once done, on Cloudflare’s Overview tab, click on <code class="highlighter-rouge">Recheck Nameservers</code></li>
+</ol>
+
+<p>Cloudflare also offers up to three page rules in the free plan. With this, we can always enforce a `https on our website. To do that,</p>
+
+<ol>
+  <li>Click on the Page Rule tab at the top in Cloudflare</li>
+  <li>Enter this: <code class="highlighter-rouge">http://*&lt;your-domain-name&gt;.com/*</code></li>
+  <li>Add the settings to be <code class="highlighter-rouge">Always Use HTTPS</code></li>
+  <li>Click on <code class="highlighter-rouge">Save and Deploy</code></li>
+</ol>
+
+<p>The asterisks are like wildcard patterns which means any URLs entered in that format will be enforced to utilise HTTPS connection. For example, <a href="www.harishv.me">www.harishv.me</a> or <a href="http://harishv.me/blog">http://harishv.me/blog</a> will all now be enforced with HTTPS.</p>
+
+<p>That’s all folks. Get your free SSL certificate with Cloudflare now!</p>
+
+<p>P.S. If you’re wondering why is HTTPS that big of a deal, wait a few days for my next article on HTTPS - What’s the Big Deal?.</p>
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
+            
+            <figure class="author-image">
+                <a class="img" href="/blog/author/harish" style="background-image: url(/blog/assets/images/profile.png)"><span class="hidden">'s Picture</span></a>
+            </figure>
+            
+
+            <section class="author">
+                <h4><a href="/blog/author/harish">Harish V</a></h4>
+                
+                
+                    <p> Web Developer | Computer Engineer | Tech Enthusiast</p>
+                
+                <div class="author-meta">
+                    <span class="author-location icon-location"> Singapore</span> 
+                    <span class="author-link icon-link"><a href="http://harishv.me"> http://harishv.me/</a></span> 
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=Adding SSL to Your Site (Free!)&amp;url=http://harishv.me/blog/Adding-SSL-to-Your-Site-for-Free"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://harishv.me/blog/Adding-SSL-to-Your-Site-for-Free"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://harishv.me/blog/Adding-SSL-to-Your-Site-for-Free"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+            
+            <!-- Add Disqus Comments -->
+            <!--  -->
+
+        
+            
+        </footer>
+
+    </article>
+
+</main>
+
+<!-- Google AdSense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Unit1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9698859336751728"
+     data-ad-slot="7346033495"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev " style="background-image: url(/blog/assets/images/posts/music-theory.jpg)" href="/blog/Scales-in-Music-Theory">
+            <section class="post">
+                <h2>Scales in Music Theory</h2>
+                <p>Scales are commonplace in any music theory. We can consider a scale to be a...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
+
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/blog/">Harish V</a> &copy; 2017</section>
+          <section class="poweredby">Crafted with &hearts; for life</section>
+          <!-- <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section> -->
+        </footer>
+    </div>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/blog/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/blog/assets/js/index.js"></script>  
+</body>
+</html>
