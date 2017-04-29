@@ -12,6 +12,24 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Getting a Free Domain For Students</title>
+	  <link>/blog//Getting-a-Free-Domain-For-Students</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-29T00:00:00+08:00</pubDate>
+	  <guid>/blog//Getting-a-Free-Domain-For-Students</guid>
+	  <description><![CDATA[
+	     <p>If you are student and you are looking to get a domain, then you’re in luck! You can get one for free with Namecheap. Namecheap provides services such as domain name registration and web hosting services.</p>
+
+<p>If you want a free domain, check out their student offer <a href="https://nc.me/">here</a>.</p>
+
+<p><img src="assets/images/posts/namecheap_student_deal.jpg" alt="Namecheap Student Deal" /></p>
+
+<p>There is a small catch though. You will only be able to get the <code class="highlighter-rouge">.me</code> domain for free. <code class="highlighter-rouge">.me</code> domains are usually used for personal sites and blogs like mine. If you’re looking for <code class="highlighter-rouge">.com</code>, <code class="highlighter-rouge">.net</code>, <code class="highlighter-rouge">.io</code> and other domains, then this offer will not apply. Despite that, Namecheap’s domain hosting is extremely affordable and comes in at only a couple of dollars per <em>year</em>.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Adding SSL to Your Site (Free!)</title>
 	  <link>/blog//Adding-SSL-to-Your-Site-for-Free</link>
 	  <author>Harish V</author>
@@ -138,43 +156,6 @@
 	</item>
 
 	<item>
-	  <title>Top Todo App of 2016</title>
-	  <link>/blog//Top-Todo-App-of-2016</link>
-	  <author>Harish V</author>
-	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
-	  <guid>/blog//Top-Todo-App-of-2016</guid>
-	  <description><![CDATA[
-	     <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
-
-<h2 id="wunderlist">Wunderlist</h2>
-
-<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
-
-<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
-
-<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
-
-<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
-
-<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
-
-<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
-
-<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
-
-<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
-
-<p>Check out the following link to Amazon for more information on Wunderlist, as well as a cool book which details Wunderlist for Writers!</p>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=harishv7-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01DICYKRU&amp;asins=B01DICYKRU&amp;linkId=955dd407043325294afff9cffcfc76bf&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff">
-</iframe>
-
-<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
 	  <title>Top Email Clients for the New Mac</title>
 	  <link>/blog//Top-Email-Clients-for-Mac</link>
 	  <author>Harish V</author>
@@ -228,6 +209,43 @@
 <p>and many others!</p>
 
 <p>While Airmail is not free, it comes at an affordable price of US$9.99.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Top Todo App of 2016</title>
+	  <link>/blog//Top-Todo-App-of-2016</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
+	  <guid>/blog//Top-Todo-App-of-2016</guid>
+	  <description><![CDATA[
+	     <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
+
+<h2 id="wunderlist">Wunderlist</h2>
+
+<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
+
+<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
+
+<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
+
+<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
+
+<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
+
+<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
+
+<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
+
+<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
+
+<p>Check out the following link to Amazon for more information on Wunderlist, as well as a cool book which details Wunderlist for Writers!</p>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=harishv7-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01DICYKRU&amp;asins=B01DICYKRU&amp;linkId=955dd407043325294afff9cffcfc76bf&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff">
+</iframe>
+
+<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
 
 	  ]]></description>
 	</item>
@@ -627,35 +645,6 @@ Harish V</p>
 
 <p><img src="http://i.imgur.com/UyzzCLM.png" alt="Image1" />
 <img src="http://i.imgur.com/eWqAGKg.png" alt="Image2" /></p>
-
-<p>Cheers, <br />
-Harish V</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Gamecraft 2015!</title>
-	  <link>/blog//Gamecraft-2015</link>
-	  <author>Harish V</author>
-	  <pubDate>2015-12-06T00:00:00+08:00</pubDate>
-	  <guid>/blog//Gamecraft-2015</guid>
-	  <description><![CDATA[
-	     <p><img src="http://i.imgur.com/KnFi8cM.png " alt="TwistedMaze Logo" style="width: 200px;" /></p>
-
-<p>I recently participated in Gamecraft 2015. This is my 2nd time participating this is “game-hackathon”. This time my team consisted of Al, Ted, Chris &amp; myself. The theme for this year was “Twist”. As usual, the interpretation of this theme in relation to the game was left open to us.</p>
-
-<p>One of the first things that came to my mind was a maze that twists. As I was imagining this idea, I suddenly had this inspiration from this book <a href="https://en.wikipedia.org/wiki/The_Maze_Runner">The Mazerunner</a>. It is a book where a group of “hostages” have to escape from a ever-changing labyrinth. There has also been a movie released with the same name.</p>
-
-<p>I suggested this idea and we tried brainstorming a few ideas before settling and finalising on this one. After this decision, we focused our efforts towards the game development. Me and Chris took on the roles of the game design where we made the shifting maps for the maze and the necessary sprites.</p>
-
-<p>Ted was the sound engineer and gather suitable sounds for use in the game. Al, being the lead programmer of the group, devoted his attention to the game physics and the actual coding of the game.</p>
-
-<p>We utilised Unity for the game and eventually (after 24 hrs) managed to come up with a finished game, TwistedMaze. TwistedMaze is available for download (both Mac and Windows versions) at <a href="https://github.com/harishv7/TwistedMaze/releases">GitHub</a>.</p>
-
-<p>Future work on porting the game to Android and iOS is currently being discussed.</p>
-
-<p>Hope you enjoy playing the game as much as we enjoyed creating it. :)</p>
 
 <p>Cheers, <br />
 Harish V</p>

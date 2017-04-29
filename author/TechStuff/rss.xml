@@ -12,6 +12,24 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Getting a Free Domain For Students</title>
+	  <link>/blog//Getting-a-Free-Domain-For-Students</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-29T00:00:00+08:00</pubDate>
+	  <guid>/blog//Getting-a-Free-Domain-For-Students</guid>
+	  <description><![CDATA[
+	     <p>If you are student and you are looking to get a domain, then you’re in luck! You can get one for free with Namecheap. Namecheap provides services such as domain name registration and web hosting services.</p>
+
+<p>If you want a free domain, check out their student offer <a href="https://nc.me/">here</a>.</p>
+
+<p><img src="assets/images/posts/namecheap_student_deal.jpg" alt="Namecheap Student Deal" /></p>
+
+<p>There is a small catch though. You will only be able to get the <code class="highlighter-rouge">.me</code> domain for free. <code class="highlighter-rouge">.me</code> domains are usually used for personal sites and blogs like mine. If you’re looking for <code class="highlighter-rouge">.com</code>, <code class="highlighter-rouge">.net</code>, <code class="highlighter-rouge">.io</code> and other domains, then this offer will not apply. Despite that, Namecheap’s domain hosting is extremely affordable and comes in at only a couple of dollars per <em>year</em>.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Adding SSL to Your Site (Free!)</title>
 	  <link>/blog//Adding-SSL-to-Your-Site-for-Free</link>
 	  <author>Harish V</author>
@@ -627,35 +645,6 @@ Harish V</p>
 
 <p><img src="http://i.imgur.com/UyzzCLM.png" alt="Image1" />
 <img src="http://i.imgur.com/eWqAGKg.png" alt="Image2" /></p>
-
-<p>Cheers, <br />
-Harish V</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Gamecraft 2015!</title>
-	  <link>/blog//Gamecraft-2015</link>
-	  <author>Harish V</author>
-	  <pubDate>2015-12-06T00:00:00+08:00</pubDate>
-	  <guid>/blog//Gamecraft-2015</guid>
-	  <description><![CDATA[
-	     <p><img src="http://i.imgur.com/KnFi8cM.png " alt="TwistedMaze Logo" style="width: 200px;" /></p>
-
-<p>I recently participated in Gamecraft 2015. This is my 2nd time participating this is “game-hackathon”. This time my team consisted of Al, Ted, Chris &amp; myself. The theme for this year was “Twist”. As usual, the interpretation of this theme in relation to the game was left open to us.</p>
-
-<p>One of the first things that came to my mind was a maze that twists. As I was imagining this idea, I suddenly had this inspiration from this book <a href="https://en.wikipedia.org/wiki/The_Maze_Runner">The Mazerunner</a>. It is a book where a group of “hostages” have to escape from a ever-changing labyrinth. There has also been a movie released with the same name.</p>
-
-<p>I suggested this idea and we tried brainstorming a few ideas before settling and finalising on this one. After this decision, we focused our efforts towards the game development. Me and Chris took on the roles of the game design where we made the shifting maps for the maze and the necessary sprites.</p>
-
-<p>Ted was the sound engineer and gather suitable sounds for use in the game. Al, being the lead programmer of the group, devoted his attention to the game physics and the actual coding of the game.</p>
-
-<p>We utilised Unity for the game and eventually (after 24 hrs) managed to come up with a finished game, TwistedMaze. TwistedMaze is available for download (both Mac and Windows versions) at <a href="https://github.com/harishv7/TwistedMaze/releases">GitHub</a>.</p>
-
-<p>Future work on porting the game to Android and iOS is currently being discussed.</p>
-
-<p>Hope you enjoy playing the game as much as we enjoyed creating it. :)</p>
 
 <p>Cheers, <br />
 Harish V</p>

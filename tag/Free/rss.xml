@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://harishv.me/</title>
+   
+   <link>http://harishv.me</link>
+   <description>My thoughts - on life & code.</description>
+   <language>en-uk</language>
+   <managingEditor> Harish V</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Getting a Free Domain For Students</title>
+	  <link>/blog//Getting-a-Free-Domain-For-Students</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-04-29T00:00:00+08:00</pubDate>
+	  <guid>/blog//Getting-a-Free-Domain-For-Students</guid>
+	  <description><![CDATA[
+	     <p>If you are student and you are looking to get a domain, then you’re in luck! You can get one for free with Namecheap. Namecheap provides services such as domain name registration and web hosting services.</p>
+
+<p>If you want a free domain, check out their student offer <a href="https://nc.me/">here</a>.</p>
+
+<p><img src="assets/images/posts/namecheap_student_deal.jpg" alt="Namecheap Student Deal" /></p>
+
+<p>There is a small catch though. You will only be able to get the <code class="highlighter-rouge">.me</code> domain for free. <code class="highlighter-rouge">.me</code> domains are usually used for personal sites and blogs like mine. If you’re looking for <code class="highlighter-rouge">.com</code>, <code class="highlighter-rouge">.net</code>, <code class="highlighter-rouge">.io</code> and other domains, then this offer will not apply. Despite that, Namecheap’s domain hosting is extremely affordable and comes in at only a couple of dollars per <em>year</em>.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
