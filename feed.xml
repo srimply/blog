@@ -306,7 +306,7 @@
       <item>
         <title>ReactJS Workshop</title>
         
-          <description>&lt;p&gt;Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as a framework). Unlike a framework that typically deals with all the 3 main areas of Model, View and Controller layers (see my &lt;a href=&quot;http://harishv.me/tech/general/techstuff/2015/10/02/MVC-Design-Pattern.html&quot;&gt;MVC post&lt;/a&gt;, React is a Javascript library for building user interfaces.&lt;/p&gt;
+          <description>&lt;p&gt;Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as a framework). Unlike a framework that typically deals with all the 3 main areas of Model, View and Controller layers (see my &lt;a href=&quot;/blog//MVC-Design-Pattern&quot;&gt;MVC post&lt;/a&gt;, React is a Javascript library for building user interfaces.&lt;/p&gt;
 
 </description>
         
