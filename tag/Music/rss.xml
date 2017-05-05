@@ -182,17 +182,26 @@ Harish</p>
 	  <pubDate>2015-06-05T00:00:00+08:00</pubDate>
 	  <guid>/blog//Greensleeves</guid>
 	  <description><![CDATA[
-	     <p>This is a small attempt to play the popular English folk song Greensleeves (Played in Dmin Key with Time Signature of 3/4) on my keyboard! :)</p>
+	     <p>This is an attempt to play the popular English folk song Greensleeves (Played in D minor Key with Time Signature of 3/4) on my keyboard!</p>
 
-<p>If the above player does not work, see below for the SoundCloud embed.</p>
+<hr />
+
+<h3 id="video">Video</h3>
+
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/H_jdvDdRK90?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen=""></iframe>
+</div>
+
+<hr />
+
+<h3 id="audio">Audio</h3>
 
 <p>Greensleeves (Melody)</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208950439&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-<p>Greensleeves with Chords</p>
+<p>Greensleeves (with Chords)</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212482253&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-<p>Greensleeves with Rhythm</p>
+<p>Greensleeves (with Rhythm)</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213071440&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 <p>Cheers, <br />
