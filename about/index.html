@@ -170,6 +170,79 @@
 
 <p>Here’s my <a href="http://harishv.me">homepage</a>. You can check out my projects <a href="http://harishv.me/projects">here</a>.</p>
 
+<form action="https://formspree.io/harishv207@gmail.com" method="POST" class="sans-serif-heading custom-form">
+	<h3 class="custom-font">Contact Form</h3>
+	<div class="form-group">
+		<label class="sans-serif-heading">Name</label> <br />
+		<input type="text" class="form-control" id="name" placeholder="" name="name" required="" />
+	</div>
+	<div class="form-group">
+		<label class="sans-serif-heading">Email Address</label> <br />
+		<input type="email" class="form-control" id="email_address" placeholder="" name="email" required="" />
+	</div>
+	<div class="form-group">
+		<input type="text" name="_gotcha" style="display:none" />
+	</div>
+	<div class="form-group">
+		<label class="sans-serif-heading">Comments</label> <br />
+		<textarea class="form-control" rows="3" name="comments"></textarea>
+	</div>
+	<br />
+	<div class="text-center">
+		<button type="submit" class="btn btn-default custom-btn" value="Send">Submit</button>
+	</div>
+</form>
+
+<style type="text/css">
+form {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.custom-form {
+    border-style: solid;
+    padding: 30px;
+    border-width: 2px;
+}
+
+.sans-serif-heading {
+    font-family: Oxygen, sans-serif;
+    font-weight: 300;
+}
+
+.custom-btn {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 1px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    <!--transition: color 0.3s ease-out,
+    background-color 0.3s ease-out,
+    border-color 0.3s ease-out;-->
+}
+.custom-btn:hover,
+.custom-btn:active {
+    background-color: navy;
+    border-color: #000;
+    color: #fff;
+    transition: color 0.3s ease-in,
+    background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
+}
+
+</style>
+
+<hr />
+
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css" />
 
