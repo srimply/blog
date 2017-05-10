@@ -20,11 +20,13 @@
 	  <description><![CDATA[
 	     <h3 id="what-is-http">What is HTTP?</h3>
 
-<p>HTTP stands for Hypertext Transfer Protocol. It is the protocol used by the World Wide Web and it how data is transmitted over the Internet and how servers and browsers respond to various requests. Essentially, it the “procedure” which helps define how data or messages should be exchanged by different parties on the Internet.</p>
+<p>HTTP stands for Hypertext Transfer Protocol. It is the protocol used by the World Wide Web and it forms the basis for how data is transmitted over the Internet and how servers and browsers respond to various requests. Essentially, it the “procedure” which helps define how data or messages should be exchanged by different parties on the Internet.</p>
 
 <h3 id="the-problem-with-http">The Problem with HTTP</h3>
 
-<p>The problem with HTTP is that it does not offer three major features: Integrity, Authentication and Privacy. That means data transmitted over HTTP alone is easy to intercept and makes you susceptible to a whole range of attacks which can compromise the 3 factors (mentioned above) you would ideally want when you surf the web.</p>
+<p><img src="http://imgur.com/Bsb0pyL.png" alt="" /></p>
+
+<p>The problem with HTTP is that it does not provide for <strong>Integrity, Authentication and Privacy</strong>. That means data transmitted over HTTP alone is easy to intercept and makes you susceptible to a whole range of attacks which can compromise the 3 factors mentioned above (which you would ideally want when you surf the web).</p>
 
 <h3 id="how-about-https">How about HTTPS?</h3>
 
@@ -37,8 +39,8 @@
 <ul>
   <li>When a browser/server tries to connect to a webpage secured with SSL, it first requests the web server to identify itself.</li>
   <li>The web server then sends the client or server its SSL certificate.</li>
-  <li>The browser checks the SSL certificate to know if it can trust it. If it is able to trust the SSL certificate, it sends a message to acknoledge this to the web server.</li>
-  <li>The web server is now ready to establish a SSL encyrpted session with the client/server and sends a digital acknowledgement back.</li>
+  <li>The browser checks the SSL certificate to know if it can trust it. If it is able to trust the SSL certificate, it sends a message to the web server acknowledge this.</li>
+  <li>The web server is now ready to establish an SSL encyrpted session with the client/server and sends a digital acknowledgement back.</li>
   <li>Now when messages or data is transferred between these 2 entities, they will be encrypted based on a mutually agreed ciphersuite.</li>
 </ul>
 
@@ -48,21 +50,21 @@
 
 <h3 id="public-and-private-keys">Public and Private Keys</h3>
 
-<p>You would have probably heard about <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">asymmetric cryptography</a>, also known as, public-key cryptography. In this type of asymmetric encryption, two types of keys are involved: public key and private key. Public keys are made public, that is anyone is able to know them. Private keys are private, which means no one other than yourself will be able to access this private key.</p>
+<p>You would have probably heard about <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">asymmetric cryptography</a>, also known as, public-key cryptography. In this type of asymmetric encryption, two types of keys are involved: public key and private key. The names speak for themselves. Public keys are made public, that is anyone is able to know them. Private keys are private, which means no one other than yourself will be able to access this private key.</p>
 
-<p>Now when someone wants to send me some document, they will simply encrypt the document with my public key (which is accessible by anyone and everyone). They send me this document. Now, I just need to use my private key (which is only known to me) to decrypt this. This ensures that only the intended receipient of the message will be able to decrypt and hence, access the message.</p>
+<p>Now when someone wants to send me some document, they will simply encrypt the document with my public key (which is accessible by anyone and everyone). Then, they send me this document. Now, I just need to use my private key (which is only known to me) to decrypt this. This ensures that only the <em>intended</em> receipient of the message will be able to decrypt and hence, access the message.</p>
 
 <p>Similarly, if I am sending someone my document, I will encrypt the document with my private key. The receipient of the document will now use my public key to decrypt it and access the document. This helps to identify that the document <em>truly</em> came from me.</p>
 
 <h3 id="ssl-transaction">SSL Transaction</h3>
 
-<p>To set up the SSL session, we need 3 keys: public key, private key and session key. As disucussed above the public and private keys are effective in ensuring that the data is reliable and authentic. However, this requires considerable amount of processing power. Hence, we use the session key to encrypt any transmitted data following the SSL handshake.</p>
+<p>To set up the SSL session, we need 3 keys: public key, private key and session key. As disucussed above the public and private keys are effective in ensuring that the data is reliable and authentic. However, this requires considerable amount of processing power. Hence, we use the session key to encrypt any transmitted data <em>following</em> the SSL handshake.</p>
 
 <h3 id="adding-ssl-to-your-website">Adding SSL to your website</h3>
 
-<p>To add SSL, you will have first purchase a SSL certificate, activate it, install the certificate and finally configure your site to use the certificate. There are tons of tutorials online on how to do that.</p>
+<p>To add SSL, you will have to first purchase a SSL certificate, activate it, install the certificate and finally configure your site to use the certificate. There are tons of tutorials online on how to do that.</p>
 
-<p>You can also get free SSL from Cloudflare. To know how you can add free SSL to your website, check <a href="/blog//Adding-SSL-to-Your-Site-for-Free">this</a> post out!</p>
+<p>You can also get free SSL protection with Cloudflare. To know how you can add free SSL to your website, check <a href="/blog//Adding-SSL-to-Your-Site-for-Free">this</a> post out!</p>
 
 	  ]]></description>
 	</item>
