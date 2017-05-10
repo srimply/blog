@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://harishv.me/blog//HTTPS-What's-the-Big-Deal</loc>
+<lastmod>2017-05-10T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://harishv.me/blog//Top-Five-Protein-Sources-Vegetarians-Need-to-Know</loc>
 <lastmod>2017-05-09T00:00:00+08:00</lastmod>
 </url>
@@ -657,6 +661,9 @@
 </url>
 <url>
 <loc>http://harishv.me/blog//author/TechStuff/page4/</loc>
+</url>
+<url>
+<loc>http://harishv.me/blog//author/TechStuff/page5/</loc>
 </url>
 <url>
 <loc>http://harishv.me/blog//author/Reviews/</loc>

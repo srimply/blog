@@ -12,6 +12,62 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>HTTPS - What's the Big Deal?</title>
+	  <link>/blog//HTTPS-What's-the-Big-Deal</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-05-10T00:00:00+08:00</pubDate>
+	  <guid>/blog//HTTPS-What's-the-Big-Deal</guid>
+	  <description><![CDATA[
+	     <h3 id="what-is-http">What is HTTP?</h3>
+
+<p>HTTP stands for Hypertext Transfer Protocol. It is the protocol used by the World Wide Web and it how data is transmitted over the Internet and how servers and browsers respond to various requests. Essentially, it the “procedure” which helps define how data or messages should be exchanged by different parties on the Internet.</p>
+
+<h3 id="the-problem-with-http">The Problem with HTTP</h3>
+
+<p>The problem with HTTP is that it does not offer three major features: Integrity, Authentication and Privacy. That means data transmitted over HTTP alone is easy to intercept and makes you susceptible to a whole range of attacks which can compromise the 3 factors (mentioned above) you would ideally want when you surf the web.</p>
+
+<h3 id="how-about-https">How about HTTPS?</h3>
+
+<p>HTTPS is essentially HTTP running over Secure Socket Layer (SSL). HTTPS works by encrypting the HTTP message before the exchange and when received on the other side, it decrypts the message.</p>
+
+<p>In comparison, if HTTP is used, sensitive information which may be credit card information, your identity numbers, login credentials such as passwords etc. will be transmitted over the server as plaintext. This leaves the exchange vulnerable to “eavesdropping” which means an attacker can intercept the message and use it for harmful purposes.</p>
+
+<h3 id="how-do-ssl-certificates-work">How do SSL Certificates work?</h3>
+
+<ul>
+  <li>When a browser/server tries to connect to a webpage secured with SSL, it first requests the web server to identify itself.</li>
+  <li>The web server then sends the client or server its SSL certificate.</li>
+  <li>The browser checks the SSL certificate to know if it can trust it. If it is able to trust the SSL certificate, it sends a message to acknoledge this to the web server.</li>
+  <li>The web server is now ready to establish a SSL encyrpted session with the client/server and sends a digital acknowledgement back.</li>
+  <li>Now when messages or data is transferred between these 2 entities, they will be encrypted based on a mutually agreed ciphersuite.</li>
+</ul>
+
+<p>The above process where the browser and web sever initiate a secure session is called an SSL Handshake.</p>
+
+<p><em>Note:</em> Anyone can create a SSL certificate, but it must be digitally signed by a trusted <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certification Authority (CA)</a>. Most computers come with a pre-installed list of CAs they can trust and when the browser checks the SSL certificate, it verifies the digital signature against this list.</p>
+
+<h3 id="public-and-private-keys">Public and Private Keys</h3>
+
+<p>You would have probably heard about <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">asymmetric cryptography</a>, also known as, public-key cryptography. In this type of asymmetric encryption, two types of keys are involved: public key and private key. Public keys are made public, that is anyone is able to know them. Private keys are private, which means no one other than yourself will be able to access this private key.</p>
+
+<p>Now when someone wants to send me some document, they will simply encrypt the document with my public key (which is accessible by anyone and everyone). They send me this document. Now, I just need to use my private key (which is only known to me) to decrypt this. This ensures that only the intended receipient of the message will be able to decrypt and hence, access the message.</p>
+
+<p>Similarly, if I am sending someone my document, I will encrypt the document with my private key. The receipient of the document will now use my public key to decrypt it and access the document. This helps to identify that the document <em>truly</em> came from me.</p>
+
+<h3 id="ssl-transaction">SSL Transaction</h3>
+
+<p>To set up the SSL session, we need 3 keys: public key, private key and session key. As disucussed above the public and private keys are effective in ensuring that the data is reliable and authentic. However, this requires considerable amount of processing power. Hence, we use the session key to encrypt any transmitted data following the SSL handshake.</p>
+
+<h3 id="adding-ssl-to-your-website">Adding SSL to your website</h3>
+
+<p>To add SSL, you will have first purchase a SSL certificate, activate it, install the certificate and finally configure your site to use the certificate. There are tons of tutorials online on how to do that.</p>
+
+<p>You can also get free SSL from Cloudflare. To know how you can add free SSL to your website, check <a href="/blog//Adding-SSL-to-Your-Site-for-Free">this</a> post out!</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Getting a Free Domain For Students</title>
 	  <link>/blog//Getting-a-Free-Domain-For-Students</link>
 	  <author>Harish V</author>
@@ -156,43 +212,6 @@
 	</item>
 
 	<item>
-	  <title>Top Todo App of 2016</title>
-	  <link>/blog//Top-Todo-App-of-2016</link>
-	  <author>Harish V</author>
-	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
-	  <guid>/blog//Top-Todo-App-of-2016</guid>
-	  <description><![CDATA[
-	     <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
-
-<h2 id="wunderlist">Wunderlist</h2>
-
-<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
-
-<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
-
-<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
-
-<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
-
-<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
-
-<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
-
-<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
-
-<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
-
-<p>Check out the following link to Amazon for more information on Wunderlist, as well as a cool book which details Wunderlist for Writers!</p>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=harishv7-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01DICYKRU&amp;asins=B01DICYKRU&amp;linkId=955dd407043325294afff9cffcfc76bf&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff">
-</iframe>
-
-<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
 	  <title>Top Email Clients for the New Mac</title>
 	  <link>/blog//Top-Email-Clients-for-Mac</link>
 	  <author>Harish V</author>
@@ -246,6 +265,43 @@
 <p>and many others!</p>
 
 <p>While Airmail is not free, it comes at an affordable price of US$9.99.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Top Todo App of 2016</title>
+	  <link>/blog//Top-Todo-App-of-2016</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
+	  <guid>/blog//Top-Todo-App-of-2016</guid>
+	  <description><![CDATA[
+	     <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
+
+<h2 id="wunderlist">Wunderlist</h2>
+
+<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
+
+<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
+
+<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
+
+<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
+
+<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
+
+<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
+
+<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
+
+<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
+
+<p>Check out the following link to Amazon for more information on Wunderlist, as well as a cool book which details Wunderlist for Writers!</p>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=harishv7-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01DICYKRU&amp;asins=B01DICYKRU&amp;linkId=955dd407043325294afff9cffcfc76bf&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff">
+</iframe>
+
+<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
 
 	  ]]></description>
 	</item>
@@ -591,62 +647,6 @@ ___</p>
 
 <p>Till next time, <br />
 Cheers, <br />
-Harish V</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Data Science Student Challenge 2016 Experience</title>
-	  <link>/blog//Data-Science-Student-Challenge-Experience</link>
-	  <author>Harish V</author>
-	  <pubDate>2016-03-29T00:00:00+08:00</pubDate>
-	  <guid>/blog//Data-Science-Student-Challenge-Experience</guid>
-	  <description><![CDATA[
-	     <h2 id="about-the-challenge--our-product">About the Challenge &amp; Our Product</h2>
-
-<p>Recently, I had the opportunity to participate in the Data Science Student Challenge which was co-organised and sponsored by Microsoft.</p>
-
-<p>I took part in this event together with my friends Alvian, Chris &amp; Ida. We worked tirelessly over just 24 hours to build a full-fledged working application which integrates the concepts of machine learning and data science. And the result of our effort was “Prosper”.</p>
-
-<p>The following extract is from our Github page.</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Prosper</span> <span class="n">stands</span> <span class="k">for</span> <span class="no">Property</span> <span class="no">Resale</span> <span class="no">Price</span> <span class="no">Forecaster</span><span class="o">.</span>
-
-<span class="no">It</span> <span class="n">is</span> <span class="n">essentially</span> <span class="n">an</span> <span class="n">application</span> <span class="n">that</span> <span class="n">can</span> <span class="n">predict</span> <span class="n">the</span> <span class="n">future</span> <span class="n">resale</span> <span class="n">value</span> <span class="n">of</span> <span class="n">your</span> <span class="n">flat</span> <span class="p">(</span><span class="k">in</span> <span class="no">Singapore</span><span class="p">)</span><span class="o">!</span> <span class="no">Sounds</span> <span class="n">exciting?</span>
-
-<span class="no">We</span> <span class="n">have</span> <span class="n">combined</span> <span class="n">the</span> <span class="n">power</span> <span class="n">of</span> <span class="no">Microsoft</span> <span class="no">Azure</span><span class="err">'</span><span class="n">s</span> <span class="no">Machine</span> <span class="no">Learning</span> <span class="n">capabilities</span> <span class="n">together</span> <span class="n">with</span> <span class="n">the</span> <span class="n">resale</span> <span class="n">flat</span> <span class="n">data</span> <span class="n">from</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">data</span><span class="p">.</span><span class="nf">gov</span><span class="p">.</span><span class="nf">sg</span> <span class="n">to</span> <span class="n">utilise</span> <span class="n">over</span> <span class="mi">15</span> <span class="n">years</span> <span class="n">of</span> <span class="n">data</span> <span class="n">and</span> <span class="mi">480</span><span class="p">,</span><span class="mo">000</span> <span class="n">data</span> <span class="n">points</span> <span class="k">for</span> <span class="n">an</span> <span class="n">astonishing</span> <span class="mi">95</span><span class="o">%</span> <span class="p">(</span><span class="n">error</span> <span class="n">margin</span> <span class="n">of</span> <span class="o">+-</span><span class="mi">5</span><span class="o">%</span><span class="p">)</span> <span class="n">accuracy</span> <span class="k">in</span> <span class="n">prediction</span> <span class="n">of</span> <span class="n">the</span> <span class="n">price</span><span class="o">.</span>
-
-<span class="no">As</span> <span class="n">a</span> <span class="n">pro</span> <span class="n">analytics</span> <span class="n">feature</span><span class="p">,</span> <span class="no">Prosper</span> <span class="n">also</span> <span class="n">provides</span> <span class="n">a</span> <span class="n">suggestion</span> <span class="n">on</span> <span class="k">when</span> <span class="n">you</span> <span class="n">should</span> <span class="n">be</span> <span class="n">selling</span> <span class="n">your</span> <span class="n">flat</span> <span class="n">based</span> <span class="n">on</span> <span class="n">your</span> <span class="n">expected</span> <span class="n">annual</span> <span class="n">growth</span> <span class="n">rate</span> <span class="n">of</span> <span class="n">the</span> <span class="n">flat</span> <span class="n">price</span><span class="o">.</span> <span class="no">Hence</span><span class="p">,</span> <span class="n">the</span> <span class="n">application</span> <span class="n">tries</span> <span class="n">to</span> <span class="n">maximise</span> <span class="n">your</span> <span class="n">profit</span> <span class="n">given</span> <span class="n">the</span> <span class="n">expected</span> <span class="n">growth</span> <span class="n">price</span> <span class="n">per</span> <span class="n">annum</span><span class="o">.</span>
-
-<span class="no">This</span> <span class="n">application</span> <span class="n">runs</span> <span class="n">using</span> <span class="no">Java</span> <span class="n">and</span> <span class="n">you</span> <span class="n">can</span> <span class="n">download</span> <span class="n">it</span> <span class="n">from</span> <span class="n">the</span> <span class="no">Releases</span> <span class="n">page</span><span class="o">.</span>
-
-<span class="no">Prosper</span> <span class="n">was</span> <span class="n">developed</span> <span class="k">in</span> <span class="mi">24</span> <span class="n">hours</span> <span class="k">in</span> <span class="n">the</span> <span class="no">National</span> <span class="no">University</span> <span class="n">of</span> <span class="no">Singapore</span> <span class="p">(</span><span class="no">NUS</span><span class="p">)</span> <span class="no">Data</span> <span class="no">Science</span> <span class="no">Student</span> <span class="no">Challenge</span> <span class="n">supported</span> <span class="n">by</span> <span class="no">Mircosoft</span><span class="o">.</span>
-
-<span class="no">Prosper</span> <span class="n">managed</span> <span class="n">to</span> <span class="n">secure</span> <span class="n">the</span> <span class="mi">5</span><span class="n">th</span> <span class="n">place</span> <span class="n">among</span> <span class="n">dozens</span> <span class="n">of</span> <span class="n">teams</span> <span class="n">at</span> <span class="no">NUS</span> <span class="no">Data</span> <span class="no">Science</span> <span class="no">Student</span> <span class="no">Challenge</span> <span class="mi">2016</span><span class="o">.</span></code></pre></figure>
-
-<p>Below are some screenshots of the application. You can download and give Prosper a try <a href="https://github.com/harishv7/Prosper/releases">here</a>.</p>
-
-<h2 id="experience">Experience</h2>
-
-<p>While it was extremely tiring, it was really a fulfilling experience. In that intense 24 hours, I actually learnt so much skills. It also proved that to learn something new, we only needed the determination and the dedication to pursue it.</p>
-
-<p>Alvian has always been interested in the topics of data science and machine learning. Naturally, he was able to lead our discussion and ideas prior to the building of the actual application. I was in charge of developing the desktop client to communicate with the APIs provided by Microsoft Azure.</p>
-
-<p>Initially, I tried using simple AJAX calls through a website. However, it did not work due to some error relating to the blockage of “Cross-Origin Requests”. After about 2 hours and going through multiple StackOverflow questions, we decided to change track. I never thought my experience in a previous module, CS2103 Software Engineering, will help me. I used the good old legacy language Java as it was stable and what everyone in my team knew best. Our technology stack was essentially JavaFX to design the layout the GUI and pure Java for the backend logic.</p>
-
-<p>Both Ida and Chris helped me and Alvian to get the building of the application done. Meanwhile, Alvian started training the model for our app with the data provided by <a href="https://data.gov.sg/developer">https://data.gov.sg/developer</a>.</p>
-
-<p>After getting through the initial round, my team was selected for the finals where we had to present to a panel of judges. It was really a tough experience. Imagine 24 hours++ without sleep and still needing the energy to be able to present lively to the audience in front of you.</p>
-
-<p>While we did not obtain the top 3 prizes, I was definitely overjoyed to have my team in the 5th place considering that we were all just sophomores in NUS without much experience in these field. I definitely look forward to participating in the next challenge.</p>
-
-<h2 id="screenshots">Screenshots</h2>
-
-<p><img src="http://i.imgur.com/UyzzCLM.png" alt="Image1" />
-<img src="http://i.imgur.com/eWqAGKg.png" alt="Image2" /></p>
-
-<p>Cheers, <br />
 Harish V</p>
 
 	  ]]></description>
