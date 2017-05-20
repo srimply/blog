@@ -24,7 +24,7 @@
 
 <h3 id="the-problem-with-http">The Problem with HTTP</h3>
 
-<p><img src="http://imgur.com/Bsb0pyL.png" alt="" /></p>
+<p><img src="https://imgur.com/Bsb0pyL.png" alt="" /></p>
 
 <p>The problem with HTTP is that it does not provide for <strong>Integrity, Authentication and Privacy</strong>. That means data transmitted over HTTP alone is easy to intercept and makes you susceptible to a whole range of attacks which can compromise the 3 factors mentioned above (which you would ideally want when you surf the web).</p>
 
