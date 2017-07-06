@@ -8,6 +8,77 @@
     
       
       <item>
+        <title>NUS-MIT Datathon</title>
+        
+          <description>&lt;p&gt;I spent the past weekend at NUS, participating in the &lt;a href=&quot;http://www.nus-datathon.com/&quot;&gt;NUS-MIT Datathon&lt;/a&gt;. This event was co-organised by both the &lt;a href=&quot;http://www.nus.edu.sg/&quot;&gt;National University of Singapore (NUS)&lt;/a&gt; and &lt;a href=&quot;http://web.mit.edu/&quot;&gt;Massachusetts Institute of Technology (MIT)&lt;/a&gt;, and brought together the combined knowledge and skills of clinicians and data scientists to analyse and extract useful information, trends and insights from the huge pool of electronic health records.&lt;/p&gt;
+
+&lt;p&gt;The best part of the datathon was that we were fully focused on addressing real-world problems with real-world clinical datasets. The diversity of the teams allowed us to gain different perspectives into the problems identified.&lt;/p&gt;
+
+&lt;p&gt;When I went in on the first day, clinical consulatants/doctors were each pitching their ideas to the participants. Eventually the interested participants formed a team with the consultant/doctor, to embark on using the data to solve the problems.&lt;/p&gt;
+
+&lt;p&gt;My team managed to clinch the 1st Runner Up position in this datathon and I certainly attribute this success to the hard work of my team, my team’s doctor for bringing out such a problem to light (see below) and the close mentorship of the data scientists/researchers from MIT.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-problem&quot;&gt;The Problem&lt;/h3&gt;
+
+&lt;p&gt;Our team tackled the problem on identifying the critical values in laboratory tests. I was initially shocked to know that there are no international/national standards or universal consensus on the critical limits or thresholds in the various lab tests being done. This meant that different doctors use their own perception and “gut feeling” to determine if a patients lab test results are in the danger zone. Upon looking at various publications, our team found substantial evidence on the large variations of these values across various hospitals, which signified the lack of uniformity.&lt;/p&gt;
+
+&lt;p&gt;The problem with this is that, if the upper thresholds are set too high, then patients might end up with untreated diseases and missed treatment time. If they are set too low, patients will be receiving unnecessary treatment/medicine which could potentially harm their current health status. Not only that, hospital resources will be wasted.&lt;/p&gt;
+
+&lt;h3 id=&quot;approach&quot;&gt;Approach&lt;/h3&gt;
+
+&lt;p&gt;Our approach to this problem had 4 major steps. Firstly, we gathered the datasets available from &lt;a href=&quot;https://mimic.physionet.org/&quot;&gt;MIMIC&lt;/a&gt;. Next, we retrieved the outcome of patients who were admitted with serious conditions, the outcome being if the patient was discharged, or unfortunately dead. Following that, we ran certain algorithms to obtain some tangible thresholds for the patients.&lt;/p&gt;
+
+&lt;p&gt;All work were performed in a virtual environment with &lt;a href=&quot;https://www.r-project.org/&quot;&gt;R&lt;/a&gt; for statstical analysis, &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; for data processing and &lt;a href=&quot;https://www.postgresql.org/&quot;&gt;PostgreSQL&lt;/a&gt; for the database operations.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;More on &lt;a href=&quot;https://mimic.physionet.org/&quot;&gt;MIMIC&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;MIMIC is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with ~40,000 critical care patients. It includes demographics, vital signs, laboratory tests, medications, and more.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;methods&quot;&gt;Methods&lt;/h3&gt;
+
+&lt;p&gt;We primarily used 2 methods. First, is multiple logistic regression to find what actually matters in the lab tests. Lab results can contain several tests. For example, a single lab test can have the levels of potassium, calcium, sodium etc. Out of all these results, a few will matter more than others. And that was the goal here: to find which of those tests actually matter most to the doctors.&lt;/p&gt;
+
+&lt;p&gt;We trained and tested the model, and finally found the threshold values with logistic regression. The model yielded an accuracy of 73.7% on the test set.&lt;/p&gt;
+
+&lt;p&gt;The second method is called LOESS, which is Locally weighted scatterplot smoothing. We fit smooth LOESS curves of the probability of death vs. lab values using linear regression to find the probability of death of a patient and the threshold values.&lt;/p&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Strength of Association between Lab Tests &amp;amp; Probability of Mortality&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In our results, we found the most important results from the lab test.&lt;/p&gt;
+
+&lt;p&gt;This formed the top 10 list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Magnesium&lt;/li&gt;
+  &lt;li&gt;Free Calcium&lt;/li&gt;
+  &lt;li&gt;Phosphate&lt;/li&gt;
+  &lt;li&gt;Total Calcium&lt;/li&gt;
+  &lt;li&gt;Potassium&lt;/li&gt;
+  &lt;li&gt;Total Bilirubin&lt;/li&gt;
+  &lt;li&gt;INR&lt;/li&gt;
+  &lt;li&gt;pH&lt;/li&gt;
+  &lt;li&gt;Bicarbonate&lt;/li&gt;
+  &lt;li&gt;Anion Gap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;extensions--learning-points&quot;&gt;Extensions &amp;amp; Learning Points&lt;/h3&gt;
+
+&lt;p&gt;Of course, as with all hackathons, the limiting factor was time. If we had more time, we could have optimised the results towards a specific population. We would have tried to increase the accuracy of the models and perform counterfactual analysis to find the thresholds.&lt;/p&gt;
+
+&lt;p&gt;It was really a great experience taking part in the datathon. More than winning the 1st runner up position, the datathon exposed me to the numerous problems lying in the medical world waiting to be solved. Today, we have the power of technology to aid us and with techniques like big data analysis, machine learning etc., we can indeed go a long way in making use of the huge volume of health records to optimise the future for us, and solving the existing problems in the process.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 06 Jul 2017 00:00:00 +0800</pubDate>
+        <link>
+        http://harishv.me/blog/NUS-MIT-Datathon</link>
+        <guid isPermaLink="true">http://harishv.me/blog/NUS-MIT-Datathon</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>The Art of Fear Setting</title>
         
           <description>&lt;p&gt;In the recent talk, &lt;a href=&quot;https://www.wikiwand.com/en/Tim_Ferriss&quot;&gt;Tim Ferriss&lt;/a&gt; talks about why we should define our fears more than just our goals. I found the quote he shared to be very relevant:&lt;/p&gt;

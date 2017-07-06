@@ -12,6 +12,75 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>NUS-MIT Datathon</title>
+	  <link>/blog//NUS-MIT-Datathon</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-07-06T00:00:00+08:00</pubDate>
+	  <guid>/blog//NUS-MIT-Datathon</guid>
+	  <description><![CDATA[
+	     <p>I spent the past weekend at NUS, participating in the <a href="http://www.nus-datathon.com/">NUS-MIT Datathon</a>. This event was co-organised by both the <a href="http://www.nus.edu.sg/">National University of Singapore (NUS)</a> and <a href="http://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>, and brought together the combined knowledge and skills of clinicians and data scientists to analyse and extract useful information, trends and insights from the huge pool of electronic health records.</p>
+
+<p>The best part of the datathon was that we were fully focused on addressing real-world problems with real-world clinical datasets. The diversity of the teams allowed us to gain different perspectives into the problems identified.</p>
+
+<p>When I went in on the first day, clinical consulatants/doctors were each pitching their ideas to the participants. Eventually the interested participants formed a team with the consultant/doctor, to embark on using the data to solve the problems.</p>
+
+<p>My team managed to clinch the 1st Runner Up position in this datathon and I certainly attribute this success to the hard work of my team, my team’s doctor for bringing out such a problem to light (see below) and the close mentorship of the data scientists/researchers from MIT.</p>
+
+<h3 id="the-problem">The Problem</h3>
+
+<p>Our team tackled the problem on identifying the critical values in laboratory tests. I was initially shocked to know that there are no international/national standards or universal consensus on the critical limits or thresholds in the various lab tests being done. This meant that different doctors use their own perception and “gut feeling” to determine if a patients lab test results are in the danger zone. Upon looking at various publications, our team found substantial evidence on the large variations of these values across various hospitals, which signified the lack of uniformity.</p>
+
+<p>The problem with this is that, if the upper thresholds are set too high, then patients might end up with untreated diseases and missed treatment time. If they are set too low, patients will be receiving unnecessary treatment/medicine which could potentially harm their current health status. Not only that, hospital resources will be wasted.</p>
+
+<h3 id="approach">Approach</h3>
+
+<p>Our approach to this problem had 4 major steps. Firstly, we gathered the datasets available from <a href="https://mimic.physionet.org/">MIMIC</a>. Next, we retrieved the outcome of patients who were admitted with serious conditions, the outcome being if the patient was discharged, or unfortunately dead. Following that, we ran certain algorithms to obtain some tangible thresholds for the patients.</p>
+
+<p>All work were performed in a virtual environment with <a href="https://www.r-project.org/">R</a> for statstical analysis, <a href="https://www.python.org/">Python</a> for data processing and <a href="https://www.postgresql.org/">PostgreSQL</a> for the database operations.</p>
+
+<p><em>More on <a href="https://mimic.physionet.org/">MIMIC</a></em></p>
+
+<p><em>MIMIC is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with ~40,000 critical care patients. It includes demographics, vital signs, laboratory tests, medications, and more.</em></p>
+
+<h3 id="methods">Methods</h3>
+
+<p>We primarily used 2 methods. First, is multiple logistic regression to find what actually matters in the lab tests. Lab results can contain several tests. For example, a single lab test can have the levels of potassium, calcium, sodium etc. Out of all these results, a few will matter more than others. And that was the goal here: to find which of those tests actually matter most to the doctors.</p>
+
+<p>We trained and tested the model, and finally found the threshold values with logistic regression. The model yielded an accuracy of 73.7% on the test set.</p>
+
+<p>The second method is called LOESS, which is Locally weighted scatterplot smoothing. We fit smooth LOESS curves of the probability of death vs. lab values using linear regression to find the probability of death of a patient and the threshold values.</p>
+
+<h3 id="results">Results</h3>
+
+<p><strong>Strength of Association between Lab Tests &amp; Probability of Mortality</strong></p>
+
+<p>In our results, we found the most important results from the lab test.</p>
+
+<p>This formed the top 10 list:</p>
+
+<ul>
+  <li>Magnesium</li>
+  <li>Free Calcium</li>
+  <li>Phosphate</li>
+  <li>Total Calcium</li>
+  <li>Potassium</li>
+  <li>Total Bilirubin</li>
+  <li>INR</li>
+  <li>pH</li>
+  <li>Bicarbonate</li>
+  <li>Anion Gap</li>
+</ul>
+
+<h3 id="extensions--learning-points">Extensions &amp; Learning Points</h3>
+
+<p>Of course, as with all hackathons, the limiting factor was time. If we had more time, we could have optimised the results towards a specific population. We would have tried to increase the accuracy of the models and perform counterfactual analysis to find the thresholds.</p>
+
+<p>It was really a great experience taking part in the datathon. More than winning the 1st runner up position, the datathon exposed me to the numerous problems lying in the medical world waiting to be solved. Today, we have the power of technology to aid us and with techniques like big data analysis, machine learning etc., we can indeed go a long way in making use of the huge volume of health records to optimise the future for us, and solving the existing problems in the process.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>HTTPS - What's the Big Deal?</title>
 	  <link>/blog//HTTPS-What's-the-Big-Deal</link>
 	  <author>Harish V</author>
@@ -214,6 +283,43 @@
 	</item>
 
 	<item>
+	  <title>Top Todo App of 2016</title>
+	  <link>/blog//Top-Todo-App-of-2016</link>
+	  <author>Harish V</author>
+	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
+	  <guid>/blog//Top-Todo-App-of-2016</guid>
+	  <description><![CDATA[
+	     <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
+
+<h2 id="wunderlist">Wunderlist</h2>
+
+<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
+
+<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
+
+<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
+
+<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
+
+<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
+
+<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
+
+<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
+
+<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
+
+<p>Check out the following link to Amazon for more information on Wunderlist, as well as a cool book which details Wunderlist for Writers!</p>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=harishv7-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01DICYKRU&amp;asins=B01DICYKRU&amp;linkId=955dd407043325294afff9cffcfc76bf&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff">
+</iframe>
+
+<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Top Email Clients for the New Mac</title>
 	  <link>/blog//Top-Email-Clients-for-Mac</link>
 	  <author>Harish V</author>
@@ -267,43 +373,6 @@
 <p>and many others!</p>
 
 <p>While Airmail is not free, it comes at an affordable price of US$9.99.</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Top Todo App of 2016</title>
-	  <link>/blog//Top-Todo-App-of-2016</link>
-	  <author>Harish V</author>
-	  <pubDate>2017-02-19T00:00:00+08:00</pubDate>
-	  <guid>/blog//Top-Todo-App-of-2016</guid>
-	  <description><![CDATA[
-	     <p>There are a multitude of todo apps nowadays. Finding the right tool to keep your day organised is rather an individual choice - but there are definitely some apps which outshine others in terms of their features. The best apps offer advanced features such as notifications, reminders, lists and sublists and the list goes on. </p>
-
-<h2 id="wunderlist">Wunderlist</h2>
-
-<p><img src="http://imgur.com/vmpiDq5.png" alt="Wunderlist Main Screen" /></p>
-
-<p>My vote for the best Todo application goes to Wunderlist. The name Wunderlist may be rather familiar to you considering it has been around since 2011. Though Wunderlist adopts a freemium model, I can safely say that the free version itself has plentiful of features that can satisfy any average user. </p>
-
-<p>The best part of Wunderlist is its multi-platform support. The app is available on Windows, macOS, iOS, Android, Windows Phone, Kindle and Chromebook. Wunderlist also offers extensions on your favourite browsers: Chrome, Firefox and Safari. No matter where you are, you are always in sync. Add something on your Mac and it immediately shows up on your mobile phones.</p>
-
-<p><img src="http://imgur.com/2OEZVgz.png" alt="Wunderlist ToDo" /></p>
-
-<p>The second feature that makes Wunderlist the right tool for you is reminders. For every task that you add, you can specify both the due date and a reminder. This is my most used feature of Wunderlist as reminders ensure I am up to all my tasks even when I am not checking the app. Reminders are offered via the app as well as a personal email sent right to your inbox.</p>
-
-<p>Todos added can also be specified to be recurring (daily, weekly, monthly, yearly or custom basis) and it is really simple to keep track of repeating tasks. Under each todo, Wunderlist also offers the support to add sub-tasks and notes. One thing the app does not offer is priority levels. You can also star important tasks which you can use to signify the priority. For more levels of priority, you can create individual priority lists and assign tasks to those. Alternatively, my recommendation is use Wunderlist tags. By appending “#tag_name” to tasks we can tag the task under a certain category. For priority levels for example, we can use <code class="highlighter-rouge">#high</code>, <code class="highlighter-rouge">#medium</code> and <code class="highlighter-rouge">#low</code>.</p>
-
-<p>A huge plus of Wunderlist is its collaborative feature. I personally love using this feature whenever I am travelling with my friends or family. I simply create a shared list and all my friends or family members can easily edit the lists. They can also comment on the tasks I have added, making communication across the app really simple and easy.</p>
-
-<p>The difference between the free version of Wunderlist and the Pro version is not stark, but it may make a difference for power users. Under the free version, we can add up to 5mb of files as attachments to tasks, assign up to 25 people, create up to 25 subtasks and choose from 20 backgrounds. The Pro version offers unlimited file size, assignments, subtasks and up to 30 backgrounds to choose from. Wunderlist Pro costs $4.99/month, but it seems that the basic or free version will easily satisfy the average user.</p>
-
-<p>Check out the following link to Amazon for more information on Wunderlist, as well as a cool book which details Wunderlist for Writers!</p>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=harishv7-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01DICYKRU&amp;asins=B01DICYKRU&amp;linkId=955dd407043325294afff9cffcfc76bf&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff">
-</iframe>
-
-<p>Wunderlist’s features and great looking user interface certainly makes it one of the most compelling todo apps today. Use it and let us know your comments below!</p>
 
 	  ]]></description>
 	</item>
@@ -626,30 +695,6 @@ ___</p>
 <span class="nx">ONE</span></code></pre></figure>
 
 <p>This demonstrates asynchronous programming with callbacks. The function inside setTimeout is the callback function after the 1000 milliseconds have passed. During this 1000 milliseconds, the program continues on to execute the next instruction which is to log “TWO” to the console.</p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>ReactJS Workshop</title>
-	  <link>/blog//ReactJS-Workshop</link>
-	  <author>Harish V</author>
-	  <pubDate>2016-06-22T00:00:00+08:00</pubDate>
-	  <guid>/blog//ReactJS-Workshop</guid>
-	  <description><![CDATA[
-	     <p>Recently, I had the pleasure of conducting the 3rd Hackerschool workshop in the series on React JS. React is an amazing UI library (commonly misunderstood as a framework). Unlike a framework that typically deals with all the 3 main areas of Model, View and Controller layers (see my <a href="/blog//MVC-Design-Pattern">MVC post</a>, React is a Javascript library for building user interfaces.</p>
-
-<p>Initially I thought React is just one of another Javascript framework or library that pops up and fades away. But no, React is just amazing and it’s popularity has been growing ever since it’s release.</p>
-
-<p>To know why, you can check out one of the many React tutorials out there. In the workshop, I basically covered a simple todo app which can be built with ReactJS.</p>
-
-<p>The workshop materials are available on <a href="https://github.com/harishv7/reactjs">Github</a> and <a href="http://harishv7.github.io/reactjs/#/">here</a>.</p>
-
-<p>I’ll try and write the tutorial out as a blog post sometime. <br /></p>
-
-<p>Till next time, <br />
-Cheers, <br />
-Harish V</p>
 
 	  ]]></description>
 	</item>
